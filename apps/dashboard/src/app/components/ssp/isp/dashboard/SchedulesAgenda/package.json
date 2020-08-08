@@ -1,0 +1,6 @@
+{
+  "name": "SchedulesAgenda",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SchedulesAgenda.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PhotosAndVideos",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PhotosAndVideos.js"
+}

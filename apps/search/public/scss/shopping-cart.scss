@@ -1,0 +1,1870 @@
+//shopping cart css
+.cl-shopping-section{
+    .cl-sc-subheader{
+        background: $white;
+        border-bottom: 1px solid #cccccc;
+        padding: 20px;
+        .cl-sc-topnav{
+            padding: 0 50px;
+            h2{
+                font-size: 32px;
+                color: $greyDark;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 16px;
+                color: $grey;
+                margin: 5px 0px;
+            }
+        }
+    } 
+    .cl-shopping-bodycontent{
+        .cl-sc-details-lcol{
+            padding-bottom: 50px;
+            .cl-shopping-container{
+                margin: 0 auto;
+                max-width: 1220px;
+                padding: 30px 70px;
+                .cl-sc-boxcontent{
+                    margin: 0 auto;
+                    border: 1px #ccc solid;
+                    border-radius: 4px;
+                    .cl-sc-topdropdown-section{
+                        padding: 10px 15px;
+                        p{
+                            float: left;
+                            font-size: 16px;
+                            color: $lightBlack;
+                            padding-top: 3px;
+                            margin: 0;
+                        }
+                        select{
+                            margin-left: 10px;
+                            width: 150px;
+                            border: 1px #ccc solid;
+                            border-radius: 5px;
+                            padding: 2px 5px;
+                            background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-759.531 -5139.53 11.063 6.591'><g transform='translate(-962.105 -6007)'><path data-name='Path 148' d='M-17914.895-2197l5,5,5-5' transform='translate(18118 3065)' fill='none' stroke='%2342B7DB' stroke-width='1.5px' /></g></svg>") no-repeat;
+                            background-size: 10px;
+                            background-position: calc(100% - 10px) center;
+                            font-size: 16px;
+                            color: #666;
+                            -webkit-appearance: none;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                        a{
+                            svg{
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                        .cl-sc-topdropdown{
+                            float: left;
+                            margin-left: 10px;
+                            width: 150px;
+                            .cl-sc-thisisme{
+                                margin: 0;
+                                background-color: #fff;
+                                border: 1px #ccc solid;
+                                border-radius: 5px;
+                                padding: 2px;
+                                li{
+                                    margin-top: 0px;
+                                    width: 100%;
+                                    cursor: pointer;
+                                    padding: 0px 4px;
+                                    .fa-angle-down{
+                                        float: right;
+                                        color: $blue;
+                                        margin-right: 8px;
+                                        &:hover{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                    .cl-sc-topopen-dropdown{
+                                        width: 150px;
+                                        margin-top: 15px;
+                                        padding:0px 5px;
+                                        ul{
+                                            li{
+                                                margin-top: 0px;
+                                                width: 100%;
+                                                cursor: pointer;
+                                                border-bottom: 1px $semiDarkGray solid;
+                                                padding: 0px;
+                                                &:hover{
+                                                    background-color: #e9edf7;
+                                                }
+                                                &:last-child{
+                                                    border-bottom: 0px;
+                                                }
+                                                a{
+                                                    &:hover{
+                                                        background-color: transparent;
+                                                        color: $grey;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:hover{
+                                            background-color: $white;
+                                        }
+                                    }
+                                    .cl-sc-topopen-dropdown:after,
+                                    .cl-sc-topopen-dropdown:before {
+                                        bottom: 100%;
+                                        left: 50%;
+                                        border: solid transparent;
+                                        content: " ";
+                                        height: 0;
+                                        width: 0;
+                                        position: absolute;
+                                        pointer-events: none;
+                                    }
+                                    .cl-sc-topopen-dropdown:after {
+                                        border-color: rgba(204, 204, 204, 0);
+                                        border-bottom-color: $white;
+                                        border-width: 14px;
+                                        margin-left: -14px;
+                                    }
+                                    .cl-sc-topopen-dropdown:before {
+                                        border-color: rgba(204, 204, 204, 0);
+                                        border-bottom-color: #cccccc;
+                                        border-width: 15px;
+                                        margin-left: -15px;
+                                    }  
+                                }
+                            }
+                        }
+                    }
+                    .cl-sc-session{
+                        background-color: $white;
+                        border-top: 1px $semiDarkGray solid;
+                        padding: 10px 15px;
+                        display: block;
+                        clear: both;
+                        .cl-sc-withuser{
+                            display: table;
+                            .cl-sc-withuser-lcol{
+                                display: table-cell;
+                                height: 70px;
+                                width: 70px;
+                            }
+                            .cl-sc-withuser-rcol{
+                                display: table-cell;
+                                padding: 0px 0px 0px 15px;
+                                margin-top: 0px;
+                                vertical-align: middle;
+                                h3{
+                                    font-size: 21px;
+                                    line-height: 27px;
+                                    margin: 0;
+                                    font-weight: bold;
+                                    color: $blue;
+                                }
+                                a{
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    font-weight: bold;
+                                    color: $blue;
+                                    margin: 0px;
+                                    &:hover{
+                                        text-decoration: none;
+                                        color: $blueDark;
+                                    }
+                                    svg{
+                                        width: 12px;
+                                        height: 12px;
+                                    }
+                                }
+                                h4{
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                    color: $grey;
+                                    text-transform: uppercase;
+                                    margin-bottom: 0px;
+                                }
+                                p{
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    color: $greyDark;
+                                    font-weight: bold;
+                                    margin: 0px;
+                                    span{
+                                        font-weight: normal;
+                                    }
+                                }
+                            }
+                        }
+                        .cl-sc-session-details{
+                            label{
+                                font-size: 12px;
+                                line-height: 18px;
+                                color: $grey;
+                                padding: 0 0 5px 0;
+                                display: block;
+                            }
+                            input{
+                                border:1px solid $semiDarkGray;
+                                padding: 9px 10px;
+                                font-size: 16px;
+                                line-height: 22px;
+                                width: 50%;
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                    .cl-sd-buyMore{
+                        background: #D6F2FB;
+                        border-bottom: 1px solid $semiDarkGray;
+                        border-top: 1px solid $semiDarkGray; 
+                        p{
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: $grey;
+                            margin: 0;
+                            font-weight: 600;
+                        }
+                        h6{
+                            text-align: right;
+                            margin: 0;
+                            padding: 5px 10px;
+                            a{
+                                text-decoration: none;
+                                display: inline-block;
+                                color: $blue;
+                                font-size: 12px;
+                                line-height: 18px;
+                                font-weight: 600;
+                                &:hover{
+                                    color: $blueDark;
+                                }
+                                svg{
+                                    width: 12px;
+                                    height: 12px;
+                                }
+                            }
+                        }
+                        .cl-sd-buyMoreInner{
+                            padding: 5px 10px;
+                            background: #FFF59B;
+                            position: relative;
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top:0;
+                                right: -16px;
+                                border-left: 16px solid #FFF59B;
+                                border-top: 16px solid transparent;
+                                border-bottom: 16px solid transparent;
+                            }
+                        }
+                        .cl-sd-saveMoreInner{
+                            padding: 5px 10px;
+                        }
+                    }
+                    .cl-sc-sessionsListOuter{
+                        padding-left: 85px;
+                        background-color: $white;
+                        .cl-sc-sessionsList{
+                            padding: 10px 15px;
+                            h4{
+                                color: $lightBlack;
+                                font-size: 16px;
+                                font-weight: bold;
+                                margin-bottom: 0px;
+                            }
+                            p{
+                                font-size: 14px;
+                                color: $grey;
+                                margin-top: 6px;
+                                margin-bottom: 0px;
+                            }
+                            a{
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: $blue;
+                                &:hover{
+                                    text-decoration: none;
+                                    color: $blueDark;
+                                }
+                            }
+                            .cl-sc-session-price{
+                                text-align: right;
+                                padding-top: 7%;
+                                p{
+                                    font-size: 18px;
+                                    color: $lightBlack;
+                                }
+                            }
+                        }
+                    }
+                    .cl-sc-thrashicon{
+                        text-align: right;
+                        h4{
+                            color: $lightBlack;
+                            font-size: 18px;
+                            line-height: 24px;
+                            font-weight: 600;
+                            margin: 0;
+                        }
+                        h6{
+                            color: $grey;
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin: 0;
+                        }
+                    }
+                    .cl-sc-subtotal{
+                        background-color: $lightGray;
+                        padding: 12px 15px 5px 15px;
+                        border-radius: 4px;
+                        .cl-sc-agree{
+                            .tandc{
+                                label{
+                                    color: $greyDark;
+                                    font-size: 14px;
+                                    font-weight: 200;
+                                    padding: 0px;
+                                    margin: 0px 0px 6px 0;
+                                    display: inline-block;
+                                    cursor: pointer;
+                                    position: relative;
+                                    &.comingsoon{
+                                      /*&:before{
+                                        color: $grey;
+                                      }*/
+                                      &:after{
+                                        content: 'Coming Soon';
+                                        position: absolute;
+                                        bottom: -25px;
+                                        left: 50%;
+                                        font-size: 14px;
+                                        color: $grey;
+                                        width: 100%;
+                                        margin-left: -40px;
+                                      }
+                                }  
+                            }
+                            input[type=checkbox] { 
+                                display:none; 
+                                    &+ label{              
+                                      &:before{
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        content: "";
+                                        margin-right: 10px;
+                                        width: 18px;
+                                        height: 18px;
+                                        background: url("data:image/svg+xml;utf8,<svg class='cl-icon-checkbox-uncheck' xmlns='http://www.w3.org/2000/svg' viewBox='-1265 -5067 15.43 15.43'><g transform='translate(-1355 -6037.856)'><path data-name='Type sport' class='cl-icon-checkbox-uncheck-1' d='M12.274-12.74H3.156a1.688,1.688,0,0,0-1.238.515A1.688,1.688,0,0,0,1.4-10.987v9.118A1.688,1.688,0,0,0,1.918-.631a1.688,1.688,0,0,0,1.238.515h9.118a1.688,1.688,0,0,0,1.238-.515,1.688,1.688,0,0,0,.515-1.238v-9.118a1.688,1.688,0,0,0-.515-1.238A1.688,1.688,0,0,0,12.274-12.74Zm3.156,1.753v9.118A3.04,3.04,0,0,1,14.5.361a3.04,3.04,0,0,1-2.23.926H3.156A3.04,3.04,0,0,1,.926.361,3.04,3.04,0,0,1,0-1.869v-9.118a3.04,3.04,0,0,1,.926-2.23,3.04,3.04,0,0,1,2.23-.926h9.118a3.04,3.04,0,0,1,2.23.926A3.04,3.04,0,0,1,15.43-10.987Z' transform='translate(90 985)' fill='%23F15E23' /></g></svg>") no-repeat center center;
+                                      }
+                                    }
+                                    &:checked + label{
+                                        color: $secondary-color;
+                                        &:before{
+                                            background: url("data:image/svg+xml;utf8,<svg class='cl-icon-checkbox-check' xmlns='http://www.w3.org/2000/svg' viewBox='-1322 -5067 15.429 15.429'><g transform='translate(-1542 -6036.857)'><path data-name='Type sport' class='cl-icon-checkbox-check-1' d='M6.881-2.381l6.167-6.167A.618.618,0,0,0,13.239-9a.618.618,0,0,0-.191-.452l-1.025-1.025a.618.618,0,0,0-.452-.191.618.618,0,0,0-.452.191L6.429-5.786,4.309-7.905A.618.618,0,0,0,3.857-8.1a.618.618,0,0,0-.452.191L2.381-6.881a.618.618,0,0,0-.191.452.618.618,0,0,0,.191.452l3.6,3.6a.618.618,0,0,0,.452.191A.618.618,0,0,0,6.881-2.381Zm8.548-8.869v9.643A2.786,2.786,0,0,1,14.58.437a2.786,2.786,0,0,1-2.044.849H2.893A2.786,2.786,0,0,1,.849.437,2.786,2.786,0,0,1,0-1.607V-11.25a2.786,2.786,0,0,1,.849-2.044,2.786,2.786,0,0,1,2.044-.849h9.643a2.786,2.786,0,0,1,2.044.849A2.786,2.786,0,0,1,15.429-11.25Z' transform='translate(220 984)' fill='%23F15E23' /></g></svg>") no-repeat center center;
+                                        }
+                                    }
+                                }
+                            }
+                            a{
+                               font-size: 14px;
+                                color: $orange;
+                                font-weight: bold;
+                                padding-left: 5px;
+                                display: inline-block;
+                                &:hover{
+                                    text-decoration: none;
+                                    color: $orangeDark;
+                                }
+                            }  
+                        }
+                        .cl-sc-totalsessions, .cl-sc-session-totalprice{
+                            p{
+                                color: $lightBlack;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin-bottom: 0px;
+                            }
+                        }
+                        .cl-sc-session-totalprice{
+                            text-align: right;
+                        }
+                    }
+                    .cl-sd-packageView{
+                        background: $white;
+                        ul{
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            border-bottom: 1px solid $semiDarkGray;
+                            li{
+                                border-right: 1px solid $semiDarkGray;
+                                padding: 10px 20px;
+                                display: inline-block;
+                                width: 27%;
+                                /*&:last-child{
+                                    border-right: none;
+                                }*/
+                                &:nth-child(3n){
+                                    border-right: none;
+                                }
+                                p{
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    color: $grey;
+                                    margin: 0;
+                                    span{
+                                        font-weight: 600;
+                                    }
+                                }
+                                h6{
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    color: $blue;
+                                    font-weight: 600;
+                                    margin: 0;
+                                    a{
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        color: $orange;
+                                        padding: 0 0 0 10px;
+                                        font-weight: 600;
+                                        text-transform: uppercase;
+                                        &:hover{
+                                            color: $orangeDark;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .cl-shoppingpayment-boxcontent{
+                    margin: 0 auto;
+                    h2{
+                        font-size: 32px;
+                        font-weight: bold;
+                        color: $grey;
+                    }
+                    .paymentContent{
+                        display: table;
+                        .paymentOptions{
+                            display: table-cell;
+                            width: 40%;
+                            
+                            input[type=radio] { 
+                              border: 0;
+                              clip: rect(0 0 0 0);
+                              height: 1px;
+                              margin: -1px;
+                              overflow: hidden;
+                              padding: 0;
+                              position: absolute;
+                              width: 1px;
+                              &+ label{
+                                position: relative;
+                                &:before{
+                                  font-family: FontAwesome;
+                                  display: inline-block;
+                                  content: "\f10c";
+                                  font-size: 16px;
+                                  color: $blue;
+                                  width: 20px;
+                                  /*position: absolute;*/
+                                  top:0px;
+                                  left: 50%;
+                                  /*margin-left: -10px;*/
+                                  padding: 5px 0px;
+                                }
+                                  .card-options{
+                                      clear: both;
+                                      display: block;
+                                      .cl-icon-paypal, .cl-icon-bank, .cl-icon-debitcard{
+                                        height: 60px;
+                                        cursor: pointer;
+                                      }
+                                      .cl-icon-debitcard-1 {
+                                        fill: #fff;
+                                        stroke: #979797;
+                                      }
+
+                                      .cl-icon-debitcard-2 {
+                                        fill: #666;
+                                      }
+
+                                      .cl-icon-debitcard-3 {
+                                        fill: #ccc;
+                                      }
+                                      p{
+                                          font-size: 16px;
+                                          color: $grey;
+                                          margin: 5px 0px;
+                                      }
+                                  }
+                              }
+
+                              &:checked + label{
+                                &:before{
+                                  content: "\f058";
+                                  font-size: 16px;
+                                  color: $blue;
+                                }
+                              }
+                            }
+                        }
+                    }
+                    .shoppingcard-newentry{
+                        margin-top: 50px;
+                        ul{
+                            padding-left: 0px;
+                            li{
+                                display: inline-block;
+                                list-style-type: none;
+                                margin-right: 20px;
+                                a{
+                                    font-size: 22px;
+                                    color: $greyLight;
+                                    font-weight: bold;
+                                    border-bottom: 4px transparent solid;
+                                    padding-bottom: 10px;
+                                    &:hover{
+                                        border-bottom: 4px #707070 solid; 
+                                        color: $grey;
+                                        text-decoration: none;
+                                    }
+                                    &.active{
+                                        border-bottom: 4px #707070 solid;
+                                        color: $grey;
+                                        text-decoration: none;
+                                    } 
+                                } 
+                            }
+                        }
+                        .paymentcards-info{
+                            border: 1px $greyLight solid;
+                            border-radius: 4px;
+                            padding: 15px 0px;
+                            margin-top: 50px;
+                            background-color: $white;
+                            .paymentcards-info-submit{
+                                padding: 15px 15px 40px 15px;
+                                border-bottom: 1px $greyLight solid;
+                                label {
+                                    color: $grey;
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 24px;
+                                    margin: 0;
+                                    padding-bottom: 5px;
+                                    display: block;
+                                }
+                                input {
+                                    border-radius: 4px;
+                                    border: 1px solid $semiDarkGray;
+                                    background: #fff;
+                                    width: 100%;
+                                    padding: 10px;
+                                    font-size: 16px;
+                                    box-sizing: border-box;
+                                    font-family: ProximaNova-Regular;
+                                    resize: none;
+                                }
+                                select {
+                                    width: 100%;
+                                    border-radius: 4px;
+                                    border: 1px solid $semiDarkGray;
+                                    padding: 10px 9px;
+                                    font-family: ProximaNova-Regular;
+                                    font-size: 16px;
+                                    background: #fff url(../images/downarrow.png) no-repeat center right;
+                                    -webkit-appearance: none;
+                                    -moz-appearance: none;
+                                    box-sizing: border-box;
+                                }
+                                .select-month{
+                                    float: left;
+                                    width: 49%;
+                                }
+                                .select-year{
+                                    float: right;
+                                    width: 49%;
+                                }
+                                .cvv-number{
+                                    width:40%;
+                                    float: left;
+                                }
+                                .cl-sc-iconhelp{
+                                    float: left;
+                                    width: 15px;
+                                    cursor: pointer;
+                                    vertical-align: bottom;
+                                    margin-top: 38px;
+                                    margin-left: 13px;
+                                    .cl-sc-helpicon{
+                                        fill: #42b7db;
+                                    }
+                                }
+                            }
+                            .billing-details{
+                                padding:30px 15px;
+                                border-bottom: 1px $greyLighter solid;
+                                h4{
+                                    font-size: 22px;
+                                    color: $grey;
+                                    font-weight: 600;
+                                }
+                                label {
+                                    color: $grey;
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 24px;
+                                    margin: 0;
+                                    padding-bottom: 5px;
+                                    display: block;
+                                }
+                                input {
+                                    border-radius: 4px;
+                                    border: 1px solid $semiDarkGray;
+                                    background: #fff;
+                                    width: 100%;
+                                    padding: 10px;
+                                    font-size: 16px;
+                                    box-sizing: border-box;
+                                    font-family: ProximaNova-Regular;
+                                    resize: none;
+                                }
+                                select {
+                                    width: 100%;
+                                    border-radius: 4px;
+                                    border: 1px solid $semiDarkGray;
+                                    padding: 10px 9px;
+                                    font-family: ProximaNova-Regular;
+                                    font-size: 16px;
+                                    background: #fff url(../images/downarrow.png) no-repeat center right;
+                                    -webkit-appearance: none;
+                                    -moz-appearance: none;
+                                    box-sizing: border-box;
+                                }
+                            }
+                            .pay-save-cards{
+                                padding:30px 15px 15px 15px;
+                                overflow: hidden;
+                                .clicktopay{
+                                    float: left;
+                                    .paynow{
+                                        background-color: #F15E23;
+                                        border-radius: 4px;
+                                        color: #fff;
+                                        padding: 9px 40px;
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        font-weight: 600;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        display: inline-block;
+                                        width: 30%;
+                                        text-align: center;
+                                        &:hover{
+                                            text-decoration: none;
+                                            background-color: $orangeDark;
+                                        }
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        color: $grey;
+                                        a{
+                                            color: $blue;
+                                            &:hover{
+                                                text-decoration: none;
+                                                color: $blueDark;
+                                            }
+                                        }
+                                    }
+                                }
+                                .savecard{
+                                    float: right;
+                                    .tandc{
+                                    label{
+                                        color: $greyDark;
+                                        font-size: 14px;
+                                        font-weight: 200;
+                                        padding: 0px 12px 0px 0px;
+                                        margin: 0px 8px 6px 0;
+                                        display: block;
+                                        cursor: pointer;
+                                        position: relative;
+                                        &.comingsoon{
+                                          /*&:before{
+                                            color: $grey;
+                                          }*/
+                                          &:after{
+                                            content: 'Coming Soon';
+                                            position: absolute;
+                                            bottom: -25px;
+                                            left: 50%;
+                                            font-size: 14px;
+                                            color: $grey;
+                                            width: 100%;
+                                            margin-left: -40px;
+                                          }
+                                        }
+                                        a{
+                                           font-size: 14px;
+                                            color: $blue;
+                                            font-weight: bold;
+                                            padding-left: 5px;
+                                            &:hover{
+                                                text-decoration: none;
+                                                color: $blueDark;
+                                            }
+                                        }
+                                    }
+                                    input[type=checkbox] { 
+                                        display:none; 
+                                            &+ label{              
+                                              &:before{
+                                                font-family: FontAwesome;
+                                                display: inline-block;
+                                                font-size: 18px;
+                                                color: $blue;
+                                                vertical-align: middle;
+                                                content: "\f096";
+                                                padding-right: 6px;
+                                                width: 20px;
+                                                &:hover{
+                                                  color: $blue;
+                                                }
+                                              }
+                                              &:hover{
+                                                &:before{
+                                                  color: $blue;
+                                                }
+                                              }
+                                            }
+                                            &:checked + label{
+                                              color: $secondary-color;
+                                              &:before{
+                                                content: "\f14a";
+                                                padding-right: 6px;
+                                                color: $blue;
+                                                font-size: 18px;
+                                              }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .onetimepassword-section{
+                                padding: 15px;
+                                h4{
+                                    font-size: 22px;
+                                    color: $grey;
+                                    font-weight: 600;
+                                }
+                                label {
+                                    color: $grey;
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 24px;
+                                    margin: 0;
+                                    padding-bottom: 5px;
+                                    display: block;
+                                }
+                                input {
+                                    border-radius: 4px;
+                                    border: 1px solid $semiDarkGray;
+                                    background: #fff;
+                                    width: 100%;
+                                    padding: 10px;
+                                    font-size: 16px;
+                                    box-sizing: border-box;
+                                    font-family: ProximaNova-Regular;
+                                    resize: none;
+                                }
+                                p{
+                                    font-size: 16px;
+                                    color: $grey;
+                                    a{
+                                        color: $blue;
+                                        &:hover{
+                                            text-decoration: none;
+                                            color: $blueDark;
+                                        }
+                                    }
+                                }
+                                .btn_submit{
+                                    background-color: #F15E23;
+                                    border-radius: 4px;
+                                    color: #fff;
+                                    padding: 7px 40px;
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    font-weight: 600;
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                    display: inline-block;
+                                    width: 30%;
+                                    text-align: center;
+                                    margin-top: 15px;
+                                    &:hover{
+                                        text-decoration: none;
+                                        background-color: $orangeDark;
+                                    }
+                                }
+                            }
+                            .savedcard-section{
+                                padding: 15px 20px;
+                                .savedCardOptions{
+                                    input[type=radio] { 
+                                          border: 0;
+                                          clip: rect(0 0 0 0);
+                                          height: 1px;
+                                          margin: -1px;
+                                          overflow: hidden;
+                                          padding: 0;
+                                          position: absolute;
+                                          width: 1px;
+                                          &+ label{
+                                            position: relative;
+                                            &:before{
+                                              font-family: FontAwesome;
+                                              display: inline-block;
+                                              content: "\f10c";
+                                              font-size: 16px;
+                                              color: $blue;
+                                              width: 20px;
+                                              /*position: absolute;*/
+                                              top:0px;
+                                              left: 50%;
+                                              /*margin-left: -10px;*/
+                                              padding: 5px 0px;
+                                            }
+                                              .saved-option{
+                                                  clear: both;
+                                                  border: 1px $greyLight solid;
+                                                  border-radius: 4px;
+                                                  padding: 15px;
+                                                  width: 90%;
+                                                  cursor: pointer;
+                                                  .savedCard-topsection{
+                                                      display: table;
+                                                      width: 100%;
+                                                      .cardNumber{
+                                                          display: table-cell;
+                                                          vertical-align: top;
+                                                          padding-right: 10px;
+                                                      }
+                                                      .cardType{
+                                                          display: table-cell;
+                                                          vertical-align: top;
+                                                          svg{
+                                                              width: 60px;
+                                                              height: 35px;
+                                                          }
+                                                      }
+                                                  }
+                                                  .cardHolders-details{
+                                                      margin-top: 50px;
+                                                  }
+                                                  h5{
+                                                    font-size: 10px;
+                                                    color: $greyLight;
+                                                    text-transform: uppercase;
+                                                    margin-bottom: 5px
+                                                  }
+                                                  p.cardNumber-format{
+                                                    font-size: 18px;
+                                                    color: $grey;
+                                                  }
+                                                  p{
+                                                      font-size: 16px;
+                                                      color: $grey;
+                                                      margin: 5px 0px;
+                                                  }
+                                                  .cardHolderssecurity{
+                                                      float: left;
+                                                      label {
+                                                          color: $grey;
+                                                          font-size: 16px;
+                                                          font-weight: normal;
+                                                          line-height: 24px;
+                                                          margin: 0;
+                                                          padding-bottom: 5px;
+                                                          display: block;
+                                                      }
+                                                      input {
+                                                          border-radius: 4px;
+                                                          border: 1px solid $semiDarkGray;
+                                                          background: #fff;
+                                                          width: 100%;
+                                                          padding: 10px;
+                                                          font-size: 16px;
+                                                          box-sizing: border-box;
+                                                          font-family: ProximaNova-Regular;
+                                                          resize: none;
+                                                      }
+                                                  }
+                                                  .cl-sc-iconhelp{
+                                                    float: left;
+                                                    width: 15px;
+                                                    cursor: pointer;
+                                                    vertical-align: bottom;
+                                                    margin-top: 38px;
+                                                    margin-left: 13px;
+                                                    .cl-sc-helpicon{
+                                                        fill: #42b7db;
+                                                    }
+                                                  }
+                                              }
+                                              .selected-card{
+                                                  border: 1px $grey solid;
+                                                  border-radius: 4px;
+                                              }
+                                          }
+
+                                          &:checked + label{
+                                            &:before{
+                                              content: "\f058";
+                                              font-size: 16px;
+                                              color: $blue;
+                                            }
+                                          }
+                                        }
+                                }
+                                .btn_paynow{
+                                    background-color: #F15E23;
+                                    border-radius: 4px;
+                                    color: #fff;
+                                    padding: 7px 40px;
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    font-weight: 600;
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                    display: inline-block;
+                                    width: 30%;
+                                    text-align: center;
+                                    margin-top: 30px;
+                                    &:hover{
+                                        text-decoration: none;
+                                        background-color: $orangeDark;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .cl-sc-button{
+                float: right;
+                margin-right: 70px;
+                a{
+                    padding: 10px 15px;
+                    background-color: $grey;
+                    font-size: 18px;
+                    font-weight: bold;
+                    border-radius: 4px;
+                    color: $white;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .cl-sc-details-rcol{
+            background-color: $white;
+            border-left: 1px $semiDarkGray solid;
+            padding: 0;
+            .cl-sc-coachbucks{
+                padding: 20px 30px 10px 30px;
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                    float: left;
+                    margin: 0;
+                }
+                svg{
+                    fill: #42b7db;
+                    width: 15px;
+                    cursor: pointer;
+                    margin-left: 10px;
+                }
+                /*.cl-sc-iconhelp{
+                    float: right;
+                    width: 15px;
+                    cursor: pointer;
+                    .cl-sc-helpicon{
+                        fill: #42b7db;
+                        width: 15px;
+                        cursor: pointer;
+                    }
+                } */
+            }
+            .cl-sc-applydiscount{
+                padding: 0 30px 20px 30px;
+                display: block;
+                clear: both;
+                border-bottom: 1px solid $semiDarkGray;
+                 .tandc{
+                    label{
+                    color: $greyDark;
+                    font-size: 18px;
+                    font-weight: 200;
+                    /*padding: 8px 10px 2px 10px;*/
+                    margin: 0px 8px 6px 0;
+                    display: block;
+                    cursor: pointer;
+                    position: relative;
+                        span{
+                            font-weight: 600;
+                        }
+                    &.comingsoon{
+                      /*&:before{
+                        color: $grey;
+                      }*/
+                      &:after{
+                        content: 'Coming Soon';
+                        position: absolute;
+                        bottom: -25px;
+                        left: 50%;
+                        font-size: 14px;
+                        color: $grey;
+                        width: 100%;
+                        margin-left: -40px;
+                      }
+                    }
+                }
+                input[type=checkbox] { 
+                    display:none; 
+                        &+ label{              
+                          &:before{
+                            font-family: FontAwesome;
+                            display: inline-block;
+                            font-size: 18px;
+                            color: $blue;
+                            vertical-align: middle;
+                            content: "\f096";
+                            padding-right: 6px;
+                            width: 20px;
+                            &:hover{
+                              color: $blue;
+                            }
+                          }
+                          &:hover{
+                            &:before{
+                              color: $blue;
+                            }
+                          }
+                        }
+                        &:checked + label{
+                          color: $secondary-color;
+                          &:before{
+                            content: "\f14a";
+                            padding-right: 6px;
+                            color: $blue;
+                            font-size: 18px;
+                          }
+                        }
+                    }
+                }
+            }
+            .cl-sc-paymentsummary{
+                display: block;
+                clear: both;
+                margin-top: 30px;
+                padding: 20px 30px 20px 30px;
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                }
+                .cl-sc-payment-container{
+                    border: 1px $greyLighter solid;
+                    border-radius: 4px;
+                }
+                .cl-sc-bgwhite{
+                    background-color: $white;
+                }
+                .cl-sc-bgtill{
+                    background-color: #EBFAFF;
+                }
+                .cl-sc-bgyellow{
+                    background-color: #FFF59B;
+                }
+                .border-bottom0px{
+                    border-bottom: 0px !important;
+                }
+                .cl-sc-paymentSessions{
+                    padding:15px 10px;
+                    border-bottom: 1px $semiDarkGray solid;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    font-size: 18px;
+                    font-weight: 200;
+                    color:$lightBlack; 
+                    border-top-left-radius: 2px;
+                    border-top-right-radius: 2px;
+                    .leftcol{
+                        padding-left: 0px;
+                    }
+                    .righttcol{
+                        text-align: right;
+                    }
+                }
+                .cl-sc-checkoutbutton{
+                    padding: 20px;
+                    margin: 0px;
+                    a{
+                        background-color: #F15E23;
+                        font-size: 18px;
+                        color: $white;
+                        width: 85%;
+                        text-align: center;
+                        display: block;
+                        padding: 10px 15px;
+                        margin: 0px auto;
+                        font-weight: 600;
+                        border-radius: 4px;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .top-margine0px{
+                margin-top: 0px !important;
+            }
+        }
+    }
+    .mobview{
+        display: none;
+    }
+    .deskview{
+        display: block;
+    }
+}
+.cl-bs-subheader{
+        background: $white;
+        border-bottom: 1px solid #cccccc;
+        padding: 20px;
+        .cl-bs-topnav{
+            h2{
+                font-size: 32px;
+                color: $greyDark;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 16px;
+                color: $grey;
+                margin: 5px 0px;
+            }
+            a{
+                font-size: 16px;
+                font-weight: bold;
+                color: $blue;
+                &:hover{
+                    color: $blueDark;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+.cl-booking-successful-section{
+    .cl-booking-bodycontent{
+        padding: 50px 0px;
+        .cl-booking-details-head{
+            h3{
+                font-size: 26px;
+                font-weight: bold;
+                color: $grey;
+            }
+        }
+        .cl-booking-details{
+            display: table;
+            width: 100%;
+            .lcol{
+                display: table-cell;
+                vertical-align: top;
+                .cl-bs-booking-info{
+                   .cl-bs-booking-text-name{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $grey;
+                    }
+                    .cl-bs-booking-text-date{
+                        font-size: 16px;
+                        font-weight: normal;
+                        color: $grey;
+                    } 
+                }
+            }
+            .rcol{
+                display: table-cell;
+                vertical-align: top;
+                text-align: right;
+                .cl-bs-payment-info{
+                    p{
+                        font-size: 16px;
+                        color: $lightBlack;
+                        font-weight: bold;
+                        margin-bottom: 0px;
+                    }
+                    a{
+                        font-size: 16px;
+                        color: $blue;
+                        &:hover{
+                            text-decoration: none;
+                            color:$blueDark
+                        }
+                    }
+                }
+            }
+        }
+        .cl-bs-booking-user-details{
+            background-color: $white;
+            border: 1px $semiDarkGray solid;
+            border-radius:4px;
+            /*padding: 20px;*/
+            display: block;
+            clear: both;
+            margin-top: 30px;
+            .cl-bs-spacing{
+                padding: 15px;
+            }
+            .cl-bs-usersesson{
+                display: table;
+                .cl-usersessonLeft{
+                    display: table-cell;
+                    vertical-align: top;
+                    height: 70px;
+                    width: 70px; 
+                }
+                .cl-usersessonRight{
+                    display: table-cell;
+                    vertical-align: top;
+                    padding-left: 15px;
+                    a{
+                        font-size: 21px;
+                        font-weight: bold;
+                        color: $blue;
+                        margin: 0px;
+                        &:hover{
+                            color:$blueDark;
+                            text-decoration: none;
+                        }
+                    }
+                    h4{
+                        font-size: 12px;
+                        color: $grey;
+                        text-transform: uppercase;
+                        margin-bottom: 0px;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $greyDark;
+                        font-weight: bold;
+                        margin: 0px;
+                    }
+                }
+            }
+            .cl-bs-session-details{
+                h5{
+                    font-size: 12px;
+                    color: $greyLight;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin: 0px;
+                }
+                h3{
+                    font-size: 18px;
+                    color: $grey;
+                    font-weight: bold;
+                    margin: 0px;
+                 }
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    margin: 0px;
+                }
+            }
+            .cl-bs-total-sessons{
+                border-top: 1px $semiDarkGray solid;
+                overflow: hidden;
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    margin: 0px;
+                    float: left;
+                    font-weight: bold;
+                }
+                a{
+                    font-size: 14px;
+                    color: $blue;
+                    margin: 0px;
+                    float: right;
+                    font-weight: bold;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+        }
+        .cl-bs-sessionsScheduled{
+            margin-top: 30px;
+            h3{
+                font-size: 14px;
+                color: $greyLight;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 14px;
+                color: $grey;
+                font-weight: normal;
+                margin-top: 0px;
+            }
+            .sessionsScheduled-containbox{
+                background-color: $white;
+                padding: 15px;
+                border: 1px $greyLighter solid;
+                border-radius: 4px;
+                h4 {
+                    color: #4d4d4d;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 0px;
+                }
+                p {
+                    font-size: 14px;
+                    color: #666666;
+                    margin-top: 6px;
+                    margin-bottom: 6px;
+                    padding-left: 0px;
+                }
+                a {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $blue;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+        }
+        .cl-booking-manage-orders{
+            .booking-manage-topsection{
+                overflow: hidden;
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                    float: left;
+                }
+                a{
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: $blue;
+                    float: right;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+            .booking-manage-midcontent-section{
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                }
+            }
+            .booking-manage-invite-friends{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                a{
+                    background-color: #F15E23;
+                    font-size: 18px;
+                    color: $white;
+                    text-align: center;
+                    padding: 12px 60px;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .booking-manage-questions{
+                a{
+                    font-size: 18px;
+                    color: $blue;
+                    text-align: left;
+                    display: inline-block;
+                    font-weight: 600;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+        }
+     }
+}
+.cl-invite-friends-sections{
+    .cl-invite-friends-bodycontent{
+         padding: 50px 20px;
+        .cl-invite-friendsTrainingSession{
+            .invitefriends-topsection{
+                margin-bottom: 15px;
+                h3{
+                    font-size: 23px;
+                    font-weight: bold;
+                    color: $greyDark;
+                    line-height: 26px;
+                    span{
+                        color: $orange;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    a{
+                        color: $blue;
+                        &:hover{
+                            text-decoration: none;
+                            color: $blueDark;
+                        }
+                    }
+                }
+                a{
+                    color: $blue;
+                    font-size: 14px;
+                    &:hover{
+                        text-decoration: none;
+                        color: $blueDark;
+                    }
+                }
+                .cl-invitefriendicon{
+                    margin: 15px 0px;
+                    .cl-invite-icon-1 {
+                        fill: #a6a8ab;
+                      }
+
+                      .cl-invite-icon-1, .cl-invite-icon-2, .cl-invite-icon-3 {
+                        fill-rule: evenodd;
+                      }
+
+                      .cl-invite-icon-2 {
+                        fill: #f8cfc2;
+                      }
+
+                      .cl-invite-icon-3 {
+                        fill: #fcdfd3;
+                      }
+
+                      .cl-invite-icon-4 {
+                        fill: #999;
+                      }
+
+                      .cl-invite-icon-5 {
+                        fill: none;
+                        stroke: #979797;
+                        stroke-dasharray: 4 4 4 4;
+                      }
+                }
+            }
+        }
+        .cl-invitesfriends-form{
+            .invite-friendsinput-details{
+                label{
+                    font-size: 16px;
+                    color: $grey;
+                }
+                input{
+                    border: 1px $nobel solid;
+                    border-radius: 4px;
+                    padding: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+                a{
+                    font-size: 16px;
+                    color: $blue;
+                    &:hover{
+                        text-decoration: none;
+                        color: $blueDark;
+                    }
+                }
+            }
+            a{
+                font-size: 16px;
+                color: $blue;
+                font-weight: bold;
+                &:hover{
+                    text-decoration: none;
+                    color: $blueDark;
+                }
+            }
+        }
+        .messageto-invitesfriends{
+            margin-top: 50px;
+            p{
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .text-area{
+                border: 1px $greyLight solid;
+                padding: 15px;
+                color: $nobel;
+                border-radius: 4px;
+                background-color: $white;
+                p{
+                    font-weight: normal;
+                    margin-bottom: 0px;
+                }
+                a{
+                   font-size: 16px;
+                    color: $blue;
+                    font-weight: bold;
+                    &:hover{
+                        text-decoration: none;
+                        color: $blueDark;
+                    } 
+                }
+            }
+            .invite{
+                float: right;
+                margin-top: 20px;
+                a{
+                    color: $white;
+                    background-color: $orange;
+                    text-align: center;
+                    padding:10px 30px;
+                    border-radius: 4px;
+                    &:hover{
+                        text-decoration: none;
+                        background-color: $orangeDark;
+                    }
+                } 
+            }
+        }
+    }
+    
+}
+#congratulationModel{
+    .uk-modal-dialog{
+      @include border-radius(5px);
+      padding: 40px;
+      h2{
+        color: $grey;
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 900;
+        margin: 0;
+        padding-bottom: 15px;
+      }
+      p{
+        color: $grey;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
+        padding-bottom: 30px;
+          a{
+              color: $blue;
+              outline: none;
+              &:hover{
+                  color: $blueDark;
+                  text-decoration: none;
+              }
+          }
+      }
+      .tableDiv {
+        display: table;
+        width: 100%;
+        .lCol {
+          display: table-cell;
+          vertical-align: top;
+        }
+        .rCol {
+          display: table-cell;
+          vertical-align: top;
+          text-align: right;
+        }
+      }
+      .uk-modal-footer{
+        a{
+          &.back{
+              background-color: $grey;
+              @include border-radius(4px);
+              color: $white;
+              padding: 12px 30px 10px 30px;
+              font-size: 18px;
+              line-height: 22px;
+              display: inline-block;
+              text-decoration: none;
+              &:hover{
+                background: $gray-hover-color;
+                color: $white;
+              }
+            } 
+          &.general_btn{
+            background-color: $orange;
+            @include border-radius(4px);
+            color: $white;
+            padding: 12px 30px 10px 30px;
+            font-size: 18px;
+            line-height: 22px;
+            display: inline-block;
+            text-decoration: none;
+            &:hover{
+              background:$orangeDark;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1190px){
+    .cl-shopping-section{
+        .cl-shopping-bodycontent{
+            .cl-sc-details-rcol{
+                padding: 30px 30px 30px 50px;
+                .cl-sc-paymentsummary{
+                    .cl-sc-payment-container{
+                        .cl-sc-checkoutbutton{
+                            max-width: 50%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+            .cl-sc-details-lcol{
+                .cl-shopping-container{
+                    padding: 30px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+    .cl-shopping-section{
+        .cl-shopping-bodycontent{
+           .cl-sc-details-lcol{
+               .cl-shopping-container{
+                   padding: 15px;
+                   .cl-sc-boxcontent{
+                       .cl-sc-session{
+                           .cl-sc-withuser{
+                                .cl-sc-withuser-lcol{
+                                    display: block;
+                                }
+                                .cl-sc-withuser-rcol{
+                                    display: block;
+                                    padding:15px 0px 10px 0px;
+                                    h4{
+                                        padding-bottom: 10px;
+                                    }
+                                    h3{
+                                        padding-bottom: 10px;
+                                    }
+                                    p{
+                                        padding-bottom: 10px;
+                                    }
+                                }
+                            }
+                       }
+                       .cl-sd-buyMore {
+                            h6{
+                                text-align: left;
+                            }
+                            .cl-sd-buyMoreInner{
+                                &:before{
+                                    display:none;
+                                }
+                            }
+                       }
+                       .cl-sc-sessionsList{
+                           .cl-sc-session-price{
+                                text-align: left;
+                                padding-top: 0px;
+                           } 
+                       }
+                       .cl-sc-pullleft-mobview{
+                           float: left;
+                       }
+                       .cl-sc-thrashicon{
+                            float: right;
+                            padding-top: 0px;
+                       }
+                       .cl-sc-subtotal{
+                           .cl-sc-session-totalprice{
+                               p{
+                                   text-align: left;
+                                   margin-top: 8px;
+                                   margin-bottom: 12px;
+                               }
+                           }
+                       }
+                       .cl-sd-packageView{
+                            ul{
+                                border-top: none;
+                                li {
+                                    width: 100%;
+                                    border:none;
+                                    box-sizing: border-box;
+                                    border-bottom: 1px solid $semiDarkGray;
+                                }
+                            }
+                       }
+                       .cl-sc-sessionsListOuter01{
+                            padding-left: 0;
+                       }
+                   }
+               }
+               .cl-sc-button{
+                    float: none;
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-right: 0px
+               }
+            }
+            .cl-sc-details-rcol{
+                padding: 30px 15px 30px 40px;
+                .cl-sc-paymentsummary{
+                    .cl-sc-payment-container{
+                        .cl-sc-paymentSessions{
+                            .rightcol{
+                                padding-left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mobview{
+            display: block;
+        }
+        .deskview{
+            display: none;
+        }
+        .cl-sc-subheader{
+            .cl-sc-topnav{
+                padding: 0px;
+            }
+        }
+    }
+    .cl-booking-successful-section{
+        .cl-booking-bodycontent{
+            padding-left: 15px;
+            padding-right: 15px;
+            .cl-booking-details{ 
+                .lcol{
+                    display: block;
+                    clear: both;
+                }
+                .rcol{
+                    display: block;
+                    clear: both;
+                    text-align: left;
+                }
+            }
+        }
+        .cl-booking-manage-orders{
+            padding: 30px 0px;
+            .booking-manage-topsection{
+                h3{
+                    float: none;
+                    margin-bottom: 0px;
+                }
+                a{
+                    display: block;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .cl-invite-friends-sections{
+        .cl-invite-friends-bodycontent{
+            .messageto-invitesfriends{
+                .invite{
+                    float: left;
+                }
+            }
+        }
+    }
+    .cl-shoppingpayment-boxcontent{
+        .paymentcards-info{
+            .field-holder{
+                margin-bottom: 10px;
+            }
+        }
+        .shoppingcard-newentry{
+            .paymentcards-info{
+                .pay-save-cards{
+                    .savecard{
+                        float: left !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .cl-shopping-section {
+        .cl-shopping-bodycontent{
+            .cl-sc-details-lcol{
+                .cl-shopping-container{
+                    .cl-sc-boxcontent{
+                        .cl-sc-topdropdown-section {
+                            p{
+                                margin: 0 0 10px 0;
+                                float: none;
+                            }
+                            .cl-sc-topdropdown{
+                                float: none;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
+@media only screen and (max-width: 474px){
+    .cl-shoppingpayment-boxcontent{
+        .paymentContent{
+            .paymentOptions{
+                width:100%;
+                display: block;
+            }
+            .paymentOptions{
+                width:37% !important;
+                .card-options p{
+                    font-size: 14px !important;
+                }
+            }
+        }                  
+    }
+    .shoppingcard-newentry{
+        ul{
+            li{
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ISPRegFlowTopContent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ISPRegFlowTopContent.js"
+}

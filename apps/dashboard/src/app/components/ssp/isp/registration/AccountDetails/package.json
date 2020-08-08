@@ -1,0 +1,6 @@
+{
+  "name": "AccountDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AccountDetails.js"
+}

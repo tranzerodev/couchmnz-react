@@ -1,0 +1,6 @@
+{
+  "name": "CancellationPolicies",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CancellationPolicies.js"
+}

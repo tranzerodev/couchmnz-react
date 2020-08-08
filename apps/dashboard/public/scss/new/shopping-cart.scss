@@ -1,0 +1,891 @@
+//shopping cart css
+.cl-shopping-section{
+    .cl-sc-subheader{
+        background: $white;
+        border-bottom: 1px solid #cccccc;
+        padding: 20px;
+        .cl-sc-topnav{
+            padding: 0 50px;
+            h2{
+                font-size: 32px;
+                color: $greyDark;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 16px;
+                color: $grey;
+                margin: 5px 0px;
+            }
+        }
+    } 
+    .cl-shopping-bodycontent{
+        .cl-sc-details-lcol{
+            padding-bottom: 50px;
+            .cl-shopping-container{
+                margin: 0 auto;
+                max-width: 1220px;
+                padding: 30px 70px;
+                .cl-sc-boxcontent{
+                    margin: 0 auto;
+                    border: 1px #ccc solid;
+                    border-radius: 4px;
+                    .cl-sc-topdropdown-section{
+                        padding: 10px 15px;
+                        p{
+                            float: left;
+                            font-size: 16px;
+                            color: $lightBlack;
+                            padding-top: 3px;
+                        }
+                        .cl-sc-topdropdown{
+                            float: left;
+                            margin-left: 10px;
+                            width: 150px;
+                            .cl-sc-thisisme{
+                                margin: 0;
+                                background-color: #fff;
+                                border: 1px #ccc solid;
+                                border-radius: 5px;
+                                padding: 2px;
+                                li{
+                                    margin-top: 0px;
+                                    width: 100%;
+                                    cursor: pointer;
+                                    padding: 0px 4px;
+                                    .fa-angle-down{
+                                        float: right;
+                                        color: $blue;
+                                        margin-right: 8px;
+                                        &:hover{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                    .cl-sc-topopen-dropdown{
+                                        width: 150px;
+                                        margin-top: 15px;
+                                        padding:0px 5px;
+                                        ul{
+                                            li{
+                                                margin-top: 0px;
+                                                width: 100%;
+                                                cursor: pointer;
+                                                border-bottom: 1px $semiDarkGray solid;
+                                                padding: 0px;
+                                                &:hover{
+                                                    background-color: #e9edf7;
+                                                }
+                                                &:last-child{
+                                                    border-bottom: 0px;
+                                                }
+                                                a{
+                                                    &:hover{
+                                                        background-color: transparent;
+                                                        color: $grey;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:hover{
+                                            background-color: $white;
+                                        }
+                                    }
+                                    .cl-sc-topopen-dropdown:after,
+                                    .cl-sc-topopen-dropdown:before {
+                                        bottom: 100%;
+                                        left: 50%;
+                                        border: solid transparent;
+                                        content: " ";
+                                        height: 0;
+                                        width: 0;
+                                        position: absolute;
+                                        pointer-events: none;
+                                    }
+                                    .cl-sc-topopen-dropdown:after {
+                                        border-color: rgba(204, 204, 204, 0);
+                                        border-bottom-color: $white;
+                                        border-width: 14px;
+                                        margin-left: -14px;
+                                    }
+                                    .cl-sc-topopen-dropdown:before {
+                                        border-color: rgba(204, 204, 204, 0);
+                                        border-bottom-color: #cccccc;
+                                        border-width: 15px;
+                                        margin-left: -15px;
+                                    }  
+                                }
+                            }
+                        }
+                    }
+                    .cl-sc-session{
+                        background-color: $white;
+                        border-top: 1px $semiDarkGray solid;
+                        border-bottom: 1px $semiDarkGray solid;
+                        padding: 10px 15px;
+                        display: block;
+                        clear: both;
+                        .cl-sc-withuser{
+                            display: table;
+                            .cl-sc-withuser-lcol{
+                                display: table-cell;
+                                height: 70px;
+                                width: 70px;
+                            }
+                            .cl-sc-withuser-rcol{
+                                display: table-cell;
+                                padding: 0px 0px 0px 15px;
+                                margin-top: 0px;
+                                vertical-align: middle;
+                                a{
+                                    font-size: 21px;
+                                    font-weight: bold;
+                                    color: $blue;
+                                    margin: 0px;
+                                    &:hover{
+                                        text-decoration: none;
+                                        color: $blueDark;
+                                    }
+                                }
+                                h4{
+                                    font-size: 12px;
+                                    color: $grey;
+                                    text-transform: uppercase;
+                                    margin-bottom: 0px;
+                                }
+                                p{
+                                    font-size: 16px;
+                                    color: $greyDark;
+                                    font-weight: bold;
+                                    margin: 0px;
+                                }
+                            }
+                        }
+                        .cl-sc-session-details{
+                            h5{
+                                font-size: 12px;
+                                color: $greyLight;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                margin: 0px;
+                            }
+                            h3{
+                                font-size: 18px;
+                                color: $grey;
+                                font-weight: bold;
+                                margin: 0px;
+                             }
+                            p{
+                                font-size: 16px;
+                                color: $grey;
+                                margin: 0px;
+                            }
+                        }
+                    }
+                    .cl-sc-sessionsList{
+                        padding: 10px 15px;
+                        border-bottom: 1px $semiDarkGray solid;
+                        background-color: $white;
+                        h4{
+                            color: $lightBlack;
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin-bottom: 0px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $grey;
+                            margin-top: 6px;
+                            margin-bottom: 0px;
+                        }
+                        a{
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: $blue;
+                            &:hover{
+                                text-decoration: none;
+                                color: $blueDark;
+                            }
+                        }
+                        .cl-sc-session-price{
+                            text-align: right;
+                            padding-top: 7%;
+                            p{
+                                font-size: 18px;
+                                color: $lightBlack;
+                            }
+                        }
+                    }
+                    .cl-sc-thrashicon{
+                        padding-top: 15px;
+                        text-align: right;
+                        a{
+                           .cl-icon-bin{
+                               width: 20px;
+                            }
+                            .cl-icon-bin-1 {
+                                fill: #cccccc;
+                            } 
+                           &:hover{
+                                .cl-icon-bin-1 {
+                                    fill: $blue;
+                                }
+                            } 
+                        }
+                        
+                        
+                    }
+                    .cl-sc-subtotal{
+                        background-color: $lightGray;
+                        padding: 12px 15px 5px 15px;
+                        border-radius: 4px;
+                        .cl-sc-agree{
+                            .tandc{
+                                label{
+                                    color: $greyDark;
+                                    font-size: 14px;
+                                    font-weight: 200;
+                                    padding: 0px 12px 0px 0px;
+                                    margin: 0px 8px 6px 0;
+                                    display: block;
+                                    cursor: pointer;
+                                    position: relative;
+                                    &.comingsoon{
+                                      /*&:before{
+                                        color: $grey;
+                                      }*/
+                                      &:after{
+                                        content: 'Coming Soon';
+                                        position: absolute;
+                                        bottom: -25px;
+                                        left: 50%;
+                                        font-size: 14px;
+                                        color: $grey;
+                                        width: 100%;
+                                        margin-left: -40px;
+                                      }
+                                    }
+                                    a{
+                                       font-size: 14px;
+                                        color: $blue;
+                                        font-weight: bold;
+                                        padding-left: 5px;
+                                        &:hover{
+                                            text-decoration: none;
+                                            color: $blueDark;
+                                        }
+                                    }
+                            }
+                            input[type=checkbox] { 
+                                display:none; 
+                                    &+ label{              
+                                      &:before{
+                                        font-family: FontAwesome;
+                                        display: inline-block;
+                                        font-size: 18px;
+                                        color: $blue;
+                                        vertical-align: middle;
+                                        content: "\f096";
+                                        padding-right: 6px;
+                                        width: 20px;
+                                        &:hover{
+                                          color: $blue;
+                                        }
+                                      }
+                                      &:hover{
+                                        &:before{
+                                          color: $blue;
+                                        }
+                                      }
+                                    }
+                                    &:checked + label{
+                                      color: $secondary-color;
+                                      &:before{
+                                        content: "\f14a";
+                                        padding-right: 6px;
+                                        color: $blue;
+                                        font-size: 18px;
+                                      }
+                                    }
+                                }
+                            }
+                        }
+                        .cl-sc-totalsessions, .cl-sc-session-totalprice{
+                            p{
+                                color: $lightBlack;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin-bottom: 0px;
+                            }
+                        }
+                        .cl-sc-session-totalprice{
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            .cl-sc-button{
+                float: right;
+                margin-right: 70px;
+                a{
+                    padding: 10px 15px;
+                    background-color: $grey;
+                    font-size: 18px;
+                    font-weight: bold;
+                    border-radius: 4px;
+                    color: $white;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .cl-sc-details-rcol{
+            background-color: $white;
+            padding: 20px;
+            border-left: 1px $semiDarkGray solid;
+            .cl-sc-coachbucks{
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                    float: left;
+                }
+                .cl-sc-iconhelp{
+                    float: right;
+                    width: 15px;
+                    cursor: pointer;
+                    .cl-sc-helpicon{
+                        fill: #42b7db;
+                    }
+                } 
+            }
+            .cl-sc-applydiscount{
+                border: 1px $greyLighter solid;
+                padding: 5px;
+                display: block;
+                clear: both;
+                 .tandc{
+                    label{
+                    color: $greyDark;
+                    font-size: 18px;
+                    font-weight: 200;
+                    padding: 8px 10px 2px 10px;
+                    margin: 0px 8px 6px 0;
+                    display: block;
+                    cursor: pointer;
+                    position: relative;
+                        span{
+                            font-weight: 600;
+                        }
+                    &.comingsoon{
+                      /*&:before{
+                        color: $grey;
+                      }*/
+                      &:after{
+                        content: 'Coming Soon';
+                        position: absolute;
+                        bottom: -25px;
+                        left: 50%;
+                        font-size: 14px;
+                        color: $grey;
+                        width: 100%;
+                        margin-left: -40px;
+                      }
+                    }
+                }
+                input[type=checkbox] { 
+                    display:none; 
+                        &+ label{              
+                          &:before{
+                            font-family: FontAwesome;
+                            display: inline-block;
+                            font-size: 18px;
+                            color: $blue;
+                            vertical-align: middle;
+                            content: "\f096";
+                            padding-right: 6px;
+                            width: 20px;
+                            &:hover{
+                              color: $blue;
+                            }
+                          }
+                          &:hover{
+                            &:before{
+                              color: $blue;
+                            }
+                          }
+                        }
+                        &:checked + label{
+                          color: $secondary-color;
+                          &:before{
+                            content: "\f14a";
+                            padding-right: 6px;
+                            color: $blue;
+                            font-size: 18px;
+                          }
+                        }
+                    }
+                }
+            }
+            .cl-sc-paymentsummary{
+                display: block;
+                clear: both;
+                margin-top: 30px;
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                }
+                .cl-sc-payment-container{
+                    border: 1px $greyLighter solid;
+                    border-radius: 4px;
+                }
+                .cl-sc-bgwhite{
+                    background-color: $white;
+                }
+                .cl-sc-bgtill{
+                    background-color: #EBFAFF;
+                }
+                .cl-sc-bgyellow{
+                    background-color: #FFF59B;
+                }
+                .cl-sc-paymentSessions{
+                    padding:15px 10px;
+                    border-bottom: 1px $semiDarkGray solid;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    font-size: 18px;
+                    font-weight: 200;
+                    color:$lightBlack; 
+                    border-top-left-radius: 2px;
+                    border-top-right-radius: 2px;
+                    .leftcol{
+                        padding-left: 0px;
+                    }
+                    .righttcol{
+                        text-align: right;
+                    }
+                }
+                .cl-sc-checkoutbutton{
+                    padding: 20px;
+                    margin: 0px;
+                    a{
+                        background-color: #F15E23;
+                        font-size: 18px;
+                        color: $white;
+                        width: 85%;
+                        text-align: center;
+                        display: block;
+                        padding: 10px 15px;
+                        margin: 0px auto;
+                        font-weight: 600;
+                        border-radius: 4px;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mobview{
+        display: none;
+    }
+    .deskview{
+        display: block;
+    }
+}
+.cl-booking-successful-section{
+    .cl-bs-subheader{
+        background: $white;
+        border-bottom: 1px solid #cccccc;
+        padding: 20px;
+        .cl-bs-topnav{
+            h2{
+                font-size: 32px;
+                color: $greyDark;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 16px;
+                color: $grey;
+                margin: 5px 0px;
+            }
+        }
+    } 
+    .cl-booking-bodycontent{
+        padding: 50px 0px;
+        .cl-booking-details-head{
+            h3{
+                font-size: 26px;
+                font-weight: bold;
+                color: $grey;
+            }
+        }
+        .cl-booking-details{
+            display: table;
+            width: 100%;
+            .lcol{
+                display: table-cell;
+                vertical-align: top;
+                .cl-bs-booking-info{
+                   .cl-bs-booking-text-name{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $grey;
+                    }
+                    .cl-bs-booking-text-date{
+                        font-size: 16px;
+                        font-weight: normal;
+                        color: $grey;
+                    } 
+                }
+            }
+            .rcol{
+                display: table-cell;
+                vertical-align: top;
+                text-align: right;
+                .cl-bs-payment-info{
+                    p{
+                        font-size: 16px;
+                        color: $lightBlack;
+                        font-weight: bold;
+                        margin-bottom: 0px;
+                    }
+                    a{
+                        font-size: 16px;
+                        color: $blue;
+                        &:hover{
+                            text-decoration: none;
+                            color:$blueDark
+                        }
+                    }
+                }
+            }
+        }
+        .cl-bs-booking-user-details{
+            background-color: $white;
+            border: 1px $semiDarkGray solid;
+            border-radius:4px;
+            /*padding: 20px;*/
+            display: block;
+            clear: both;
+            margin-top: 30px;
+            .cl-bs-spacing{
+                padding: 15px;
+            }
+            .cl-bs-usersesson{
+                display: table;
+                .cl-usersessonLeft{
+                    display: table-cell;
+                    vertical-align: top;
+                    height: 70px;
+                    width: 70px; 
+                }
+                .cl-usersessonRight{
+                    display: table-cell;
+                    vertical-align: top;
+                    padding-left: 15px;
+                    a{
+                        font-size: 21px;
+                        font-weight: bold;
+                        color: $blue;
+                        margin: 0px;
+                        &:hover{
+                            color:$blueDark;
+                            text-decoration: none;
+                        }
+                    }
+                    h4{
+                        font-size: 12px;
+                        color: $grey;
+                        text-transform: uppercase;
+                        margin-bottom: 0px;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $greyDark;
+                        font-weight: bold;
+                        margin: 0px;
+                    }
+                }
+            }
+            .cl-bs-session-details{
+                h5{
+                    font-size: 12px;
+                    color: $greyLight;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin: 0px;
+                }
+                h3{
+                    font-size: 18px;
+                    color: $grey;
+                    font-weight: bold;
+                    margin: 0px;
+                 }
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    margin: 0px;
+                }
+            }
+            .cl-bs-total-sessons{
+                border-top: 1px $semiDarkGray solid;
+                overflow: hidden;
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    margin: 0px;
+                    float: left;
+                    font-weight: bold;
+                }
+                a{
+                    font-size: 14px;
+                    color: $blue;
+                    margin: 0px;
+                    float: right;
+                    font-weight: bold;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+        }
+        .cl-bs-sessionsScheduled{
+            margin-top: 30px;
+            h3{
+                font-size: 14px;
+                color: $greyLight;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 14px;
+                color: $grey;
+                font-weight: normal;
+                margin-top: 0px;
+            }
+            .sessionsScheduled-containbox{
+                background-color: $white;
+                padding: 15px;
+                border: 1px $greyLighter solid;
+                border-radius: 4px;
+                h4 {
+                    color: #4d4d4d;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 0px;
+                }
+                p {
+                    font-size: 14px;
+                    color: #666666;
+                    margin-top: 6px;
+                    margin-bottom: 6px;
+                    padding-left: 0px;
+                }
+                a {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $blue;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+        }
+        
+        .cl-booking-manage-orders{
+            .booking-manage-topsection{
+                overflow: hidden;
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                    float: left;
+                }
+                a{
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: $blue;
+                    float: right;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+            .booking-manage-midcontent-section{
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                }
+            }
+            .booking-manage-invite-friends{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                a{
+                    background-color: #F15E23;
+                    font-size: 18px;
+                    color: $white;
+                    text-align: center;
+                    padding: 12px 60px;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .booking-manage-questions{
+                a{
+                    font-size: 18px;
+                    color: $blue;
+                    text-align: left;
+                    display: inline-block;
+                    font-weight: 600;
+                    &:hover{
+                        text-decoration: none;
+                        color:$blueDark;
+                    }
+                }
+            }
+        }
+     }
+}
+
+@media only screen and (max-width: 1190px){
+    .cl-shopping-section{
+        .cl-shopping-bodycontent{
+            .cl-sc-details-rcol{
+                padding: 30px 30px 30px 50px;
+                .cl-sc-paymentsummary{
+                    .cl-sc-payment-container{
+                        .cl-sc-checkoutbutton{
+                            max-width: 50%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+            .cl-sc-details-lcol{
+                .cl-shopping-container{
+                    padding: 30px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+    .cl-shopping-section{
+        .cl-shopping-bodycontent{
+           .cl-sc-details-lcol{
+               .cl-shopping-container{
+                   padding: 15px;
+                   .cl-sc-boxcontent{
+                       .cl-sc-session{
+                           .cl-sc-withuser{
+                                .cl-sc-withuser-lcol{
+                                    display: block;
+                                }
+                                .cl-sc-withuser-rcol{
+                                    display: block;
+                                    padding:15px 0px 10px 0px;
+                                }
+                            }
+                       }
+                       .cl-sc-sessionsList{
+                           .cl-sc-session-price{
+                                text-align: left;
+                                padding-top: 0px;
+                           } 
+                       }
+                       .cl-sc-pullleft-mobview{
+                           float: left;
+                       }
+                       .cl-sc-thrashicon{
+                            float: right;
+                            padding-top: 0px;
+                       }
+                       .cl-sc-subtotal{
+                           .cl-sc-session-totalprice{
+                               p{
+                                   text-align: left;
+                                   margin-top: 8px;
+                                   margin-bottom: 12px;
+                               }
+                           }
+                       }
+                   }
+               }
+               .cl-sc-button{
+                    float: none;
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-right: 0px
+               }
+            }
+            .cl-sc-details-rcol{
+                padding: 30px 15px 30px 40px;
+                .cl-sc-paymentsummary{
+                    .cl-sc-payment-container{
+                        .cl-sc-paymentSessions{
+                            .rightcol{
+                                padding-left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mobview{
+            display: block;
+        }
+        .deskview{
+            display: none;
+        }
+        .cl-sc-subheader{
+            .cl-sc-topnav{
+                padding: 0px;
+            }
+        }
+    }
+    .cl-booking-successful-section{
+        .cl-booking-bodycontent{
+            padding-left: 15px;
+            padding-right: 15px;
+            .cl-booking-details{ 
+                .lcol{
+                    display: block;
+                    clear: both;
+                }
+                .rcol{
+                    display: block;
+                    clear: both;
+                    text-align: left;
+                }
+            }
+        }
+        .cl-booking-manage-orders{
+            padding: 30px 0px;
+            .booking-manage-topsection{
+                h3{
+                    float: none;
+                    margin-bottom: 0px;
+                }
+                a{
+                    display: block;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 474px){
+    
+}

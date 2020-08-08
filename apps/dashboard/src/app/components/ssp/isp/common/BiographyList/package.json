@@ -1,0 +1,6 @@
+{
+  "name": "BiographyList",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BiographyList.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ProfileCompletion",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ProfileCompletion.js"
+}

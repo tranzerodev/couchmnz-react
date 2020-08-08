@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1253 -1581 9.12 8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efcc00;
+      }
+
+      .cls-2 {
+        fill: #353535;
+      }
+    </style>
+  </defs>
+  <g id="if_weather_48_2682803" transform="translate(-1893 1896)">
+    <path id="Path_255" data-name="Path 255" class="cls-1" d="M10.788,10.642,6.608,17.881a.382.382,0,0,0,.33.572H15.3a.382.382,0,0,0,.33-.572l-4.179-7.239a.382.382,0,0,0-.66,0Z" transform="translate(633.443 -3487.453)"/>
+    <path id="Path_256" data-name="Path 256" class="cls-2" d="M29,29.863a.538.538,0,1,1,.538.538A.516.516,0,0,1,29,29.863Zm.2-.835-.136-2.688H30l-.131,2.688Z" transform="translate(615.024 -3500.493)"/>
+  </g>
+</svg>

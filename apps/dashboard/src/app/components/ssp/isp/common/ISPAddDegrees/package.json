@@ -1,0 +1,6 @@
+{
+  "name": "ISPAddDegrees",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ISPAddDegrees.js"
+}

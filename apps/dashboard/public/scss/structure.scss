@@ -1,0 +1,45 @@
+
+html, body {
+	
+	.rootDiv {
+		
+		.app {
+			display: block;
+			overflow-y: scroll;
+
+			.cl-secondlevel-navbar {
+				position: fixed;
+				top: 50px;
+				width: 100%;
+				padding: 0px;
+				margin: 0px;
+				border-bottom: 1px solid #cccccc;
+				z-index: 999 !important;
+				box-sizing: border-box;
+			}
+			
+			.cl-page-sspdetail-scroll-area {
+				position: absolute;
+				top: 50px;
+				width: 100%;
+				z-index: 1;
+			}
+			
+			.cl-page-scroll-area-minus-header {
+				position: absolute;
+				top: 50px;
+				width: 100%;
+				z-index: 1;
+			}
+			
+			.cl-page-search-scroll-area {
+			  	position: absolute;
+				top: 100px;
+				width: 100%;
+				z-index: 1;
+			}
+			
+		}
+
+	}
+}

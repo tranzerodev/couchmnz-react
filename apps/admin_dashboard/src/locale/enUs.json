@@ -1,0 +1,334 @@
+{
+  "locale": "en-US",
+  "UsersTypes": {
+    "A": "Athlete",
+    "S": "SSP"
+  },
+  "Service": {
+    "title": "Service"
+  },
+  "Specialties": {
+    "title": "Specialties"
+  },
+  "TrainingPreferences": {
+    "title": "Training Preferences",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    }
+  },
+  "Pricing": {
+    "title": "Pricing",
+    "singleSession": "Single session",
+    "volumeDiscount": "Volume Discount",
+    "skillLevel": "Skill Level",
+    "agesGroups": "Ages Groups",
+    "members": "Members",
+    "sessionFor": "session for",
+    "perSession": "per session",
+    "discount": "discount",
+    "athleteSaves": "athlete saves",
+    "unit": "$",
+    "percent": "%",
+    "add": "Add",
+    "subtract": "Subtract",
+    "toTrain": "to train",
+    "athletes": "athletes"
+  },
+  "Location": {
+    "title": "Location",
+    "tag": "Tag"
+  },
+  "Session": {
+    "title": "Session",
+    "default": "DEFAULT",
+    "group": "Group",
+    "participants": "participants",
+    "priceUnit": "$",
+    "defaultLength": "Session Length",
+    "cost": "Cost",
+    "minutes": "minutes"
+  },
+  "BookingPreferences": {
+    "A": {
+      "name": "Auto Accept",
+      "description": "Automatically accept all booking requests that clients make through CoachList (requires that you keep your calendar up to date at all times.)"
+    },
+    "N": {
+      "name": "Notify Me. I will Accept",
+      "description": "Review each booking request and manually either accept or reject athlete requests."
+    },
+    "title": "Booking Preference",
+    "bookingAcceptance": "Booking acceptance",
+    "bookingCutOff": "Close athlete booking before",
+    "defaultCutOff": 0,
+    "defaultCutOffUnit": "hours",
+    "cancellationPolicies": {
+      "title": "Cancellation Policy",
+      "L": {
+        "name": "Lenient",
+        "description": "Full refund, minus any service processing fees, if cancellation is done at least 24 hours prior to the session.",
+        "terms": "If cancellation is done in less than 24 hours from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      },
+      "C": {
+        "name": "Compliant",
+        "description": "Full refund, minus any service processing fees, if cancellation is done at least 5 days prior to the session.",
+        "terms": "If cancellation is done in less than 5 days from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      },
+      "N": {
+        "name": "Narrow",
+        "description": "50% refund, minus any service processing fees, if cancellation is done at least 7 days prior to the session.",
+        "terms": "If cancellation is done in less than 7 days from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      }
+    }
+  },
+  "SchedulerSettings": {
+    "days": {
+      "MON": "Monday",
+      "TUE": "Tuesday",
+      "WED": "Wednesday",
+      "THU": "Thursday",
+      "FRI": "Friday",
+      "SAT": "Saturday",
+      "SUN": "Sunday"
+    }
+  },
+  "PayoutDetails": {
+    "title": "Payout Details",
+    "currency": "Currency",
+    "defaultMethod": "Default Method",
+    "methods": {
+      "PP": "Paypal",
+      "BK": "Bank Details"
+    }
+  },
+  "Biography": {
+    "title": "Biography",
+    "yearOfExperience": "Year of Experience",
+    "certification": "Certification",
+    "degree": "Degree",
+    "award": "Award",
+    "accomplishment": "Accomplishment",
+    "affiliation": "Affiliation",
+    "tools": "Tools"
+  },
+  "ListingDetails": {
+    "title": "Listing Details",
+    "heading": "Heading",
+    "describeAndCurriculum": "Describe your coaching style & curriculum",
+    "bioAndCredentials": "Your Bio & Credentials"
+  },
+  "PhotosAndVideos": {
+    "title": "Photos and Videos",
+    "photos": "Action Photos",
+    "videos": "Videos",
+    "profileImage": "Profile Photo"
+  },
+  "AccountDetails": {
+    "title": "Account Details",
+    "businessInformation": {
+      "title": "Business Information"
+    },
+    "personalInformation": {
+      "title": "Personal Information"
+    }
+  },
+  "Scheduler": {
+    "title": "Scheduler"
+  },
+  "requiredFieldLabel": "*",
+  "DefaultMessages": {
+    "notUploaded": "Not uploaded yet!",
+    "notFilled": "Not filled yet!",
+    "ISPDetailsNotFound": "ISP Profile Deatils Are Not Found !!!.",
+    "AthleteDetailsNotFound": "Athlete Profile Deatils Are Not Found !!!.",
+    "ParentDetailsNotFound": "Parent Profile Deatils Are Not Found !!!.",
+    "ChildDetailsNotFound": "Child Profile Deatils Are Not Found !!!.",
+    "ProfileDetailsNotFound": "Profile Deatils Are Not Found !!!."
+  },
+  "Reports": {
+    "failedReports": {
+      "notFound": "Failed Records Details Are Not Found !!!.",
+      "regenerateReport": "Regenerate Report", 
+      "reportGeneratedOn": "Report generated on",
+      "dateFormat": "DD/MM/YYYY hh:mm a",
+      "regenerateReports": "Regenerate Records",
+      "records": "record(s)",
+      "exportDetailedCSV": "Export Detailed CSV",
+      "chooseRecord": "Please select at least one record to Regenerate Record(s)",
+      "searchPlaceholder": "Search by username, name or sport...",
+      "successMsg": "Failed Audit Record(s) Are Generated Successfully",
+      "serial": "#",
+      "userName": "Username",
+      "name": "Name",
+      "sspType": "SSP Type",
+      "profileId": "Profile ID",
+      "PhoneNumber": "Phone Number",
+      "listingId": "Listing ID",
+      "sportName": "Sport Name",
+      "isActive": "Active",
+      "pricing": "Pricing",
+      "session": "Session",
+      "coachingExp": "Coaching Exp",
+      "playingExp": "Playing Exp",
+      "actionPhoto": "Action Photo",
+      "profilePhoto": "Profile Photo",
+      "bookingPreferences": "Booking Preferences",
+      "payout": "Payout",
+      "scheduler": "Scheduler",
+      "trainingPreferences": {
+        "title": "Training Preferences",
+        "ages": "Ages",
+        "skillLevels": "Skill Levels",
+        "gender": "Gender",
+        "serviceOffered": "Service Offered"
+      },
+      "trainingLocation": "Training Location",
+      "trainingLocationCityMapped": "Training Location City Mapped",
+      "listingDetails": {
+        "title": "Listing Details",
+        "heading": "Heading",
+        "description": "Description",
+        "bio": "Bio"
+      },
+      "businessDetails": {
+        "title": "Business Details",
+        "email": "Email",
+        "street": "Street",
+        "city": "City",
+        "cityMapped": "City Mapped",
+        "state": "State",
+        "country": "Country",
+        "zip": "Zip"
+      },
+      "personalDetails": {
+        "title": "Personal Details",
+        "name": "Name",
+        "email": "Email",
+        "gender": "Gender",
+        "nickName": "Nick Name",
+        "street": "Street",
+        "city": "City",
+        "cityMapped": "City Mapped",
+        "state": "State",
+        "country": "Country",
+        "zip": "Zip",
+        "timezone": "Timezone",
+        "mobile": "Mobile"
+      }
+    },
+    "flaggedSSPs": {
+      "title": "Flagged SSP List",
+      "notFound": "Flagged Records Details Are Not Found !!!.",
+      "flaggedDate": "Flagged Date",
+      "username": "Username",
+      "name": "Name",
+      "sspType": "SSP Type",
+      "reasons": "Reasons",
+      "action": "Action",
+      "filterTitle": "Reasons",
+      "filter": "Filter",
+      "searchGo": "Go!",
+      "dateFormat": "DD-MM-YYYY HH:mm",
+      "actionLabel": "View/Update"
+    },
+    "flaggedSSP": {
+      "currentStatus": "Current Status",
+      "notFound": "Profile Details Are Not Found !!!.",
+      "profile": "Profile",
+      "active": "Active",
+      "inActive": "Inactive",
+      "disableISPProfile": "Disable ISP Profile",
+      "disableCompleteAccount": "Disable Complete Account",
+      "notes": "Notes",
+      "confirm": "Confirm",
+      "disableSuccess": "Profile Updated Successfully",
+      "dateFormat": "DD-MM-YYYY HH:mm",
+      "goProfilePage": "Go To Manage Profile",
+      "moreAction": "To take more actions to go Manage User section",
+      "actiontakenBy": "Action taken by",
+      "history": {
+        "title": "History",
+        "date": "Date",
+        "details": "Details",
+        "actionTaken": "Action Taken"
+      }
+    },
+    "disabledProfiles": {
+      "title": "Disabled Profiles/Accounts",
+      "notFound": "Disabled Profiles Details Are Not Found !!!.",
+      "goToManageProfile": "Go to Manage Profile",
+      "dateFormat": "DD-MM-YYYY HH:mm",
+      "actionDate": "Action Date",
+      "username": "Username",
+      "name": "Name",
+      "profileType": "Profile Type",
+      "status": "Status",
+      "action": "Action"
+    }
+  },
+  "Athlete": {
+    "requiredLabel": "*",
+    "profile": {
+      "title": "Profile",
+      "country": "Country",
+      "name": "Name",
+      "gender": "Gender",
+      "genders": {
+        "M": "Male",
+        "F": "Female",
+        "O": "Other",
+        "A": "Any"
+      },
+      "dob": "DOB",
+      "height": "Height",
+      "heightUnit": {
+        "F": "ft",
+        "I": "inch"
+      },
+      "weight": "Weight",
+      "weightUnit": {
+        "L": "lb",
+        "K": "kg",
+        "P": "lb"
+      },
+      "grade": "Grade in school",
+      "profilePhoto": "Profile Photo"
+    },
+    "primaryAreaOfInterest": {
+      "title": "Primary Area Of Interest",
+      "sport": "Sport or Area of interest",
+      "speciality": "Speciality",
+      "yearOfExp": "Year of playing experience",
+      "level": "Skill Level",
+      "notes": "Notes for ISP",
+      "trainingIn": "I want instruction or training in",
+      "otherServices": "Other Services",
+      "gender": "Trainer Gender",
+      "travelDistance": "How far are you will to travel to get trained?",
+      "distanceUnits": {
+        "M": "Miles",
+        "K": "Km"
+      },
+      "fromAddress": "From Address"
+    },
+    "accountDetails": {
+      "title": "Account Details",
+      "name": "Name",
+      "address": "Address",
+      "timezone": "TimeZone",
+      "mobile": "Mobile",
+      "landLine": "Landline number",
+      "allowNotification": "Allow Coach List To Send You SMS related To Bookings Etc.",
+      "canSendReminder": "I Authorize CoachList To Contact Me On The Phone Numbers Provided With Automated Messages About Upcoming Sessions And Information That Will Help Me Manage Training Sessions.",
+      "canReceiveMarketingCall": "I Consent To Receive Telemarketing Calls And Text Messages From Or On Behalf Of CoachList At The Phone Numbers Provided Above. I Understand That Consent Is Not A Condition Of Purchase."
+    }
+  },
+  "Parent": {
+    "child": {
+      "unNamedChild": "Unnamed Child"
+    }
+  }
+}

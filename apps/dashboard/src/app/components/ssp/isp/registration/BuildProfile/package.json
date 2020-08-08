@@ -1,0 +1,6 @@
+{
+  "name": "BuildProfile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BuildProfile.js"
+}

@@ -1,0 +1,176 @@
+.cl-custom-cb{
+  display: none!important;
+}
+.cl-custom-cb:not(:checked),
+.cl-custom-cb:checked {
+  position: absolute;
+  left: -9999px;
+  display: none;
+}
+
+.cl-custom-cb:not(:checked) + label,
+.cl-custom-cb:checked + label {
+  position: relative;  
+  cursor: pointer;
+}
+
+.cl-custom-cb:not(:checked) + label:before,
+.cl-custom-cb:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid $semiDarkGray;
+  background: $white;
+  border-radius: 2px;  
+}
+.cl-custom-cb:checked + label:before { 
+  background: $blue;
+  border: 1px solid $blue;
+}
+/* checked mark aspect */
+.cl-custom-cb:not(:checked) + label:after,
+.cl-custom-cb:checked + label:after {
+  content: ' ';
+  position: absolute;
+  top: 0; 
+  left: 0px;  
+  line-height: 0.8;
+  color: $white;
+  transition: all .2s;  
+  width: 16px;
+  height: 18px;
+  background: url(../images/tick-white.svg) no-repeat 3px 4px;
+  background-size: 12px;
+}
+/* checked mark aspect changes */
+.cl-custom-cb:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.cl-custom-cb:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+.cl-custom-cb:disabled:not(:checked) + label:before,
+.cl-custom-cb:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+.cl-custom-cb:disabled:checked + label:after {
+  color: #999;
+}
+.cl-custom-cb:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+.cl-custom-cb:checked:focus + label:before,
+.cl-custom-cb:not(:checked):focus + label:before {
+  border: 1px dotted $blue;
+}
+
+/* hover style just for information */
+.cl-custom-cb-label:hover:before {
+  border: 1px solid $blue !important;
+}
+
+/*****************************************************************
+                CUSTOM STYLES FOR UI KIT DROPDOWN
+******************************************************************/
+
+.cl-arrow-dropdown {
+    margin-top: $cl-gutter-small * 1.5;    
+    background-color: $white;
+    border: 1px solid $greyLight;
+    border-radius: 4px;    
+    padding: 0px;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.3);    
+}
+
+.cl-arrow-dropdown {
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+
+    list-style: none;
+
+    a {
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 400;
+      color: $grey;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0px;
+      border-bottom: 1px solid $greyLighter;
+      display: block;
+       background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-804.53 -5141.531 6.591 11.063'><g transform='translate(-1001.605 -5996.5)'><path data-name='Path 149' d='M-17914.895-2197l5,5,5-5' transform='translate(2394.606 -17049.395) rotate(-90)' fill='none' stroke='%2342b7db' stroke-width='1.5px' /></g></svg>") no-repeat;
+        background-size: 7px;
+        background-position: calc(100% - 10px) center;
+      &:hover {
+        color: $greyDark;
+        background: $blueLighter url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-804.53 -5141.531 6.591 11.063'><g transform='translate(-1001.605 -5996.5)'><path data-name='Path 149' d='M-17914.895-2197l5,5,5-5' transform='translate(2394.606 -17049.395) rotate(-90)' fill='none' stroke='%2342b7db' stroke-width='1.5px' /></g></svg>") no-repeat;
+        background-size: 7px;
+        background-position: calc(100% - 10px) center;
+      }
+
+    }
+
+    &:last-child {
+      a {
+        border-bottom: 0;
+      }
+    }
+
+  }
+
+}
+.cl-arrow-dropdown:after,
+.cl-arrow-dropdown:before {
+    left: 20%;
+    bottom: 100%;    
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.cl-arrow-dropdown--right:after,
+.cl-arrow-dropdown--right:before {
+    left: 80%;
+}
+
+.cl-arrow-dropdown--absright:after,
+.cl-arrow-dropdown--absright:before {
+    left: 88%;
+}
+
+.cl-arrow-dropdown--center:after,
+.cl-arrow-dropdown--center:before {
+    left: 50%;
+}
+
+.cl-arrow-dropdown:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: $white;
+    border-width: 12px;
+    margin-left: -12px;
+}
+.cl-arrow-dropdown:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: $greyLight;
+    border-width: 14px;
+    margin-left: -14px;
+}

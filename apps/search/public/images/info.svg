@@ -1,0 +1,16 @@
+<svg class="cl-icon-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.049 71.051">
+  <defs>
+    <style>
+      .cl-icon-info-1 {
+        fill: #d40;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-14.877 -16.289)">
+    <circle id="Ellipse_239" data-name="Ellipse 239" class="cl-icon-info-1" cx="3.506" cy="3.506" r="3.506" transform="translate(46.895 33.776)"/>
+    <g data-name="Group 3344">
+      <path data-name="Path 232" class="cl-icon-info-1" d="M50.4,19.842A31.972,31.972,0,1,1,18.428,51.814,32.009,32.009,0,0,1,50.4,19.842m0-3.552A35.525,35.525,0,1,0,85.926,51.815,35.525,35.525,0,0,0,50.4,16.29Z"/>
+      <rect data-name="Rectangle 2484" class="cl-icon-info-1" width="4.973" height="24.284" transform="translate(47.914 45.569)"/>
+    </g>
+  </g>
+</svg>

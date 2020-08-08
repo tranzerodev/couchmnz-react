@@ -1,0 +1,4186 @@
+{
+  "locale": "en-US",
+  "calendar": "Calendar",
+  "bookings": "Bookings",
+  "dashboard": "Dashboard",
+  "messages": "Messages",
+  "AccountDetails": {
+    "title": "Account Details",
+    "message": "You're in the home stretch. Let's finish your listing:",
+    "businessName": "Business Name",
+    "businessNameExample": "E.g Jim's Champion Baseball Coaching",
+    "businessURL": "Business URL",
+    "country": "Country",
+    "state": "State/Province",
+    "streetAddress": "Street Address",
+    "streetAddressExample": "No 11, Main Street Drive",
+    "city": "City",
+    "cityExample": "San Francisco",
+    "zipCode": "Postal Code",
+    "zipCodeExample": "94501-4026",
+    "phoneNumbers": "Phone Numbers",
+    "phoneNumbersMessage": "We need at least your mobile number phone # to text or call about cancellations, bookings or other events.",
+    "mobile": "Mobile Phone Number",
+    "mobileExample": "831-838-2348",
+    "landline": "Business Number",
+    "landlineExample": "541-754-3010",
+    "timezone": "Timezone",
+    "validation_messages": {
+      "businessName": "Please provide a business name. If you are not incorporated or a \"DBA\" then please provide a business name for CoachList to use internally.",
+      "countryID": "Please select a country from the available options",
+      "stateID": "Select your state.",
+      "timezone": "You must choose a contintent for your time zone",
+      "timezoneRequired": "Time zones are required in order to sync calendars and display correct session times.",
+      "street": "Provide a correspondence address",
+      "cityName": "Please select a city from the available options",
+      "zip": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "mobile": {
+        "required": "Please enter mobile number",
+        "valid": "Invalid phone number format."
+      },
+      "businessUrl": "Invalid URL",
+      "landline": {
+        "required": "Please enter business number",
+        "valid": "Invalid phone number format."
+      },
+      "firstName": "Please provide first name.",
+      "lastName": "Please provide last name.",
+      "gender": "Please select gender.",
+      "notFilled": "You have not added any %{notFilled}. We will need your account information established before we can publish your profile; you can login at any time and complete any missing fields from your Dashboard.",
+      "email": "Select a valid email format, e.g. name@email.com"
+    },
+    "select_state": "Select state",
+    "select_country": "Select country",
+    "select_timezone": "Select timezone",
+    "select_city": "Select city",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "E.g John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "E.g Mathews",
+    "gender": "Gender",
+    "genderMessage": "Why do we ask for this? Sometimes Athletes have a preference for a specific gender for training purposes, so this helps us filter better search results & matches.",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "genderOther": "Other",
+    "cityPlaceholder": "Select city",
+    "statePlaceholder": "Select state",
+    "smsConfirmMessage": "Allow coach list to send you SMS related to bookings etc.",
+    "canSendReminder": "I authorize CoachList to contact me on the phone number(s) provided with automated messages about upcoming sessions and information to help manage training sessions.",
+    "canReceiveMarketingCall": "I consent to receive telemarketing calls and text messages from or on behalf of CoachList at the phone number(s) provided above. I Understand that consent is not a condition of purchase."
+  },
+  "BankPayoutDetails": {
+    "title": "Bank Payout Details",
+    "header": "Please fill your bank account details so we can transfer money when athletes pays for a session.",
+    "accountHolderInformation": "Account Holder Information",
+    "individual": "Individual",
+    "company": "Company",
+    "nameOnAccount": "Name on Account",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "accountType": "Account Type",
+    "checking": "Checking",
+    "saving": "Saving",
+    "bankName": "Bank Name",
+    "bankNameExample": "North Central Bank",
+    "routingNumber": "Routing Number",
+    "routingNumberExample": "12345678",
+    "accountNumber": "Account Number",
+    "accountNumberExample": "12345678",
+    "accountNickname": "Account Nickname",
+    "accountNicknameExample": "Bob's Baseball Coaching Account",
+    "nameAddressSample": "John Roberts, 579 Main St",
+    "payToThe": "Pay to the",
+    "orderOf": "Order of",
+    "memo": "Memo",
+    "accountNumberSample": "00087654321",
+    "accountNumberSample2": "1234",
+    "date": "Date",
+    "bankNameSample": "Bank of NCP",
+    "addressSample": "San Francisco, CA 94103",
+    "validation_messages": {
+      "holder": "Select whether a personal or corporate bank account.",
+      "firstName": "First name OR Name of Business is required",
+      "lastName": "Last name is required.",
+      "type": "Select whether Savings or Checking account.",
+      "nickName": "Please enter Nickname",
+      "accountNumber": {
+        "required": "Account number is required.",
+        "number": "Invalid account number"
+      },
+      "routingNumber": {
+        "required": "Routing number on the account is required.",
+        "number": "Invalid routing number"
+      },
+      "bank": "Bank name is required."
+    },
+    "recievePaymentThroughBank": "Receive Payment Through Bank"
+  },
+  "BookingPreferences": {
+    "title": "Booking Preferences",
+    "message": "When clients book sessions on your calendar, how do you want to accept their requests?",
+    "bookingPreferences": {
+      "A": {
+        "name": "Auto Accept",
+        "description": "Automatically accept all booking requests that clients make through CoachList (requires that you keep your calendar up to date at all times.)"
+      },
+      "N": {
+        "name": "Notify Me. I will Accept",
+        "description": "Review each booking request and manually either accept or reject athlete requests."
+      }
+    },
+    "cancellationPolicy": "Cancellation Policy",
+    "bookingCutOffTime": "Booking cut-off time",
+    "cancellationPolicyMessage": "Before clients can book, we need to let them know how you want to handle cancellations:",
+    "cancellationPolicies": {
+      "L": {
+        "name": "Lenient",
+        "description": "Full refund, minus any service processing fees, if cancellation is done at least 24 hours prior to the session.",
+        "terms": "If cancellation is done in less than 24 hours from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      },
+      "C": {
+        "name": "Compliant",
+        "description": "Full refund, minus any service processing fees, if cancellation is done at least 5 days prior to the session.",
+        "terms": "If cancellation is done in less than 5 days from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      },
+      "N": {
+        "name": "Narrow",
+        "description": "50% refund, minus any service processing fees, if cancellation is done at least 7 days prior to the session.",
+        "terms": "If cancellation is done in less than 7 days from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      }
+    },
+    "cancellationPolicyTerms": {
+      "term1": "If, as an Athlete, you cancel your requested booking session before the requested booking is confirmed by a Sports Service Provider (SSP), CoachList will cancel any pre-authorization to your credit card and/or refund any nominal amounts charged to your credit card in connection with the requested booking within a commercially reasonable time.",
+      "term2": "A bookingis officially canceled when you click the cancellation button on the cancellation  confirmation page, which can be found in Dashboard > Your Sessions> Change or Cancel .",
+      "term3": "Cancellation policies may be superseded by extenuating circumstances, or cancellations by CoachList for any other reason included in the Terms of Service.",
+      "term4": "If there is a complaint from either party, notice must be given to CoachList within 24 hours of the session.",
+      "term5": "CoachList will be the mediatoras necessary, and has the final say in all disputes."
+    },
+    "learnMore": "Learn More",
+    "validation_messages": {
+      "bookingPreference": "Please choose a booking preference.",
+      "cancellationPolicy": "You must choose a Cancellation Policy for your customers & clients.",
+      "bookingCutOffTime": "Please select booking cut-off time."
+    },
+    "closeAthleteBookingBefore": "Minimum notice time",
+    "closeAthleteBookingBeforeDesc": "The minimum amount of time before a session can be booked.",
+    "cutOffTimeForBookings": "Minimum notice time",
+    "bookingMessage": "Please allow yourself enough time to respond to last minute requests and travel time.",
+    "selectHour": "Select Hour",
+    "hours": "Hours"
+  },
+  "BookingPreferencesModal": {
+    "title": "Cancellation Policy",
+    "additionalTerms": "Additional Terms",
+    "ok": "OK"
+  },
+  "BusinessModel": {
+    "payPerBooking": "Pay Per Booking",
+    "payPerBookingMessage": "You pay nothing up front. CoachList only takes a percentage of each client training session you conduct, based on the business we generate for you.",
+    "fees": "Fees",
+    "payPerBookingCoachlistMessage": "CoachList keeps 25% of the first session, and 8 - 14% of each session thereafter.",
+    "validation_messages": {
+      "businessModel": "At this time, you must choose only the Pay Per Booking model."
+    },
+    "businessModel": "Business Model"
+  },
+  "DashboardNav": {
+    "dashboard": "Dashboard",
+    "messages": "Messages",
+    "bookings": "Bookings",
+    "calendar": "Calendar",
+    "schedules": "Schedule",
+    "sessions": "Sessions",
+    "sport": "Sport(s)",
+    "rewards": "Rewards",
+    "account": "Account",
+    "messages": "Messages",
+    "service_profiles": "Service Profiles"
+  },
+  "DashboardRewards": {
+    "three_ways_to_earn": "3 Ways to earn more reward points!"
+  },
+  "DragAndDropContainer": {
+    "settings": "Settings"
+  },
+  "DragAndDropModal": {
+    "level": "Level",
+    "location": "Location",
+    "from": "From",
+    "to": "to",
+    "groupSize": "Group Size",
+    "addInvitees": "Add Invitees",
+    "notesAndAttachments": "Notes, URL or Attachments",
+    "overrideDefaultPrice": "Override default price"
+  },
+  "Profile": {
+    "welcomeMessage": "Welcome! What type of profile do you want to set up right now?",
+    "user1": "Sports Service Provider",
+    "userDescription1": "Coach, Trainer, Instructor, Camp, Clinic or Training Facility",
+    "user2": "Athlete/ Fitness Enthusiast",
+    "userDescription2": "Seeking training for yourself",
+    "user3": "Parent",
+    "userDescription3": "Seeking training for your child?",
+    "note": "Note",
+    "message": "that you can set up additional profiles once you've set up your first profile (you can be a coach, athlete, and parent!).",
+    "next": "Next"
+  },
+  "SportsServiceProvider": {
+    "welcomeMessage": "What best describes you?",
+    "user1": "Coach, Trainer or Instructor",
+    "userDescription1": "1-1 coaching for athletes or fitness enthusiasts in a sport or fitness routine",
+    "user2": "Sports Camp or Clinic",
+    "userDescription2": "Focused training for groups of athletes or fitness enthusiasts",
+    "user3": "Training Facility",
+    "userDescription3": "Health club, gym, or other sport or fitness oriented instructional facility",
+    "user4": "Athlete Sports Services",
+    "userDescription4": "Services such as Sports, Medicine, Nutrition, Psychology, Analysis, etc.",
+    "note": "Note",
+    "message": "that you can start with one type of business and add to its once you have a basic profile. For example, you can sign up as a coach, then use CoachList to set up a camp when you're ready.",
+    "back": "Back",
+    "next": "Next"
+  },
+  "ISPRegFlowTopContent": {
+    "createProfile": "CREATE A NEW PROFILE AS:",
+    "title": "Individual Trainer Or Instructor",
+    "build": "Build Your",
+    "profile": "Profile",
+    "defineTraining": "Define Training",
+    "sessions": "Sessions",
+    "complete": "Complete Your",
+    "account": "Account"
+  },
+  "BackButton": {
+    "back": "Back"
+  },
+  "NextButton": {
+    "next": "Next"
+  },
+  "NextButtonModal": {
+    "title": "Oops!",
+    "message": "You have not defined the following required field(s)",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "BuildProfile": {
+    "title": "Add Your Service",
+    "sportSpecific": "(Sport Specific)",
+    "message": "Select the service you provide below.",
+    "addSport": "Add Another Sport",
+    "addCertification": "Add another Certification",
+    "addDegree": "Add another Degree",
+    "sessions": "Sessions",
+    "lessons": "Lessons",
+    "classes": "Classes",
+    "training": "Training",
+    "yearsOfPlayingExp": "Years of playing experience",
+    "selectService": "Select your service",
+    "selectSpecialties": "Select your specialties"
+  },
+  "InputSport": {
+    "coaching": "I train or teach Athletes in...",
+    "typeSport": "Type in a sport or fitness type",
+    "typeExperience": "How many years ?",
+    "addSpeciality": "ADD SPECIALITY",
+    "done": "Done",
+    "experience": "Years of coaching / training / instruction experience",
+    "selectYear": "Type Years",
+    "years": "Years",
+    "year": "Year",
+    "yearsOfExperience": "How many years ?",
+    "typeDescription": "Type of Experience",
+    "validation_messages": {
+      "sportsName": {
+        "required": "Select at least one sport.",
+        "valid": "Invalid sports",
+        "existing": "Preferences for this sport already exists"
+      },
+      "coachingDescription": "Please enter the type of instructional experience you have.",
+      "coachingExperience": {
+        "required": "Please enter in the number of years coaching or training experience you have.",
+        "valid": "Please enter reasonable number years of coaching or training experience."
+      },
+      "playingExperience": {
+        "required": "Please enter in the total number of years playing this sport you have.",
+        "valid": "Please enter reasonable number years of playing experience"
+      },
+      "playingDescription": "Please enter the type of playing experience you have."
+    }
+  },
+  "InputCertification": {
+    "certification": "Certification",
+    "typeCertification": "Certification name",
+    "institution": "Institution",
+    "typeInstitution": "Name of the college/ university/ other",
+    "validation_messages": {
+      "certifications": {
+        "certification": "Please select a certification",
+        "institution": "Please select a institution"
+      }
+    }
+  },
+  "InputDegree": {
+    "highestUniversityDegree": "Highest University Degree",
+    "typeDegree": "Highest Educational Degree",
+    "institution": "Institution",
+    "typeInstitution": "Name of the college/ university/ other",
+    "validation_messages": {
+      "degrees": {
+        "degree": "Please select a degree",
+        "institution": "Please select a institution"
+      }
+    }
+  },
+  "ISPIndividualPricing": {
+    "singleSession": "for a single %{session}",
+    "message": "How much do you want to charge a single athlete for a single training %{session} ?",
+    "singleSessionPrice": "$ Single %{session} Price",
+    "packages": "Packages",
+    "for": "for",
+    "athletesSave": "athletes save",
+    "defineVolumeDiscounts": "Define Volume Discounts",
+    "optional": "Optional",
+    "recommendedDiscountPoints": "Recommended Discounts",
+    "perSession": "per %{session}",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "createAnotherPackage": "Create Another Package",
+    "createPackagesMessage": "You Can Also Create More Packages From Your Dashboard Later",
+    "createMorePackages": "you can also create more packages from your dashboard later",
+    "specificPricingMessage": "Set Skill Level and Age-specific Pricing",
+    "forExample": "For example",
+    "specificPricingExample": "Add 15% to train professional athletes",
+    "specificPricingDescription": "Set different pricing for the different athlete ages and skill levels you defined earlier. You can either add or subtract a dollar figure or a percentage from the base price",
+    "skillLevelPricingDescription": "Define Percentages or amounts for Different Skill Levels",
+    "agePricingDescription": "Define Percentages or amounts for Different Ages",
+    "amount": "Base Price",
+    "discount": "discount",
+    "enterAmount": "Enter Amount",
+    "priceFor": "Price for",
+    "validation_messages": {
+      "pricing": "You must set a valid base price for a single %{session}",
+      "operation": "Please select an Operation",
+      "isPercentage": "Please select Percentage or Amount",
+      "age": "Please select age",
+      "operand": "Provide a value below %{value}",
+      "operandIsPercentage": "Provide a value between 0 and 100",
+      "skillLevel": "Please select skillLevel"
+    }
+  },
+  "ISPGroupPricing": {
+    "priceForGroups": "Price per Athlete",
+    "perAthletePerSession": "per athlete per %{session}",
+    "groupSize": "Group Size",
+    "perAthletePerSessionMessage": "How much do you want to charge a single athlete for a group training %{session} ?",
+    "pricePerAthlete": "Price per Athlete",
+    "minMaxGroupSize": "Min & Max Group Size",
+    "minGroupSize": "Min Group Size",
+    "for": "for",
+    "maxGroupSize": "Max Group Size",
+    "skillLevel": "Skill Level",
+    "ageGroup": "Age Group",
+    "athletes": "Athletes",
+    "addAnother": "Add Another",
+    "addAnotherGroupSize": "Add another Group Size",
+    "defineVolumeDiscounts": "Define Volume Discounts",
+    "optional": "Optional",
+    "packages": "Packages",
+    "perSession": "per %{session}",
+    "discount": "discount",
+    "athletesSave": "athletes save",
+    "recommendedDiscountPoints": "Recommended Discounts  POINTS",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "createAnotherPackage": "Create Another Package",
+    "createPackagesMessage": "you can also create more packages from your dashboard later",
+    "specificPricingMessage": "Set Skill Level and Age-specific Pricing",
+    "forExample": "For example",
+    "specificPricingDescription": "Set different pricing for the different athlete ages and skill levels you defined earlier. You can either add or subtract a dollar figure or a percentage from the base price",
+    "skillLevelPricingDescription": "Define Percentages or amounts for Different Skill Levels",
+    "specificPricingExample": "Add 15% to train professional athletes",
+    "amount": "Base Price",
+    "agePricingDescription": "Define Percentages or amounts for Different Ages",
+    "enterAmount": "Enter Amount",
+    "to": "to",
+    "priceFor": "Price for",
+    "validation_messages": {
+      "pricing": "Provide a valid price",
+      "min": "Provide valid minimum players",
+      "minSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "minAndSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "max": "Provide valid maximum players",
+      "minMax": "Provide valid minimun and maximum players",
+      "maxSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "maxAndSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "operation": "Please select an Operation",
+      "isPercentage": "Please select Percentage or Amount",
+      "age": "Please select age",
+      "skillLevel": "Please select skillLevel",
+      "minMaxSize": "Duplicate group size range."
+    }
+  },
+  "ISPTeamPricing": {
+    "priceForTeams": "Price when Training Teams",
+    "perAthletePerSession": "per athlete per %{session}",
+    "teamSize": "Team Size",
+    "perAthletePerSessionMessage": "How much do you want to charge a single athlete for a team training %{session} ?",
+    "pricePerAthlete": "Price per Athlete",
+    "minMaxTeamSize": "Min & Max Team Size",
+    "minTeamSize": "Min Team Size",
+    "for": "for",
+    "maxTeamSize": "Max Team Size",
+    "skillLevel": "Skill Level",
+    "ageGroup": "Age Group",
+    "athletes": "Athletes",
+    "addAnother": "Add Another",
+    "defineVolumeDiscounts": "Define Volume Discounts",
+    "optional": "Optional",
+    "packages": "Packages",
+    "perSession": "per %{session}",
+    "discount": "discount",
+    "athletesSave": "athletes save",
+    "recommendedDiscountPoints": "Recommended Discounts",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "createAnotherPackage": "Create Another Package",
+    "createPackagesMessage": "you can also create more packages from your dashboard later",
+    "specificPricingMessage": "Set Skill Level and Age-specific Pricing",
+    "specificPricingExample": "Add 15% to train professional athletes",
+    "forExample": "For example",
+    "specificPricingDescription": "Set different pricing for the different athlete ages and skill levels you defined earlier. You can either add or subtract a dollar figure or a percentage from the base price",
+    "skillLevelPricingDescription": "Define Percentages or amounts for Different Skill Levels",
+    "amount": "Base Price",
+    "agePricingDescription": "Define Percentages or amounts for Different Ages",
+    "enterAmount": "Enter Amount",
+    "to": "to",
+    "validation_messages": {
+      "pricing": "Provide a valid price",
+      "min": "Provide valid minimum players",
+      "minSize": "Please check Team Sizes",
+      "minAndSize": "Please check Team Sizes",
+      "max": "Provide valid maximum players",
+      "minMax": "Provide valid minimun and maximum players",
+      "maxSize": "Please check Team Sizes",
+      "maxAndSize": "Please check Team Sizes",
+      "operation": "Please select an Operation",
+      "isPercentage": "Please select Percentage or Amount",
+      "age": "Please select age",
+      "skillLevel": "Please select skillLevel",
+      "minMaxSize": "Duplicate team size range."
+    }
+  },
+  "ISPClinicsPricing": {
+    "priceForClinics": "Price per Athlete",
+    "perAthletePerSession": "per athlete per %{session}",
+    "groupSize": "Team Size",
+    "perAthletePerSessionMessage": "How much do you want to charge a single athlete for a group training %{session} ?",
+    "pricePerAthlete": "Price per Athlete",
+    "minMaxGroupSize": "Min & Max Group Size",
+    "minGroupSize": "Min Group Size",
+    "for": "for",
+    "maxGroupSize": "Max Group Size",
+    "skillLevel": "Skill Level",
+    "ageGroup": "Age Group",
+    "athletes": "Athletes",
+    "addAnother": "Add Another",
+    "addAnotherGroupSize": "Add another Group Size",
+    "defineVolumeDiscounts": "Define Volume Discounts",
+    "optional": "Optional",
+    "packages": "Packages",
+    "perSession": "per %{session}",
+    "discount": "discount",
+    "athletesSave": "athletes save",
+    "recommendedDiscountPoints": "Recommended Discounts",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "createAnotherPackage": "Create Another Package",
+    "createPackagesMessage": "you can also create more packages from your dashboard later",
+    "specificPricingMessage": "Set Skill Level and Age-specific Pricing",
+    "forExample": "For example",
+    "specificPricingDescription": "Set different pricing for the different athlete ages and skill levels you defined earlier. You can either add or subtract a dollar figure or a percentage from the base price",
+    "skillLevelPricingDescription": "Define Percentages or amounts for Different Skill Levels",
+    "specificPricingExample": "Add 15% to train professional athletes",
+    "amount": "Base Price",
+    "agePricingDescription": "Define Percentages or amounts for Different Ages",
+    "enterAmount": "Enter Amount",
+    "to": "to",
+    "priceFor": "Price for",
+    "validation_messages": {
+      "pricing": "Provide a valid price",
+      "min": "Provide valid minimum players",
+      "max": "Provide valid maximum players",
+      "minSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "minAndSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "maxSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "maxAndSize": "Group sizes cannot overlap. Please enter a valid number.",
+      "minMax": "Provide valid minimun and maximum players",
+      "operation": "Please select an Operation",
+      "isPercentage": "Please select Percentage or Amount",
+      "age": "Please select age",
+      "skillLevel": "Please select skillLevel",
+      "minMaxSize": "Duplicate clinic size range."
+    }
+  },
+  "ISPOtherServicesPricing": {
+    "singleSession": "for a single %{session}",
+    "message": "How much do you want to charge a single athlete for a single training %{session} ?",
+    "singleSessionPrice": "$ Single %{session} Price",
+    "packages": "Packages",
+    "for": "for",
+    "athletesSave": "athletes save",
+    "defineVolumeDiscounts": "Define Volume Discounts",
+    "optional": "Optional",
+    "recommendedDiscountPoints": "Recommended Discounts",
+    "perSession": "per %{session}",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "createAnotherPackage": "Create Another Package",
+    "createPackagesMessage": "You Can Also Create More Packages From Your Dashboard Later",
+    "createMorePackages": "you can also create more packages from your dashboard later",
+    "specificPricingMessage": "Set Skill Level and Age-specific Pricing",
+    "forExample": "For example",
+    "specificPricingExample": "Add 15% to train professional athletes",
+    "specificPricingDescription": "Set different pricing for the different athlete ages and skill levels you defined earlier. You can either add or subtract a dollar figure or a percentage from the base price",
+    "skillLevelPricingDescription": "Define Percentages or amounts for Different Skill Levels",
+    "agePricingDescription": "Define Percentages or amounts for Different Ages",
+    "amount": "Base Price",
+    "discount": "discount",
+    "enterAmount": "Enter Amount",
+    "priceFor": "Price for",
+    "validation_messages": {
+      "pricing": "You must set a valid base price for a single %{session}",
+      "operation": "Please select an Operation",
+      "isPercentage": "Please select Percentage or Amount",
+      "age": "Please select age",
+      "operand": "Provide a value below %{value}",
+      "operandIsPercentage": "Provide a value between 0 and 100",
+      "skillLevel": "Please select skillLevel"
+    }
+  },
+  "ISPRegFlowStepFooter4": {
+    "preview": "Preview",
+    "page": "Page",
+    "next": "Next",
+    "orFinishLater": "Or, Finish Later"
+  },
+  "ISPRegFlowStepFooter4Modal": {
+    "title": "Oops!",
+    "message": "You have not defined the following required field(s)",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "ISPRegFlowStepFooter": {
+    "next": "Next",
+    "orFinishLater": "Or, Finish Later"
+  },
+  "ISPRegFlowStepFooterModal": {
+    "title": "Oops!",
+    "message": "You have not defined the following required field(s)",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "ISPRegistration": {
+    "sports": "sports"
+  },
+  "ISPRegistration2": {
+    "skillLevel": "skill level",
+    "trainingPreferences": "training preferences"
+  },
+  "ISPRegistration3": {
+    "nickname": "nickname",
+    "coachlistURL": "coachlist uRL",
+    "headline": "headline"
+  },
+  "ISPRegistration4": {
+    "profilePicture": "profile picture",
+    "actionPhotos": "action photos"
+  },
+  "ISPRegistration5": {
+    "pricingPerSession": "pricing per session",
+    "prices": "prices",
+    "subSSPTypes": {
+      "privateTraining": "Private Training",
+      "groupTraining": "Group Training",
+      "teamTraining": "Team Training",
+      "clinics": "Clinics"
+    },
+    "nextInfo": "In the next screen we will ",
+    "nextInfoSetPrice": "Set the Pricing for "
+  },
+  "ISPRegistration6": {
+    "createProfile": "CREATE A NEW PROFILE AS:",
+    "title": "Individual Trainer or Instructor",
+    "buildYour": "Build Your",
+    "profile": "Profile",
+    "defineTraining": "Define Training",
+    "completeYour": "Complete Your",
+    "account": "Account",
+    "back": " Back",
+    "trainingLocations": "Training Locations",
+    "trainingLocationsMessage": "Let clients know where they can train with you",
+    "preview": "Preview",
+    "page": "Page",
+    "finishLater": "Or, Finish Later",
+    "location": "Location",
+    "travel_preference": "Travel preference"
+  },
+  "ISPRegistration8": {
+    "createProfile": "CREATE A NEW PROFILE AS:",
+    "title": "Individual Trainer or Instructor",
+    "buildYour": "Build Your",
+    "profile": "Profile",
+    "defineTraining": "Define Training",
+    "sessions": "Sessions",
+    "completeYour": "Complete Your",
+    "calendarAvailability": "Set Your Calendar Availability",
+    "message": "Now, build your calendar of availability for different types of sessions. This can be based on seasons, months, or any such combination.",
+    "dateRange": "Date Range For This Availability",
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December",
+    "account": "Account",
+    "back": " Back",
+    "Next": " Next",
+    "Save": " Save",
+    "calendarMessage": "Note that you can create multiple calendars and date ranges to adjust for seasonality in you dashboard.",
+    "sessionsMessage": "Drag and drop one of these sessions onto the calendar, or just click on a cell in the calendar.",
+    "syncWithCalendar": "Sync With Calendar",
+    "trainingLocations": "Training Locations",
+    "trainingLocationsMessage": "Let clients know where they can train with you",
+    "preview": "Preview",
+    "page": "Page",
+    "finishLater": "Or, Finish Later",
+    "validation_messages": {
+      "events": "Define at least one event"
+    }
+  },
+  "ISPRegistration9": {
+    "title": "Product Options - Pay Per Booking or Paid Subscription",
+    "message": "Select the best revenue opportunity for your training services:",
+    "comingSoon": "Coming Soon",
+    "paidSubscriptionHeader": "Save with a Paid Subscription",
+    "paidSubscriptionMessage": "Cost-effective solution to manage all your back-end office needs.",
+    "fees": "Fees",
+    "subscriptionMessage": "For $40 per month you will get a full Customer Relationship Manager (CRM) and channel manager to manage your entire business, including a white-label system to promote your business, publish your calendar and reviews, and enable real-time bookings on your own website."
+  },
+  "ISPRegistration12": {
+    "createProfile": "CREATE A NEW PROFILE AS:",
+    "title": "Individual Trainer or Instructor",
+    "buildYour": "Build Your",
+    "profile": "Profile",
+    "defineTraining": "Define Training",
+    "sessions": "Sessions",
+    "completeYour": "Complete Your",
+    "header": "Your profile is ready; now we need to know how to pay you.",
+    "message1": "In order to get you paid when athletes book with you, we need to know a little bit about your business, and how to pay you your earnings.",
+    "message2": "You can do this now or you can do it later. However, remember that we can't let clients book with you until you give us these details.",
+    "account": "Account",
+    "back": " Back",
+    "Next": " Next",
+    "Save": " Save",
+    "calendarMessage": "Note that you can create multiple calendars and date ranges to adjust for seasonality in you dashboard",
+    "sessionsMessage": "Drag and drop one of these sessions onto the calendar or just click a cell on the calendar",
+    "syncWithCalendar": "Sync With Calendar",
+    "trainingLocations": "Training Locations",
+    "trainingLocationsMessage": "Let clients know where they can train with you",
+    "preview": "Preview",
+    "page": "Page",
+    "orFinishLater": "Or, Finish Later"
+  },
+  "LocationList": {
+    "delete": "Delete",
+    "edit": "Edit",
+    "ConfirmationModal": {
+      "heading": "Confirm",
+      "description": "Are you sure you want to delete training location",
+      "error": {
+        "103": "Cannot delete Training Location as it is in use, please delete the session first.",
+        "common": "Something went wrong, Please try again"
+      }
+    }
+  },
+  "NewLocation": {
+    "addNewLocation": "Add New Location",
+    "letClientsKnow": "Let clients know where they can train with you.",
+    "locationName": "Location Name",
+    "locationType": "Location Type",
+    "addAnotherLocation": "Add Another Location",
+    "visibleToClients": "Visible to Clients",
+    "locationNameExample": "e.g. Mueller Community Baseball & Soccer Park",
+    "address": "Street Address",
+    "optional": "Optional",
+    "locationTypes": {
+      "I": "Indoor",
+      "O": "Outdoor"
+    },
+    "addressExample": "Eg. 333 Blossom Hill, Los Gatos, CA 95032",
+    "tag": "Tag",
+    "forYourReference": "For Your Reference",
+    "tagExample": "Eg. Fall Training Outside",
+    "locateOnMap": "Locate On Map",
+    "notes": "Notes",
+    "notesPlaceholder": "Eg: Bring your water bottle",
+    "saveTrainingLocation": "SAVE TRAINING LOCATION",
+    "dropLocationMessage": "Drag the pin to the specific location where you train, or enter the address in the map below",
+    "message": "Drag the pin to the specific location where you train, or enter the address in the map below",
+    "validation_messages": {
+      "title": "Please assign a name to this location",
+      "street": "Please provide a street address for this location",
+      "type": "Provide the type of location this is.",
+      "locations": "Provide at least one training location",
+      "locationType": "Please select location type",
+      "notes": "Please enter notes",
+      "notSaved": "There was a problem while trying to save your address, please enter the data manually below",
+      "zip": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "notFound": "This place was not found. Please try again with a different spelling."
+    },
+    "zip": "ZipCode / Postal Code",
+    "add_a_service_location": "Add %{offerTerminology} Location",
+    "description": "Let clients know where they can train with you.",
+    "fine_tune_map": "Fine tune your map loaction pin now!",
+    "cancel": "Cancel"
+  },
+  "LocationListModal": {
+    "editLocation": "Edit Location",
+    "locationName": "Location Name",
+    "visibleToClients": "Visible to Clients",
+    "locationNameExample": "Eg. Vasona Lake Country Park",
+    "address": "Address",
+    "optional": "Optional",
+    "addressExample": "Eg. 333 Blossom Hill, Los Gatos, CA 95032",
+    "tag": "Tag",
+    "forYourReference": "For Your Reference",
+    "tagExample": "Eg. Fall Training Outside",
+    "locateOnMap": "Locate On Map",
+    "locationDropMessage": "Drag the pin to the specific location where you train"
+  },
+  "Sessions": {
+    "youHaveNotFilled": "You must define specific session types for your availability to be visible to potential clients.",
+    "session": "Session",
+    "defineTerminology": "Define Terminology",
+    "defineTerminologyMessage": "What term best describes your offerings",
+    "define": "Define",
+    "your": "Your",
+    "sessionsMessage": "You must define specific %{session} types for your availability to appear to potential clients. You can change these at any time or add more.",
+    "modify": "Modify",
+    "createLater": "You can also create more %{terminology} later on",
+    "defaultLength": "Default Length",
+    "hour": "hour",
+    "minutes": "minutes",
+    "cost": "Cost",
+    "colorAlpha": "rgba(%{r}, %{g}, %{b}, %{a})",
+    "validation_messages": {
+      "sessionName": "Please select an option for offer terminology."
+    },
+    "offerTerminology": {
+      "S": "Session",
+      "L": "Lesson",
+      "C": "Class",
+      "T": "Training"
+    },
+    "offerTerminologyPlural": {
+      "S": "Sessions",
+      "L": "Lessons",
+      "C": "Classes",
+      "T": "Trainings"
+    },
+    "create_another": "Create Another",
+    "create": "Create %{type} %{terminology}",
+    "a": "a",
+    "s": "s",
+    "another": "another"
+  },
+  "SessionsCreateModal": {
+    "createTitle": "Create %{terminology}",
+    "editTitle": "Edit %{terminology}",
+    "name": "Name",
+    "defaultMessage": "Make this my default Session (this is the %{session} that appears by default when i add Sessions to my calendar; you can change to any Session at any time)",
+    "type": "Type",
+    "selectType": "Select Type",
+    "selectGender": "Select gender",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "selectAgeGroup": "Select Age Group",
+    "selectSessionLocation": "Select %{session} Location",
+    "selectLocation": "Select Location",
+    "sessionCalendarLabel": "Session Calendar Label",
+    "selectCalendarLabel": "Select Calendar Label",
+    "defaultSessionLength": "%{session} Length (in mins)",
+    "selectDefaultSessionLength": "Select Default %{session} Length",
+    "typeSize": "{type} Size",
+    "selectTypeSize": "Select {type} Size",
+    "selectTypef": "Select %{type} type",
+    "gender": "Gender",
+    "age": "Age",
+    "skillLevel": "Skill Level",
+    "hour": "Hour",
+    "hours": "Hours",
+    "bufferBetweenSessions": "Buffer (in mins)",
+    "totalSlots": "Total Slots",
+    "selectBufferBetweenSession": "Select Buffer",
+    "enterBufferBetweenSession": "Buffer between session",
+    "specificNumberOfSessions": "Is there a specific number of %{session}s ?",
+    "howManySessions": "How many %{session}s ?",
+    "selectNumberOfSessions": "Select number of %{session}s",
+    "minutes": "Minutes",
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save & Continue",
+    "close": "Close",
+    "selectSkillLevel": "Select Skill level",
+    "overridePricing": "Override Pricing",
+    "isSpecificNumberOfSessions": "Is there a specific number of %{session}s ?",
+    "participants": "%{min} to %{max} participants",
+    "participantsList": " (%{min} to %{max} participants)",
+    "session": {
+      "name": "Please enter a name for %{session}",
+      "defaultSession": "Please specify whether this will be the default %{session}",
+      "subSSPType": "Select Training Type",
+      "gender": "Select gender",
+      "age": "Select Age group",
+      "skillLevel": "Select Skill level",
+      "location": "Select Training Location",
+      "defaultSessionLength": "Select valid default %{session} length  (greater than or equal to %{minimum} mins, in multiple of %{default} mins)",
+      "bufferBetweenSession": "Please enter a valid buffer between %{session}s,It can be %{minimum}, or in increments of  %{default} minutes.",
+      "totalSlots": "Please enter a valid total number for slots",
+      "isSpecificNumberOfSessions": "Mention whether there are specific number of %{session}s",
+      "numberOfSessions": "Select Number of %{session}s",
+      "sessionName": "Please enter a name for %{session}",
+      "selectTypeSize": "Select {type} Size"
+    }
+  },
+  "SessionsEditModal": {
+    "edit": "Edit",
+    "name": "Name",
+    "defaultMessage": "Make this my default Session (this is the Session that appears by default when i add Sessions to my calendar; you can change to any Session at any time)",
+    "type": "Type",
+    "selectType": "Select Type",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other"
+    },
+    "selectAgeGroup": "Select Age Group",
+    "selectSessionLocation": "Select %{session} Location",
+    "selectLocation": "Select Location",
+    "sessionCalendarLabel": "Session Calendar Label",
+    "selectCalendarLabel": "Select Calendar Label",
+    "defaultSessionLength": "Default %{session} Length",
+    "selectDefaultSessionLength": "Select Default %{session} length",
+    "typeSize": "{type} Size",
+    "selectTypeSize": "Select {type} Size",
+    "gender": "Gender",
+    "age": "Age",
+    "skillLevel": "Skill Level",
+    "hour": "Hour",
+    "hours": "Hours",
+    "bufferBetweenSessions": "Buffer",
+    "selectBufferBetweenSession": "Select Buffer",
+    "specificNumberOfSessions": "Is there a specific number of %{session}s ?",
+    "howManySessions": "How many %{session}s ?",
+    "selectNumberOfSessions": "Select number of %{session}s",
+    "minutes": "Minutes",
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "close": "Close",
+    "selectSkillLevel": "Select Skill level",
+    "overridePricing": "Override Pricing",
+    "isSpecificNumberOfSessions": "Is there a specific number of %{session}s ?",
+    "participants": "%{min} to %{max} participants",
+    "session": {
+      "name": "Please enter a name for %{session}",
+      "defaultSession": "Please specify whether this will be the default %{session}",
+      "subSSPType": "Select Training Type",
+      "gender": "Select gender",
+      "age": "Select Age group",
+      "skillLevel": "Select Skill level",
+      "location": "Select Training Location",
+      "defaultSessionLength": "Select Default %{session} Length",
+      "bufferBetweenSession": "Select buffer between %{session}s",
+      "isSpecificNumberOfSessions": "Mention whether there are specific number of %{session}s",
+      "numberOfSessions": "Select Number of %{session}s",
+      "sessionName": "Please enter a name for %{session}",
+      "selectTypeSize": "Select {type} Size"
+    }
+  },
+  "TravelPreferences": {
+    "travel": "Travel",
+    "willingToTravel": "Are you willing to travel to other locations to train clients ?",
+    "yes": "Yes",
+    "no": "No",
+    "distanceInMiles": "How far (in miles) ?",
+    "fromWhere": "Form what address, city and zipcode?",
+    "validation_messages": {
+      "distance": "(if Yes) Please indicate the number of miles you're willing to travel.",
+      "travelAddress": "Provide a starting address location.",
+      "willingToTravel": "Please mention whether you are willing to travel."
+    },
+    "select": "Select"
+  },
+  "TrainingPreferences": {
+    "title": "%{offerTerminology} Preferences %{sportName}",
+    "message": "Select skill level, ages, types of training and gender that you prefer to train.",
+    "athleteSkillLevel": "Athlete skill level",
+    "age": "Age groups",
+    "gender": "Gender",
+    "services": "Other services",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "training": "Training services offered To",
+    "virtualTraining": "Virtual Training",
+    "validation_messages": {
+      "skillLevels": "Choose at least 1 skill level for athletes you train.",
+      "ages": "Select at least one age category.",
+      "gender": "Select gender preferences.",
+      "training": "Select at least 1 training speciality area.",
+      "services": "Select at least 1 service."
+    },
+    "all_levels": "All Levels",
+    "all_ages": "All Ages",
+    "all_gender": "All Genders",
+    "all_training": "All Trainings",
+    "all_other_services": "All Services"
+  },
+  "EarnRewards": {
+    "enter_ssp_email": "Enter your SSP email address",
+    "enter_athlete_email": "Enter your athletes email address",
+    "refer_an_athlete": "Refer an athlete",
+    "refer_an_athlete_desc": "When your friend joins & completes their first session, you earn!",
+    "points": "Points",
+    "refer_an_ssp": "Refer an SSP",
+    "complete_a_session": "Complete a session",
+    "earn": "Earn",
+    "point_for_each_session": "point for each completed sessions!",
+    "write_a_review": "Write a review",
+    "point_for_each_review": "point everytime you write a review!",
+    "invite": "Invite",
+    "use_commas": "Use commas \",\" to send multiple email address",
+    "customize_your_message": "Customize Your Message",
+    "share_url": "or, share your unique URL via Facebook, Twitter or email.",
+    "session_complete_desc": "When you complete a training session with an athlete and receive a positive rating, you automatically receive X points. The more sessions you complete, the more points you earn toward the next level. As you reach higher levels, CoachList takes a smaller commission from each of your bookings. Complete sessions and earn more!",
+    "review_desc": "When you write a review of another service provider you have worked with, you automatically receive X points. The more reviews you write, the more points you earn toward the next level. As you reach higher levels, CoachList takes a smaller commission from each of your bookings. Complete sessions and earn more!",
+    "valiadtion_emails_required": "Please enter EmailID(s)",
+    "validation_emails_valid": "is a invalid EmailID"
+  },
+  "History": {
+    "reward_history": "Reward History",
+    "type": "Type",
+    "details": "Details",
+    "date": "Date",
+    "status": "Status",
+    "see_more": "See More"
+  },
+  "Level": {
+    "how_reach_next_level": "How to Reach the Next Level?",
+    "next_level_desc": "As you collect rewards points by referring other sports service providers, complete sessions and receive positive reviews, or write reviews, you reach new levels within CoachList. As you reach a new level, the commission that CoachList takes for your bookings decreases. Gain points and earn more!",
+    "points": "Points"
+  },
+  "PhotosAndVideos": {
+    "title": "Upload Photos and Videos",
+    "message": "Photos & videos help drive customers to you!",
+    "chooseImage": "Choose Image",
+    "profilePictureLabel": "Max file size: 5MB, accepted: jpg",
+    "profilePictureDimensionsError": " is not supported. Image must be larger than 800 x 600 px",
+    "chooseImages": "Choose Images",
+    "actionImagesLabel": "Max file size: 5MB, accepted: jpg",
+    "actionVideoTitle": "Upload Action Video (Optional)",
+    "actionVideoMessage": "Videos that show you in action help clients see that you are a great coach with experience that can help them excel.. Do you want to add action photos and/or videos now? You can also add them later.",
+    "actionVideoOption": "Yes, let me upload a video now!",
+    "chooseVideo": "Choose video",
+    "actionVideoLabel": "Max file size: 50MB, accepted: mp4",
+    "validation_messages": {
+      "profilePicture": "Please upload a profile photo ",
+      "actionPicture": "Please upload at least one action photo",
+      "action_video_file_type": "File type not supported: %{files} ",
+      "action_video_file_size": "File size exceeded: %{files} "
+    },
+    "youHaveUploadedActionImages": "You have uploaded %{uploaded} of %{total} photos"
+  },
+  "Pricing": {
+    "privateTraining": "Private Training",
+    "title": "Set Pricing for %{type}",
+    "title2": "Set Pricing for %{sport} %{type}",
+    "message": "You'll decide how much to charge for each of these training types you specified earlier",
+    "session": "Session",
+    "sessions": "Sessions"
+  },
+  "PricingModal": {
+    "title": "Create Volume Discount",
+    "enterNumberOfSessions": "Enter Number of Sessions",
+    "enterPackageName": "Enter Package Name",
+    "enterDiscount": "Enter Discount (%)",
+    "packageName": "Package Name",
+    "numberOfSessions": "Number of %{session}",
+    "discountInPercentage": "Discount (%)",
+    "save": "Save",
+    "validation_messages": {
+      "name": "Please enter a package name",
+      "numberOfSessions": "Please enter number of %{session}",
+      "discount": "Please mention a valid discount rate"
+    }
+  },
+  "ProfilePicture": {
+    "title": "Profile Photo",
+    "upload": "Upload",
+    "change": "Change",
+    "message1": "Photos must be a minimum resolution of ",
+    "message2": "Photos that get the best results are action shots of you coaching, your logo, or individual headshots. Avoid selfies, photos without your face, and group shots.",
+    "seeExample": "See Example",
+    "imageSpecifications": "Image Specifications",
+    "maxFileSize": "Max File Size",
+    "supportedFiles": "Supported Files",
+    "minResolution": "Minimum Resolution",
+    "width": "Width",
+    "height": "Height",
+    "cropMessage": "Crop & adjust your profile image",
+    "save": "Save",
+    "diemesionError": "is not supported. Image must be larger than",
+    "px": "px"
+  },
+  "Redeem": {
+    "how_to_redeem": "How To Redeem Points",
+    "you_can_redemm_points": "You can redeem points you have earned either:",
+    "in_cash": "In a cash reward, by requesting a cash payout",
+    "as_a_discount": "As a discount towards training sessions",
+    "in_the_future": "In the future, you will be able to also have other ways to use your points, so stay tuned!",
+    "points": "Points",
+    "use_your_credit_to_get_discount_on_merchandise": "Use your credit to get discount on merchandise etc.",
+    "i_want_to_redeem_my_point": "I want to redeem my points"
+  },
+  "SocialShare": {
+    "copy": "Copy"
+  },
+  "UpperHeader": {
+    "my_rewards_points": "My Rewards Points",
+    "points": "Points",
+    "use_your_credit_to_get_discount_on_merchandise": "Use your credit to get discount on merchandise etc.",
+    "redeem_points": "Redeem Points",
+    "know_more": "Know More!"
+  },
+  "SSPDashboardUpperHeader": {
+    "welcome": "Welcome",
+    "reviews": "Reviews",
+    "reward_points": "Reward Points",
+    "know_more": "Know More!"
+  },
+  "SSPProfileListing": {
+    "mobileViewErrorMessage": "Note: autocorrection does not support mobile view",
+    "next": "Next",
+    "create": "Create",
+    "yourListing": "Your Listing",
+    "edit": "Edit",
+    "nickname": "Nickname",
+    "businessTitleExample": "E.g Jim's Champion Baseball Coaching",
+    "available": "Available",
+    "notAvailable": "Not Available",
+    "coachlistURL": "CoachList URL",
+    "listingHeading": "Listing heading",
+    "headingMessage": "Appears at the top of your profile page",
+    "headlineExample": "E.g. Cross training at its best!",
+    "seeExamples": "See Examples",
+    "describeCurriculum": "Describe your coaching style & curriculum",
+    "description": "A brief synopsis of what you offer and what sets you apart",
+    "listingDescription": "Let athletes know a bit about yourself, as a coach, and what differentiates you from other service providers",
+    "bioAndCredentials": "Credential summary",
+    "bioDescription": "A brief bio to help athletes understand your accomplishments",
+    "bioMessage": "Let athletes know a bit about your personal accomplishments in the sports and as a coach, to inspire athletes to train with you",
+    "nickName_message": "Your nickname will be a unique name that will be associated with your profile. Make one that you can easily remember. We have some ready-made suggestions for you to choose from here.",
+    "nick_name_message": "Your nickname is a unique name that will be associated with your profile. When you create a nickname, it appears in custom URLs that help people find, remember and message your Profile listing.  We have some ready-made suggestions for you to choose from:",
+    "validation_messages": {
+      "nickName": {
+        "required": "Select a profile nickname.",
+        "valid": "Please use only letters (a-z or A-Z), numbers, and hyphen"
+      },
+      "email": "Please enter a valid email",
+      "heading": "Your profile must contain a listing heading."
+    },
+    "nick_name_placeholder": "E.g BarryJ"
+  },
+  "Upload": {
+    "title": "Upload Photos",
+    "message": "You must upload at least one action photo. Coaches with action photos get double the bookings! Photos must be a minimum resolution of 800 x 600px, and the width should be 1.5x the height (i.e. horizontal photos show better). Photos should demonstrate examples of you coaching teams or action shots that help prospective clients feel excited about working with you.",
+    "seeExample": "See Example",
+    "imageSpecifications": "Image Specifications",
+    "maxFileSize": "Max File Size",
+    "supportedFiles": "Supported Files",
+    "minResolution": "Minimum Resolution",
+    "width": "Width",
+    "height": "Height",
+    "cropMessage": "Crop & adjust your profile image",
+    "saveImage": "Save Profile Image",
+    "upload": "Save",
+    "captionText": "Enter Image Title",
+    "diemesion": "is not supported. Image must be larger than",
+    "px": "px",
+    "uploadMorePhotos": "upload more photos",
+    "validation_messages": {
+      "photos": "Upload at least one action photo"
+    }
+  },
+  "UploadVideo": {
+    "title": "Upload Action Video (Optional)",
+    "message": "Videos that show you in action help clients see that you are a great coach with experience that can help them excel. Do you want to add action photos and/or videos now? You can also add them later.",
+    "seeExample": "See Example",
+    "videoSpecifications": "Video Specifications",
+    "maxFileSize": "Max File Size",
+    "supportedFiles": "Supported Files",
+    "upload": "Save",
+    "captionText": "Enter Video Title"
+  },
+  "ReviewsCard": {
+    "reviews": "Reviews",
+    "reviews_received": "Reviews Received",
+    "average_rating": "Average Rating",
+    "reviews_given": "Reviews Given",
+    "manage": "Manage"
+  },
+  "RewardCard": {
+    "rewards": "Rewards",
+    "rewards_points": "Rewards Points",
+    "invitation_sent": "Invitations Sent",
+    "invitation_accepted": "Invitations Accepted",
+    "manage": "Manage"
+  },
+  "SessionsCard": {
+    "sessions": "Sessions",
+    "booked": "Booked",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "manage": "Manage"
+  },
+  "EarningsCard": {
+    "earnings": "Earnings",
+    "till_date": "Till date",
+    "projected_in": "Projected in",
+    "see_revenue_report": "See Revenue Report"
+  },
+  "DashboardSchedules": {
+    "calendar": "Calendar",
+    "default": "Default",
+    "calender_desc": "You can create different calendars for different seasons and name each independently (different calendars must have non-overlapping dates).",
+    "date_range_for_this_availability": "Date Range For This Availability",
+    "drag_and_drop": "Drag and drop one of these sessions onto the calendar or just click a cell on the calendar",
+    "sync_with_master_calendar": "Sync With Master Calendar",
+    "create_another_calendar": "Create Another Calendar",
+    "for_different_data_range": "for a different date range, for example",
+    "activationTitle": "You are in the final stretch!",
+    "activationMessage": "You can schedule your %{session} below and once done you will be listed in our search results.",
+    "activationMessage2": "If you would like to go back and edit your",
+    "activationMessage3": "service profile click here.",
+    "p1": "Schedule your",
+    "sessions": "%{session}",
+    "p2": "Review your",
+    "serviceProfile": "%{service} profile",
+    "p3": "Publish & Get",
+    "listed": "Listed",
+    "publishProfile": "Publish Profile",
+    "previewProfile": "Preview Profile",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "A": "Any"
+    },
+    "startDateFormat": "h:mm",
+    "endDateFormat": "h:mm a",
+    "bookingPrefarance": "Booking Preference : ",
+    "manual": "Manual",
+    "automatic": "Automatic",
+    "scheduleSessionMessage": "You can create different calendars for different seasons and name each independently (Different calendars must have non-overlapping dates)00",
+    "scheduleSessionMessage2": "To Schedule new session please click the link 'Schedule a session'",
+    "scheduleASession": "SCHEDULE A SESSION",
+    "createASession": "CREATE A SESSION",
+    "manageBooking": "MANAGE BOOKING",
+    "sessionHistory": "SESSION HISTORY",
+    "openPositions": "%{open}/%{total} open positions",
+    "today": "Today",
+    "itemOptinMenu": {
+      "reSchedule": "Re-Schedule",
+      "inviteAthletes": "Invite Athletes",
+      "changeLocation": "Change Location",
+      "addNotes": "Add Notes",
+      "overidePricing": "Override Pricing",
+      "buffer": "Buffer",
+      "viewBookings": "View Bookings",
+      "repeat": "Repeat",
+      "remove": "Remove",
+      "cancel": "Cancel",
+      "openPositions": "Open Position",
+      "overrideGroupSize": "Override Group Size",
+      "edit": "Edit"
+    },
+    "eventPrice": "%{priceUnit}%{price}",
+    "dateFormat": "MMMM Do, YYYY",
+    "noScheduledSessionsMsgDateFormat": "DD MMMM YYYY",
+    "noScheduledSessionsMsg": "You have 0 Sessions Scheduled for : %{dateString}",
+    "ClickHereToSchedule": "Click here to schedule",
+    "upcommingSessions": "Upcoming Sessions:",
+    "repeatedSession": "(Repeated Session)"
+  },
+  "ManageBooking": {
+    "filterBy": "FILTER BY",
+    "allSessions": "All Sessions",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "nextMonth": "Next Month",
+    "all": "All",
+    "forever": "Forever",
+    "athlete": "Athlete",
+    "bookedOn": "Booked on",
+    "purchasedOn": "Purchased on",
+    "by": " by",
+    "upcoming": "Upcoming",
+    "takeAction": "Take Action",
+    "viewSessionDetails": "View Session Details ",
+    "numPurchased": "%{qty} Purchased",
+    "priceWithUnit": "%{unit}%{price}",
+    "viewAll": "View All",
+    "viewOrderDetail": "View order detail",
+    "reportAthlete": "Report athlete",
+    "cancelFutureSession": "Cancel future sesssion(s)",
+    "rescheduleDeclineWarningMessage": "You missed the slot when athlete wanted to schedule his sessions, we recomend you immediately send reschedule request before the athlete cancels the booking.",
+    "originallyScheduledOn": "Originally was scheduled by athlete on:",
+    "yourRrquested": "Your requested to re-schedule was sent to athlete on ",
+    "forAReson": "for reason: ",
+    "reschedule": "RESCHEDULE",
+    "accept": "ACCEPT",
+    "completed": "COMPLETED",
+    "requestReview": "REQUEST REVIEW",
+    "sendReminder": "SEND REMINDER",
+    "back": "Back",
+    "upcomming": "Upcoming",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "A": "Any"
+    },
+    "gender": "Gender",
+    "ageGroup": "Age Group:",
+    "height": "Height:",
+    "weight": "Weight:",
+    "experience": "Experience:",
+    "sportNamePlaceholder": "Sport name",
+    "athletePlaceHolder": "Athlete name",
+    "paginateNext": "Next",
+    "paginatePrev": "Previous",
+    "send_reminder": "SEND REMINDER",
+    "allSpotsFull":"All %{totalSlots} spots are full",
+    "spotsRemaining":"%{openSlot} of %{totalSlots} spots remaining"
+  },
+  "SessionHistory": {
+    "numSessionCompletedIn": "%{totalsessions} Session(s) completed in:",
+    "lastNumDays": "Last %{numDays} Days",
+    "forever": "Forever",
+    "athlete": "Athlete",
+    "status": "Status",
+    "active": "Active",
+    "closed": "Closed",
+    "bookedOn": "Purchased on ",
+    "by": " by",
+    "upcoming": "Upcoming",
+    "viewSessionDetails": "View Session Details ",
+    "viewBookingStatus": "View Booking Status",
+    "purchased": "Purchased",
+    "reportAthlete": "Report athlete",
+    "viewOrderDetail": "View order detail",
+    "cancelFutureSession": "Cancel future sesssion(s)",
+    "rescheduleDeclineWarningMessage": "You missed the slot when athlete wanted to schedule his sessions, we recomend you immediately send reschedule request before the athlete cancels the booking.",
+    "originallyScheduledOn": "Originally was scheduled by athlete on:",
+    "yourRrquested": "Your requested to re-schedule was sent to athlete on ",
+    "forAReson": "for reason: ",
+    "reschedule": "RESCHEDULE",
+    "accept": "ACCEPT",
+    "completed": "COMPLETED",
+    "requestReview": "REQUEST REVIEW",
+    "sendReminder": "SEND REMINDER",
+    "back": "Back",
+    "sorters": {
+      "mostRecent": "Most Recent",
+      "alphabetical": "A to Z"
+    },
+    "all": "All"
+  },
+  "CancelSession": {
+    "title": "Cancel Session",
+    "message": "Are you sure you want to cancel this session and refund the athletes ?",
+    "reasonForCancel": "Reason for cancel",
+    "travelling": "Travelling",
+    "study": "Study",
+    "messageLabel": "Message",
+    "hint": "write you detailed reason for cancelling this session",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "validation": {
+      "reason": "Please select reason for cancelling.",
+      "message": "Please enter message for cancelling."
+    }
+  },
+  "ChangeLocationModal": {
+    "title": "Change Location",
+    "message": "If you change the location of this session now, an email will be sent to all athletes who have booked this session. Please note this could cause cancellations if an athlete cannot attend at the new location.",
+    "location": "Location",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "InviteAthlete": {
+    "title": "Invite Athlete",
+    "athleteEmails": "Athlete Emails",
+    "athleteName": "Athlete name",
+    "searchAthlete": "Search Athlete",
+    "inviteAthleteInputPlaceHolder": "Type Name or Email",
+    "invalidEmailToolTip": "Invalid email address.",
+    "validationMessage": {
+      "required": "Please select one Athlete or enter one email address to invite.",
+      "email": "Invalid email address."
+    },
+    "ok": "Ok"
+  },
+  "OveridePrice": {
+    "title": "Override Price",
+    "message": "If you change the price now, athletes who already has bought the session will not get effected but only future booking will be charged the new price",
+    "newPrice": "New Price",
+    "newPriceMessage": "Standard pricing per athlete is",
+    "hour": "hour",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "validation": {
+      "overridePrice": "please enter valid override price."
+    }
+  },
+  "RemoveSession": {
+    "title": "Remove Session",
+    "message": "you can remove this session as this session has no bookings yet.",
+    "clickYesToRemove": "Click yes to remove.",
+    "yes": "Yes",
+    "cancel": "Cancel"
+  },
+  "RepeatSession": {
+    "title": "Repeat Session",
+    "frequency": "Frequency",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "endRepeat": "End Repeat",
+    "onDate": "On Date",
+    "forever": "Forever",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "weekDays": {
+      "MON": "Mo",
+      "TUE": "Tu",
+      "WED": "We",
+      "THU": "Th",
+      "FRI": "Fr",
+      "SAT": "Sa",
+      "SUN": "Su"
+    },
+    "validation": {
+      "frequency": "Please select frequency for session repeat.",
+      "endRepeat": "Please select end repeat.",
+      "endRepeatTime": "Please select end repeat time.",
+      "days": "Please select week days to repeat session."
+    }
+  },
+  "ReSchedule": {
+    "currentlyScheduleOn": "Currently Schedule On",
+    "title": "Re-Schedule",
+    "message": "Once you hit submit a re-schedule request will be sent to athletes who have already scheduled it for ",
+    "date": "Select Date:",
+    "selectSession": "Availability:",
+    "reasonForReSchedule": "Reason for Re-Schedule",
+    "travelling": "Travelling",
+    "study": "Study",
+    "messageLabel": "Message",
+    "hint": "Please include a reason that will be sent to all registrants for why this sessions is being rescheduled.",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "groupSize": "Group Size : %{min} - %{max}",
+    "location": "Location : ",
+    "level": "Level : %{level}",
+    "trainingType": "Training type : %{trainingType}",
+    "ageGroup": "Age Group : %{ageGroup}",
+    "sessionSlotOptions": "Session %{number}: %{startTime} - %{endTime}",
+    "sessionSlotOption": "%{startTime} - %{endTime}",
+    "selectSessionSlot": "Select available time slot",
+    "selectASessionSlot": "Select available time slot",
+    "selectAReason": "Select a reason",
+    "availabilitySlot": "Currently %{bookedSlots} of %{totalSlots} Slots are booked",
+    "validation": {
+      "startDate": "Please select reschedule date.",
+      "message": "Please enter message for rescheduling.",
+      "reason": "Please select reason for rescheduling.",
+      "sessionSlot": "Please select available session slot to reschedule."
+    },
+    "edit_schedule": "Edit Session"
+  },
+  "ScheduleASession": {
+    "title": "Schedule a session",
+    "date": "Date:",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "session": "Session",
+    "save": "Save",
+    "cancel": "Cancel",
+    "selectSession": "Select session",
+    "selectSport": "Select Sport",
+    "selectStartTime": "Select start time",
+    "selectEndTime": "Select end time",
+    "totalOpenPositions": "Total Open Positions",
+    "overridePricing": "Override Pricing",
+    "alert": {
+      "noAvailableSlot": "No availables start time for selected date"
+    },
+    "validation": {
+      "sport": "Please select sport",
+      "session": "Please select session",
+      "date": "Please select date",
+      "endTime": "Please select end time",
+      "endTimeValid": "End time must be after start time",
+      "startTime": "Please select start time",
+      "totalSlots": "please enter total open positions must be between %{min} and %{max}.",
+      "schedulerSettingsNotSet": "You have not set any available hours for this day, please set it in Scheduler settings.",
+      "notSaved": "Unable to save scheduled session!"
+    },
+    "groupTraining": "Group Training",
+    "teamTraining": "Team Training",
+    "clinics": "Clinics"
+  },
+  "SchedulerSettings": {
+    "title": "Scheduler Settings",
+    "daysPerWeek": "Days per week:",
+    "startWeekOn": "Start week on:",
+    "days": {
+      "MON": "Monday",
+      "TUE": "Tuesday",
+      "WED": "Wednesday",
+      "THU": "Thursday",
+      "FRI": "Friday",
+      "SAT": "Saturday",
+      "SUN": "Sunday"
+    },
+    "bufferTimeOptions": "%{minutes} minutes",
+    "time": {
+      "10Min": "10 minutes",
+      "30Min": "30 minutes",
+      "60Min": "60 minutes"
+    },
+    "workStartsAt": "Work Starts at:",
+    "workEndsAt": "Work Ends at:",
+    "selectYourSports": "Select Your Sport:",
+    "defaultSession": "Default Session:",
+    "defaultSessionLengths": "Session Length",
+    "bufferBetweenSessions": "Buffer Between Sessions",
+    "overridePricing": "Override Pricing",
+    "plcSingleSessionPrice": "Single Session Price",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "selectWorkingDaysAndHours": "Select working days and hours",
+    "validation": {
+      "defaultSessionId": "Please select default session.",
+      "defaultSessionLength": "Enter valid session length  (greater than or equal to %{minimum} mins, in multiple of %{step} mins)",
+      "bufferBetweenSession": "Please select buffer between session.",
+      "overridePricing": "Please enter valid override pricing."
+    }
+  },
+  "SessionBuffer": {
+    "title": "Session Buffer",
+    "bufferBetweenSessions": "Buffer between sessions in mins",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "OveridePositions": {
+    "title": "Override Number of Slots",
+    "noOfPositions": "Number Of Slots",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "SessionNotes": {
+    "title": "Session Notes",
+    "message": "Notes or special instructions",
+    "enterYourNotesHere": "Enter your notes here",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "validation": {
+      "sessionNotes": "Please enter session notes"
+    }
+  },
+  "DashboardSessionSideNav": {
+    "training_locations": "Training Locations",
+    "set_pricing": "Set Pricing",
+    "define_sessions": "Define Sessions",
+    "locations": "%{offerTerminology} Locations",
+    "define": "Define %{offerTerminology}"
+  },
+  "DashboardLocationAdd": {
+    "add_new_locations": "Add New Locations",
+    "back": "Back"
+  },
+  "PayoutDetails": {
+    "title": "Payout Details",
+    "message": "Let us know how to pay you when you complete booked sessions with Athletes.",
+    "currency": "Currency",
+    "currencyList": {
+      "usd": "$ - USD",
+      "gbp": "£ - GBP"
+    },
+    "selectPayout": "Select A Payout Option",
+    "transferToPaypal": "Transfer income into My PayPal account.",
+    "bank": "Bank",
+    "transferToBank": "BANK Transfer money directly into my bank account.",
+    "validation_messages": {
+      "payoutOption": "At this time we accept PayPal and direct Bank payout methods. You must choose one.",
+      "currency": "Provide a currency type."
+    },
+    "select_currency": "Select currency",
+    "recievePaymentsBy": "Receive payments by",
+    "bank_cap": "BANK",
+    "account_number": "321186345",
+    "routing_number": "74218447"
+  },
+  "PaypalSettings": {
+    "title": "Paypal Settings",
+    "header": "PayPal charges payment processing fees.",
+    "learn": "Learn how PayPal works",
+    "email": "EMAIL ADDRESS LINKED TO YOU PAYPAL ACCOUNT",
+    "emailExample": "jim@gmail.com",
+    "dontHaveOne": "Don't have one?",
+    "setUpPaypal": "Set up your PayPal account",
+    "recievePaymentThroughtPaypal": "Receive Payment Through Paypal",
+    "validation_messages": {
+      "email": {
+        "required": "Please enter email",
+        "email": "Select a valid email format, e.g. name@email.com"
+      }
+    },
+    "thank_you": "Thank You!",
+    "your_email": "Your email",
+    "verification_message": "has now been validated you can proceed to PayPal Account settings.",
+    "verifySuccessMessage": "Your email \"%{paypalEmail}\" has now been validated you can proceed to PayPal Account settings."
+  },
+  "DashboardLocationList": {
+    "training_locations": "Training Locations",
+    "let_clients_know": "Let clients know where they can train with you",
+    "add_another_location": "Add Another Location",
+    "heading": "Locations you provide your services in"
+  },
+  "SaveButton": {
+    "save": "Save",
+    "save_continue": "save & continue",
+    "continue": "Continue",
+    "error_message": "Something went wrong, Please try again"
+  },
+  "DashboardProfileSideNav": {
+    "my_ssp_profile": "My SSP Profile",
+    "listing_details": "Listing Details",
+    "sports_and_certificate": "Service",
+    "training_preference": "Training Preference",
+    "photos_and_videos": "Photos and Videos",
+    "biography": "Biography",
+    "newSport": "New Sport",
+    "travel_preference": "Travel Preference",
+    "complete_service_profile": "Complete Service Profile",
+    "preference": "%{offerTerminology} Preference",
+    "schedules":"Schedules"
+  },
+  "DashboardAccount": {
+    "business_model_pay_per_booking": "Business Model - Pay Per Booking or Paid Subscription",
+    "select_the_best_revenue": "Select the best revenue opportunity for yourself when training",
+    "coming_soon": "Coming Soon!",
+    "save_with_a_paid_sunscription": "Save with a Paid Subscription",
+    "cost_effective": "CoachList CRM! A cost-effective solution to manage all your back-end office needs.",
+    "fees": "Fees",
+    "you_pay": "For just $40 per month you will get a full Customer Relationship Manager (CRM) and channel manager to manage your entire business, including a white-label system to promote your business, publish your calendar and reviews, and enable real-time bookings on your own website.",
+    "paidSubscription": "Paid Subscription",
+    "learnMore": "Learn More",
+    "payPerBookingMessage": "You pay nothing up front. CoachList only takes a percentage of each client training session you conduct, based on the business we generate for you.",
+    "payPerBookingCoachlistMessage": "CoachList takes 25% of the first session, and 8 - 14% of each session thereafter.",
+    "validationMessage": {
+      "businessModel": "Please select business model"
+    }
+  },
+  "DashboardAccountSideNav": {
+    "business_model": "Business Model",
+    "booking_preferences": "Booking Preferences",
+    "account_details": "Account Details",
+    "payout_details": "Payout Details",
+    "payout_history": "Payout History",
+    "scheduler": "Scheduler",
+    "sport_profile": "%{sportName} Profile",
+    "wallet": "Account Balance"
+  },
+  "DashboardContentTop": {
+    "welcome_to_coachList": "Welcome to CoachList",
+    "congratulations": "Congratulations on posting a profile on CoachList! We look forward to helping you grow your business as a sports services provider. In the mean time, here are some helpful hints about what you can do to manage your profile, attract athletes to you, and continue to expand your reach, and generally, how to get around. This is your Dashboard page, your Home page when you log back into CoachList. If you want to update your....",
+    "coming_soon": "Coming Soon",
+    "more_feature": "We are constantly working for more better and new features that will help you in your business.",
+    "messaging_system": "Messaging System",
+    "team_management": "Team Management",
+    "coachlist_pro": "CoachList Pro!",
+    "learn_more": "Learn more"
+  },
+  "DashboardContentTopModal": {
+    "what_you_can_do_here": "What you can do here",
+    "dashboard": "Dashboard",
+    "dashboard_desc": "View how many sessions have been booked, your revenue, earings, a summary of reviews and your rewards.",
+    "schedule": "Schedule",
+    "schedule_desc": "Update your calendar availability, view who has booked with you, and add sessions to your calendar.",
+    "sessions": "Sessions",
+    "sessions_desc": "Create, modify and delete session types, such as adding group coaching sessions or adding different session types for different age groups or genders.",
+    "profile": "Profile",
+    "profile_desc": "Update your listing details, sports in which you instruct, your tarining preferences (ages, skill levels, individual versus group, gender and so on), and your photos and videos.",
+    "close": "Close"
+  },
+  "months": {
+    "Jan": "Jan",
+    "Feb": "Feb",
+    "Mar": "Mar",
+    "Apr": "Apr",
+    "May": "May",
+    "Jun": "Jun",
+    "Jul": "Jul",
+    "Aug": "Aug",
+    "Sep": "Sep",
+    "Oct": "Oct",
+    "Nov": "Nov",
+    "Dec": "Dec"
+  },
+  "rewardsHistoryFilters": {
+    "all": "all",
+    "referrals": "referrals",
+    "sessionComplete": "sessionComplete"
+  },
+  "SchedulesAgendaClass": {
+    "open_positions": "Total Slots",
+    "booking_request": "Booking requests & inquiries.",
+    "see_all": "See all",
+    "user_types": {
+      "S": "SSP"
+    }
+  },
+  "DashboardMessagesSideNav": {
+    "inbox": "Inbox",
+    "starred": "Starred",
+    "unread": "Unread",
+    "sent": "Sent",
+    "drafts": "Drafts",
+    "archived": "Archived",
+    "trash": "Trash",
+    "labels": "Labels",
+    "notifications": "Notifications"
+  },
+  "SentMessageView": {
+    "to": "To",
+    "messageDateTime": "MMM D, h:mm A"
+  },
+  "NewMessageLabel": {
+    "newLabel": "+ New Label",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "DashboardMessagesTopMenu": {
+    "newMessage": "+ New Message"
+  },
+  "MessageThreadItem": {
+    "dateTimeFormatSameDay": "h:mm A",
+    "dateTimeFormatDiffDay": "MMM D",
+    "you": "You",
+    "more": "more",
+    "noMessage": "You have no messages to display"
+  },
+  "MessageActionFilters": {
+    "allSessions": "All Sessions",
+    "messageTypes": "Message Types",
+    "session": "Session",
+    "searchBoxPlaceholder": "Search by name, subject or body",
+    "selectSports": "Select Sports",
+    "sessionName": "Session name",
+    "sessionLocation": "Session location",
+    "sessionDate": "Session Date",
+    "searchMessages": "Search Messages",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "allMessages": "All messages",
+    "bookingRequest": "Booking request",
+    "all": "All",
+    "accepted": "Accepted",
+    "declined": "Declined",
+    "enquiry": "Enquiry",
+    "notResponded": "Not responded",
+    "sentCustomPackage": "Send custom package",
+    "rescheduleRequest": "Reschedule Request",
+    "conversation": "Conversation",
+    "sessionDateFormat": "D-M-YYYY",
+    "txtSport": "Sport",
+    "txtSession": "Session",
+    "txtLocation": "Location"
+  },
+  "MessageThreadViewToolbar": {
+    "tooltipReply": "Reply",
+    "tooltipReplyAll": "Reply All",
+    "tooltipForward": "Forward",
+    "tooltipStar": "Star",
+    "tooltipUnStar": "Unstar",
+    "tooltipLabels": "Labels",
+    "tooltipArchive": "Archive",
+    "tooltipUnArchive": "Move to inbox",
+    "tooltipDelete": "Delete",
+    "tooltipUnTrash": "Un-Trash",
+    "tooltipAddLabel": "Add Label",
+    "btnDone": "Done",
+    "btnCancel": "Cancel",
+    "btnReset": "Reset",
+    "titleChooseLabel": "Choose label"
+  },
+  "RecievedMessageHeader": {
+    "toMe": "me",
+    "messageDateTime": "MMM D, h:mm A",
+    "reply": "Reply",
+    "replyAll": "Reply All",
+    "forward": "Forward"
+  },
+  "DraftMessage": {
+    "dateTimeFormatSameDay": "h:mm A",
+    "dateTimeFormatDiffDay": "MMM D",
+    "more": "more"
+  },
+  "MessageThreadListSorter": {
+    "textSortBy": "Sort by",
+    "recieved": "Recieved",
+    "sender": "Sender",
+    "newest": "Newest",
+    "oldest": "Oldest"
+  },
+  "Welcome": {
+    "title": "Welcome back,",
+    "message": "Ready to go? Welcome back! Let's get your profile page posted. To actively publish your business on the CoachList marketplace",
+    "message2": "you'll just need to complete just a few more things:",
+    "message3": "Let's get you online so you can start getting athletes to book sessions with you!",
+    "letsGo": "Let's Go!",
+    "regStages": {
+      "1": "Build your profile",
+      "2": "Training Preferences",
+      "3": "Profile Listing",
+      "4": "Photos and Videos",
+      "5": "Pricing",
+      "6": "Training Locations",
+      "7": "Sessions",
+      "8": "Scehdule",
+      "9": "Business Model",
+      "10": "Booking Preferences",
+      "11": "Account Details",
+      "12": "Payout Details"
+    },
+    "sports_and_experince": {
+      "a": "Sport & Experience",
+      "p": "Define the sports that you provide services for, and the amount of experience that you have both playing and teaching it. This will help us match you up with athletes that are looking for service providers like you."
+    },
+    "sports_and_certifications": "Degrees & Certifications",
+    "training_preferences": {
+      "a": "Training Preferences",
+      "p": "Let us know what types of Athletes you prefer to work with. You can set Age Ranges, Skill Levels, Genders, and whether you provide Private or Group Sessions"
+    },
+    "listing_details": {
+      "a": "Listing Details"
+    },
+    "media": {
+      "a": "Upload Photos & Videos"
+    },
+    "degrees_and_certifications": {
+      "a": "Degrees & Certifications"
+    },
+    "set_pricinig": {
+      "a": "Set Pricing",
+      "p": "Set your refund policies and your pricing for private sessions, groups, or even entire teams. You can even setup pricing specific to age groups or skill levels."
+    },
+    "define_training_locations": {
+      "a": "Define Training Locations",
+      "p": "Let Athletes know how far you are willing to travel, then set up and save your favorite training locations."
+    },
+    "define_sessions": {
+      "a": "Define Sessions",
+      "p": "Define session templates by setting Ages, Skill Levels, Locations, and session length. This will make it easier to organize your availability and schedule."
+    },
+    "schedule_sessions": {
+      "a": "Schedule Sessions",
+      "p": "Drag and drop your Sessions directly onto your Calendar to create recurring events."
+    },
+    "account_details": {
+      "a": "Account Details"
+    },
+    "payout_details": {
+      "a": "Payout Details"
+    },
+    "build_your_profile": "Build Your Profile",
+    "define_training_sessions": "Define Training Sessions",
+    "complete_your_account": "Complete Your Account",
+    "product_options": {
+      "a": "Product Options"
+    },
+    "booking_preferences": {
+      "a": "Booking Preferences"
+    },
+    "activate_profile": "Activate Profile"
+  },
+  "FinishLaterModal": {
+    "title": "Oops!",
+    "message": "This will log you out. Are you sure you want to continue ?",
+    "yes": "Yes, log me out",
+    "no": "No, I'm not done"
+  },
+  "VerifyEmail": {
+    "verify_email": "Verify Email",
+    "p1": "We see that you have entered a different email address for your PayPal Account. We need to Validate that this email address belongs to you.",
+    "p2": "We have e-mailed your account verification code to ",
+    "p3": "Please check your email and apply the code below.",
+    "ok": "OK",
+    "resend": "Resend Code",
+    "validation_message": {
+      "code_length": "Invalid Code",
+      "match": "The pin does not match with the one sent in email"
+    },
+    "cancel": "Cancel",
+    "enter": "Enter",
+    "code": "Digit code"
+  },
+  "CongratulationModal": {
+    "h2": "Congratulations- you have a published profile!",
+    "p1": "Clients can see your page and book sessions with you!",
+    "p2": "We're going to take you to your dashboard. To modify your profile, select Profile from the Settings menu.",
+    "p3": "We will also let you know what else you can to do make yourself stand out to potential clients and how to optimize your business!",
+    "ok": "Ok",
+    "error_message": "Unable to active you profile"
+  },
+  "CongratulationModalAthlete": {
+    "h2": "Congratulations- you have completed your profile!",
+    "p1": "You can now search and book sessions with sports service providers!",
+    "p2": "We're going to preselect your preferences for you. You may modify your preferences at any time from your dashboard",
+    "p3": "We will also let you know what else you can do to make the best use of CoachList services!",
+    "ok": "Ok",
+    "error_message": "Unable to active you profile"
+  },
+  "ISPAddDegree": {
+    "add_degree": "Add Degree",
+    "h2": "add university degree",
+    "label1": "Institution",
+    "validation_messages": {
+      "input": "Please select a degree",
+      "institution": "Please select a institution",
+      "year": "Please select a year"
+    },
+    "label2": "Degree Name",
+    "placeholder1": "Type your institution name",
+    "placeholder2": "Type your degree name",
+    "label3": "Which Year?",
+    "select_year": "Select Year",
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "AddNewDegree": {
+    "addDegree": "Add Degree",
+    "note": "Note",
+    "noteDesc": "The degree you add here will be sent to our backend team for validation and once approved will be added to your profile.",
+    "name": "Name",
+    "validation_messages": {
+      "degree_name": "Please enter the degree name"
+    },
+    "add": "Add",
+    "cancel": "Cancel",
+    "placeholder": "Type your degree name",
+    "server_error": "Something went wrong, Please try again"
+  },
+  "CantFind": {
+    "cantFind": "CAN'T FIND? ADD NOW"
+  },
+  "AddNewInstitution": {
+    "h2": "Add Institution",
+    "note": "Note",
+    "p": "The institute detail you add here will be sent to our backend team for validation and once approved will be added to our master database and your profile.",
+    "name": "Name",
+    "placeholder1": "Type your Institution name",
+    "validation_messages": {
+      "name": "Please enter institution name",
+      "country": "Please select a country",
+      "state": "Please enter the state",
+      "city": "Please enter the city"
+    },
+    "country": "Country",
+    "select_country": "Select country",
+    "state": "State",
+    "placeholder2": "Select institution state",
+    "placeholder3": "Type your city",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "city": "City"
+  },
+  "DashboardAccountDetails": {
+    "businessInfo": "Account Details",
+    "manageBusinessDetails": "Manage your business details",
+    "businessWebsite": "Business Website",
+    "businessAddress": "Business Address",
+    "enterBusinessAddrBelow": "Enter your business address below",
+    "personalInfo": "Personal Information",
+    "managePersonalDetails": "Manage your personal details",
+    "personalAddress": "Personal Address",
+    "enterYourAddressBelo": "Enter your address below",
+    "continue": "continue",
+    "business_number": "Business Number",
+    "business_email": "Business Email",
+    "change": "Change",
+    "verify_now": "Verify Now",
+    "emailPlaceholder": "info@abcd.com",
+    "email_address": "Email Address (Username)",
+    "verified": "Verified",
+    "emailAlreadyExists": "Email %{email} already registered.",
+    "phone_numbers": "Phone Numbers",
+    "phone_desc": "We need at least a mobile phone number to text or call about cancellations, bookings, or other events."
+  },
+  "Biography": {
+    "h1": "Biography",
+    "p": "Showcase your accomplishments here. List any Degrees and Awards you've earned, Certifications you've completed, Affiliations you may have, and any Training Tools you utilize.",
+    "degrees": "Degrees ",
+    "certifications": "Certifications ",
+    "affiliations": "Affiliations ",
+    "institutions": "Institutions ",
+    "awards": "Awards ",
+    "tools": "Tools ",
+    "degree": "Degree",
+    "certification": "Certification",
+    "affiliation": "Affiliation",
+    "institution": "Institution",
+    "award": "Award",
+    "tool": "Tool",
+    "university_degrees": "University Degrees",
+    "you_have_not_added_any_degrees_yet": "You have not added any degrees yet.",
+    "related_degrees": "Related Degrees",
+    "you_have_not_adde_any": "You have not added any",
+    "degrees_yet": "degrees yet.",
+    "you_have_not_added_any_certification_yet": "You have not added any certification yet.",
+    "related_certification": "Related Certifications",
+    "you_have_not_added_any_awards_yet": "You have not added any awards yet.",
+    "related_awards": " Related Awards",
+    "awards_yet": "awards yet",
+    "you_have_not_added_any_affiliations_yet": "You have not added any affiliations yet.",
+    "related_affiliations": "Related Affiliations",
+    "affiliations_yet": "affiliations yet.",
+    "you_have_not_added_any_tools_yet": "You have not added any teaching tools yet.",
+    "related_tools": "Related Tools",
+    "tools_yet": "teaching tools yet.",
+    "youHaveNotFilled": "You have not added any %{notFilled}. Are you sure you want to add those later from your dashboard? People with more details in there profile get higher rate in bookings.",
+    "close": "Close",
+    "master_data_submitted": "Thank you - we have received your %{type} submission. We'll review the new addition request and get it posted as soon as possible.",
+    "captionYOE": "YEARS OF EXPERIENCE",
+    "captionCertifications": "CERTIFICATIONS",
+    "captionAwards": "AWARDS",
+    "captionAffiliations": "AFFILIATIONS",
+    "captionAccomplishments": "ACCOMPLISHMENTS",
+    "captionDegrees": "DEGREES",
+    "captionTTT": "Training or Teaching Tools",
+    "captionYears": "years, ",
+    "captionCoaching": "YEARS OF Coaching / Training / Instruction EXPERIENCE",
+    "captionGolf": "Golf",
+    "captionPlaying": "YEARS OF Playing EXPERIENCE",
+    "labelSports": "SPORTS",
+    "labelGeneral": "GENERAL",
+    "year": "Year",
+    "add": "Add",
+    "edit": "Edit",
+    "save": "Save",
+    "yes": "Yes",
+    "no": "No",
+    "addHighlights": "Add highlights",
+    "accomplishment": "Accomplishment",
+    "sportRelation": "Is this related to %{sportName} ?",
+    "experience": "Experience (highlights)",
+    "coachingExperience": "Coaching experience years",
+    "awardsAndAccomplishments": "Awards & Accomplishments",
+    "selectType": "Select Type",
+    "error": "There must be an internal error. Please try reloading this page",
+    "notSaved": "You have unsaved data. Do you want to discard ?",
+    "deleteMessage": "Are you sure you want to delete %{type} ?",
+    "description": "Description",
+    "descriptionPlaceHolder": "Describe your accomplishment",
+    "typeAward": "Type Award",
+    "awardName": "Award Name",
+    "typeOrganization": "Type Organization",
+    "organizationName": "Organization Name",
+    "typeInstitution": "Type Institution",
+    "institutionName": "Institution Name",
+    "typeCertification": "Type Certification",
+    "certificationName": "Certification Name",
+    "typeDegree": "Type Degree",
+    "degreeName": "Degree Name",
+    "typeTool": "Type Tool",
+    "toolName": "Tool Name",
+    "playing": "Playing",
+    "coaching": "Coaching",
+    "coachingExperiencePlaceHolder": "Enter some career highlights here",
+    "playingExperiencePlaceHolder": "Enter some playing highlights here",
+    "areYouCertified": "Are you certified ?",
+    "sportsAward": "Sports Award",
+    "generalAward": "General Award",
+    "sportsAccomplishment": "Sports Accomplishment",
+    "generalAccomplishment": "General Accomplishment",
+    "sportsCertification": "Sports Certification",
+    "generalCertification": "General Certification",
+    "sportsDegree": "Sports Degree",
+    "generalDegree": "General Degree",
+    "sportsAffiliation": "Sports Affiliation",
+    "generalAffiliation": "General Affiliation",
+    "sportsExperience": "Sports Experience",
+    "sportsTool": "Sports Tool",
+    "generalTool": "General Tool",
+    "validation_messages": {
+      "year": "Enter a valid year",
+      "description": "Enter Description",
+      "award": "Enter an award",
+      "institution": "Enter an Institution",
+      "organization": "Enter an Organization",
+      "certification": "Enter a Certification",
+      "degree": "Enter a Degree",
+      "experience": "Enter your experience",
+      "tool": "Enter a tool"
+    }
+  },
+  "ISPAddCertifications": {
+    "add_certification": "Add Certification"
+  },
+  "AddNewCertification": {
+    "h2": "Add Certificate",
+    "note": "Note",
+    "noteDesc": "The certificate you add here will be sent to our backend team for validation and once approved will be added to your profile.",
+    "validation_messages": {
+      "certification_name": "Please enter the certification name"
+    },
+    "name": "Name",
+    "add": "Add",
+    "cancel": "Cancel",
+    "placeholder": "Type your certification name",
+    "server_error": "Something went wrong, Please try again"
+  },
+  "ISPAddCertification": {
+    "add_degree": "Add Certification",
+    "h2": "Add Certification",
+    "label1": "Institution",
+    "validation_messages": {
+      "input": "Please select a Certification",
+      "institution": "Please select a institution",
+      "year": "Please select an year"
+    },
+    "label2": "Certification Name",
+    "placeholder1": "Type your institution name",
+    "placeholder2": "Type your certification name",
+    "label3": "Which Year?",
+    "select_year": "Select Year",
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "DashboardChangePassword": {
+    "changePassword": "Change Password",
+    "instruction": "Please use at least 8 characters in a combination of alpha numeric characters, including at least one upper case, one number, and one general punctuation character",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "btnUpdate": "Update",
+    "currentPassPlaceholder": "Enter your current password",
+    "newPassPlaceholder": "Enter your new password",
+    "confirmPassPlaceholder": "Confirm your new password",
+    "validationMessages": {
+      "currentPassword": "Please enter current password",
+      "newPassword": "Please enter new password",
+      "passwordMatch": "Please ensure confirm password is same as new password",
+      "passwordPattern": "The password you have entered is too weak",
+      "confirmPassword": "Please enter confirm password"
+    }
+  },
+  "DashboardAccountDeactivate": {
+    "deactivateAccount": "Deactivate Account",
+    "msgWithSupportEmail": "If you've run into an issue with your account, do reach out to us at %{firstSupportEmail} or %{secondSupportEmail}",
+    "msg2": "If you still want to, you may deactivate your account."
+  },
+  "ISPAddAwards": {
+    "add_awards": "Add Awards",
+    "h2": "Add Award",
+    "label1": "Institution",
+    "validation_messages": {
+      "input": "Please select a award",
+      "institution": "Please select a institution",
+      "year": "Please select an year"
+    },
+    "label2": "Award Name",
+    "placeholder1": "Type your institution name",
+    "placeholder2": "Type your award name",
+    "label3": "Which Year?",
+    "select_year": "Select Year",
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "AddNewAward": {
+    "h2": "Add Award",
+    "note": "Note",
+    "noteDesc": "The award you add here will be sent to our backend team for validation and once approved will be added to your profile.",
+    "validation_messages": {
+      "certification_name": "Please enter the award name",
+      "year": "Please select an year"
+    },
+    "name": "Name",
+    "add": "Add",
+    "cancel": "Cancel",
+    "placeholder": "Type your award name",
+    "server_error": "Something went wrong, Please try again",
+    "label3": "Which Year?",
+    "select_year": "Select Year"
+  },
+  "ISPAddAffiliation": {
+    "add_subject": "Add General Affiliations",
+    "label": "Organization",
+    "placeholder1": "Type your organization name",
+    "validation_messages": {
+      "name": "Please select an organization"
+    },
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "AddNewOrganization": {
+    "h2": "Add Organization",
+    "note": "Note",
+    "p": "the institute detail you add here will be sent to our backend team for validation and once approved will be added to our master database and your profile.",
+    "name": "Name",
+    "placeholder1": "Type your Organization name",
+    "validation_messages": {
+      "name": "Please enter organization name",
+      "country": "Please select a country",
+      "state": "Please enter the state",
+      "city": "Please enter the city"
+    },
+    "country": "Country",
+    "select_country": "Select country",
+    "state": "State",
+    "placeholder2": "Select organization state",
+    "placeholder3": "Type your city",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "city": "City"
+  },
+  "ISPSportsAddAffiliation": {
+    "add_subject": "Add Affiliations",
+    "label": "Organization",
+    "placeholder1": "Type your organization name",
+    "validation_messages": {
+      "name": "Please select an organization"
+    },
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "ISPAddTool": {
+    "add_subject": "Add Teaching Tools",
+    "label": "Tool",
+    "placeholder1": "Type your tool name",
+    "validation_messages": {
+      "name": "Please select a teaching tool"
+    },
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "AddNewTool": {
+    "h2": "Add Teaching Tool",
+    "note": "Note",
+    "noteDesc": "The tool detail you add here will be sent to our backend team for validation and once approved will be added to our master database and your profile.",
+    "validation_messages": {
+      "certification_name": "Please enter the tool name"
+    },
+    "name": "Name",
+    "add": "Add",
+    "cancel": "Cancel",
+    "placeholder": "Type your tool name",
+    "server_error": "Something went wrong, Please try again"
+  },
+  "RequiredNotFilledModal": {
+    "oops": "Oops!",
+    "youHaveNotFilled": "You have not added any %{notFilled}. Without these required fields, we cannot activate your profile and make it visible in our search results. You can update them from the Summary Page at any time.",
+    "yes": "No",
+    "takeMeToNextPage": "Yes, take me to the next page",
+    "certification": "Certification",
+    "tool": "Teaching Tools",
+    "accomplishment": "Accomplishment",
+    "experience": "Experience",
+    "experienceDescription": "Experience Description",
+    "awards": "Awards",
+    "affiliations": "Affiliations",
+    "degrees": "Degrees",
+    "zipCode": "Zip Code",
+    "gender": "Gender",
+    "mobile": "Mobile",
+    "countryID": "Country",
+    "businessName": "Business Name",
+    "street": "Street",
+    "cityName": "City name",
+    "timezone": "Timezone",
+    "firstName": "First Name",
+    "email": "Email",
+    "lastName": "Last Name",
+    "nickname": "Nickname",
+    "accountNumber": "Account Number",
+    "routingNumber": "Routing Number",
+    "holder": "Account holder",
+    "type": "Account type",
+    "bank": "Bank name",
+    "skillLevels": "Athlete skill level",
+    "training": "Training services",
+    "ages": "Age groups",
+    "prices": "Base Price",
+    "volumeDiscount": "Volume Discounts",
+    "agesPricing": "Age-based Pricing",
+    "skillsPricing": "Skill-based Pricing",
+    "athleteGender": "Athlete gender",
+    "coachingExperience": "Years of coaching / training / instruction experience",
+    "playingExperience": "Years of playing experience",
+    "listingHeadline": "Listing headline",
+    "displayPicture": "Profile photo",
+    "actionPictures": "Action photos"
+  },
+  "ComingSoon": {
+    "create_profile": "Create a new profile as..",
+    "SCC": "Sports Camp or Clinic",
+    "TF": "Training Facility",
+    "OSP": "Other Service Provider",
+    "P": "Parent",
+    "A": "Athlete",
+    "back": "Back",
+    "coming_soon": "Coming Soon",
+    "desc": "We are constantly adding new features and sections.Once we launch, we will notify you.",
+    "p1": "Hang tight! Our development team here at CoachList is working round the clock to add support for services for business facilities, camps & clinics, and all other sport and fitness services in the coming weeks.",
+    "p2": "We’ll notify you by email when this functionality is available and ready.",
+    "p3": "For anything you need right away, please feel free to contact us at any time at",
+    "supportMail": "support@coachlist.com"
+  },
+  "DashboardSecondHeader": {
+    "welcome": "Welcome",
+    "sports": "Sport/Fitness Type(s):",
+    "choose_role": "Choose Role"
+  },
+  "DashboardListing": {
+    "heading": "Heading",
+    "headingDesc": "Appears at the top of your profile page",
+    "about": "About Me",
+    "aboutDesc": "A brief description of your background what sets you apart",
+    "service": "Service Description",
+    "serviceDesc": "A brief description about the services you provide.",
+    "listingDetails": "Listing Details",
+    "editYourSportListing": "You can edit your %{sportName} listing details here.",
+    "validation_messages": {
+      "headline": "Please enter headline"
+    },
+    "mobileViewErrorMessage": "Note: autocorrection does not support mobile view"
+  },
+  "DashboardProfileMedia": {
+    "photosAndVideos": "Photos & Videos",
+    "manageProfileMedia": "Manage your profile, action Photos & videos here.",
+    "profilePhoto": "Profile Photo",
+    "actionPhotos": "Action Photos",
+    "videos": "Videos",
+    "cropAndAdjustYourProfileImage": "Crop & adjust your profile image",
+    "imageSpec": "Image Specifications",
+    "uploadPhoto": "Upload Photo",
+    "changePhoto": "Change Photo",
+    "uploadVideo": "Upload Video",
+    "uploadError": "An error has occurred while uploading video."
+  },
+  "EditSession": {
+    "add_new": "Add New",
+    "edit": "Edit",
+    "default": "Include this %{terminology} in your dynamic session availability.  Manage your dynamic sessions in your Calendar Settings.",
+    "default1": "Make this my default",
+    "default2": "this is the",
+    "default3": "that appears by default when i add",
+    "default4": "to my calendar; you can change to any",
+    "default5": " at any time",
+    "cancel": "Cancel",
+    "time": "%{hours} hour(s) and %{mins} minute(s)"
+  },
+  "DashboardCancellationPolicy": {
+    "additionalTerms": "Additional Terms:",
+    "btnOk": "Ok",
+    "terms": {
+      "term1": "If, as an Athlete, you cancel your requested booking session before the requested booking is confirmed by a Sports Service Provider (SSP), CoachList will cancel any pre-authorization to your credit card and/or refund any nominal amounts charged to your credit card in connection with the requested booking within a commercially reasonable time.",
+      "term2": "A bookingis officially canceled when you click the cancellation button on the cancellation  confirmation page, which can be found in Dashboard > Your Sessions> Change or Cancel .",
+      "term3": "Cancellation policies may be superseded by extenuating circumstances, or cancellations by CoachList for any other reason included in the Terms of Service.",
+      "term4": "If there is a complaint from either party, notice must be given to CoachList within 24 hours of the session.",
+      "term5": "CoachList will be the mediatoras necessary, and has the final say in all disputes."
+    },
+    "learnMoreModals": {
+      "L": {
+        "header": "Cancellation Policy: Lenient",
+        "msg1": "Full refund, minus any service processing fees, if cancellation is done at least 24 hours prior to the session.",
+        "msg2": "If cancellation is done in less than 24 hours from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      },
+      "C": {
+        "header": "Cancellation Policy: Compliant",
+        "msg1": "Full refund, minus any service processing fees, if cancellation is done at least 5 days prior to the session.",
+        "msg2": "If cancellation is done in less than 5 days from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      },
+      "N": {
+        "header": "Cancellation Policy: Narrow",
+        "msg1": "50% refund, minus any service processing fees, if cancellation is done at least 7 days prior to the session.",
+        "msg2": "If cancellation is done in less than 7 days from the session start time, the Athlete must contact the SSP to request a future credit or make-up session at the SSP's discretion."
+      }
+    }
+  },
+  "MessageComposer": {
+    "lblFrom": "From",
+    "lblTo": "To CoachList User",
+    "addRecipientPlaceHolder": "Add Recipient",
+    "lblSubject": "Subject",
+    "subjectPlaceHolder": "Message subject",
+    "btnCancel": "Cancel",
+    "btnSaveToDrafts": "Save to Drafts",
+    "btnSend": "Send",
+    "ValidationMessages": {
+      "toEmpty": "The \"To\" field must be filled in with a valid CoachList user ",
+      "subjectEmpty": "\"Subject\"  is Empty",
+      "toAndSubjectEmpty": "\"Subject\" is Empty and  \"To\" field must be filled in with a valid CoachList user ",
+      "labelDoesntMatch": "Label must  contain letter,number,space, - or _ only "
+    },
+    "forwardMessage": {
+      "from": "From : %{name} ",
+      "date": "Date : %{dateString}",
+      "to": "To : %{toNames}"
+    },
+    "mobileViewErrorMessage": "Note: autocorrection does not support mobile view"
+  },
+  "RecipientSuggestion": {
+    "typeAll": "All",
+    "typeTeam": "Team",
+    "typeSession": "Session",
+    "typeAthlete": "Althete"
+  },
+  "SessionDeclineModel": {
+    "displayMessage": "Why are you declining this session booking request?",
+    "sessionDetails": "%{skill} %{sport} , %{ageGroup} ",
+    "cancel": "Cancel",
+    "declineSessionBooking": "Decline Session Schedule Request",
+    "sesionDateFormat": "MMM DD, h:mm",
+    "sesionEndTimeFormat": "h:mm a"
+  },
+  "MessageSSPNoLongerPartOfServices": {
+    "msgHeaderLine": "Instructor no longer part of CoachList Service",
+    "msgGreeting": "Hi %{name},",
+    "msgCoachNoLongerPartOfService": "Coach %{coachName}. is no longer part of our service. Let’s find you a session with another %{sportName}-%{SSPType} [Such as Golf instructor]. Note that we had not billed you yet, so we won’t charge you until you book with a different sports service provider!",
+    "findAnotherInstructor": "Find another %{sportName} instructor!",
+    "tonsOfOtherSessions": "There are tons of other sessions out there! Let’s take a look:",
+    "seeRecomendation": "SEE RECOMMENDATIONS"
+  },
+  "ScheduleRemainingSessions": {
+    "scheduleRemainingSessions": "Schedule remaining sessions",
+    "dontForgetToScheduleRemainingSessions": "Don’t forget to schedule your %{unScheduledSessionCount} remaining sessions!",
+    "sessionNameWithUnScheduledInfo": "%{sessionName} (Session %{sessionIndex}/%{totalSession})",
+    "btnScheduleNow": "Schedule Now"
+  },
+  "InviteFriend": {
+    "inviteFriendTxt": "Invite a friend and get ",
+    "numPoints": "%{pointCount} points!",
+    "description": "When your friend joins and books their first session, you get points towards free sessions!",
+    "btnInviteFriends": "INVITE FRIENDS"
+  },
+  "BookingInfo": {
+    "athlete": "Athlete : ",
+    "findAnotherTimeWithCoach": "Find another time with Coach %{coachName}.",
+    "sesionStartDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "sessionNameWith": "%{sessionName} with",
+    "sesionEndTimeFormat": "h:mm a",
+    "bookingDeclined": "Booking request declined",
+    "bookingAccepted": "Bession/lesson/class booked",
+    "bookingRequested": "Booking request",
+    "rescheduleAccepted": "Session/lesson/class rescheduled",
+    "rescheduleDeclined": "Reschedule booking request declined",
+    "rescheduleRequested": "Reschedule booking request",
+    "unscheduled": "Unscheduled"
+  },
+  "MessageBookingRequestReceived": {
+    "weReceiveyourBookingRequest": "We’ve received your booking request.",
+    "hiWithName": "Hi %{name},",
+    "msgDetail": "We’ll let you know as soon as %{coachName} responds to your booking request.",
+    "paymentDetails": "Payment Details",
+    "viewReceipt": "View receipt",
+    "scheduleRemainingSessions": "Schedule remaining sessions",
+    "DontForgetToScheduleYour": "Don’t forget to schedule your %{numberSession} remaining sessions!",
+    "ScheduleNow": "Schedule Now",
+    "sessionRemainingDetails": "%{skill} %{sport} for %{ageGroup}  (Session %{currentSession} / %{totalSession})",
+    "coachlist": "CL-"
+  },
+  "MessageBookingRequestAccepted": {
+    "bookingAccepted": "Session/lesson/class booked",
+    "hiWithName": "Hi %{name},",
+    "msgDetail": "Your booking with %{coachName} has been accepted.",
+    "paymentDetails": "Payment Details",
+    "viewReceipt": "View receipt",
+    "scheduleRemainingSessions": "Schedule remaining sessions",
+    "DontForgetToScheduleYour": "Don’t forget to schedule your %{numberSession} remaining sessions!",
+    "ScheduleNow": "Schedule Now",
+    "sessionRemainingDetails": "%{skill} %{sport} for %{ageGroup}  (Session %{currentSession} / %{totalSession})",
+    "tipsToMakeYourSessionAwesome": "Tips to make your session awesome"
+  },
+  "MessageSessionScheduleRequest": {
+    "sessionDetails": "%{skill} %{sport} , %{ageGroup} ",
+    "accept": "Accept",
+    "decline": "Decline",
+    "acceptAll": "Accept All",
+    "declineAll": "Decline All",
+    "numberSession": "%{totalSessionCount} session",
+    "paymentDetails": "Payment Details",
+    "apply": "Apply"
+  },
+  "MessageSessionRescheduleRequest": {
+    "sessionDetails": "%{skill} %{sport} , %{ageGroup} with %{athleteName}.",
+    "sessionLabelWithAthlete":"%{sessionLabel} with %{athleteName}.",
+    "rescheduleRequest": "Reschedule booking request",
+    "accept": "Accept",
+    "decline": "Decline",
+    "original_booking": "Original Booking"
+  },
+  "SessionScheduleItem": {
+    "openPositions": " Open positions: %{openPosition}/%{totalSession}",
+    "sesionDateFormat": "ddd, MMM DD",
+    "sesionEndTimeFormat": "h:mm a",
+    "sesionStartTimeFormat": "h:mm ",
+    "notSchduled": "Not scheduled"
+  },
+  "MessageRescheduleSuccessFull": {
+    "hiWithName": "Hi %{name},",
+    "yourSessionSuccessfullyReschduled": "Your session has successfully been rescheduled",
+    "msgDetail": "%{coachName} has accepted your reschedule request. Here’s your updated session.",
+    "msgDetailYouAccepted": "You have accepted the reschedule request. Here is your updated session.",
+    "yourOriginalBooking": "Your original booking was for:",
+    "sesionStartDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "sesionEndTimeFormat": "h:mm a"
+  },
+  "MessageBookingDeclinedSchedule": {
+    "bookingDeclined": "Booking request declined.",
+    "hiWithName": "Hi %{name},",
+    "msgDetail": "Coach %{coachName}. has declined the following session booking because of a scheduling conflict. You can either try to find another session with Coach %{coachName}, or find a different %{sportName} - %{sspType} [such as golf instructor]. Note that you will not be charged until the service provider accepts your booking request."
+  },
+  "MessageBookingDeclinedProfile": {
+    "bookingDeclined": "Booking request declined.",
+    "hiWithName": "Hi %{name},",
+    "msgDetail": "Coach %{coachName}. has declined the following session booking because of a scheduling conflict. You can either try to find another session with Coach %{coachName}, or find a different %{sportName} - %{sspType} [such as golf instructor]. Note that you will not be charged until the service provider accepts your booking request.",
+    "findAnotherSession": "Find another session!",
+    "tonsOfSessionsOutThere": "There are tons of other sessions out there! Let’s take a look:",
+    "seeRecommendations": "SEE RECOMMENDATIONS"
+  },
+  "MessageRateSession": {
+    "pleaseRateSessionWithCoach": "Please rate your session with coach %{coachName}",
+    "bookingStatusComplete": "Complete",
+    "athleteWithName": "Athlete: %{athleteName}",
+    "sessionNameWith": "%{sessionName} with ",
+    "currentSession": "Session %{currentSession}/%{totalSession}",
+    "btnRateNow": "RATE NOW"
+  },
+  "MessagePaymentInfoBlock": {
+    "youRecieve": "You paid",
+    "bookingId": "Booking ID",
+    "dateOfBooking": "Date of booking",
+    "showPaymentBreakup": "Show payment breakup",
+    "bookingDateFormat": "MM/DD/YYYY [at] h:mm a"
+  },
+  "MessageRefundSuccessful": {
+    "refundSuccessful": "Refund successful.",
+    "hiWithName": "Hi %{name},",
+    "refundMsg": "Your payment for %{refundedSession} Sessions has been refunded into your account.",
+    "sessionNameWith": "%{sessionName} with ",
+    "athleteWithName": "Athlete: %{athleteName}",
+    "sessionsWithCount": "%{totalSession} Sessions",
+    "refundDetails": "Refund Details"
+  },
+  "MessageSessionCompleted": {
+    "sessionCompleted": "Session Completed!",
+    "hiWithName": "Hi %{name},",
+    "detailedMsg": "Your sessions of %{sessionName} with Coach %{coachName} are now completed.",
+    "complete": "Complete",
+    "sessionNameWith": "%{sessionName} with ",
+    "athleteWithName": "Athlete: %{athleteName}",
+    "sessionsWithCount": "%{totalSession} Sessions",
+    "paymentDetails": "Payment Details"
+  },
+  "MessageRescheduleRequest": {
+    "sessionRescheduleRequest": "Session reschedule request.",
+    "btnAccept": "Accept",
+    "btnDecline": "Decline",
+    "btnProposeNewTime": "Propose New Time"
+  },
+  "MessageBookingPartiallyAccepted": {
+    "bookingPartiallyAccepted": "Booking partially accepted!",
+    "bookingAccepted": "Session/lesson/class booked!",
+    "bookingDeclined": "Booking request declined.",
+    "hiWithName": "Hi %{name},",
+    "msgDetail": "Coach %{coachName} has accepted %{acceptedSessions} out of %{totalSessions} sessions for his class %{sessionName}."
+  },
+  "MessageRescheduleRequestDeclined": {
+    "hiWithName": "Hi %{name},",
+    "msgDetail": "Service Provider %{coachName} has declined your reschedule request due to a scheduling conflict. You can either try to find another session with Coach %{coachName}, or find a different sports service provider (coach, instructor or trainer). Note that you will not be charged until the service provider accepts your booking.",
+    "yourOriginalBookingFor": "Your original booking was for:",
+    "seeRecommendation": "SEE RECOMMENDATIONS",
+    "rescheduleRequestDeclined": "Reschedule request declined.",
+    "sesionStartDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "sesionEndTimeFormat": "h:mm a"
+  },
+  "MessageTemplateSignatureFooter": {
+    "coachListUrl": "www.CoachList.com",
+    "address": " 548 Market Street, San Francisco, California - 94104"
+  },
+  "MessageUpcomingSessionNotMetMinRequiredParticipants": {
+    "dearWithName": "Dear %{name},",
+    "messageDetails": "The %{sessionLesson} : %{sessionName}, %{sport} you have scheduled on %{dateTime} at %{location} has not yet met the minimum number of participants you set. ",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "whatYouCanDo": "What you can do:",
+    "reason1": "1. Decrease the minimum number of required participants and hold the event as planned",
+    "reason2": "2. Reschedule the event to give more time to increase the participant number",
+    "reason3": "3. Cancel the event and an email will go out with the option for the scheduled participants to reschedule another session or request a credit towards another session or refund.",
+    "pleaseTakeActions": "Please take action immediately as the event will be automatically canceled if you do not make an adjustment.",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard."
+  },
+  "MessageSessionBookingRequestReminder": {
+    "dearWithName": "Dear %{name},",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "youReceivedBookingRequest": "You received the following booking request, please take action within %{remainingHour} Hours.",
+    "youCanAcceptDecline": " You can accept decline or request a re-schedule by clicking ",
+    "here": "here"
+  },
+  "MessageSessionBookingReminder": {
+    "dearWithName": "Dear %{name},",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "youCanHaveSessionToday": "You have the following Sessions scheduled for today %{date}",
+    "sesionDateFormat": "ddd, MMM DD",
+    "youCanViewSessionDetailsDashboard": "You can view all session details and manage your Calendar from your dashboard.",
+    "here": "here"
+  },
+  "MessageRequestRatingService": {
+    "dearWithName": "Dear %{name},",
+    "yourEarningsRecentMonth": "Your earnings for the most recent month are ready for your review in your dashboard.",
+    "toSeeHowMuchYouEarn": " to see how much you’ve earned. From there you also can request a payout to be transferred to your bank account.",
+    "login": "Login",
+    "here": " here",
+    "toChangeYourSettings": " To change your settings or account information at any time, please do so from Account settings.",
+    "anyQuestions": "If you have any questions or concerns, contact us at any time."
+  },
+  "MessageFundTransferBank": {
+    "dearWithName": "Dear %{name},",
+    "here": "here",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time.",
+    "messageDetails": "Earnings or other funds from CoachList have been successfully transferred to your bank account. You can view your payout schedule and amounts any time by logging into your dashboard"
+  },
+  "MessageRequestReceivedFundWithdraw": {
+    "dearWithName": "Dear %{name},",
+    "here": "here",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time.",
+    "messageDetails": "We have received your request for funds from earnings from CoachList to be transferred to your bank account. You can view your payout schedule and amounts any time by logging into your dashboard "
+  },
+  "MessageSessionCancelled": {
+    "dearWithName": "Dear %{name},",
+    "athleteHasCancelledSession": "Athlete %{athleteName} has canceled the following session(s):",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "youCanViewSessionDetailsDashboard": "You can view all session details and manage your Calendar from your dashboard.",
+    "ifCanceledDesignatedTime": " If they canceled within the designated time frame as specified on your selected Cancellation Policy, they may receive a partial refund or credit towards another session.",
+    "ifCanceledAllottedTime": "If they canceled prior to the allotted time frame as specified on your selected Cancellation Policy, their funds will be returned in full minus any processing fees."
+  },
+  "MessageSessionCancelledSSP": {
+    "dearWithName": "Dear %{name},",
+    "sessionCancelDetails": "You have canceled the %{name}, %{type}, %{sport} on %{dateTime} at %{address} for the following reason(s): %{reason}",
+    "sessionCancel": "You have canceled the %{name}, %{type}, %{sport} on %{dateTime} at %{address}",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time.",
+    "here": " here",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "login": " login ",
+    "goToYou": " go to your ",
+    "dashboard": "Dashboard ",
+    "requestPayment": " and request a payment refund.",
+    "weSincerelyApologize": "We sincerely apologize for this instance and will work with the service provider to try to ensure that scheduled cancellations are only for unforeseen reasons and not a frequent occurrence. ",
+    "youReceivedCreditCoachlistAccount": "You have received a credit in your CoachList account for the amount of the session.",
+    "ifYouWouldLike": " If you would like to apply this to another session with this provider or any other, just choose the CoachList credit during your checkout process. If you would like us to issue a refund, please ",
+    "weHopeAnotherSession": "We hope to see you in another session soon! As always, if you have any questions or concerns, contact us at any time."
+  },
+  "MessageSessionCancelledAthlete": {
+    "dearWithName": "Dear %{name},",
+    "sessionCancelDetails": "You have canceled the %{name}, %{type}, %{sport} on %{dateTime} at %{address} for the following reason(s): %{reason}",
+    "sessionCancel": "You have canceled the %{name}, %{type}, %{sport} on %{dateTime} at %{address}",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time.",
+    "here": " here",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "login": " login ",
+    "goToYou": " go to your ",
+    "dashboard": "Dashboard ",
+    "requestPayment": " and request a payment refund.",
+    "weSincerelyApologize": "We sincerely apologize for this instance and will work with the service provider to try to ensure that scheduled cancellations are only for unforeseen reasons and not a frequent occurrence. ",
+    "youReceivedCreditCoachlistAccount": "You have received a credit in your CoachList account for the amount of the session.",
+    "ifYouWouldLike": " If you would like to apply this to another session with this provider or any other, just choose the CoachList credit during your checkout process. If you would like us to issue a refund, please ",
+    "weHopeAnotherSession": "We hope to see you in another session soon! As always, if you have any questions or concerns, contact us at any time."
+  },
+  "MessageBookingRequestSent": {
+    "dearWithName": "Dear %{name},",
+    "youSentBookingRequest": "You sent the following booking request:",
+    "pendingRequest": "You can view the pending request ",
+    "messageDetails": "You will be notified when the Sports Service Provider responds. They are required to respond within 24 hours of receipt of a booking request. Failure to respond to your request in a timely manner may be met with consequences from CoachList to help ensure that your booking request is handled as quickly as possible.",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "here": " here"
+  },
+  "MessageSessionBookingRequestAccepted": {
+    "dearWithName": "Dear %{name},",
+    "BookingRequestAcceptedConfirmed": "The following booking request you sent has been accepted and confirmed:",
+    "youCanViewSessionDetails": "You can view the session details ",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "here": " here"
+  },
+  "MessageSessionBookingRequestAcceptedSSP": {
+    "dearWithName": "Dear %{name},",
+    "BookingRequestAcceptedConfirmed": "You have accepted and confirmed a session:",
+    "rescheduleRequestAcceptedSSP": "You have accepted and confirmed a session:",
+    "rescheduleRequestAcceptedAthlete": "%{athleteName} has accepted and confirmed a session with:",
+    "youCanViewSessionDetails": "You can view the session details ",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "here": " here"
+  },
+  "MessageAthleteRescheduleRequestSent": {
+    "dearWithName": "Dear %{name},",
+    "sessionChangeDetails": "You have requested %{name} %{type} %{sport} on %{dateTime} at %{location} be rescheduled to %{reSessionDateTime} at %{rescheduleLocation}.",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "toAcceptRequestPleaseLogin": "To accept, request a different date or time, or decline and cancel this change, please login and go to your dashboard",
+    "here": " here",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a"
+  },
+  "MessageSessionChangeRequest": {
+    "dearWithName": "Dear %{name},",
+    "sessionChangeDetails": "You have requested %{sessionName} %{sessionType} %{sport} on %{dateTime} at %{location} be rescheduled to %{reSessionDateTime} at %{rescheduleLocation}.",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "toAcceptRequestPleaseLogin": "To accept, request a different date or time, or decline and cancel this change, please login and go to your dashboard",
+    "here": " here",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a"
+  },
+  "MessageRescheduleDeclineProposeNewTime": {
+    "dearWithName": "Dear %{name},",
+    "messageRescheduleDecline": "SSP %{SSPName} has declined your %{sessionType} reschedule request for %{dateTime} at %{location}. and have proposed a new date time:",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "accept": "ACCEPT",
+    "reschedule": "RESCHEDULE",
+    "youCanManageSessions": "You can manage your Sessions and calendar through your ",
+    "dashboard": "dashboard"
+  },
+  "MessageSessionComplete": {
+    "dearWithName": "Dear %{name},",
+    "msgSessionComplete": "Congratulations! You have successfully completed %{sessionType}  with SSP %{SSPName}! on %{dateTime} as  %{location}",
+    "dashboard": "dashboard",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "weHopeTrainingSession": "We hope that you got a lot out of these training sessions with your Sports Service Provider.",
+    "nowYouCanDoAny": "Now you can do any of the following now through your ",
+    "requestAdditionalSessions": "Request additional sessions, or a special package deal from this Instructors or others. The more you play, the more you earn!",
+    "submitAReview": "Submit a Review of your Sessions and instructor (and earn Rewards points for doing so!)",
+    "referAndEarn": "Refer another Athlete or even another Sports Service Provider to CoachList and earn additional Rewards points!",
+    "thankYouBeingPartOfCoachList": "Thank you for being part of the CoachList community! If you have any questions or concerns, contact us at any time."
+  },
+  "MessageRequestRateService": {
+    "dearWithName": "Dear %{name},",
+    "sessionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "msgRequestRating": "Congratulations! You have successfully completed %{sessionType} with SSP %{SSPName}! on %{dateTime} as %{location}",
+    "weHopeTrainingSession": "We hope that you got a lot out of these training sessions with your Sports Service Provider ",
+    "isReviewServices": " is requesting that you leave a review of services. You can leave a ",
+    "review": " Review ",
+    "rateProviderDashboard": " and rate this provider now through your dashboard.",
+    "dontForgetRewardsPoints": "Don’t forget – you earn Rewards points for every review of your Sessions and you provide!",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time."
+  },
+  "MessageSessionCancel": {
+    "dearWithName": "Dear %{name},",
+    "sessionCancelDetails": "%{SSPName} has canceled the %{sessionName}, %{sessionType}, %{sport} on %{dateTime} at %{location} for the following reason(s): %{reason}",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time.",
+    "here": " here",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "login": " login ",
+    "goToYou": " go to your ",
+    "dashboard": "Dashboard ",
+    "requestPayment": " and request a payment refund.",
+    "weSincerelyApologize": "We sincerely apologize for this instance and will work with the service provider to try to ensure that scheduled cancellations are only for unforeseen reasons and not a frequent occurrence. ",
+    "youReceivedCreditCoachlistAccount": "You have received a credit in your CoachList account for the amount of the session.",
+    "ifYouWouldLike": " If you would like to apply this to another session with this provider or any other, just choose the CoachList credit during your checkout process. If you would like us to issue a refund, please ",
+    "weHopeAnotherSession": "We hope to see you in another session soon! As always, if you have any questions or concerns, contact us at any time."
+  },
+  "MessageRescheduleRequestConfirm": {
+    "dearWithName": "Dear %{name},",
+    "dashboard": "Dashboard",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "ifYouHaveAnyQuestions": "If you have any questions or concerns, contact us at any time from your dashboard.",
+    "youCanManageSession": "You can manage your Sessions and calendar through your",
+    "sessionRescheduleDetails": "SSP %{SSPName} has accepted your %{sessionName}, %{sessionType} reschedule request for %{dateTime} at %{location}."
+  },
+  "MessageSessionDetails": {
+    "sessionDetails": "%{sessionName}, %{sessionType}, %{sport}",
+    "with": "With",
+    "on": "On",
+    "at": "At",
+    "sesionDateTimeFormat": "ddd, MMM DD, h:mm a",
+    "noOfParticipants": "No of Participants",
+    "reason": "Reason"
+  },
+  "MessageFindDifferentSSPBlock": {
+    "findDifferentSSP": "Need to find a different sports service provider?",
+    "tonsOfOtherSessionWaiting": "There are lots of other sessions waiting to be booked!",
+    "seeRecommendations": "SEE RECOMMENDATIONS"
+  },
+  "SeeRecommendation": {
+    "seeRecommendations": "SEE RECOMMENDATIONS"
+  },
+  "RegistrationNextLink": {
+    "next": "Next",
+    "save_and_continue": "Save & continue"
+  },
+  "FinishLaterLink": {
+    "finish": "Or, Finish Later"
+  },
+  "DashboardBuildProfile": {
+    "expeienceDetail": "Experience detail",
+    "playingExp": "Playing Experience",
+    "coachingExp": "Coaching Experience",
+    "experience": "Experience",
+    "manageCoachingPlayingExp": "Manage your coaching and playing experience here."
+  },
+  "NewSportRequiredNotFilledModal": {
+    "youHaveNotFilled": "You have not added any %{notFilled}. Are you sure you want to add those later? Unless the required fields get added, you would not be able to activate your new sport and make it visible in our search results!",
+    "youHaveNotFilledBiography": "You have not added any %{notFilled}. Are you sure you want to add those later? People with more details in there profile get higher rate in bookings."
+  },
+  "DashboardSports": {
+    "h1": "Let's Get Your Service Profile Set Up & Published. You can add, suspend, remove services from here.",
+    "p": "You can add, suspend, remove services from here.",
+    "a": "Add New Sport",
+    "note": "Note: To get your first service profile setup and published you need to fill all the detailes mentioned in the below section list.",
+    "add_another": "ADD ANOTHER SERVICE",
+    "add_first": "ADD YOUR FIRST SERVICE",
+    "view_a_sample": "VIEW A SAMPLE PROFILE",
+    "sampleISPProfile": "Sample ISP Profile",
+    "close": "Close",
+    "sample": {
+      "ribbon_name": "Sample",
+      "sport_name": "Golf Profile",
+      "description": "Click here to see a sample profile"
+    }
+  },
+  "ExampleModal": {
+    "sampleISPProfile": "Sample ISP Profile",
+    "sessionPreferences": "Sample ISP Profile: %{session} Preferences",
+    "sessionLocation": "Sample ISP Profile: %{session} Location",
+    "sessionSession": "%{session}",
+    "biography": "Sample ISP Profile: Biography",
+    "listing": "Sample ISP Profile: Listing Details",
+    "message": "View Example"
+  },
+  "ManageSport": {
+    "manage": "Manage",
+    "activate": "Activate",
+    "view_profile": "VIEW PROFILE",
+    "edit": "EDIT",
+    "deactivate": "DEACTIVATE",
+    "complete_sport": "COMPLETE %{sportName} PROFILE"
+  },
+  "SportCardTitle": {
+    "experience": "%{coaching} Years of Coaching / Training / Instruction Experience %{playing} Years of Playing Experience",
+    "deactivate": "Deactivate",
+    "delete_sport": "Delete %{sportName} Profile",
+    "make_default": "Make This Default"
+  },
+  "AthleteProfile": {
+    "title": "Build your profile",
+    "message": "Help service providers understand your skills and interests",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "gender": "Gender",
+    "selectFeet": "Enter Feet",
+    "selectInches": "Enter Inches",
+    "enterHeight": "Enter Height",
+    "enterWeight": "Enter Weight",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "dateOfBirth": "Date of Birth",
+    "country": "Country",
+    "selectCountry": "Select Your Country",
+    "gradeInSchool": "Grade in School",
+    "selectGrade": "Select Your Grade",
+    "height": "Height",
+    "heightUnit": {
+      "F": "ft",
+      "I": "inch"
+    },
+    "weight": "Weight",
+    "weightUnit": {
+      "L": "lb",
+      "K": "kg"
+    },
+    "validation_messages": {
+      "firstName": "Enter First Name",
+      "lastName": "Enter Last Name",
+      "gender": "Select Gender",
+      "dateOfBirth": "Select a valid Date",
+      "age": "Warning",
+      "ageMessage": "You are not old enough to register as an athlete. Please contact your parent(s)/guardian(s) to help you get registered.",
+      "country": "Select Country",
+      "gradeInSchool": "Select Grade in School",
+      "height": "Enter valid Height",
+      "weight": "Enter valid Weight"
+    },
+    "grades": {
+      "0": "AA",
+      "1": "A+",
+      "2": "B+",
+      "3": "B",
+      "4": "C+",
+      "5": "C",
+      "6": "D+",
+      "7": "D",
+      "8": "E+",
+      "9": "E"
+    }
+  },
+  "AthletePreferences": {
+    "title": "Tell us your primary area of interest",
+    "message": "You can add more skills and interests here.",
+    "editTitle": "Edit a primary area of interests",
+    "addTitle": "Add a primary area of interests",
+    "MessageComposer": "You can type a sport of area where you want help meeting fitness goals. You can add more from from your dashboard later.",
+    "sport": "Sport or Fitness area of interest",
+    "gender": "Gender",
+    "level": "Level",
+    "selectYourLevel": "Select your Level",
+    "experience": "Years of playing experience",
+    "enterYears": "Enter Years",
+    "notes": "Special note for Sport service providers",
+    "notesExample": "Enter in some notes that you might like your trainer, instructor, coach or teacher to know about what you're looking to achieve, any special requirements you may have, etc.",
+    "trainingPref": "I want instruction or training in",
+    "all": "Any",
+    "otherTypes": "Other type of service provider (select and we will give you options)",
+    "otherTypesExample": "For Example: nutritionist, sport psychologist, physical therapist or other provider for this sport.",
+    "serviceProvider": "Service provider must be:",
+    "travelPref": "How far are you willing to travel to get trained ?",
+    "howFar": "How Far ?",
+    "distanceUnits": {
+      "M": "Miles",
+      "K": "Km"
+    },
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "address": "From what address, city, & zipcode",
+    "validation_messages": {
+      "experience": "Provide experience",
+      "gender": "Select Gender",
+      "level": "Select Level",
+      "notes": "Enter notes",
+      "sspSubTypes": "Select at least one training type",
+      "travelPref": "Mention distance",
+      "address": "Enter Address"
+    }
+  },
+  "AthleteAccount": {
+    "title": "Account Details",
+    "message": "You're in the home stretch. Let's finish your account details.",
+    "firstName": "First Name",
+    "firstNameExample": "E.g., John",
+    "lastName": "Last Name",
+    "lastNameExample": "E.g., John",
+    "country": "Country",
+    "selectCountry": "Select Your Country",
+    "state": "State",
+    "selectState": "Type Your State",
+    "city": "City",
+    "selectCity": "Type Your City",
+    "address": "Street Address",
+    "addressExample": "No 11, Main Street Drive",
+    "zipCode": "Enter Zip code",
+    "zipCodeExample": "94501-4026",
+    "timezone": "Timezone",
+    "selectTimeZone": "Select Time Zone",
+    "phoneNumbers": "Phone Numbers",
+    "phoneNumbersMessage": "We need at least a mobile phone number in order to text or call about cancellations, bookings or other events.",
+    "mobile": "Mobile",
+    "mobileExample": "+1-831-838-2348",
+    "landLine": "Landline",
+    "landLineExample": "+1-831-838-2348",
+    "canSendReminder": "I authorize CoachList to contact me on the phone numbers provided with automated messages about upcoming sessions and information that will help me manage training sessions.",
+    "canReceiveMarketingCall": "I consent to receive telemarketing calls and text messages from or on behalf of CoachList at the phone numbers provided above. I understand that consent is not a condition of purchase.",
+    "validation_messages": {
+      "firstName": "Enter First Name",
+      "lastName": "Enter Last Name",
+      "country": "Select Country",
+      "state": "Enter state",
+      "city": "Enter city",
+      "address": "Enter Address",
+      "zipCode": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "timeZone": "Select Time Zone",
+      "mobile": "Enter valid Mobile number",
+      "landLine": "Enter valid Phone number"
+    },
+    "accountDetails": {
+      "other": "Other",
+      "email_add": "Email Address (Username)",
+      "verified": "Verified",
+      "update": "Update",
+      "addressTitle": "Personal Address",
+      "addressDesc": "Manage your address below",
+      "personalInfo": "Personal Information",
+      "personalInfoDesc": "Manage your personal details"
+    }
+  },
+  "Header": {
+    "sign_out": "Logout",
+    "dashboard": "Dashboard",
+    "myActivity": "My Activity",
+    "select_sport": "Select Sport"
+  },
+  "SportsSwitcherDropDown": {
+    "add_new_sport": "Add New Sport"
+  },
+  "AthleteDashboardNavBar": {
+    "schedule": "Schedule",
+    "account": "Account",
+    "profile": "Profile"
+  },
+  "AthleteScheduleTabs": {
+    "scheduled_sessions": "SCHEDULED  SESSIONS",
+    "unscheduled_sessions": "UNSCHEDULED SESSIONS",
+    "changes": "CHANGES TO MANAGE"
+  },
+  "SchedulerNavigation": {
+    "all": "All",
+    "today": "Today",
+    "dateFormat": "MMM D, YYYY"
+  },
+  "NextLink": {
+    "next": "Next",
+    "save": "Save"
+  },
+  "AthleteAccountSideNav": {
+    "account_details": "Account Details",
+    "order_history": "Order History",
+    "wallet": "Account Balance",
+    "paymentPreferences": "Payment Preferences"
+  },
+  "OrderHistory": {
+    "order_history": "Order History",
+    "export": "Export",
+    "status": {
+      "A": "All",
+      "P": "Paid",
+      "IP": "In Progress",
+      "D": "Disputed",
+      "F": "Failed",
+      "R": "Refunded",
+      "PROCESSING": "In Progress",
+      "SUCCESS": "Paid",
+      "FAILED": "Failed"
+    },
+    "file_name": "Order-History."
+  },
+  "AthleteProfileSideNav": {
+    "profile": "Profile Details",
+    "skills": "Skills & Interests"
+  },
+  "ScheduledItem": {
+    "sessionDesc": "%{sessionLabel} - %{sportName} with",
+    "see_on_map": "See on map",
+    "view_session_details": "View Session Details",
+    "view_booking_status": "View Booking Status",
+    "purchased": "PURCHASED",
+    "view_all": "View All",
+    "view_order_details": "View order details",
+    "request_to_reschedule": "Request to reschedule",
+    "cancel_future_sessions": "Cancel future %{offerTerminology}(s)",
+    "report_instructor": "Report instructor",
+    "empty": "You don't have any scheduled sessions for selected date.",
+    "noOptions": "There are no options yet"
+  },
+  "AthleteSessionPackage": {
+    "order_details": "Order Details",
+    "package_price": "Package Price",
+    "back": " Back",
+    "sessionDesc": "%{sessionLabel} - %{sportName} with",
+    "booking_id": "Booking ID"
+  },
+  "ParentProfile": {
+    "title": "Build your child's profile",
+    "message": "Help trainers, coaches and instructors understand your child’s skills and interests: (You can add more children from dashboard later on)",
+    "dashboardMessage": "Help trainers, coaches and instructors understand your child’s skills and interests:",
+    "firstName": "Child's First Name",
+    "lastName": "Child's Last Name",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "gender": "Child's Gender",
+    "enterHeight": "Enter Height",
+    "enterWeight": "Enter Weight",
+    "addAnother": "ADD ANOTHER",
+    "child": "CHILD",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "dateOfBirth": "Child's Date of Birth",
+    "country": "Child's Country",
+    "selectCountry": "Select Your Country",
+    "gradeInSchool": "Grade in School",
+    "selectFeet": "Enter Feet",
+    "selectInches": "Enter Inch",
+    "selectGrade": "Select Your Grade",
+    "height": "Child's Height",
+    "heightUnit": {
+      "F": "ft",
+      "I": "inch"
+    },
+    "weight": "Child's Weight",
+    "weightUnit": {
+      "L": "lb",
+      "K": "kg"
+    },
+    "validation_messages": {
+      "firstName": "Enter Child's First Name",
+      "lastName": "Enter Child's Last Name",
+      "gender": "Select Gender",
+      "age": "Warning",
+      "ageMessage": "Your child's age seems to be invalid. Please check the date of birth.",
+      "dateOfBirth": "Select a valid Date",
+      "country": "Select Country",
+      "gradeInSchool": "Select Grade in School",
+      "height": "Input Height",
+      "weight": "Input Weight"
+    },
+    "grades": {
+      "0": "AA",
+      "1": "A+",
+      "2": "B+",
+      "3": "B",
+      "4": "C+",
+      "5": "C",
+      "6": "D+",
+      "7": "D",
+      "8": "E+",
+      "9": "E"
+    }
+  },
+  "ParentPreferences": {
+    "title": "Tell us your child’s primary area of interest",
+    "addTitle": "Add a primary area of interests of your child",
+    "editTitle": "Edit a primary area of interests of your child",
+    "message": "You can type a sport of area where you want help meeting fitness goals. You can add more from from your dashboard later.",
+    "sport": "Child's Sport or area of interest",
+    "gender": "Gender",
+    "level": "Child's level",
+    "selectYourLevel": "Select your Level",
+    "experience": "Years of child's playing experience",
+    "enterYears": "Enter Years",
+    "notes": "Special note for Sport service providers",
+    "notesExample": "Enter in some notes that you might like your child’s trainer, coach or teacher to know about what he or she is looking to achieve, any special requirements your child may have, etc.",
+    "trainingPref": "I want instruction or training in",
+    "all": "All",
+    "otherTypes": "Other type of service provider (select and we will give you options)",
+    "otherTypesExample": "For Example: nutritionist, sport psychologist, physical therapist or other provider for this sport.",
+    "serviceProvider": "Service provider must be:",
+    "travelPref": "How far are you willing to travel to get trained ?",
+    "howFar": "How Far ?",
+    "distanceUnits": {
+      "M": "Miles",
+      "K": "Km"
+    },
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "address": "From what address, city, & zipcode",
+    "validation_messages": {
+      "experience": "Provide experience",
+      "gender": "Select Gender",
+      "level": "Select Level",
+      "notes": "Special note for sport service providers",
+      "sspSubTypes": "Select at least one training type",
+      "travelPref": "Mention distance",
+      "address": "Enter Address"
+    }
+  },
+  "ParentAccount": {
+    "title": "Account Details",
+    "message": "You're in the home stretch. Let's finish your account details.",
+    "info": "Parent Information:",
+    "firstName": "First Name",
+    "firstNameExample": "E.g., John",
+    "lastName": "Last Name",
+    "lastNameExample": "E.g., John",
+    "gender": "Gender",
+    "genders": {
+      "M": "Male",
+      "F": "Female",
+      "O": "Other",
+      "A": "Any"
+    },
+    "country": "Country",
+    "selectCountry": "Select Your Country",
+    "state": "State",
+    "selectState": "Type Your State",
+    "city": "City",
+    "selectCity": "Type Your City",
+    "address": "Street Address",
+    "addressExample": "No 11, Main Street Drive",
+    "zipCode": "Enter Zip code",
+    "zipCodeExample": "94501-4026",
+    "timezone": "TimeZone",
+    "selectTimeZone": "Select Time Zone",
+    "phoneNumbers": "Phone Numbers",
+    "phoneNumbersMessage": "We need at least your mobile number phone # to text or call about cancellations, bookings or other events.",
+    "mobile": "Mobile",
+    "mobileExample": "+1-831-838-2348",
+    "landLine": "Landline",
+    "landLineExample": "+1-831-838-2348",
+    "canSendReminder": "I authorize CoachList to contact me on the phone numbers provided with automated messages about upcoming sessions and information that will help me manage training sessions.",
+    "canReceiveMarketingCall": "I consent to receive telemarketing calls and text messages from or on behalf of CoachList at the phone numbers provided above. I understand that consent is not a condition of purchase.",
+    "validation_messages": {
+      "firstName": "Enter First Name",
+      "lastName": "Enter Last Name",
+      "country": "Select Country",
+      "state": "Enter state",
+      "city": "Enter city",
+      "address": "Enter Address",
+      "zipCode": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "timeZone": "Select Time Zone",
+      "mobile": "Enter valid Mobile number",
+      "landLine": "Enter valid Phone number"
+    },
+    "accountDetails": {
+      "personalInfo": "Personal Information",
+      "personalInfoDesc": "Manage your personal details",
+      "addressTitle": "Personal Address",
+      "addressDesc": "Manage your address below",
+      "other": "Other Number"
+    }
+  },
+  "ProfileCompletion": {
+    "title": "Create a new profile as..",
+    "athlete": "Athlete",
+    "parent": "Parent",
+    "steps": {
+      "0": {
+        "text": "Build Your",
+        "text2": "Profile"
+      },
+      "1": {
+        "text": "Skills &",
+        "text2": "Interests"
+      },
+      "2": {
+        "text": "Complete Your",
+        "text2": "Account"
+      }
+    }
+  },
+  "ParentDashboardNavBar": {
+    "account": "Account",
+    "profile": "Profile"
+  },
+  "ParentAccountSideNav": {
+    "account_details": "Account Details",
+    "order_history": "Order History",
+    "wallet": "Account Balance",
+    "paymentPreferences": "Payment Preferences"
+  },
+  "ParentProfileSideNav": {
+    "profile": "Profile Details",
+    "skills": "Skills"
+  },
+  "ProfileSkills": {
+    "title": "Skills & Interests",
+    "message": "You can add more skills and interests here.",
+    "addAnother": "Add another Sport"
+  },
+  "ProfileSkillsSportCard": {
+    "experience": "Years of Playing Experience",
+    "edit": "Edit"
+  },
+  "SessionSlots": {
+    "back": "Back",
+    "sessionDesc": "Reschedule %{sessionLabel} - %{sportName} with",
+    "description": "To schedule a %{offerTerminology}, view the available %{offerTerminology} in the following list and click Schedule."
+  },
+  "offerTerminology": {
+    "S": "Session",
+    "L": "Lesson",
+    "C": "Class",
+    "T": "Training"
+  },
+  "offerTerminologyPlural": {
+    "S": "sessions",
+    "L": "lessons",
+    "C": "classes",
+    "T": "trainings"
+  },
+  "PackageItem": {
+    "your_rating": "Your Rating",
+    "sessionDesc": "%{sessionLabel} - %{sportName} with",
+    "see_on_map": "See on map",
+    "cancel_future_sessions": "Cancel future %{offerTerminology}(s)",
+    "report_instructor": "Report instructor",
+    "request_to_reschedule": "Request to reschedule",
+    "view_order_details": "View order details",
+    "schedule": "Schedule",
+    "view_session_details": "View Session Details",
+    "noOptions": "There are no options yet"
+  },
+  "AthleteEventItem": {
+    "open_position": " %{availableSlots} open positions",
+    "details": "%{gender}, %{ageGroup}, %{skillLevel} %{sport}",
+    "detailsRepeat": "%{gender}, %{ageGroup}, %{skillLevel}",
+    "see_on_map": "See on map",
+    "schedule": "Schedule"
+  },
+  "genders": {
+    "M": "Male",
+    "F": "Female",
+    "O": "Other",
+    "A": "Any"
+  },
+  "orderDetails": {
+    "sport": "Sport/Service:",
+    "sportWithName": "Sport/Service : %{sportNames}.",
+    "back": "Back",
+    "backToOrderHistory":"Back to Order History",
+    "details": "Order Details",
+    "tax": "Tax",
+    "button": {
+      "complete_pay": "Complete Payment",
+      "contact": "Contact To Adviser",
+      "review": "Write Review",
+      "receipt": "Download Receipt",
+      "re_order": "Order Again"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "order_id": "Order ID",
+      "status": "Status",
+      "date_of_order": "Date of order",
+      "order_total": "Order Total"
+    },
+    "package": {
+      "session_name": "Session name",
+      "cost_per_session": "Cost per session",
+      "no_of_sessions": "# sessions",
+      "total_cost": "Cost (%{noSessions} sessions)",
+      "vol_discount": "Volume discount",
+      "coachbucks_discount": "CoachBucks discount"
+    },
+    "payment": {
+      "title": "Payment Information",
+      "method": "Payment method",
+      "billing_address": "Billing Address"
+    }
+  },
+  "ChangeProfile": {
+    "add_role": "Add Role",
+    "displayName": "%{displayName} (%{name})"
+  },
+  "UnscheduledItem": {
+    "sessionDesc": "%{sessionLabel} - %{sportName} with",
+    "sessions_left": "%{unScheduledSessions} %{offerTerminology} left to schedule",
+    "purchase": "%{noOfPurchase} PURCHASED",
+    "view_all": "View All",
+    "report_instructor": "Report instructor",
+    "view_order_details": "View order details",
+    "cancel_future_sessions": "Cancel future %{offerTerminology}(s)",
+    "see_on_map": "See on map",
+    "noOptions": "There are no options yet",
+    "schedule": "Schedule"
+  },
+  "Unscheduled": {
+    "p": "Select a provider to view their availability",
+    "schedule_description": "To schedule a %{session}, view the available %{sessions} in the following list and click schedule.",
+    "empty": "You don't have any sessions to schedule."
+  },
+  "AthleteSchedule": {
+    "session_history": "See Session History"
+  },
+  "ScheduleHistory": {
+    "back": "Back",
+    "session_history": "Session History",
+    "sort_by": "Sort by",
+    "month": "Last %{numberOfMonths} months",
+    "sort": {
+      "most_rencent": "Most Recent",
+      "alpha_asec": "A to Z",
+      "alpha_desc": "Z to A"
+    },
+    "bookings_in": "%{total} bookings completed in",
+    "previous": "Previous",
+    "empty": "You don't have any sessions in your history",
+    "next": "Next"
+  },
+  "ScheduleHistoryItem": {
+    "disputeSession": "Dispute Session",
+    "sessionDesc": "%{sessionLabel} - %{sportName} with",
+    "purchase": "%{noOfPurchase} PURCHASED",
+    "view_all": "View All",
+    "cancel_future_sessions": "Cancel future %{offerTerminology}(s)",
+    "request_to_refund": "Request to refund",
+    "report_instructor": "Report instructor",
+    "view_all_sessions": "View order details",
+    "view_session_details": "View Session Details",
+    "view_booking_status": "View Booking Status",
+    "noOptions": "There are no options yet"
+  },
+  "ShoppingCart": {
+    "title": "Shopping Cart",
+    "subTitle": "You have %{packageSize} items in your cart.",
+    "thisIsFor": "This is for:",
+    "me": "Me",
+    "numberOfSession": "Number Of %{offerTerminology}",
+    "totalPrice": "Total Price",
+    "currency": "$",
+    "OfferCaption": "Buy More, Save More!",
+    "OfferCaptionSaveUpto": "Save upto",
+    "sessionWith": "%{offerTerminology} WITH",
+    "sessionsLabel": "%{offerTerminology}:",
+    "each": "EACH",
+    "iAgree": "I Agree to Service Provider's ",
+    "cancellationPolicy": "Cancellation Policy",
+    "paymentSummary": "Payment Summary",
+    "subtotal": "Subtotal",
+    "items": "package(s)",
+    "taxes": "Taxes",
+    "total": "TOTAL",
+    "proceedToCheckout": "Proceed to checkout",
+    "viewDetails": "View Details",
+    "viewPackages": "View Packages",
+    "deleteComfirmationMessage": "Are you sure that you want to permanently delete the item from cart?",
+    "deleteSessionComfirmationMessage": "Session is scheduled, are you sure you want to remove?",
+    "deleteComfirmationYes": "Yes",
+    "deleteComfirmationNo": "No",
+    "unscheduled": "UNSCHEDULED",
+    "payment": "Payment",
+    "selectPaymentOption": "Select your payment option",
+    "cardType": "Credit/Debit Card",
+    "paypal": "Via PayPal",
+    "bankTransfer": "Bank Transfer",
+    "newCard": "NEW CARD",
+    "savedCards": "SAVED CARDS",
+    "taxSummary": "Tax Summary",
+    "select": "Select",
+    "close": "Close",
+    "description": "%{trainingType}, %{ageGroup}, %{skillLevel},",
+    "info1": "The price and availability of items on the CoachList Marketplace are subject to change.",
+    "info2": "The shopping cart is a temporary place to store a list of your items and reflects each item’s most recent price.",
+    "info3": " Have a",
+    "info4": "promotional code? ",
+    "info5": "We’ll ask you to enter your claim code when it’s time to pay.",
+    "deleteSspMessage": "Are you sure that you want to permanently delete the items from cart?",
+    "cart_empty": "Your shopping cart is empty",
+    "start_browsing": "Start browsing",
+    "add_to_cart": "and add sessions to your cart now"
+  },
+  "CancelFutureSessionsModal": {
+    "cancel_future_session": "Cancel Future %{offerTerminology}",
+    "reason": "Reason",
+    "select_reason": "Select Reason",
+    "heading": "Purchased %{noOfPurchase} %{offerTerminology} package from %{coachName} %{date}",
+    "select": "Select remaining %{offerTerminology} to cancel",
+    "sessionStatus": {
+      "UNSCHEDULED": "unscheduled",
+      "SCHEDULED": "Scheduled %{date} at %{time}",
+      "REJECTED_RESCHEDULED_REQUEST": "Athlete Requested Reschedule. Instructor Declined."
+    },
+    "cancel_sessions": "Cancel Sessions",
+    "discount_received": "You had purchased a %{noOfPurchase} %{offerTerminology} package and received a volume discount of %{discountReceivedPerSession} per %{offerTerminology} (%{pricePerSessionAfterDiscount} per %{offerTerminology}).",
+    "volume_discount": "If you reduce the number of sessions below %{noOfPurchase}, the price reverts to the %{noOfSessionToCancel} %{offerTerminology} Volume discount of %{volumeDicountAfterCancel}. When you click cancel %{offerTerminology}, the balance of your payment %{balanceAmount} will be placed in credit, which you can use to book future %{offerTerminology}.",
+    "without_volume_discount": "If you reduce the number of sessions below %{noOfPurchase}, the price reverts to the base price %{volumeDicountAfterCancel}. When you click cancel %{offerTerminology}, the balance of your payment %{balanceAmount} will be placed in credit, which you can use to book future %{offerTerminology}."
+  },
+  "AthleteReportInstructorModal": {
+    "select_reason": "Select Reason",
+    "report_name": "Report %{name}",
+    "attempted": "Have you attempted to resolve this issue with the instructor?",
+    "triedToResolveWithAthleteFlags": {
+      "Y": "Yes",
+      "N": "No"
+    },
+    "reason": "Reason",
+    "any_additional_comments": "Any additional comments?",
+    "comment_placeholder": "Please provide sufficient detail that we can resoluve the issue promptly.",
+    "submit": "Submit",
+    "description": "Your satisfaction is very important to us. CoachList will work to resolve this dispute as quickly as possible, and we will let you know once we have an answer for you!"
+  },
+  "RequestRefundModal": {
+    "heading": "Refund Completed %{offerTerminology}",
+    "description": "Purchased %{noOfSessions} %{offerTerminology} package from %{coachName} %{date}.",
+    "session_Info": "Completed %{sessionLabel} on %{date} at %{time}.",
+    "select_reason": "Select Reason",
+    "attempted": "Have you attempted to resolve this issue with the instructor?",
+    "result_of_attempt": "Results of your attempt to resolve issue with instructor",
+    "comment_placeholder": "Please provide sufficient detail that we can resoluve the issue promptly.",
+    "submit": "Submit",
+    "footer_description": "Your satisfaction is very important to us. CoachList will work to resolve this dispute as quickly as possible, and we will let you know once we have an answer for you!",
+    "reason_for_refund": "Reason for refund"
+  },
+  "TimelineTemplating": {
+    "eventTypes": {
+      "BOOKED": "Booked",
+      "RESCHEDULED_BY_SSP": "Rescheduled",
+      "SCHEDULED": "Booked",
+      "COMPLETED": "Completed",
+      "REVIEW_GIVEN": "Review",
+      "RESCHEDULED_BY_ATHLETE": "Rescheduled",
+      "SCHEDULE_AWAITED_BY_ATHLETE": "Scheduled",
+      "RESCHEDULE_AWAITED_BY_ATHLETE": "Rescheduled",
+      "RESCHEDULE_AWAITED_BY_SSP": "Rescheduled",
+      "RESCHEDULED": "Rescheduled",
+      "CANCELLED_BY_SSP": "Cancelled",
+      "CANCELLED_BY_ATHLETE": "Cancelled",
+      "CANCELLED_BY_SYSTEM": "Cancelled",
+      "DISPUTED": "Disputed",
+      "PAYMENT_ACCRUED": "Payment accrued",
+      "PAYMENT_PROCESSED": "Payment processed",
+      "UNSCHEDULED": "Booked"
+    },
+    "by": "by",
+    "at": "at",
+    "you": "You"
+  },
+  "AthleteChangeEventItem": {
+    "original_booking": "Original Booking"
+  },
+  "ActionsHeadingTemplate": {
+    "action": "Action",
+    "declined_by": "Declined by",
+    "not_charged": "You were not charged for this session",
+    "profile_mismatch": "profile mismatch",
+    "schedule_conflict": "schedule conflict",
+    "new_time_proposed_by": "New time proposed by",
+    "you": "you",
+    "requested_refund": "Requested refund. Awaiting decision.",
+    "scheduled_by": "Scheduled by",
+    "purchased": "Purchased"
+  },
+  "ActionTemplate": {
+    "profile_mismatch": {
+      "description": " There are a ton of other instructors and sessions available.",
+      "see_recommendations": " See Recommendations"
+    },
+    "schedule_conflict": {
+      "propose_new_time": "Propose new time",
+      "cancel_session": "Cancel %{offerTerminology}"
+    },
+    "reschedule_by_ssp": {
+      "accept_session": "Accept",
+      "cancel_session": "Decline"
+    },
+    "wating_for_response": {
+      "status": "Status",
+      "waiting_for_reply": "Waiting for reply from Instructor"
+    }
+  },
+  "AthleteScheduleChanges": {
+    "instruction_p1": "PROPOSE NEW TIME WITH INSTRUCTOR %{coachName}",
+    "instruction_p2": "To schedule a %{offerTerminology}, view the available %{offerTerminologyPlural} in the following list and click Schedule.",
+    "empty": "You don't have any changes to manage.",
+    "actionError": "The action requested could not be performed."
+  },
+  "AthleteCancelSessionModal": {
+    "select_reason": "Select Reason",
+    "cancel_session": "Cancel %{offerTerminology}",
+    "attempted": "Have you attempted to resolve this issue with the instructor?",
+    "triedToResolveWithAthleteFlags": {
+      "Y": "Yes",
+      "N": "No"
+    },
+    "reason": "Reason",
+    "any_additional_comments": "Any additional comments?",
+    "comment_placeholder": "Please provide sufficient detail that we can resoluve the issue promptly.",
+    "submit": "Submit"
+  },
+  "AthleteSeeOnMap": {
+    "training_location": "Training Location"
+  },
+  "ConfirmationModal": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm"
+  },
+  "EventCalender": {
+    "ScheduleConfirmationModal": {
+      "heading": "Confirm",
+      "description": "Are you sure you want to schedule for  %{startTime} - %{endTime}, %{date}.",
+      "schedule": "Schedule",
+      "scheduleError": "Unable to schedule due to some reason.",
+      "rescheduleError": "Unable to reschedule due to some reason."
+    },
+    "empty": "There are no slots available for selected date."
+  },
+  "PayoutHistory":{
+    "heading":"Earnings & Payouts",
+    "currentBalance" : "Current Balance",
+    "lastPayout":"Last Payout",
+    "withdraw":"Withdraw now!",
+    "earning":"Earning",
+    "payouts":"Payouts"
+  },
+  "FundWithdrawTypes":{
+    "auto" : "Auto",
+    "manual": "Manual"
+  },
+  "FundWithdrawSettings":{
+    "back" : "Back",
+    "heading": "Withdraw funds to your account",
+    "note": "Note: You can withdraw funds only if you current balance is more than $%{minAmount}.",
+    "current_balance": "Your current withdrawable balence is: ",
+    "withdraw_auto_title": "Withdraw whenever my current balence reaches",
+    "account": "To my account:",
+    "account_type": "Account Type :",
+    "account_details": "Details :"
+    },
+  "OrderFilter":{
+    "labelAll" : "All",
+    "labelCustom":"Custom"
+  },
+  "ChangePassword": {
+    "title": "Change Password",
+    "message": "Please use at least 8 characters in a combination of alpha numeric characters, including at least one upper case, one number, and one general punctuation character.",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "update": "Update",
+    "validation_messages": {
+      "currentPassword": "Please enter current password",
+      "newPassword": "Please enter new password",
+      "passwordPattern": "The password you have entered is too weak",
+      "passwordMatch": "Please ensure confirm password is same as new password.",
+      "confirmPassword": "Please enter confirm password"
+    }
+  },
+  "SocialMedia": {
+    "title": "Manage Social Media Accounts",
+    "message": "Connect your social media account for a richer experience.",
+    "facebook": "Facebook",
+    "connectFacebook": "Connect your Facebook account",
+    "connect": "Connect",
+    "linkedIn": "Linkedin",
+    "connectLinkedIn": "Connect your Linkedin account",
+    "twitter": "Twitter",
+    "connectTwitter": "Connect your Twitter account",
+    "remove": "Remove"
+  },
+  "OverrideOpenPositionsModal": {
+    "totalOpenPositions": "Total Open Positions",
+    "enterNoOfPositions": "Enter No of Position"
+  },
+  "OverrideGroupSizeModal": {
+    "overrideGroupSize": "Override Group Size",
+    "alertText": "     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "selectExistingGroupSize": "Select Exsisting Group Size",
+    "createNew": "Create a New",
+    "minGroupSize": "Min Group Size",
+    "maxGroupSize": "Max Group Size",
+    "validation": {
+      "min": "Provide valid minimum group size",
+      "max": "Provide valid maximum group size",
+      "minMax": "Group size %{min} - %{max} already exists."
+    }
+  },
+  "DashboardSaveLink": {
+    "save": "Save",
+    "save_and_continue": "Save & continue"
+  },
+  "TravelPreference": {
+    "validation_messages": {
+      "distance": "(if Yes) Please indicate the number of miles you're willing to travel.",
+      "travelAddress": "Provide a starting address location.Â ",
+      "willingToTravel": "Please mention whether you are willing to travel.",
+      "zip": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "country": "Please select a country from the available options",
+      "street": "Provide a correspondence address",
+      "city": "Please select a city from the available options"
+    },
+    "travel_preference": "Travel Preference",
+    "willing_to_travel": "Are you willing to travel to other locations to train clients?",
+    "yes": "Yes",
+    "no": "No",
+    "distance_placeholder": "How far",
+    "select": "Select",
+    "from_which_location": "From Which Location?",
+    "country": "Country",
+    "select_state": "Select state",
+    "select_country": "Select country",
+    "select_city": "Select city",
+    "state": "State",
+    "city": "City",
+    "addressExample": "Eg. 333 Blossom Hill, Los Gatos, CA 95032",
+    "address": "Street Address",
+    "zip_placeholder": "94501-4026",
+    "zip": "ZipCode / Postal Code",
+    "hide_map": "Hide Map",
+    "show_map": "Show Map"
+  },
+  "DistanceUnit": {
+    "M": "Miles",
+    "K": "Km"
+  },
+  "WeekDays": {
+    "MON": "Mon",
+    "TUE": "Tue",
+    "WED": "Wed",
+    "THU": "Thu",
+    "FRI": "Fri",
+    "SAT": "Sat",
+    "SUN": "Sun"
+  },
+  "DashboardSchedulerSettings": {
+    "h1": "Select working days and hours",
+    "p": "Now let's setup your availability and general schedule settings:",
+    "save": "SAVE & TAKE ME TO SCHEDULER",
+    "nextInfo1": "In the next screen we will set the %{session} that you have created and",
+    "nextInfo2": "assign them to date and time as per your schedule"
+  },
+  "CompleteService": {
+    "h1": "Hurrah",
+    "p": "You have completed your %{sportName} Service profile.",
+    "h4": "To make you appear in search results you need to complete the last",
+    "steps": "%{numberOfSteps} steps",
+    "below": "below.",
+    "business": "Business",
+    "model": "Model",
+    "business_model_desc": "Select the best revenue opportunity for yourself when training.",
+    "booking": "Booking",
+    "preference": "Preference!",
+    "booking_preference_p1": "When clients book sessions with you, how do you want to accept their requests?",
+    "booking_preference_p2": "And what are your cancellation policies..",
+    "account": "Account",
+    "details": "Details",
+    "account_details_p1": "Set your Account details so you get your own Profile URL etc.",
+    "account_details_p2": "Set you business name address etc.",
+    "how_do_we": "How do we",
+    "pay_you": "Pay you",
+    "payout_details_desc": "Click here or go to account and payout details to let us know how to pay you.",
+    "setup_your": "Setup your",
+    "availaibility_calendar": "availaibility & calendar",
+    "scheduler_desc": "You can click here or click on the top naviagtion",
+    "schedule": "Schedule",
+    "scheduler_desc2": "to set your work timing and session schedules",
+    "save": "Continue",
+    "add": "I want to add",
+    "another_service": "another service."
+  },
+  "SportPageStatus": {
+    "service": "Service",
+    "travel_preference": "Travel Preference"
+  },
+  "SportCard": {
+    "edit_profile": "Click here to edit profile"
+  },
+  "BusinessEmailVerificationModal": {
+    "verify_email": "Verify Primary Email",
+    "p": "We need to Validate that this email address belongs to you.",
+    "p1": "We have e-mailed your account verification code to %{emailId} and %{emailId2}",
+    "p2": "Please check your email and apply the code below.",
+    "currentEmail": "Current email (%{email})",
+    "newEmail": "New Email (%{email})",
+    "validation_message": {
+      "code_length": "Invalid Code",
+      "match": "The pin does not match with the one sent in email",
+      "exists": "The email '%{email}' has already been registered."
+    },
+    "placeholder": "Enter %{digit} Digit code",
+    "ok": "OK",
+    "resend": "Resend Code",
+    "cancel": "Cancel"
+  },
+  "IspLocation": {
+    "h1": "Tell Us Your Business Location",
+    "p": "Enter your business address below",
+    "select_state": "Select state",
+    "select_country": "Select country",
+    "select_city": "Select city",
+    "country": "Country",
+    "state": "State",
+    "enterState": "Enter state",
+    "city": "Enter city",
+    "street": "Street Address",
+    "zip": "ZipCode / Postal Code",
+    "mobile_number": "Mobile Number",
+    "business_number": "Business Number",
+    "validation_messages": {
+      "countryID": "Please select a country from the available options",
+      "stateID": "Select your state.",
+      "street": "Provide a correspondence address",
+      "cityName": "Please select a city from the available options",
+      "zip": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "mobile": {
+        "required": "Please enter the mobile",
+        "valid": "Invalid phone number format."
+      }
+    }
+  },
+  "loggedInAsModal": {
+    "heading": "You are logging to following account",
+    "name": "Name",
+    "email": "Email"
+  },
+  "MapWithSearch": {
+    "searchPlaceHolder": "Find a place"
+  },
+  "regBusinessModel": {
+    "heading": "Here’s what you’ll be setting up today:",
+    "sportHeading": "The Sports You Teach",
+    "sportDesc": "Tell us about your sports training credentials, specializations, biography & background, awards, training tools, and what services you offer athletes.",
+    "businessHeading": "Your Business Info",
+    "businessDesc": "Choose a title, upload a profile picture or logo, tell us how far you’re willing to travel, synchronize your calendars, set your cancellation policies and booking preferences.",
+    "sessionHeading": "Your Sessions Calendar",
+    "sessionDesc": "Set locations, dates and types of Sessions you train athletes – age, gender, skill level etc. and your availability, then build your calendar with sessions.",
+    "revenueHeading": "Revenue & Fees",
+    "revenueDesc": "Set your prices, offer volume and package discounts and more. It’s free to register, and CoachList takes fees that range from 8-14% from the starter Entry Level up to the highest Gold Level. ",
+    "revenueLearnMore": "Learn more about rewards points & loyalty levels!",
+    "accountHeading": "Basic Account Information",
+    "accountDesc": "Provide your billing address, your user name, and how we can pay you. You can choose to get paid via paypal, direct deposit, or check.",
+    "comingSoon": "Coming Soon!",
+    "comingSoonDesc1": "CoachList CRM! A cost-effective solution to manage all your back-end office needs.",
+    "comingSoonDesc2": "For just $40 per month you will get a full Customer Relationship Manager (CRM) and channel manager to manage your entire business, including a white-label system to promote your business, publish your calendar and reviews, and enable real-time bookings on your own website.",
+    "back": "Back",
+    "next": "Next"
+  },
+  "ISPSessionTemplates": {
+    "timeStampFormat": "DD MMM, h:mma",
+    "trainingTime": "%{dayOfWeek}, %{startTime} - %{endTime}, %{dateString}",
+    "SCHEDULED": "Session is scheduled by Athlete on:",
+    "COMPLETED": {
+      "sessionCompletedOn": "Session is completed on:",
+      "completedTimeFormat": "dddd ha D MMM YYYY"
+    },
+    "RESCHEDULED_BY_SSP": "You accepted Athlete's reschedule request on %{dateString}",
+    "RESCHEDULED_BY_ATHLETE": "Your session reschedule request accepted by Athlete on %{dateString}.",
+    "RESCHEDULED_REJECTED_BY_SSP": "You declined Session reschedule request for on:",
+    "RESCHEDULED_REJECTED_BY_ATHLETE": "Your requeste to re-schedule was declined by athlete on:",
+    "CANCELLED_BY_ATHLETE": "Session is canceled by athlete on:",
+    "CANCELLED_BY_SSP": "Session is canceled by you for reason on:",
+    "SCHEDULE_AWAITED_BY_ATHLETE": "Athlete requested for schedule on: ",
+    "AT_LOCATION": "at %{locations}",
+    "RESCHEDULE_AWAITED_BY_ATHLETE": "Session reschedule requested by Athlete on %{dateString} for reason %{reason}",
+    "RESCHEDULE_AWAITED_BY_ATHLETE_ON": "Session reschedule requested by Athlete on %{dateString}",
+    "FOR_REASON": " for reason %{reason}",
+    "RESCHEDULE_AWAITED_BY_SSP": "You requested for reschedule on %{dateString} for reason %{reason}",
+    "UNSCHEDULED": "Unscheduled session",
+    "RESERVED": "Athlete reserved session on: ",
+    "PAYMENT_ACCRUED":"Payment accrued on: ",
+    "reschedule": "RESCHEDULE",
+    "accept": "ACCEPT",
+    "reject": "REJECT",
+    "cancel": "CANCEL"
+  },
+  "DashboardSearchOptions": {
+    "sport": "Sport or service",
+    "location": "Your location"
+  },
+  "RescheduleBooking": {
+    "schedulOption": "%{startTime} - %{endTime}",
+    "selectASchedule": "Select a schedule",
+    "title": "Re-schedule Booking",
+    "selectSchedule": "Select schedule",
+    "validation": {
+      "schedule": "Please select available schedule."
+    }
+  },
+  "SessionBookingActions": {
+    "btnOk": "Ok",
+    "btnCancel": "Cancel",
+    "cancel": {
+      "heading": "Confirm",
+      "description": "Are you sure want to cancel.",
+      "error": "Something went wrong."
+    },
+    "accept": {
+      "heading": "Confirm",
+      "description": "Are you sure want to Accept.",
+      "error": "Something went wrong.",
+      "description_all": "Are you sure want to Accept all."
+    },
+    "reject": {
+      "heading": "Confirm",
+      "description": "Are you sure want to Reject.",
+      "error": "Something went wrong.",
+      "description_all": "Are you sure want to Reject all."
+    },
+    "applyAcceptDecline": {
+      "heading": "Confirm",
+      "description": "Are you sure want to accept %{accepted} and decline %{declined} sessions.",
+      "error": "Something went wrong."
+    },
+    "remind_athlete": {
+      "heading": "Confirm",
+      "description": "Are you sure to send reminder.",
+      "error": "Something went wrong."
+    }
+  },
+  "accountWallet": {
+    "wallet": "Account Balance",
+    "description": "See your current account balance here.",
+    "currencyType": "$",
+    "currentBalance": "Current Balance",
+    "withdraw": "Withdraw now!",
+    "add": "Add Funds"
+  },
+  "Order": {
+    "sessions_with": "%{offerTerminology} With",
+    "validation_cancelationpolicy": "You must agree to the cancellation policy.",
+    "orderDate": "Order Date",
+    "orderID": "Order ID"
+  },
+  "OrderItem": {
+    "discount_applied": "Discount Applied:",
+    "discount_sessions": "%{noOfSessions}+ %{offerTerminology}: $ %{eachSession} EACH",
+    "you_save": "You Save $ %{discountPrice}",
+    "scheduledTimeStamp": "%{date}, %{startTime} - %{endTime} at %{locationName}",
+    "price": "Price:",
+    "for_validation": "Please select who is this for…",
+    "select_for": "Select",
+    "buy_more": "Buy More,",
+    "save_more": "Save More!",
+    "clone": "Clone",
+    "readyToSchedule": "Ready to schedule these sessions now?"
+  },
+  "OrderConfirmation": {
+    "success": "Payment Successful",
+    "paidAmount": "You have successfully paid $%{amount}",
+    "details": "DETAILS",
+    "transactionID": "Transaction ID",
+    "paid": "PAID",
+    "downloadReceipt": "Download Receipt",
+    "coachlist": "CL-"
+  },
+  "VolumeDiscount": {
+    "each": "EACH",
+    "save": "Save",
+    "buy_more": "Buy More, Save More!",
+    "single_session_fee": "SINGLE SESSION FEE",
+    "select": "Select",
+    "price": "Price:"
+  },
+  "currency": "$",
+  "PaymentSummary": {
+    "desc": "%{totalItems} Items (%{sportsList}):",
+    "tax": "Taxes:",
+    "sub_total": "Sub Total",
+    "total_items": "TOTAL (%{itemCount} Items)",
+    "redeemReward": "Reedem %{rewardPoints} Reward Points",
+    "fromWallet": "From Wallet",
+    "balanceAmount": "BALANCE PAYABLE",
+    "continue_shopping": "Continue Shopping"
+  },
+  "PaymentProgressBar": {
+    "shopping": "SHOPPING",
+    "cart": "CART",
+    "confirm": "CONFIRM",
+    "order": "ORDER",
+    "billing": "BILLING, SHIPPING",
+    "address": "ADDRESS",
+    "make": "MAKE",
+    "payment": "PAYMENT",
+    "download": "ORDER",
+    "receipt": "SUMMARY"
+  },
+  "ShoppingCartInvite": {
+    "title": "Invite Friends",
+    "forSessions": "For %{session} with ",
+    "inviteFriend": "Invite a friend to your training %{session}",
+    "sessionDetail": "%{subSSPType} %{sport} Training %{session} with Coach %{coach} %{date} from %{startTime} - %{endTime} at ",
+    "sessionLevel": "Level: %{level}",
+    "learnMore": "Learn More",
+    "email": "Email",
+    "name": "Name",
+    "addFriend": "+ Add a friend",
+    "message": "Send a message your friends. Here’s how it looks:",
+    "p1": "I signed up for an advanced soccer training session with Coach Gary, who I found on CoachList. The session is Friday, December. 16, 2017 from 7 - 8am at Sanborn Park. It would be awesome if we 16, 2017 from 7 - 8am at Sanborn Park. It would be awesome if we could train together!",
+    "namePlaceholder": "<Name>",
+    "clickHere": "Click here",
+    "p2": "sign up, and join me on the 16th. I look forward to training with you!",
+    "invite": "INVITE",
+    "validation_messages": {
+      "emails": "Please verify the following email(s):"
+    }
+  },
+  "CartAddress": {
+    "title": "Confirm Address",
+    "message": "Check your billing or shipping address if it is different from the address provided in your account details",
+    "items": "items",
+    "edit": "Edit",
+    "billingAddress": "Billing Address",
+    "differentBillingAddress": "Use a different billing address",
+    "shippingAddress": "Shipping Address",
+    "differentShippingAddress": "Use a different shipping address",
+    "country": "Country",
+    "state": "State, Province or Region",
+    "streetAddress": "Street Address",
+    "streetAddressExample": "Enter street and number",
+    "area": "Area/Locality",
+    "areaExample": "Enter Area/Locality",
+    "city": "City",
+    "cityExample": "San Francisco",
+    "zipCode": "Zip/ Postal Code",
+    "zipCodeExample": "94501-4026",
+    "phoneNumbers": "Phone Numbers",
+    "phoneNumbersMessage": "We need at least your mobile number phone # to text or call about cancellations, bookings or other events.",
+    "mobile": "Mobile Phone Number",
+    "mobileExample": "831-838-2348",
+    "landline": "Business Number",
+    "landlineExample": "541-754-3010",
+    "continue": "Continue",
+    "validation_messages": {
+      "businessName": "Please provide a business name. If you are not incorporated or a \"DBA\" then please provide a business name for CoachList to use internally.",
+      "countryID": "Please select a country from the available options",
+      "stateID": "Select your state.",
+      "street": "Provide a street name",
+      "area": "Provide area/Locality",
+      "city": "Please select a city from the available options",
+      "zip": {
+        "required": "Please enter the zip code",
+        "valid": "Unrecognized zip or postal code.",
+        "maxLength": "Maximum length is 20"
+      },
+      "mobile": {
+        "required": "Please enter mobile number",
+        "valid": "Invalid phone number format."
+      },
+      "businessUrl": "Invalid URL",
+      "landline": {
+        "required": "Please enter business number",
+        "valid": "Invalid phone number format."
+      },
+      "firstName": "Please provide first name.",
+      "lastName": "Please provide last name.",
+      "gender": "Please select gender.",
+      "notFilled": "You have not added any %{notFilled}. We will need your account information established before we can publish your profile; you can login at any time and complete any missing fields from your Dashboard.",
+      "email": "Select a valid email format, e.g. name@email.com"
+    },
+    "select_state": "Select state",
+    "select_country": "Select country",
+    "select_timezone": "Select timezone",
+    "select_city": "Select city",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "E.g John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "E.g Mathews",
+    "gender": "Gender",
+    "genderMessage": "Why do we ask for this? Sometimes Athletes have a preference for a specific gender for training purposes, so this helps us filter better search results & matches.",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "genderOther": "Other",
+    "cityPlaceholder": "Select city",
+    "statePlaceholder": "Select state",
+    "smsConfirmMessage": "Allow coach list to send you SMS related to bookings etc."
+  },
+  "ViewCart": {
+    "confirm_order": "Confirm Order",
+    "you_have_total": "You have Total",
+    "items": "items",
+    "edit": "Edit"
+  },
+  "PaymentMode": {
+    "make_payment": "Make Payment",
+    "select_payment_method": "Select Payment Method",
+    "payment": "Payment",
+    "select_your_payment_option": "Select your payment option",
+    "error": "We could not process your payment. Error Code:",
+    "contact_support": "Contact Support",
+    "transaction_id": "Transaction ID:"
+  },
+  "PaymentOptions": {
+    "card": "Credit/Debit Card",
+    "paypal": "Via PayPal",
+    "bank": "Bank Transfer"
+  },
+  "CardPayment": {
+    "new_card": "NEW CARD",
+    "saved_cards": "SAVED CARDS"
+  },
+  "NewCardForm": {
+    "expiration_date": "Expiration date",
+    "cvc": "CVC",
+    "postal_code": "Postal code",
+    "save_this_card": "Save this card",
+    "pay_now": "PAY NOW",
+    "p": "By clicking Pay now you are agreeing to ",
+    "tos": "Terms & Conditions",
+    "card_number": "Card number"
+  },
+  "SavedCards": {
+    "card_number": "CARD NUMBER",
+    "last_numbers": "XXXX - XXXX - XXXX - %{last4}",
+    "expires": "EXPIRES",
+    "date": "%{month}/%{year}",
+    "security_code": "Security Code",
+    "pay_now": "PAY NOW",
+    "p": "By clicking Pay now you are agreeing to ",
+    "tos": "Terms & Conditions"
+  },
+  "wallet": {
+    "reedemPoints": "Reedem Reward Points",
+    "reedemPointsDesc": "I want to reedem reward points",
+    "pointsAmount": "Enter how much points you want to redeem",
+    "points": "Points",
+    "walletBalance": "Wallet Balance",
+    "walletDesc": "Use funds from my wallet for this purschase",
+    "remainingBalance": "Pay the remaining balance of %{currency}%{remainingAmount} using one of the payment option below:",
+    "payNow": "PAY NOW"
+  },
+  "AddCardModal": {
+    "addCard": "Add a Card",
+    "cardNumber": "Card Number",
+    "expirationDate": "Expiration Date",
+    "securityCode": "Security Code",
+    "zipCode": "Zip or Postal Code",
+    "saveCard": "Save Card",
+    "cancel": "Cancel"
+  },
+  "CardsList": {
+    "savedCards": "Saved Credit or Debit Cards",
+    "addCard": "Add a card"
+  },
+  "Card": {
+    "cardNumber": "Card Number",
+    "cardNumberPlaceholder": "XXXX-XXXX-XXXX-%{digits}",
+    "expires": "Expires",
+    "expirationDate": "%{expMonth}/%{expYear}",
+    "deleteCard": "Delete Card",
+    "setAsDefault": "Set as Default",
+    "default": "Default"
+  },
+  "DeleteCardModal": {
+    "title": "Are you want to delete this card ?",
+    "error": "An error has occured.",
+    "confirmDelete": "Confirm Delete",
+    "cancel": "Cancel"
+  },
+  "paymentErrorCodes": {
+    "109": "Request amount is too small to process the payment",
+    "110": "Invalid parameter passed",
+    "111": "Expected parameter missing",
+    "112": "Invalid request data",
+    "113": "Invalid positive integer",
+    "114": "Card or customer id is missing",
+    "115": "Your card number is incorrect.",
+    "116": "Expected parameter missing",
+    "117": "Invalid positive integer",
+    "118": "Your card's expiration year is invalid.",
+    "119": "Your card's expiration month is invalid.",
+    "120": "Your card's security code is invalid.",
+    "121": "Shopping cart is empty",
+    "122": "Transaction not found with the given id",
+    "123": "We could not block one or more schedules booked by you. If you proceed, you would be able to schedule them later. Otherwise, you may go back to the Shopping cart to see the affected schedules and re-plan.",
+    "124": "Transaction cut off time exceeded",
+    "128": "We could not block one or more schedules booked by you. If you proceed, you would be able to schedule them later. Otherwise, you may go back to the Shopping cart to see the affected schedules and re-plan.",
+    "131": "Athlete not available at the given time slot, We could not block one or more schedules booked by you. If you proceed, you would be able to schedule them later. Otherwise, you may go back to the Shopping cart to see the affected schedules and re-plan.",
+    "400": "The request was unacceptable, often due to missing a required parameter.",
+    "401": "No valid API key provided.",
+    "402": "The parameters were valid but the request failed.",
+    "404": "The requested resource doesn't exist.",
+    "409": "The request conflicts with another request (perhaps due to using the same idempotent key).",
+    "429": "Too many requests hit the API too quickly. We recommend an exponential backoff of your requests.",
+    "500": "Something went wrong on payment server's end. (These are rare.)"
+  },
+  "PaymentProcessing": {
+    "payment": "Payment",
+    "p": "Select your payment option",
+    "processing": "Processing",
+    "p2": "Please do no not click back or refresh as we are procession your payment request.",
+    "cancel": "shopping cart",
+    "ok": "Continue payment",
+    "instruction": "If you continue the payment, Session will be marked as unschedule (later you can schedule it from the dashboard), Or if you want to make changes click on \"shopping cart\". "
+  },
+  "Actions": {
+    "headings": {
+      "ACCEPT": "Accept",
+      "REJECT": "Reject"
+    },
+    "messages": {
+      "ACCEPT": "Are you sure you want to accept the change ?",
+      "REJECT": "Are you sure you want to decline the change ?"
+    }
+  },
+  "SSPCancelFutureSessions":{
+    "heading": "Purchased %{noOfPurchase} %{offerTerminology} package by %{athleteName} %{date}",
+    "sessionStatus": {
+      "UNSCHEDULED": "unscheduled",
+      "SCHEDULED": "Scheduled at %{dateTime}",
+      "RESCHEDULED_BY_SSP": "Rescheduled at %{dateTime}",
+      "RESCHEDULED_BY_ATHLETE": "Rescheduled at %{dateTime}",
+      "SCHEDULE_AWAITED_BY_ATHLETE":"Athlete requested for schedule on at %{dateTime}.",
+      "RESCHEDULE_AWAITED_BY_ATHLETE":"Athlete requested for reschedule on at %{dateTime}.",
+      "RESCHEDULE_AWAITED_BY_SSP":"You requested for reschedule on at %{dateTime}."
+    }
+  },
+  "ReportAthleteModal": {
+    "select_reason": "Select Reason",
+    "report_name": "Report %{name}",
+    "attempted": "Have you attempted to resolve this issue with the Athlete?",
+    "triedToResolveWithAthleteFlags": {
+      "Y": "Yes",
+      "N": "No"
+    },
+    "reason": "Reason",
+    "any_additional_comments": "Any additional comments?",
+    "comment_placeholder": "Please provide sufficient detail that we can resoluve the issue promptly.",
+    "submit": "Submit",
+    "description": "Your satisfaction is very important to us. CoachList will work to resolve this dispute as quickly as possible, and we will let you know once we have an answer for you!"
+  },
+  "ScheduleErrorCodes":{
+    "132":"No open position available.",
+    "133":"Athlete not available for schedule.",
+    "134":"Schedule reached booking cut off time."
+  },
+  "trainingType": {
+    "private": "PRIVATE TRAINING",
+    "group": "GROUP TRAINING",
+    "team": "TEAM TRAINING",
+    "clinics": "CLINICS"
+  }
+}

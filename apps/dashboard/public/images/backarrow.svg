@@ -1,0 +1,15 @@
+<svg class="cl-icon-back-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="7348.966 -314.516 17.534 11.033">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #666;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 118" transform="translate(7302 -512.5)">
+    <path data-name="Path 35" class="cl-icon-back-arrow-1" d="M0,0,4.749,5,3.795,6,0,10" transform="translate(52.749 208.5) rotate(180)"/>
+    <line data-name="Line 9" class="cl-icon-back-arrow-1" x2="16" transform="translate(48.5 203.5)"/>
+  </g>
+</svg>

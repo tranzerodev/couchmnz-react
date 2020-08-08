@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="256px" height="256px" x="0" y="0" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 430 419"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#F15E23}
+    .fil0 {fill:#2B2A29;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="cl-gift-icon">
+   <path class="fil0" d="M4 97l72 0 0 7 -68 0 0 88 18 0 0 219 132 0 0 8 -140 0 0 -219 -18 0 0 -103 4 0zm351 0l75 0 0 103 -17 0 0 219 -141 0 0 -8 134 0 0 -219 16 0 0 -88 -68 0 0 -7 1 0z"/>
+   <path class="fil1" d="M254 96c2,-5 4,-6 7,-11 19,-28 29,-66 68,-66 35,0 33,52 -9,69 -22,9 -36,8 -66,8zm9 8l0 314 -96 0 0 -314 -72 0c-10,-9 -13,-7 -25,-21 -7,-9 -11,-18 -13,-33 -4,-26 15,-50 38,-50 38,0 50,8 72,43 10,15 26,53 48,53 22,0 38,-38 48,-53 23,-35 34,-43 72,-43 24,0 42,25 38,52 -3,14 -6,23 -14,32 -11,13 -12,10 -22,18 -3,3 0,0 -2,2l-72 0zm-186 -56c0,-19 3,-29 29,-29 23,0 38,25 49,41l21 36c-30,0 -44,1 -66,-8 -15,-6 -33,-21 -33,-40z"/>
+ </g>
+</svg>

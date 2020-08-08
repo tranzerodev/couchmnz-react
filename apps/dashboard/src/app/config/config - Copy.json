@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://dev2.coachlist.com",
+  "sspSearchBaseUrl": "https://dev2.coachlist.com/search",
+  "googleApiKey": "AIzaSyCxfm_wmEREVuIa-lZvIZ2gCfcwwrG7yyY",
+  "stripePublicKey": "pk_test_qoMHuBUGgp4dICMmNaqV6B9r",
+  "dashboardBaseUrl": "https://dev-app2.coachlist.com/dashboard",
+  "canRemoveLogs": false,
+  "ssrUrl": "https://dev2.coachlist.com"
+}

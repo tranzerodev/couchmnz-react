@@ -1,0 +1,54 @@
+.cl-create-label{
+
+	padding: 0 $cl-gutter-small;
+
+	@media #{$belowlarge} {
+		padding: $cl-gutter-small $cl-gutter-small;
+		margin-top: -3px;
+	}
+
+
+	.cl-label-header {
+
+		h3 {
+			font-weight: 600; 
+			font-size: 18px;
+			margin: 0 0 $cl-gutter-small/2 0;
+			padding: 0;
+			color: $grey;
+		}
+
+	}	
+
+	.cl-label-content {
+
+		padding-top: $cl-gutter-small;	
+
+		input {
+			padding: $cl-gutter-small;						
+			font-size: 14px;
+			border: 1px solid $blue;
+			outline: none;
+			width: 100%;
+			box-sizing: border-box;
+		}	
+
+	}
+	
+
+}
+#create-new-label{
+	.uk-modal-dialog{
+		padding: 40px;
+		border-radius: 4px;
+	}
+	.uk-modal-close{
+		position: absolute;
+		top: 40px;
+		right: 40px;
+		svg{
+			width: 20px;
+			height: 20px;
+		}
+	}
+}

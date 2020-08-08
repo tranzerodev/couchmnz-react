@@ -1,0 +1,6 @@
+{
+  "name": "SessionBufferModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SessionBufferModal.js"
+}

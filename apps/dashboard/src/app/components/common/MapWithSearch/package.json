@@ -1,0 +1,6 @@
+{
+  "name": "MapWithSearch",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MapWithSearch.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SportCard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SportCard.js"
+}

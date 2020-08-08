@@ -1,0 +1,6 @@
+{
+  "name": "ConfirmationModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ConfirmationModal.js"
+}

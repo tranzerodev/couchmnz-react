@@ -1,0 +1,6 @@
+{
+  "name": "PayoutDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PayoutDetails.js"
+}

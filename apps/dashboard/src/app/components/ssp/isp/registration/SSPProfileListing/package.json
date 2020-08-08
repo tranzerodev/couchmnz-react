@@ -1,0 +1,6 @@
+{
+  "name": "SSPProfileListing",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SSPProfileListing.js"
+}

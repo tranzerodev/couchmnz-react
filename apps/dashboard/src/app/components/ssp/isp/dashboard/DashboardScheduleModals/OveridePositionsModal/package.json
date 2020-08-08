@@ -1,0 +1,6 @@
+{
+  "name": "OveridePositionsModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./OveridePositionsModal.js"
+}

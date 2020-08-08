@@ -1,0 +1,6 @@
+{
+  "name": "RegBusinessModel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RegBusinessModel.js"
+}

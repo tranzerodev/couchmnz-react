@@ -1,0 +1,6 @@
+{
+  "name": "TrainerFilters",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TrainerFilters.js"
+}

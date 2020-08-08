@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Location-PaleGrey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BookingSummaryCard/BookRequest-View-Calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-106.000000, -126.000000)">
+        <g id="BookingSummaryCard/BookingRequested" stroke="#999999">
+            <g id="Group-5-Copy" transform="translate(102.000000, 24.000000)">
+                <path d="M9.55175758,108.615525 C10.3711514,108.625946 11.0533339,107.952649 11.070168,107.116755 C11.0871357,106.28193 10.4049533,105.581243 9.56204509,105.567549 C8.71753367,105.553787 8.02138959,106.22802 8.01123568,107.069659 C8.00088136,107.927665 8.67518118,108.604369 9.55175758,108.615525 M5,107.603742 C5.00407492,105.188647 6.88602207,103.186523 9.31888566,103.0103 C11.5542824,102.848438 13.6804578,104.614016 14.033707,106.921091 C14.2250281,108.170691 13.9525425,109.317682 13.2166512,110.332605 C12.1396019,111.818082 11.0302872,113.280178 9.93065877,114.749222 C9.676811,115.088376 9.41361096,115.082898 9.15428543,114.736596 C8.0612036,113.276504 6.96431406,111.819218 5.88419184,110.349573 C5.28731559,109.537527 5.0033401,108.61272 5,107.603742" id="Location-PaleGrey"></path>
+            </g>
+        </g>
+    </g>
+</svg>

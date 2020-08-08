@@ -1,0 +1,6 @@
+{
+  "name": "OverrideOpenPositionsModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./OverrideOpenPositionsModal.js"
+}

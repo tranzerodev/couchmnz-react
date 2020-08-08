@@ -1,0 +1,6 @@
+{
+  "name": "DashboardScheduleSessions",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardScheduleSessions.js"
+}

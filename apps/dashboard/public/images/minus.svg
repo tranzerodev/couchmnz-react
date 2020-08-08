@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15609.5 -1912.5 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #42b7db;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_2053" data-name="Group 2053" transform="translate(-15976.5 -3036.5)">
+    <rect id="Rectangle-7" class="cls-1" width="23" height="23" rx="4" transform="translate(367.5 1124.5)"/>
+    <line id="Line_57" data-name="Line 57" class="cls-2" x1="11.897" transform="translate(373.052 1135.603)"/>
+  </g>
+</svg>

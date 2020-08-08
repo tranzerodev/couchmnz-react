@@ -1,0 +1,6 @@
+{
+  "name": "CancelationPolicyModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CancelationPolicyModal.js"
+}

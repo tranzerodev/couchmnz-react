@@ -1,0 +1,12 @@
+<svg class="cl-icon-edit" xmlns="http://www.w3.org/2000/svg" viewBox="-18838 -2262 16 16">
+  <defs>
+    <style>
+      .cl-icon-edit-1 {
+        fill: #42b7db;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 4017" transform="translate(-20346 -3515)">
+    <path class="cl-icon-edit-1" d="M8,16A8,8,0,1,0,0,8,8,8,0,0,0,8,16ZM10.352,3.68,12.32,5.648,11.088,6.88,9.12,4.912Zm-5.9,5.9L8.64,5.392,10.608,7.36,6.416,11.552l-2.464.5Z" transform="translate(1508 1253)"/>
+  </g>
+</svg>

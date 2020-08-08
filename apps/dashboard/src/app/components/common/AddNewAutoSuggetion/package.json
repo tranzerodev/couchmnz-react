@@ -1,0 +1,6 @@
+{
+  "name": "AddNewAutoSuggetion",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AddNewAutoSuggetion.js"
+}

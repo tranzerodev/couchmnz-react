@@ -1,0 +1,395 @@
+.coach-tab-content-wrapper-1-2{
+	#coach-tab-content {
+		.profile-intro{
+			padding-bottom: 10px;
+		}
+		.prRow{
+			&:first-child{
+				border-top: 1px solid $greyLighter;
+			}
+			.subText{
+				padding-bottom:10px;
+			}
+		}
+		.calender-grid-view {
+			.grid-calender-con{
+				.grid-calender-body{
+					.calender{
+						.days{
+							li{
+								&.active{
+									a{
+										background: transparent;
+										font-weight: 600;
+										border: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.grid-calender-body {
+				
+			}
+		} 
+		.training-offered-table{
+			padding-top: 30px;
+			.training-type{
+				border: 1px solid #dfdfdf;
+			    background: #f9f9f9;
+			    padding: 20px;
+			    border-radius: 5px;
+			    margin-bottom: 10px;
+			    .training-section{
+			    	padding-top: 0;
+			    }
+			    p{
+		    		margin: 0;
+		    		font-size: 16px;
+		    		line-height: 22px;
+		    		color: $grey;
+		    	}
+		    	ul{
+		    		list-style: none;
+		    		padding: 0;
+		    		margin: 0;
+		    		li{
+		    			display: block;
+		    			padding: 4px 0;
+		    			margin: 0;
+		    			font-size: 14px;
+		    			line-height: 20px;
+		    			color: $grey;
+		    			&:before{
+		    				display: none;
+		    			}
+		    			a{
+		    				text-decoration: none;
+		    				color: $blue;
+		    				font-weight: 600;
+		    				&:hover{
+		    					color: $blueDark;
+		    				}
+		    			}
+		    			.black-circle {
+						    .fa {
+						    	font-size: 9px;
+							    color: #fff;
+							    position: relative;
+							    top: -5px;
+						    }
+						}
+		    		}
+		    		&.circle-dot-list{
+		    			li{
+		    				padding: 5px 0;
+		    				display: table;
+		    				width: 100%;
+		    				span{
+		    					display: table-cell;
+		    					vertical-align: top;
+		    					&.cl-trainingtype-icon{
+		    						width: 30px;
+				    				svg{
+				    					width: 20px;
+				    					height: 15px;
+				    					margin-right: 10px;
+				    				}
+		    					}
+		    					&.cl-trainingtype-content{
+			    					font-weight: 600;
+			    					display: block;
+			    				}
+		    				}
+		    			}
+		    		}
+		    	}
+			}  
+		} 
+		.calender-grid-view{
+			display: table;
+			width: 100%;
+			border: 1px solid #dfdfdf;
+			border-radius: 4px;
+			.grid-calender-con-outer{
+				display: table-cell;
+				vertical-align: top;
+				width: 33.33%;
+				background: #fdfdfd;
+				.grid-calender-con{
+					border:none;
+					border-right: 1px solid #dfdfdf;
+    				border-bottom: 1px solid #dfdfdf;
+					.grid-calender-body {
+						.cal-grid-event-list{
+							height: 380px;
+						}
+						.filtter-row{
+							padding-bottom: 35px;
+						}
+						.calender{
+							.days{
+								li{
+									&.active{
+										a{
+											background: transparent;
+											font-weight: 600;
+											border: none;
+										}
+									}
+								}
+							}
+						}
+						.event-time{
+							label{
+								color: $blue;
+								&:hover{
+									color: $grey;
+								}
+							}
+							input[type="radio"]{
+								&:checked {
+									&+ label{
+										color: $grey;
+									}
+								}
+							}
+						}
+						.cal-grid-event-list {
+							.cal-grid-event-block{
+								.container-ck{
+									.checkmark{
+										width: 18px;
+					                    height: 18px;
+					                    background: url("data:image/svg+xml;utf8,<svg class='cl-icon-checkbox-uncheck' xmlns='http://www.w3.org/2000/svg' viewBox='-1265 -5067 15.43 15.43'><g transform='translate(-1355 -6037.856)'><path data-name='Type sport' class='cl-icon-checkbox-uncheck-1' d='M12.274-12.74H3.156a1.688,1.688,0,0,0-1.238.515A1.688,1.688,0,0,0,1.4-10.987v9.118A1.688,1.688,0,0,0,1.918-.631a1.688,1.688,0,0,0,1.238.515h9.118a1.688,1.688,0,0,0,1.238-.515,1.688,1.688,0,0,0,.515-1.238v-9.118a1.688,1.688,0,0,0-.515-1.238A1.688,1.688,0,0,0,12.274-12.74Zm3.156,1.753v9.118A3.04,3.04,0,0,1,14.5.361a3.04,3.04,0,0,1-2.23.926H3.156A3.04,3.04,0,0,1,.926.361,3.04,3.04,0,0,1,0-1.869v-9.118a3.04,3.04,0,0,1,.926-2.23,3.04,3.04,0,0,1,2.23-.926h9.118a3.04,3.04,0,0,1,2.23.926A3.04,3.04,0,0,1,15.43-10.987Z' transform='translate(90 985)' fill='%2342b7db' /></g></svg>") no-repeat center center;
+					                    border: none;
+					                    margin-top: 3px;
+									}
+									input{
+										&:checked ~ .checkmark{
+											background: url("data:image/svg+xml;utf8,<svg class='cl-icon-checkbox-check' xmlns='http://www.w3.org/2000/svg' viewBox='-1322 -5067 15.429 15.429'><g transform='translate(-1542 -6036.857)'><path data-name='Type sport' class='cl-icon-checkbox-check-1' d='M6.881-2.381l6.167-6.167A.618.618,0,0,0,13.239-9a.618.618,0,0,0-.191-.452l-1.025-1.025a.618.618,0,0,0-.452-.191.618.618,0,0,0-.452.191L6.429-5.786,4.309-7.905A.618.618,0,0,0,3.857-8.1a.618.618,0,0,0-.452.191L2.381-6.881a.618.618,0,0,0-.191.452.618.618,0,0,0,.191.452l3.6,3.6a.618.618,0,0,0,.452.191A.618.618,0,0,0,6.881-2.381Zm8.548-8.869v9.643A2.786,2.786,0,0,1,14.58.437a2.786,2.786,0,0,1-2.044.849H2.893A2.786,2.786,0,0,1,.849.437,2.786,2.786,0,0,1,0-1.607V-11.25a2.786,2.786,0,0,1,.849-2.044,2.786,2.786,0,0,1,2.044-.849h9.643a2.786,2.786,0,0,1,2.044.849A2.786,2.786,0,0,1,15.429-11.25Z' transform='translate(220 984)' fill='%2342b7db' /></g></svg>") no-repeat center center;
+											&:after{
+												display: none;
+											}
+										}
+									}
+								}
+								.cl-sd-discount-1-2{
+									span{
+										font-weight: 600;
+										padding-right: 10px;
+										color: $grey;
+									}
+									a{
+										&.see-dis{
+											display: inline-block;
+		    								padding: 0 0 10px 0;
+										}
+									}
+								}
+								.event-place {
+									.destination{
+										display: table-cell;
+										svg{
+											width: 16px;
+											height: 20px;
+										}
+										a{
+											font-weight: 600;
+											&:hover{
+												color: $blueDark;
+											}
+										}
+									}
+									.coach-place{
+										display: table-cell;
+									}
+								}
+							}
+						}
+					}
+					.grid-calender-heading{
+						border-bottom: none;
+					}
+				}
+				&:last-child{
+					.grid-calender-con{
+						border-right: none;
+					}
+				}  
+				.cal-list-footer{
+					display: table;
+					width: 100%;
+					text-align: left;
+					box-sizing: border-box;
+					padding: 30px 20px;
+					.btn-red{
+						display: table-cell;
+						vertical-align: top;
+						a{
+							text-transform: capitalize;
+						}
+					}
+					.btn-msg{
+						display: table-cell;
+						vertical-align: top;
+						text-align: right;
+						a{
+							font-size: 18px;
+							line-height: 24px;
+							border:1px solid $orange;
+							padding: 9px 15px;
+							display: inline-block;
+							text-decoration: none;
+							text-transform: capitalize;
+							font-weight: 600;
+							color: $orange;
+							border-radius: 4px;
+							&:hover{
+								border:1px solid $orangeDark;
+								color: $orangeDark;
+							}
+						}
+					}
+				}
+			}
+		}
+	} 
+}
+
+@media only screen and (max-width: 1400px) {
+	.coach-tab-content-wrapper-1-2 {
+		#coach-tab-content{
+			.calender-grid-view{
+				.grid-calender-con-outer{
+					.grid-calender-con{
+						.grid-calender-body{
+							.event-time{
+								label{
+									padding: 6px 17px 6px 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}      
+}
+@media only screen and (max-width: 1219px) {
+	.coach-tab-content-wrapper-1-2 {
+		#coach-tab-content{
+			.calender-grid-view{
+				.grid-calender-con-outer{
+					.grid-calender-con{
+						.grid-calender-body{
+							.event-time{
+								label{
+									display: block;
+								}
+							}
+						}
+					}
+					.cal-list-footer {
+						display: block;
+						.btn-red{
+							display: block;
+							margin-bottom: 30px;
+						}
+						.btn-msg{
+							display: block;
+							text-align: left;
+						}
+					}
+				}
+			}
+		}
+	}      
+}
+@media only screen and (max-width: 1023px) {
+	.coach-tab-content-wrapper-1-2 {
+		#coach-tab-content{
+			.calender-grid-view{
+				.grid-calender-con-outer{
+					width: 100%;
+					display: block;
+					.grid-calender-con{
+						border-right: none;
+						.grid-calender-body {
+							.event-time {
+								label{
+									display: inline-block;
+								}
+							}
+						}
+					}
+					.cal-list-footer {
+						display: table;
+						width: 100%;
+						.btn-red{
+							display: table-cell;
+						}
+						.btn-msg{
+							display: table-cell;
+							text-align: right;
+						}
+					}
+				}
+			}
+		}
+	}  
+}
+@media only screen and (max-width: 480px) {
+	.coach-tab-content-wrapper-1-2 {
+		#coach-tab-content{
+			.calender-grid-view{
+				.grid-calender-con-outer{
+					.grid-calender-con{
+						.grid-calender-body {
+							.event-time {
+								display: block;
+								padding: 10px 0;
+							}
+							.cal-grid-event-list {
+								.cal-grid-event-block{
+									.uk-flex-wrap{
+										padding: 0 15px;
+									}
+									.event-place{
+										.open-pos{
+											position: relative;
+											top:0;
+											left: 0;
+										}
+										span{
+											padding: 10px 0;
+											&.time-slot{
+												padding: 0 0 10px 0;
+											}
+										}
+									}
+									.cl-sd-discount-1-2{
+										span{
+											padding: 10px 10px 10px 0;
+										}
+									}
+								}
+							}
+						}
+					}
+					.cal-list-footer {
+						display: block;
+						.btn-red{
+							display: block;
+						}
+						.btn-msg{
+							display: block;
+							text-align: left;
+						}
+					}
+				}
+			}
+		}
+	} 
+}

@@ -1,0 +1,394 @@
+
+.dropdown-ui{
+    list-style: none;    
+    padding: 0px;
+    margin: 0px;
+    //width: 310px;
+    // position: absolute;
+    // right: -22px;
+    // top: 48px;
+    background: #fff;
+    @include breakpoint (phablet){
+        right: 0px;
+    }
+    @include breakpoint (mobileonly){
+        right: 0px;
+    }
+    @include border-radius(6px);
+    @include box-shadow(0, 3px, 6px, rgba(0, 0, 0, 0.16));
+    @include border-all(1px, $greyLight);
+    &:before{
+        position: absolute;
+        content: "";
+        background: url(../images/menu-dp-toparrow.svg) no-repeat center center;
+        width: 30px;
+        height: 15px;
+        top: -14px;
+        right: 20px;
+        @include breakpoint(phablet){
+            right: 6px;
+        }
+        @include breakpoint(mobileonly){
+            right: 6px;
+        }
+    }    
+    >li{
+        &:first-child{
+            a{
+                border-top: none;
+            }
+        }
+    }
+    li{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        &:hover{
+            .dp-arrow{
+                top: 14px;
+                background: url(../images/Triangle-down.svg) no-repeat center right;
+                width: 14px;
+                height: 18px;
+            }
+        }
+        > a{
+            line-height: 20px !important;
+        }
+        &.active{
+            .dp-arrow{
+                top: 14px;
+                background: url(../images/Triangle-down.svg) no-repeat center right;
+                width: 14px;
+                height: 18px;                
+            }
+            > a{
+                line-height: 20px;
+                color: $grey !important;
+            }
+        }
+        a{
+            &:hover{
+                color: $grey !important;
+            }
+        }
+    }  
+    > li{
+        display: block !important;
+        margin: 0px !important;
+        &.on-bellow-tab {
+            @media screen and (max-width: 767px) {
+                display: block !important; 
+            }
+            @media screen and (min-width: 768px) {
+                display: none !important; 
+            }
+        }
+        &.active{
+            > a{
+                @include border-bottom(1px,$semiDarkGray);
+            }
+            .dp-arrow{
+                #Triangle{
+                    transform: rotate(90);
+                }
+            }
+        }        
+       > a{
+            display: block;
+            text-align: left;
+            padding: 14px 14px 14px 20px;
+            font-size: 18px !important;
+            line-height: 20px;
+            font-weight: 600;
+            color: $orange !important;
+            position: relative;
+            @include border-top(1px,$semiDarkGray);
+
+        }
+        > ul{
+            display: none;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 0px;
+            list-style: none;
+            li{
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+                width: 100%;
+                a{
+                    text-align: left;
+                    display: block;
+                    width: 100%;
+                    color: $orange;
+                    padding: 13px 0px !important;
+                    font-weight: 300 !important;
+                    font-size: 16px;
+                    border-bottom: 1px solid #cccccc !important;
+                }
+                &:last-child{
+                    a{
+                        border: none !important;
+                    }
+                }
+            }
+        }
+    }  
+    .dp-arrow{
+        position: absolute;
+        right: 18px;
+        top: 18px;
+        background: url(../images/Triangle-right.svg) no-repeat center right;
+        width: 20px;
+        height: 12px;
+        &.down{
+            top: 14px;
+            background: url(../images/Triangle-down.svg) no-repeat center right;
+            width: 14px;
+            height: 18px;
+        }
+    }    
+}
+.my-messages{
+    .uk-dropdown{
+        padding: 0px;
+        width: 310px;
+        box-shadow: none;
+        @include border-radius(6px);
+        border: none;
+        left: -265px !important;
+        top: 39px !important;
+        @include breakpoint(mobileportrait){
+            left: -284px!important;
+        }
+        @include breakpoint(mobilelandscape){
+            left: -284px!important;
+        }        
+        .dropdown-ui{
+            li{
+                display: block;
+                text-align: left;
+                padding: 20px 0px 0px 0px;
+                font-size: 18px;
+                line-height: 20px;
+                font-weight: 600;
+                color: $grey !important;
+                position: relative;
+                span.see-all-msg{
+                    position: absolute;
+                    top: 18px;
+                    right: 15px;
+                    a{
+                        color: $blue;
+                    }
+                }
+                span.dp-title{
+                    padding-left: 20px;
+                    display: inline-block;
+                    width: 70%;
+                }
+                > ul{
+                    display: block;
+                    margin: 0px;
+                    li{
+                        &:first-child{
+                            margin-top: 15px;
+                            border-top: 1px solid $semiDarkGray !important;
+                        }
+                        &:last-child{
+                            border: none;
+                        }
+                        &.unread-msg{
+                            background: #ebf7fb; 
+                        }
+                        padding: 0px;
+                        margin: 0px;
+                        .sender-img{
+                            img{
+                                width: 100%;
+                                @include border-radius(60px);
+                                @include border-all(2px,#fff);
+                            }
+                        }
+                        a{
+                            border: none;
+                            > div{
+                                padding: 0px 20px 0px;
+                                .msg-body {
+                                    padding-left: 5px;
+                                    .msg-sub{
+                                        color: $greyLight;
+                                        font-family: $bold-font; 
+                                        font-size: 12px;
+                                        display: block;
+                                        line-height: 12px;
+                                        text-transform: uppercase;
+                                    }
+                                    .sendar-name{
+                                        color: $blue;
+                                        font-size: 14px;
+                                        font-family: $bold-font;
+                                        display: block;
+                                        line-height: 14px;
+                                    }
+                                    .msg-date{
+                                        color: $greyLight;
+                                        font-size: 12px;
+                                        display: block;
+                                        line-height: 12px;
+                                        font-weight: 300;
+                                        font-family: $normal-font;
+                                    }
+                                    .msg-body-text{
+                                    color: $grey;
+                                    font-size: 12px; 
+                                    font-family: $normal-font;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    font-weight: 300;
+                                    line-height: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.my-profile{
+    .uk-dropdown{
+        padding: 0px;
+        width: 310px;
+        box-shadow: none;
+        @include border-radius(6px);
+        border: none;
+        left: -265px !important;
+        top: 39px !important;
+        @include breakpoint(mobileportrait){
+            left: -284px!important;
+        }
+        @include breakpoint(mobilelandscape){
+            left: -284px!important;
+        }
+    }
+}
+.notification{
+    .uk-dropdown{
+        padding: 0px;
+        width: 310px;
+        box-shadow: none;
+        @include border-radius(6px);
+        border: none;
+        left: -265px !important;
+        top: 39px !important;
+        @include breakpoint(mobileportrait){
+            left: -284px!important;
+        }
+        @include breakpoint(mobilelandscape){
+            left: -284px!important;
+        }
+        .dropdown-ui{
+            li{
+                display: block;
+                text-align: left;
+                padding: 20px 0px 0px 0px;
+                font-size: 18px;
+                line-height: 20px;
+                font-weight: 600;
+                color: $grey !important;
+                position: relative;
+                span.see-all-msg{
+                    position: absolute;
+                    top: 18px;
+                    right: 15px;
+                    a{
+                        color: $blue;
+                    }
+                }
+                span.dp-title{
+                    padding-left: 20px;
+                    display: inline-block;
+                    width: 70%;
+                }
+                > ul{
+                    display: block;
+                    margin: 0px;
+                    li{
+                        &:first-child{
+                            margin-top: 15px;
+                            border-top: 1px solid $semiDarkGray !important;
+                        }
+                        &:last-child{
+                            border: none;
+                        }
+                        &.unread-notifiaction{
+                            background: #ebf7fb; 
+                        }
+                        padding: 0px;
+                        margin: 0px;
+                        .sender-img{
+                            img{
+                                width: 60px;
+                                @include border-radius(60px);
+                                @include border-all(2px,#fff);
+                            }
+                        }
+                        a{
+                            border: none;
+                            > div{
+                                padding: 0px 20px 0px;
+                                .notification-body {
+                                    padding-left: 5px;
+                                    .notification-name{
+                                        color: $blue;
+                                        font-family: $bold-font; 
+                                        font-size: 12px;
+                                        display: block;
+                                        line-height: 12px;
+                                        .all-people{
+                                            font-family: $normal-font; 
+                                            color: $grey;
+                                        }
+                                    }
+                                    .notification-activity{
+                                        color: $grey;
+                                        font-size: 12px;
+                                        font-family: $normal-font;
+                                        display: block;
+                                        font-weight: 600;
+                                        line-height: 14px;
+                                        padding-top: 3px;
+                                    }
+                                    .notification-activity-details{
+                                        color: $grey;
+                                        font-size: 12px;
+                                        font-family: $normal-font;
+                                        display: block;
+                                        line-height: 14px;
+                                    }
+                                    .notification-time{
+                                        color: $greyLight;
+                                        font-size: 12px;
+                                        display: block;
+                                        line-height: 12px;
+                                        font-weight: 300;
+                                        padding-top: 5px;
+                                        font-family: $normal-font;
+                                    }                                
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.uk-width-15 {
+    width: 15%;
+}
+uk-width-85{
+    width: 85%;
+}

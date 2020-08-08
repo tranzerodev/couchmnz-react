@@ -1,0 +1,7 @@
+{
+    "name": "program_provider",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ProgramProvider.js"
+  }
+  

@@ -1,0 +1,6 @@
+{
+  "name": "DashboardAccountSideNav",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardAccountSideNav.js"
+}

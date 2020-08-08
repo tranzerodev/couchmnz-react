@@ -1,0 +1,6 @@
+{
+  "name": "SentMessageView",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SentMessageView.js"
+}

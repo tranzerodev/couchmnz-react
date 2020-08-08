@@ -1,0 +1,21 @@
+<svg class="cl-icon-upload" xmlns="http://www.w3.org/2000/svg" viewBox="-12924 5592 24 19.167">
+  <defs>
+    <style>
+      .cl-icon-upload-1, .cl-icon-upload-2 {
+        fill: none;
+        stroke: #f15e23;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+      .cl-icon-upload-1 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 2551" transform="translate(-14481 5049.454)">
+    <path data-name="Path 197" class="cl-icon-upload-1" d="M15.208,19.046h4.17a3.622,3.622,0,1,0,0-7.243h-.027A5.563,5.563,0,0,0,8.612,9.186a2.753,2.753,0,0,0-4.7,1.945c0,.039,0,.077.006.115a3.972,3.972,0,0,0,1.059,7.8H8.792" transform="translate(1557 538)"/>
+    <path data-name="Path 198" class="cl-icon-upload-2" d="M20,25.292,22.292,23l2.292,2.292" transform="translate(1546.708 528.546)"/>
+    <line data-name="Line 208" class="cl-icon-upload-2" y1="9.014" transform="translate(1569 551.698)"/>
+  </g>
+</svg>

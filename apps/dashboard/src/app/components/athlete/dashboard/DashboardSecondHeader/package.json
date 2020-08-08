@@ -1,0 +1,6 @@
+{
+  "name": "DashboardSecondHeader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardSecondHeader.js"
+}

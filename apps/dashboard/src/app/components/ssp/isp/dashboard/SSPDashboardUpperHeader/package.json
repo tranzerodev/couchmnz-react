@@ -1,0 +1,6 @@
+{
+  "name": "SSPDashboardUpperHeader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SSPDashboardUpperHeader.js"
+}

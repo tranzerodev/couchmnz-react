@@ -1,0 +1,260 @@
+.dashboardSection{
+    .cl-sd-reviewInner{
+        .sm-padding-left-0{
+            @include breakpoint("smLaptop"){
+                padding-left: 0px;
+            }
+            @include breakpoint("tablet"){
+                padding-left: 0px;
+            }
+        }
+        .filter-listing {
+            .ac-rating {
+                .uk-table td{
+                    padding: 5px 0px;
+                }
+            }
+        }
+        padding: 30px;
+        border: 1px solid $semiDarkGray;
+        border-radius: 5px;
+        background: $white;
+        .sec-snapshot-graph{
+            max-width: 100%;
+            .rating-count{
+                width: 9%;
+            }
+            .snapshot-bar{
+                .star-count{
+                    @include breakpoint("desktop"){
+                        width: 12% !important;
+                    }
+                    @include breakpoint("laptopLarge"){
+                        width: 12% !important;
+                    }
+                    @include breakpoint("laptop"){
+                        width: 11% !important;
+                    }
+                    @include breakpoint("tablet"){
+                        width: 6% !important;
+                    }
+                    @include breakpoint("phablet"){
+                        width: 7% !important;
+                    }
+                    @include breakpoint("mobileonly"){
+                        width: 12% !important;
+                    }
+                }
+                .bar {
+                    width: 62% !important;
+                }
+            }
+        }
+        .review-listing {
+            .gray-bar{
+                .theme-dropdown{
+                    @include breakpoint("mobileonly"){
+                        display: block;
+                        margin-right: 0px;                        
+                    }
+                    .uk-button{
+                        width: 159px;
+                        @include breakpoint("phablet"){
+                            width: 114px;
+                        }
+                        @include breakpoint("mobileonly"){
+                            width: 100%;
+                            margin-top: 5px;
+                        }
+                        .cl-arrow-right {
+                            float: right;
+                            width: 12px;
+                            height: 31px;
+                            padding: 12px 0px;
+                            .cl-arrow-path {
+                                fill: none;
+                                stroke: $blue;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 3px;
+                                fill-rule: evenodd;
+                            }
+                        }
+                    }
+                    .uk-dropdown{
+                        width: 230px !important;
+                    }
+                }
+            }
+        }
+        .ac-rating{
+            .uk-table{
+                td{
+                    &:first-child{
+                        width: 49%;
+                        @include breakpoint("mobileonly"){
+                            width: 77%;
+                        }
+                    }
+                    &:nth-child(2){
+                        @include breakpoint("mobileonly"){
+                            width: 81% !important;
+                        }
+                    }
+                    &:last-child {
+                        @include breakpoint("mobileonly"){
+                            position: relative;
+                            top: -5px;
+                        }
+                    }
+                }
+            }
+        }
+        .filter-listing{
+            .ac-rating{
+                .uk-table{
+                    td{
+                        &:first-child{
+                            width: 62%;
+                        }
+                    }
+                }
+            }
+        }
+        .cl-review-cta{
+            padding-left: 95px;
+            @include breakpoint("smLaptop"){
+                padding-left: 0px;
+            }
+            @include breakpoint("tablet"){
+                padding-left: 0px;
+            }
+            @include breakpoint("phablet"){
+                padding-left: 0px;
+            }
+            @include breakpoint("mobileonly"){
+                padding-left: 0px;
+            }
+            padding-top: 15px;
+            .btn-turquoise{
+                margin-right: 6px;
+                @include breakpoint("mobileonly"){
+                    font-size: 12px;
+                    float: left;
+                    padding: 0px 11px !important;
+                }
+            }
+        }
+        .cl-review-responce{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            .uk-text-right{
+                @include breakpoint("phablet"){
+                    text-align: left !important;
+                }
+                @include breakpoint("mobileonly"){
+                    text-align: left !important;
+                }
+            }
+            h4{
+                padding-left: 95px;
+                @include breakpoint("tablet"){
+                    padding-left: 0px;
+                }
+                @include breakpoint("phablet"){
+                    padding-left: 0px;
+                }
+                @include breakpoint("mobileonly"){
+                    padding-left: 0px;
+                }
+                color: $grey;
+                font-size: 16px;
+                font-family: $normal-font;
+                font-weight: bold;
+            }
+            a{
+                color: $blue;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            .cl-responce-textbox{
+                padding-left: 95px;
+                @include breakpoint("tablet"){
+                    padding-left: 0px;
+                }
+                @include breakpoint("phablet"){
+                    padding-left: 0px;
+                }
+                @include breakpoint("mobileonly"){
+                    padding-left: 0px;
+                    .btn-turquoise{
+                        font-size: 12px;
+                        padding: 0px 11px !important;
+                    }
+                }
+                .cl-responce-textarea{
+                    width: 100%;
+                    padding: 20px;
+                    @include border-radius(4px);
+                    @include border-all(1px,$semiDarkGray);
+                    color: $bulletColor;
+                    margin-bottom: 20px;
+                }
+            }            
+        }
+        .cl-responce-text {
+            padding-top: 30px;
+            padding-left: 95px;
+            @include breakpoint("tablet"){
+                padding-left: 0px;
+            }
+            @include breakpoint("phablet"){
+                padding-left: 0px;
+            }
+            @include breakpoint("mobileonly"){
+                padding-left: 0px;
+            }
+            padding-bottom: 30px;
+            h4{
+                color: $grey;
+                font-size: 16px;
+                font-family: $normal-font;
+                font-weight: bold;
+                span{
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+
+.cl-reviews-dropdown {
+    .uk-dropdown{
+        top: 32px !important;
+        border: 1px solid $greyLight;
+    }
+    .uk-dropdown:after,
+    .uk-dropdown:before {
+        bottom: 100%;
+        left: 85%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    .uk-dropdown:after {
+        border-color: rgba(136, 183, 213, 0);
+        border-bottom-color: $white;
+        border-width: 14px;
+        margin-left: -14px;
+    }
+    .uk-dropdown:before {
+        border-color: rgba(194, 225, 245, 0);
+        border-bottom-color: $greyLight;
+        border-width: 16px;
+        margin-left: -16px;
+    }
+}

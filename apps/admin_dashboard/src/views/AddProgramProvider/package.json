@@ -1,0 +1,7 @@
+{
+    "name": "add_program_provider",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./AddProgramProvider.js"
+  }
+  

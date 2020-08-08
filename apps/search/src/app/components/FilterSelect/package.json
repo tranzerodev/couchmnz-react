@@ -1,0 +1,6 @@
+{
+  "name": "FilterSelect",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FilterSelect.js"
+}

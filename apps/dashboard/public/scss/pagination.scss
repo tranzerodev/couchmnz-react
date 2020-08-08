@@ -1,0 +1,67 @@
+
+.cl-pagination {
+	display: block;
+	padding: 25px 35px;
+	margin: 0px;
+
+	ul {
+		display: block;
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			border-radius: 4px;
+			margin: 2px 3px;
+			padding: 0px;
+			border: 0px solid $orange;
+
+			a {
+				display: block;
+				font-size: 14px;
+				line-height: 16px;
+				padding: 5px 8px;
+				color: $orange;
+				text-decoration: none;
+				border: 1px solid $orange;
+				background-color: $white;
+				text-align: center;
+				min-width: 28px;
+				box-sizing: border-box;
+
+				&:hover {
+					color: $orangeDark;
+				}
+			}
+		}
+
+		.react-paginate-disable {
+			a {
+				color: $grey;
+				border: 1px solid $grey;
+				opacity: 0.5;
+				&:hover {
+					color: $grey;
+				}
+			}
+		}
+
+		.react-paginate-current {
+			a {
+				color: $grey;
+				border: 1px solid $grey;
+				background-color: #eeeeee;
+				&:hover {
+					color: $grey;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px){
+	.cl-pagination {
+		padding: 15px 15px;
+	}
+}

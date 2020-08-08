@@ -1,0 +1,20 @@
+<svg class="cl-icon-check-circle" xmlns="http://www.w3.org/2000/svg" viewBox="7329 2611 57 57">
+  <defs>
+    <style>
+      .cl-icon-check-circle-1, .cl-icon-check-circle-2 {
+        fill: none;
+        stroke: #7ed321;
+        stroke-width: 2px;
+      }
+
+      .cl-icon-check-circle-2 {
+        stroke-linecap: square;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g transform="translate(7329 2611)">
+    <circle class="cl-icon-check-circle-1" cx="27.5" cy="27.5" r="27.5" transform="translate(1 1)"/>
+    <path class="cl-icon-check-circle-2" d="M14.193,23.567,19.7,30.118,32.869,14.193" transform="translate(5.902 5.902)"/>
+  </g>
+</svg>

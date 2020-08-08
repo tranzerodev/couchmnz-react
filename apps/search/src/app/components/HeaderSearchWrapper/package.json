@@ -1,0 +1,6 @@
+{
+  "name": "HeaderSearchWrapper",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HeaderSearchWrapper.js"
+}

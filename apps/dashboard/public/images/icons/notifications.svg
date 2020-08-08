@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3644 1560 20.345 26">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        stroke-linecap: square;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="notifications" transform="translate(3645 1561)">
+    <g id="Group_88" data-name="Group 88" transform="translate(0 0)">
+      <path id="Line" class="cls-1" d="M1.188,8h8.4" transform="translate(-0.939 1.283)"/>
+      <path id="Line-Copy-2" class="cls-1" d="M1.188,10.667H5.912" transform="translate(-0.939 2.153)"/>
+      <path id="Rectangle-12" class="cls-2" d="M1,19.566H19.345V10.174A9.172,9.172,0,1,0,1,10.174Z" transform="translate(-1 -1)"/>
+      <path id="Oval-8" class="cls-3" d="M9.208,21.543c4.086,0,5.249-3.073,5.249-5.246s-10.5-2.173-10.5,0S5.122,21.543,9.208,21.543Z" transform="translate(-0.035 3.457)"/>
+    </g>
+  </g>
+</svg>

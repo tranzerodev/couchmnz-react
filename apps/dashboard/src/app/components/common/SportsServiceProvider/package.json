@@ -1,0 +1,6 @@
+{
+  "name": "SportsServiceProvider",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SportsServiceProvider.js"
+}

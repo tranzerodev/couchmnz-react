@@ -1,0 +1,6 @@
+{
+  "name": "PaypalNextButton",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PaypalNextButton.js"
+}

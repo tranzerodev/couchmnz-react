@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-17869.324 -21007.5 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #42b7db;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: square;
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group-22" transform="translate(-17868.824 -21007)">
+    <rect id="Rectangle-7" class="cls-1" width="45" height="45" rx="4"/>
+    <g id="ListView_ListView-Selected" data-name="ListView/ListView-Selected" transform="translate(10.393 15.67)">
+      <path id="Line" class="cls-2" d="M4.467.75H22.145" transform="translate(1.962 -0.75)"/>
+      <path id="Line-Copy-7" class="cls-2" d="M4.467,4.75H22.145" transform="translate(1.962 1.679)"/>
+      <path id="Line-Copy-8" class="cls-2" d="M4.467,8.75h11.25" transform="translate(1.962 4.107)"/>
+      <path id="Line-Copy-9" class="cls-2" d="M.467,8.75H2.074" transform="translate(-0.467 4.107)"/>
+      <path id="Line-Copy-9-2" data-name="Line-Copy-9" class="cls-2" d="M.467,4.75H2.074" transform="translate(-0.467 1.679)"/>
+      <path id="Line-Copy-9-3" data-name="Line-Copy-9" class="cls-2" d="M.467.75H2.074" transform="translate(-0.467 -0.75)"/>
+    </g>
+  </g>
+</svg>

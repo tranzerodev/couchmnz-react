@@ -1,0 +1,292 @@
+//shopping cart css
+.cl-booking-successful-section{
+    .cl-bs-subheader{
+        background: $white;
+        border-bottom: 1px solid #cccccc;
+        padding: 20px;
+        .cl-bs-topnav{
+            h2{
+                font-size: 32px;
+                color: $greyDark;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 16px;
+                color: $grey;
+                margin: 5px 0px;
+            }
+        }
+    } 
+    .cl-booking-bodycontent{
+        padding: 50px 0px;
+        .cl-booking-details-head{
+            h3{
+                font-size: 26px;
+                font-weight: bold;
+                color: $grey;
+            }
+        }
+        .cl-booking-details{
+            display: table;
+            width: 100%;
+            .lcol{
+                display: table-cell;
+                vertical-align: top;
+                .cl-bs-booking-info{
+                   .cl-bs-booking-text-name{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $grey;
+                    }
+                    .cl-bs-booking-text-date{
+                        font-size: 16px;
+                        font-weight: normal;
+                        color: $grey;
+                    } 
+                }
+            }
+            .rcol{
+                display: table-cell;
+                vertical-align: top;
+                text-align: right;
+                .cl-bs-payment-info{
+                    p{
+                        font-size: 16px;
+                        color: $lightBlack;
+                        font-weight: bold;
+                        margin-bottom: 0px;
+                    }
+                    a{
+                        font-size: 16px;
+                        color: $blue;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .cl-bs-booking-user-details{
+            background-color: $white;
+            border: 1px $semiDarkGray solid;
+            border-radius:4px;
+            /*padding: 20px;*/
+            display: block;
+            clear: both;
+            margin-top: 30px;
+            .cl-bs-spacing{
+                padding: 15px;
+            }
+            .cl-bs-usersesson{
+                display: table;
+                .cl-usersessonLeft{
+                    display: table-cell;
+                    vertical-align: top;
+                    height: 70px;
+                    width: 70px; 
+                }
+                .cl-usersessonRight{
+                    display: table-cell;
+                    vertical-align: top;
+                    padding-left: 15px;
+                    h3{
+                        font-size: 21px;
+                        font-weight: bold;
+                        color: $blue;
+                        margin: 0px;
+                    }
+                    h4{
+                        font-size: 12px;
+                        color: $grey;
+                        text-transform: uppercase;
+                        margin-bottom: 0px;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $greyDark;
+                        font-weight: bold;
+                        margin: 0px;
+                    }
+                }
+            }
+            .cl-bs-session-details{
+                h5{
+                    font-size: 12px;
+                    color: $greyLight;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin: 0px;
+                }
+                h3{
+                    font-size: 18px;
+                    color: $grey;
+                    font-weight: bold;
+                    margin: 0px;
+                 }
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    margin: 0px;
+                }
+            }
+            .cl-bs-total-sessons{
+                border-top: 1px $semiDarkGray solid;
+                overflow: hidden;
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                    margin: 0px;
+                    float: left;
+                    font-weight: bold;
+                }
+                a{
+                    font-size: 14px;
+                    color: $blue;
+                    margin: 0px;
+                    float: right;
+                    font-weight: bold;
+                }
+            }
+        }
+        .cl-bs-sessionsScheduled{
+            margin-top: 30px;
+            h3{
+                font-size: 14px;
+                color: $greyLight;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 14px;
+                color: $grey;
+                font-weight: normal;
+                margin-top: 0px;
+            }
+            .sessionsScheduled-containbox{
+                background-color: $white;
+                padding: 15px;
+                border: 1px $greyLighter solid;
+                border-radius: 4px;
+                h4 {
+                    color: #4d4d4d;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 0px;
+                }
+                p {
+                    font-size: 14px;
+                    color: #666666;
+                    margin-top: 6px;
+                    margin-bottom: 6px;
+                    padding-left: 0px;
+                }
+                a {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $blue;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+        .cl-booking-manage-orders{
+            .booking-manage-topsection{
+                overflow: hidden;
+                h3{
+                    font-size: 26px;
+                    font-weight: bold;
+                    color: $grey;
+                    float: left;
+                }
+                a{
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: $blue;
+                    float: right;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .booking-manage-midcontent-section{
+                p{
+                    font-size: 16px;
+                    color: $grey;
+                }
+            }
+            .booking-manage-invite-friends{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                a{
+                    background-color: #F15E23;
+                    font-size: 18px;
+                    color: $white;
+                    text-align: center;
+                    padding: 12px 60px;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .booking-manage-questions{
+                a{
+                    font-size: 18px;
+                    color: $blue;
+                    text-align: left;
+                    display: inline-block;
+                    font-weight: 600;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+     }
+}
+
+@media only screen and (max-width: 767px){
+    .cl-booking-successful-section{
+        .cl-booking-bodycontent{
+            .cl-booking-details-head{
+                padding: 0px 15px;
+            }
+            .cl-booking-details{
+                padding: 0px 15px;
+                .lcol{
+                    display: block;
+                    clear: both;
+                }
+                .rcol{
+                    display: block;
+                    clear: both;
+                    text-align: left;
+                }
+            }
+            .cl-bs-sessionsScheduled h3, .cl-bs-sessionsScheduled p{
+                padding: 0px 15px; 
+            }
+        }
+        .cl-booking-manage-orders{
+            padding: 30px 15px;
+            .booking-manage-topsection{
+                h3{
+                    float: none;
+                    margin-bottom: 0px;
+                }
+                a{
+                    display: block;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 474px){
+    
+}

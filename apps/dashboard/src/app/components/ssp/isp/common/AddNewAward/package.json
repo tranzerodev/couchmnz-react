@@ -1,0 +1,6 @@
+{
+  "name": "AddNewAward",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AddNewAward.js"
+}

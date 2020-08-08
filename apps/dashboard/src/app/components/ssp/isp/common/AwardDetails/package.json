@@ -1,0 +1,6 @@
+{
+  "name": "AwardDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AwardDetails.js"
+}

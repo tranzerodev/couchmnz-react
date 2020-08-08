@@ -1,0 +1,255 @@
+.del  {
+	position: absolute;
+    top: 40px;
+    right: 40px;
+	svg{
+	    width: 18px;
+	    height: 18px;
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.cl-scheduler-modalHeader {
+
+	font-weight: 600;
+	font-size: 18px;
+	padding: $cl-gutter-small 0;
+
+}
+
+.cl-scheduler-modalForm {
+
+	margin: $cl-gutter-medium 0;
+	color: $grey;
+
+	.cl-scheduler-modalFormRow {
+		margin: $cl-gutter-small * 1.5 0;
+	}
+
+	.uk-button {
+		font-size: 14px;
+		width: 100%;
+		text-align: left;
+    	background: $white;
+    	padding: em-calc(3px) $cl-gutter-small;
+    	margin-left: $cl-gutter-small;
+
+		i {
+			float: right;
+			margin-left: $cl-gutter-small/2;
+			margin-top: 12px;
+		}
+
+	}
+
+	.theme-orange-btn {
+		padding: $cl-gutter-small/2 $cl-gutter-large;
+		background: $orange;
+		font-weight: 600;			
+		text-transform: uppercase;
+		color: $white;
+		text-shadow: none;
+		border: 0;			
+		margin: 0;
+		width: auto;
+
+		&:hover {
+			background: $orangeDark;
+			color: $white;
+		}
+
+		&.disabled {
+			opacity: 0.5;
+
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+
+	}
+
+	strong {
+		font-weight: normal;
+		font-weight: 600;
+	}
+
+	select {
+		padding: $cl-gutter-small;
+		display: inline-block;
+		margin-left: $cl-gutter-small;
+	}
+
+	span {
+		display: block;
+		margin-bottom: $cl-gutter-small/2;
+	}
+
+	textarea {
+		padding: $cl-gutter-small;
+		border: 1px solid $semiDarkGray;
+		width: 100%;
+		font-size: 14px;
+		box-sizing: border-box;
+		color: $grey;
+	}
+
+
+	.uk-dropdown {
+
+		padding: 0;
+		min-width: 250px;
+
+		ul {
+			margin: 0;
+			padding: 0;			
+
+			li {
+				font-weight: 600;
+				font-size: 14px;
+				list-style: none;	
+				position: relative;
+				padding: 10px;
+				margin: 0;
+				cursor: pointer;	
+				border-bottom: 1px solid $semiDarkGray;				
+
+				&:last-child {
+					border-bottom: 0;
+				}					
+
+				> label {
+					display: block;
+					padding-left: 25px;
+				}
+
+				input {
+					@include g_browserPrefix(transform, translateY(-50%));
+					position: absolute;
+					top: 50%;
+					left: 10px;
+					outline: 0;
+				}
+
+				.cl-custom-cb-label {
+
+					&:before,
+					&:after {
+						left: 0;
+					}
+				}
+
+			}
+			
+		}
+
+	}
+
+	.cl-scheduler-modalOptions {
+
+		ul {
+			li {
+				padding: 0;
+				border: 0;
+			}
+		}				
+
+		a {
+            font-weight: normal;
+            color: $grey;
+        }
+
+        .cl-arrow-right {
+            float: right;
+            width: 8px;
+            height: 32px;
+            padding: 12px 0px;
+        }
+
+        .cl-arrow-path {
+            fill: none;
+            stroke: #42B7DB;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 3px;
+            fill-rule: evenodd;
+        }
+
+	}
+	h6{
+		font-size: 20px;
+	    line-height: 26px;
+	    color: $grey;
+	    font-weight: 600;
+	    margin: 0;
+	    padding: 0 0 10px 0;
+	}
+	input[type=checkbox] { 
+    	display:none; 
+	    &+ label{   
+	      color: $grey;
+	      position: relative;  
+	      font-size: 16px;
+	      line-height: 22px;
+	      text-transform: capitalize;
+	      font-weight: 400;    
+	      display: block;
+	      padding: 8px 0 0 0;
+	      &:before{
+	        display: inline-block;
+	        vertical-align: middle;
+	        content: "";
+	        margin-right: 10px;
+	        width: 18px;
+	        height: 18px;
+	        background: url("data:image/svg+xml;utf8,<svg class='cl-icon-checkbox-uncheck' xmlns='http://www.w3.org/2000/svg' viewBox='-1265 -5067 15.43 15.43'><g transform='translate(-1355 -6037.856)'><path data-name='Type sport' class='cl-icon-checkbox-uncheck-1' d='M12.274-12.74H3.156a1.688,1.688,0,0,0-1.238.515A1.688,1.688,0,0,0,1.4-10.987v9.118A1.688,1.688,0,0,0,1.918-.631a1.688,1.688,0,0,0,1.238.515h9.118a1.688,1.688,0,0,0,1.238-.515,1.688,1.688,0,0,0,.515-1.238v-9.118a1.688,1.688,0,0,0-.515-1.238A1.688,1.688,0,0,0,12.274-12.74Zm3.156,1.753v9.118A3.04,3.04,0,0,1,14.5.361a3.04,3.04,0,0,1-2.23.926H3.156A3.04,3.04,0,0,1,.926.361,3.04,3.04,0,0,1,0-1.869v-9.118a3.04,3.04,0,0,1,.926-2.23,3.04,3.04,0,0,1,2.23-.926h9.118a3.04,3.04,0,0,1,2.23.926A3.04,3.04,0,0,1,15.43-10.987Z' transform='translate(90 985)' fill='%2342b7db' /></g></svg>") no-repeat center center;
+	      }
+	    }
+	    &:checked + label{
+		    &:before{
+		        background: url("data:image/svg+xml;utf8,<svg class='cl-icon-checkbox-check' xmlns='http://www.w3.org/2000/svg' viewBox='-1322 -5067 15.429 15.429'><g transform='translate(-1542 -6036.857)'><path data-name='Type sport' class='cl-icon-checkbox-check-1' d='M6.881-2.381l6.167-6.167A.618.618,0,0,0,13.239-9a.618.618,0,0,0-.191-.452l-1.025-1.025a.618.618,0,0,0-.452-.191.618.618,0,0,0-.452.191L6.429-5.786,4.309-7.905A.618.618,0,0,0,3.857-8.1a.618.618,0,0,0-.452.191L2.381-6.881a.618.618,0,0,0-.191.452.618.618,0,0,0,.191.452l3.6,3.6a.618.618,0,0,0,.452.191A.618.618,0,0,0,6.881-2.381Zm8.548-8.869v9.643A2.786,2.786,0,0,1,14.58.437a2.786,2.786,0,0,1-2.044.849H2.893A2.786,2.786,0,0,1,.849.437,2.786,2.786,0,0,1,0-1.607V-11.25a2.786,2.786,0,0,1,.849-2.044,2.786,2.786,0,0,1,2.044-.849h9.643a2.786,2.786,0,0,1,2.044.849A2.786,2.786,0,0,1,15.429-11.25Z' transform='translate(220 984)' fill='%2342b7db' /></g></svg>") no-repeat center center;
+		    }
+	    }
+	}
+}
+
+.cl-scheduler-modalContent {
+
+	margin: $cl-gutter-medium 0;
+	color: $grey;
+
+	&.cl-scheduler-modalContent--intro {
+		margin-top: 0;
+	}
+
+	h3 {
+		font-weight: 600;
+		font-size: 18px;
+		color: $grey;
+	}
+
+	p {
+
+		span {
+			display: block;
+		}
+
+	}
+
+	.uk-button {
+		padding: $cl-gutter-small/2 $cl-gutter-large;
+		font-weight: 600;			
+		text-transform: uppercase;
+		color: $white;
+		text-shadow: none;
+		border: 0;			
+
+		&:hover {
+			background: $orangeDark;
+			color: $white;
+		}
+
+	}
+
+
+}

@@ -1,0 +1,27 @@
+<svg class="cl-icon-entry" xmlns="http://www.w3.org/2000/svg" viewBox="-2094 -1246 140.884 29.938">
+  <defs>
+    <style>
+      .cl-icon-entry-1 {
+        fill: #917e72;
+      }
+      .cl-icon-entry-1, .cl-icon-entry-2, .cl-icon-entry-3 {
+        fill-rule: evenodd;
+      }
+      .cl-icon-entry-2, .cl-icon-entry-4 {
+        fill: #fff;
+      }
+      .cl-icon-entry-3 {
+        fill: #a18c7e;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-2270 -2304)">
+    <g data-name="Group 1044" transform="translate(3)">
+      <path data-name="Path 129" class="cl-icon-entry-1" d="M140.881,22.88V7.91A6.961,6.961,0,0,1,134.022.855,7.752,7.752,0,0,1,134.106,0H6.881A7.055,7.055,0,0,1,0,7.046V22.89a7.054,7.054,0,0,1,6.881,7.047H134.022a6.96,6.96,0,0,1,6.859-7.056" transform="translate(173 1058.001)"/>
+      <path data-name="Path 130" class="cl-icon-entry-2" d="M12,14.5A2.5,2.5,0,1,1,9.5,12,2.5,2.5,0,0,1,12,14.5" transform="translate(173 1058)"/>
+      <path data-name="Path 131" class="cl-icon-entry-3" d="M134.027.857A7.559,7.559,0,0,1,134.111,0H82L63.21,29.936h70.817a6.96,6.96,0,0,1,6.857-7.057V7.911A6.957,6.957,0,0,1,134.027.857" transform="translate(173 1058)"/>
+      <path data-name="Path 132" class="cl-icon-entry-2" d="M135,14.5a2.5,2.5,0,1,1-2.5-2.429A2.5,2.5,0,0,1,135,14.5" transform="translate(173 1058.929)"/>
+    </g>
+    <path data-name="Path 142" class="cl-icon-entry-4" d="M-26.238,0V-10.672h7.555v2h-5.281V-6.43H-18.8v2h-5.164V-2h5.281V0Zm10.32,0V-10.672h2.336l4.945,6.7v-6.7h2.273V0h-2.2l-5.086-6.961V0ZM-3.926-8.672v-2H4.6v2H1.48V0H-.793V-8.672ZM7.043,0V-10.672h4.992a3.583,3.583,0,0,1,2.621.961,3.316,3.316,0,0,1,.98,2.477,3.677,3.677,0,0,1-.2,1.242,2.782,2.782,0,0,1-.547.949,3.413,3.413,0,0,1-.746.625,2.962,2.962,0,0,1-.855.355L15.7,0H13.074L10.98-3.789H9.316V0ZM9.316-5.789h2.4a1.66,1.66,0,0,0,1.137-.395A1.347,1.347,0,0,0,13.3-7.25a1.3,1.3,0,0,0-.449-1.035,1.68,1.68,0,0,0-1.137-.387h-2.4Zm7.6-4.883h2.594L22.152-6.4l2.633-4.273h2.578l-4.078,6.3V0H21.012V-4.367Z" transform="translate(246 1078.672)"/>
+  </g>
+</svg>

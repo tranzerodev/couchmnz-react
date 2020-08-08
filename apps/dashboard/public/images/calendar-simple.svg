@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-17818.5 -21007.5 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #ccc;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #999;
+      }
+
+      .cls-3 {
+        stroke-linecap: square;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <g id="Group_1311" data-name="Group 1311" transform="translate(-19672.5 -23257.5)">
+    <rect id="Rectangle-7" class="cls-1" width="45" height="45" rx="4" transform="translate(1854.5 2250.5)"/>
+    <g id="CalendarView_CalendarView-Default" data-name="CalendarView/CalendarView-Default" transform="translate(1866 2261)">
+      <rect id="Rectangle-8" class="cls-2" width="20.893" height="20.893" rx="2" transform="translate(0.054 2.304)"/>
+      <path id="Line" class="cls-3" d="M.467,5.133h21" transform="translate(-0.467 3.117)"/>
+      <rect id="Rectangle-9" class="cls-4" width="2.5" height="5" transform="translate(5.5)"/>
+      <rect id="Rectangle-9-2" data-name="Rectangle-9" class="cls-4" width="2.5" height="5" transform="translate(13)"/>
+    </g>
+  </g>
+</svg>

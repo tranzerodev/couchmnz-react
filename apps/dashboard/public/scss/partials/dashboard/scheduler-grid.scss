@@ -1,0 +1,181 @@
+.scheduler-grid{
+    @include border-bottom(1px, $semiDarkGray);
+    @include border-right(1px, $semiDarkGray);
+    @include border-left(1px, $semiDarkGray);    
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: $white;    
+    .grid-container{
+        height: 700px;
+        overflow-y: scroll;
+        .cl-flexcontainer {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flexbox;
+            .column{                                              
+                width: calc(100% / 8);
+                -webkit-box-flex: 1;
+                -moz-box-flex: 1;
+                -ms-flex: 1;
+                box-flex: 1;
+                > div{
+                    @include border-bottom(1px, $head-sub-color);
+                    @include border-right(1px, $head-sub-color);
+                    padding: 20px 5px;
+                    min-height: 20px;
+                    position: relative;
+                    .booked-schedule{
+                        position: absolute;
+                        width: calc(100% - 16px);
+                        top: 8px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        @include border-radius(6px);
+                        cursor: move;
+                        z-index: 1;
+                        .cl-drag-top, .cl-drag-down {
+                            cursor: n-resize;
+                            height: 5px;                            
+                            width: 100%;
+                        }
+                        .cl-drag-down {
+                            position: absolute;
+                            bottom: 0px;
+                            bottom: 0px;
+                        }
+                        .cl-cal-schedule-details{
+                            padding: 7px 12px;
+                            position: relative;
+                            .cl-cal-sc-left{ 
+                                line-height: 12px;
+                                .cl-schedule-type{
+                                    display: inline-block;
+                                    @include breakpoint(laptopLarge){
+                                        display: block;
+                                    }
+                                    @include breakpoint(laptop){
+                                        display: block;
+                                    }
+                                    .cl-icon-usergroup, .cl-icon-team, .cl-icon-connection{
+                                        width: 26px;
+                                        height: auto;
+                                    }                                    
+                                }
+                                .cl-cal-status{
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    color: $grey;  
+                                    @include breakpoint(laptopLarge){
+                                        display: block;
+                                        margin-top: 5px;
+                                    }
+                                    @include breakpoint(laptop){
+                                        display: block;
+                                        margin-top: 5px;
+                                    }                                  
+                                }
+                                .cl-cal-event-name{
+                                    font-size: 12px;
+                                    color: $lightBlack;
+                                    font-weight: bold;
+                                    padding-top: 7px;
+                                }
+                                .cl-cal-event-type{
+                                    font-size: 12px;
+                                    color: $grey;
+                                    padding-top: 5px;
+                                }
+                            }
+                            .cl-cal-sc-right{
+                                position: absolute;
+                                top: 0px;
+                                right: 12px;
+                                .cl-sd-action-btn{
+                                    position: relative;                                    
+                                    a{
+                                        .fa{
+                                            font-size: 5px;
+                                            color: #95989A;
+                                            width: 2px;
+                                        }
+                                    }
+                                    .cl-ssp-schedule-dropdown{
+                                        top: 28px !important;
+                                        left: -235px !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:first-child{
+                        font-weight: bold;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        text-align: center;
+                        color: $suvagrey;
+                    }
+                }
+                &.left-column{
+                    width: calc(70% / 8);
+                    >div{
+                        text-align: right;                        
+                        padding: 20px 15px; 
+                        @include breakpoint(laptopLarge){
+                            padding: 20px 5px;
+                        }
+                        @include breakpoint(laptop){
+                            padding: 20px 5px;
+                        }
+                        color: $nobel;                       
+                    }
+                }
+                &.today{
+                    >div{
+                        background: $lightGrayOne;
+                        &:first-child{
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+            
+    }
+    .row{
+        &__1x {
+            height: 41px;
+        }
+        &__2x{
+            height: calc(122px - 18px);
+        }
+        &__3x{
+            height: calc(183px - 18px);
+        }
+        &__4x{
+            height: calc(244px - 18px);
+        }
+        &__5x{
+            height: calc(305px - 18px);
+        }
+        &__6x{
+            height: calc(366px - 18px);
+        }
+        &__7x{
+            height: calc(427px - 18px);
+        }
+        &__8x{
+            height: calc(488px - 18px);
+        }
+        &__9x{
+            height: calc(549px - 18px);
+        }
+        &__10x{
+            height: calc(610px - 18px);
+        }
+    }
+}

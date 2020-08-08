@@ -1,0 +1,6 @@
+{
+  "name": "CompleteService",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CompleteService.js"
+}

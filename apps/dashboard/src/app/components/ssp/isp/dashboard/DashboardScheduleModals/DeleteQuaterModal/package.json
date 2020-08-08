@@ -1,0 +1,6 @@
+{
+  "name": "DeletQuaterModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DeleteQuaterModal.js"
+}

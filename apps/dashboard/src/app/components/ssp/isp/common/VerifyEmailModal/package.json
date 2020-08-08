@@ -1,0 +1,6 @@
+{
+  "name": "VerifyEmailModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./VerifyEmailModal.js"
+}

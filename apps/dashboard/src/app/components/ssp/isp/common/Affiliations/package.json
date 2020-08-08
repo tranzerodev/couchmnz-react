@@ -1,0 +1,6 @@
+{
+  "name": "Affiliations",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Affiliations.js"
+}

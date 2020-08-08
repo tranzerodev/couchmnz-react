@@ -1,0 +1,6 @@
+{
+  "name": "DashboardMessageThreadView",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardMessageThreadView.js"
+}

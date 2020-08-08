@@ -1,0 +1,176 @@
+// @import "partials/color";
+// @import "partials/variable";
+// @import "partials/button";
+// @import "partials/base";
+
+.multiLevelDD{
+  display: block;
+  .rowOne{
+    position: relative;
+    display: block;
+    .bdStyle{
+      border-bottom: 0!important;
+      border-radius: 4px 4px 0 0!important;
+    }
+    .arrowIcon,.arrowIcon1{
+      position: absolute;
+      top: 3px;
+      right: 10px;
+      color: $orange;
+      i{
+        font-size: 15px;
+        line-height: 36px;
+        vertical-align: middle;
+      }
+    }
+    .clearIcon,.clearIcon1{
+      position: absolute;
+      top: 1px;
+      right: 1px;
+      text-decoration: none;
+      color: $grey;
+      display: none;
+      background: $white;
+      padding: 2px 15px;
+      border-radius: 4px;
+      i{
+        font-size: 15px;
+        line-height: 36px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .autoFill{
+	position: absolute;
+	top: 67px;
+	left: 0px;
+    right: 0px;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid $semiDarkGray;
+    background: $white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 300px;
+	z-index: 100;
+    li{
+      display: block;                  
+      padding: 10px;
+      a{
+        text-decoration: none;
+        color: $orange;
+        display: inline-block;
+        font-size: 16px;
+        width: 100%;
+      }
+      &:hover{
+        background: $orange;
+        a{
+          color:$white;
+        }
+      }
+    }
+  }
+  .rowSpeciality{
+    border: 1px solid $semiDarkGray;
+    border-radius: 0px 0px 4px 4px;
+    padding: 8px 0px;
+    border-top: none;
+    display: none;
+    background: $white;
+    width: 100%;
+    box-sizing: border-box;
+    .addLink{
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $blue;
+      display: none;
+      font-weight: 600;
+      padding: 0px 10px;
+      &:hover{
+        color: $blueDark;
+      }
+    }
+    .linkValueSpeciality{
+      text-decoration: none;
+      font-size: 16px;
+      color: $grey;
+      display: none;
+      padding: 0px 10px 0px 10px;
+    }
+    h6{
+      &.specialityHead{
+        color: $grey;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 0px 10px 6px 10px;
+        display: none;
+        margin: 0;
+      } 
+    }
+    .checkBoxList{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: none;
+      li{
+        padding: 8px 10px;
+        label{
+          color: $gray-hover-color;
+          font-size: 16px;
+          display: block;
+          text-transform: capitalize;
+          font-weight: 200;
+          padding-bottom: 0;
+        }
+        input[type=checkbox] { 
+          display:none; 
+          padding: 10px;
+          &+ label{
+            &:before{
+              font-family: FontAwesome;
+              display: inline-block;
+              font-size: 20px;
+              color: $grey;
+              vertical-align: middle;
+              content: "\f096"; 
+              padding-right: 6px;
+              width: 20px;
+            }
+          }
+          &:checked + label{
+            &:before{
+              content: "\f14a"; 
+              padding-right: 6px;
+              color: $orange;
+              font-size: 18px;
+            }
+          }
+        }
+        &.LastChild{
+          border-top: 1px solid $semiDarkGray;
+          text-align: right;
+          margin-top: 5px;
+          padding-bottom: 0;
+          a{
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: $blue;
+            display: inline-block;
+            font-weight: 600;
+             &:hover{
+              color: $blueDark;
+            }
+          }
+        }
+      }
+    }
+  }
+}

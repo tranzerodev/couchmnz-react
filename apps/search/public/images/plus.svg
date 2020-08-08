@@ -1,0 +1,17 @@
+<svg class="cl-icon-plus" xmlns="http://www.w3.org/2000/svg" viewBox="-21149.75 -6552.75 24.129 24.127">
+  <defs>
+    <style>
+      .cl-icon-plus-1 {
+        fill: none;
+        stroke: #42b7db;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g data-name="Symbol 27 – 2" transform="translate(-22854.186 -7086.772)">
+    <g data-name="Group 2726" transform="translate(945.047 -998.235) rotate(45)">
+      <line data-name="Line 230" class="cl-icon-plus-1" x2="16" y2="16" transform="translate(1629.5 538.5)"/>
+      <line data-name="Line 231" class="cl-icon-plus-1" x1="16" y2="16" transform="translate(1629.5 538.5)"/>
+    </g>
+  </g>
+</svg>

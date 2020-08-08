@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-17841 -277 67 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #95989a;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fcdfd3;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_1945" data-name="Group 1945" transform="translate(1025 213)">
+    <g id="Rectangle_2188" data-name="Rectangle 2188" class="cls-1" transform="translate(-18866 -490)">
+      <rect class="cls-4" width="67" height="44" rx="8"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="66" height="43" rx="7.5"/>
+    </g>
+    <line id="Line_161" data-name="Line 161" class="cls-2" x2="27" transform="translate(-18845.5 -443.5)"/>
+    <g id="Rectangle_2189" data-name="Rectangle 2189" class="cls-3" transform="translate(-18855 -483)">
+      <rect class="cls-4" width="20" height="17" rx="2"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="19" height="16" rx="1.5"/>
+    </g>
+    <g id="Rectangle_2190" data-name="Rectangle 2190" class="cls-3" transform="translate(-18831 -483)">
+      <rect class="cls-4" width="20" height="17" rx="2"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="19" height="16" rx="1.5"/>
+    </g>
+    <g id="Rectangle_2191" data-name="Rectangle 2191" class="cls-3" transform="translate(-18855 -462)">
+      <rect class="cls-4" width="44" height="10" rx="2"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="43" height="9" rx="1.5"/>
+    </g>
+  </g>
+</svg>

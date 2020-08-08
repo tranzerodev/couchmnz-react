@@ -1,0 +1,7 @@
+{
+    "name": "institution",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./Institution.js"
+  }
+  

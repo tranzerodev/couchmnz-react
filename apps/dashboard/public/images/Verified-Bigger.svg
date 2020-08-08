@@ -1,0 +1,25 @@
+<svg class="cl-icon-verified" xmlns="http://www.w3.org/2000/svg" viewBox="-7044 -1120 20 20.001">
+  <defs>
+    <style>
+      .cl-icon-verified-1 {
+        fill: #42b7db;
+      }
+      .cl-icon-verified-1, .cl-icon-verified-2 {
+        fill-rule: evenodd;
+      }
+      .cl-icon-verified-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-7044 -1120)">
+    <g data-name="Group 260" transform="translate(0 0)">
+      <path class="cl-icon-verified-1" d="M10,0,7.775,1.7,5,1.338,3.924,3.925,1.338,5,1.7,7.775,0,10l1.7,2.226L1.338,15l2.586,1.074L5,18.661l2.777-.36L10,20l2.225-1.7,2.775.36,1.074-2.586L18.662,15l-.36-2.777L20,10,18.3,7.775,18.662,5,16.076,3.925,15,1.338l-2.777.36Z" transform="translate(0 0)"/>
+      <path class="cl-icon-verified-2" d="M6.286,10.714l2.857,2.857,5.714-5.714" transform="translate(-0.571 -0.714)"/>
+    </g>
+  </g>
+</svg>

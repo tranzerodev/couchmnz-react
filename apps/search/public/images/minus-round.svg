@@ -1,0 +1,26 @@
+<svg class="cl-icon-minus-circle" xmlns="http://www.w3.org/2000/svg" viewBox="134 197 21 21">
+  <defs>
+    <style>
+      .cl-icon-minus-circle-1 {
+        fill: #fff;
+      }
+      .cl-icon-minus-circle-1, .cl-icon-minus-circle-2 {
+        stroke: #707070;
+        stroke-width: 1.5px;
+      }
+      .cl-icon-minus-circle-2, .cl-icon-minus-circle-4 {
+        fill: none;
+      }
+      .cl-icon-minus-circle-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 1" transform="translate(16 2)">
+    <g data-name="Ellipse 1" class="cl-icon-minus-circle-1" transform="translate(118 195)">
+      <circle class="cl-icon-minus-circle-3" cx="10.5" cy="10.5" r="10.5"/>
+      <circle class="cl-icon-minus-circle-4" cx="10.5" cy="10.5" r="9.75"/>
+    </g>
+    <line data-name="Line 1" class="cl-icon-minus-circle-2" x2="8" transform="translate(124.5 205.5)"/>
+  </g>
+</svg>

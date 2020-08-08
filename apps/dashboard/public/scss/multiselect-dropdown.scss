@@ -1,0 +1,166 @@
+
+.cl-multiselect-dd-react {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+
+  h5 {
+    margin-bottom: 5px;
+  }
+
+  .multi-select {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    .dropdown {
+      display: block;
+      margin: 0px;
+      padding: 0px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+
+      .dropdown-heading {
+        display: block;
+        background-color: #fff !important;
+        border: 1px solid #B3B3B3 !important;
+        -webkit-border-radius: 4px !important;
+        -moz-border-radius: 4px !important;
+        border-radius: 4px !important;
+
+        .dropdown-heading-value {
+          span {
+            display: block;
+            padding-right: 20px;
+            font-size: 14px !important;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            box-sizing: border-box;
+            overflow: hidden;
+          }
+        }
+
+        .dropdown-heading-dropdown-arrow {
+          span {
+            display: none !important;
+          }
+        }
+
+        .dropdown-heading-dropdown-arrow:after {
+          background: transparent url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-3865.545 2061.833 17.49 9.052'><path data-name='Path 184' fill='none' stroke='#42B7DB' stroke-width='3px' d='M0-.2l8.4,8,8.4-8' transform='translate(-3865.201 2062.396)'/></svg>") no-repeat;
+          background-size: 12px;
+          background-position: right center;
+          width: 12px;
+          height: 12px;
+          content: " ";
+          vertical-align: middle;
+          color: #42B7DB;
+          top: 12px;
+          right: 12px;
+          position: absolute;
+        }
+
+      }
+
+      .dropdown-content {
+        display: none;
+      }
+
+    }
+
+    .dropdown[aria-expanded~="true"] {
+      .dropdown-heading {
+        -webkit-border-radius: 4px 4px 0px 0px !important;
+        -moz-border-radius:  4px 4px 0px 0px !important;
+        border-radius:  4px 4px 0px 0px !important;
+
+        .dropdown-heading-dropdown-arrow:after {
+          background: transparent url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='195.466 447.428 18.869 11.158'><path data-name='Path 185' fill='none' stroke='#42B7DB' stroke-width='3px' d='M0-.2l8.4,8,8.4-8'  transform='translate(213.3 457.3) rotate(180)'/></svg>") no-repeat;
+          background-size: 12px;
+          background-position: right center;
+          width: 12px;
+          height: 12px;
+          content: " ";
+          vertical-align: middle;
+          color: #42B7DB;
+          top: 12px;
+          right: 12px;
+          position: absolute;
+        }
+      }
+
+      .dropdown-content {
+        display: block;
+        background-color: #fff !important;
+        border: 1px solid #B3B3B3 !important;
+        -webkit-border-radius: 0px 0px 4px 4px !important;
+        -moz-border-radius: 0px 0px 4px 4px !important;
+        border-radius: 0px 0px 4px 4px !important;
+        overflow: hidden;
+        .select-panel {
+          display: block;
+          overflow: hidden;
+          -webkit-border-radius: 4px 4px 0px 0px !important;
+          -moz-border-radius:  4px 4px 0px 0px !important;
+          border-radius:  4px 4px 0px 0px !important;
+          ul.select-list {
+            display: block;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            li {
+              cursor: pointer;
+
+              label.select-item {
+                cursor: pointer;
+
+                span.item-renderer {
+                  cursor: pointer;
+
+                  input {
+                    cursor: pointer !important;
+                    display: none;
+                  }
+                  span {
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding-left: 0px !important;
+                    cursor: pointer !important;
+                  }
+
+                  span:before {
+                      font-family: FontAwesome;
+                      display: inline-block;
+                      font-size: 18px;
+                      color: #42B7DB;
+                      vertical-align: middle;
+                      content: "\f096";
+                      padding-right: 6px;
+                      width: 20px;
+                  }
+
+                  input[type=checkbox]:checked + span:before {
+                    content: "\f14a";
+                    padding-right: 6px;
+                    color: #42B7DB;
+                    font-size: 18px;
+                  }
+
+                }
+                
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+}

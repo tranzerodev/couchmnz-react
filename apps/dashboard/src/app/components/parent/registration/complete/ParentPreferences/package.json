@@ -1,0 +1,6 @@
+{
+  "name": "ParentPreferences",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ParentPreferences.js"
+}

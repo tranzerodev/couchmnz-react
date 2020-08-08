@@ -1,0 +1,35 @@
+<svg class="cl-icon-google-chrome" xmlns="http://www.w3.org/2000/svg" viewBox="-10718 12186 42 42">
+  <defs>
+    <style>
+      .cl-icon-google-chrome-1 {
+        fill: none;
+      }
+      .cl-icon-google-chrome-2 {
+        fill: #ea4335;
+      }
+      .cl-icon-google-chrome-2, .cl-icon-google-chrome-3, .cl-icon-google-chrome-4, .cl-icon-google-chrome-5 {
+        fill-rule: evenodd;
+      }
+      .cl-icon-google-chrome-3 {
+        fill: #4285f4;
+      }
+      .cl-icon-google-chrome-4 {
+        fill: #34a853;
+      }
+      .cl-icon-google-chrome-5 {
+        fill: #fbbc05;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-10718 12186)">
+    <g>
+      <rect data-name="Rectangle 2490" class="cl-icon-google-chrome-1" width="42" height="42"/>
+      <g transform="translate(0 0)">
+        <path data-name="Path 259" class="cl-icon-google-chrome-2" d="M15.454,7.316a20.994,20.994,0,0,1,34.63,4.153c-4.763,0-12.223,0-16.263,0-2.93,0-4.822-.066-6.871,1.013a9.689,9.689,0,0,0-4.86,6.378Z" transform="translate(-10.383 0)"/>
+        <path data-name="Path 260" class="cl-icon-google-chrome-3" d="M42.708,49.7a6.979,6.979,0,1,0,6.98-6.983A6.989,6.989,0,0,0,42.708,49.7Z" transform="translate(-28.695 -28.699)"/>
+        <path data-name="Path 261" class="cl-icon-google-chrome-4" d="M23.7,49.665A9.407,9.407,0,0,1,12.689,45.2C10.772,41.895,5.708,33.072,3.406,29.06A21.027,21.027,0,0,0,16.929,61.13Z" transform="translate(0 -19.525)"/>
+        <path data-name="Path 262" class="cl-icon-google-chrome-5" d="M67.782,42.715a9.562,9.562,0,0,1,1.763,11.759c-1.665,2.871-6.98,11.84-9.555,16.184A21.015,21.015,0,0,0,81.1,42.715Z" transform="translate(-40.306 -28.699)"/>
+      </g>
+    </g>
+  </g>
+</svg>

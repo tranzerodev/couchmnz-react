@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-big-calendar": "^0.19.2"
+  }
+}

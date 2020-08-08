@@ -1,0 +1,6 @@
+{
+  "name": "DashboardAccount",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardAccount.js"
+}

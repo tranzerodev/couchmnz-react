@@ -1,0 +1,6 @@
+{
+  "name": "EarningsCard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EarningsCard.js"
+}

@@ -1,0 +1,35 @@
+{
+  "DashboardNav": {
+    "Dashboard": "Tablero"
+  },
+  "DashboardRewards":{
+    "three_ways_to_earn" :"¡3 maneras de ganar más puntos de recompensa!"
+  },
+  "Profile": {
+    "welcomeMessage": "¡Bienvenido! ¿Qué tipo de perfil quieres configurar ahora mismo?",
+    "user1": "Proveedor de servicios deportivos",
+    "userDescription1": "Entrenador, Entrenador, Instructor, Campamento, Clínica o Centro de Entrenamiento",
+    "user2": "Atleta / Fitness",
+    "userDescription2": "Buscando entrenamiento para usted",
+    "user3": "Padre",
+    "userDescription3": "Buscando entrenamiento para su hijo",
+    "note": "Nota",
+    "message": "que puede configurar perfiles adicionales una vez que haya configurado su primer perfil (¡puede ser entrenador, atleta y padre!).",
+    "next": "Siguiente"
+  },
+  "SportsServiceProvider": {
+    "welcomeMessage": "¿Qué es lo que mejor te describe?",
+    "user1": "Entrenador, Instructor o Instructor",
+    "userDescription1": "1-1 entrenamiento para atletas o entusiastas de la aptitud en una rutina deportiva o de ejercicios",
+    "user2": "Campamento Deportivo o Clínica",
+    "userDescription2": "Entrenamiento enfocado para grupos de atletas o entusiastas de la aptitud",
+    "user3": "Centro de formación",
+    "userDescription3": "Club de salud, gimnasio u otras instalaciones educativas orientadas al deporte o al ejercicio físico",
+    "user4": "Otro proveedor de servicios",
+    "userDescription4": "Servicios tales como deportes, medicina, nutrición, análisis de psicología",
+    "note": "Nota",
+    "message": "que puede comenzar con un tipo de negocio y agregarlo una vez que tenga un perfil básico. Por ejemplo, puede registrarse como coach y luego usar Coachlist para configurar un campamento cuando esté listo.",
+    "back": "Espalda",
+    "next": "Siguiente"
+  }
+}

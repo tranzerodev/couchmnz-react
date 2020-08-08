@@ -1,0 +1,251 @@
+.msg_messagesList {
+	
+	background: $white;	
+
+	@media #{$large} {
+		border: 1px solid $semiDarkGray;
+		border-right: 0;
+		border-radius: 4px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		margin-left: 20px;
+		width: calc(100% - 20px);
+	}
+
+	@media #{$xlarge} {
+		margin-left: 0;
+		width: 100%;
+	}
+
+}
+
+.msg_messagesList-sort {
+	
+	padding: $cl-gutter-small * 1.5 $cl-gutter-medium;
+	border-bottom: 1px solid $semiDarkGray;
+	color: $greyDark;
+	font-size: 12px;
+
+	@media #{$small} {		
+		padding: $cl-gutter-small * 1.5 $cl-gutter-xlarge;
+	}
+
+	@media #{$large} {
+		margin: 0; 
+		padding: $cl-gutter-small * 1.5 $cl-gutter-large;
+	}
+
+	.msg_messagesList-sortLabel {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 5px;
+	}
+
+	.msg_messagesList-dropdown {				
+
+		&.uk-float-right {
+			margin-top: 2px;
+		}
+
+	}
+
+	.msg_messagesList-dropdownTrigger {
+		color: $grey;
+		text-decoration: none;
+
+		svg {
+			width: 12px;
+			height: 12px;
+			margin-left:5px;
+		}
+	}
+
+	.uk-dropdown {
+		width: auto;
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;				
+
+				a {
+					text-decoration: none;
+					padding-right: 40px;					
+
+					&.active {
+						font-family: ProximaNovaA-Bold;
+						background-image: url('../images/tick-dark.svg');
+						background-repeat: no-repeat;
+						background-position: right 15px center;
+						background-size: 13px;
+					}
+
+				}
+
+			}
+		}
+
+	}
+
+}
+
+.msg_messagesList-container {
+
+	.msg_messagesList-item {
+		padding: $cl-gutter-medium;
+		position: relative;
+		border-bottom: 1px solid $semiDarkGray;
+		font-size: 14px;
+
+		@media #{$small} {
+			padding:$cl-gutter-large $cl-gutter-xlarge;
+		}
+
+		@media #{$large} {
+			padding: $cl-gutter-small * 1.5 $cl-gutter-medium;
+			border-bottom: 0;
+		}
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		label {
+			display: block;
+			padding: 0 75px 0 0;
+			cursor: pointer;
+			color: $greyDark;			
+
+			@media #{$large} {
+				padding: 0 75px 0 25px;
+			}
+
+			&:before,
+			&:after {
+				top: 3px;
+			}
+
+		}
+
+		input {
+			display: none;
+			position: absolute;
+			left: 18px;
+			top: 18px;
+
+			@media #{$large} {
+				display: block;
+			}
+
+		}
+
+		span {
+			display: block;
+
+			mark {
+				display: inline-block;
+			}
+
+			span {
+				display: inline-block;
+			}
+
+		}
+
+		.cl-custom-cb-label {
+			&:before,
+			&:after {
+				display: none;
+
+				@media #{$large} {
+					display: block;
+				}
+
+			}
+		}
+
+		.msg_messagesList-highlight {
+			display: inline-block;
+			padding: 0 5px;
+			background: $gorse; 
+			font-weight: normal;
+		}
+
+		.msg_messagesList-label {
+			display: inline-block;
+			font-size: 12px;
+			padding: 2px 5px;
+			border-radius: 4px;
+			margin-right: 4px;
+
+			&.msg_messagesList-label--colorGreen {
+				background: $conifer;
+				color: $white;
+			}
+
+			&.msg_messagesList-label--colorPurple {
+				background: $heliotrope;
+				color: $white;
+			}
+
+			&.msg_messagesList-label--colorYellow {
+				background: $caramel;
+				color: $grey;
+			}
+			
+		}
+
+		.msg_messagesList-itemAuthor {
+			color: $suvagrey;			
+		}		
+
+		.msg_messagesList-itemTimestamp {
+			position: absolute;
+			right: 0;
+			top: 0;	
+			font-size: 12px;	
+			color: $suvagrey;
+			
+
+			@media #{$xlarge} {
+				right: 10px;
+			}
+
+		}
+
+		.msg_messagesList-itemBadges {
+			position: absolute;
+			right: 0;
+			top: 18px;
+
+			@media #{$large} {
+				right: 18px;
+			top: 35px;
+			}
+
+		}
+
+		&.msg_messagesList-item--active {
+			background: $blueLighter;
+
+			.msg_messagesList-itemAuthor {
+				color: $grey;			
+			}	
+
+		}
+
+		&.msg_messagesList-item--unread {
+			font-weight: 600;
+			
+			.msg_messagesList-itemAuthor {
+				color: $grey;			
+			}
+
+		}
+
+	}
+
+}
+

@@ -1,0 +1,11 @@
+<svg class="cl-icon-star" xmlns="http://www.w3.org/2000/svg" viewBox="-6835 -1121 20 20">
+  <defs>
+    <style>
+      .cl-icon-star-1 {
+        fill: #b3b3b3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path data-name="Path 40" class="cl-icon-star-1" d="M10.538,16.584,4.358,20l1.18-7.236-5-5.125,6.91-1.056L10.538,0l3.09,6.584,6.91,1.056-5,5.125L16.719,20Z" transform="translate(-6835.539 -1121)"/>
+</svg>

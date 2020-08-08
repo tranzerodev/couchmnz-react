@@ -1,0 +1,28 @@
+.cl-sd-shopping-cart1-2{
+	.cl-sd-shopping-cart-header{
+		background: $white;
+		padding: 40px 0;
+	}
+	.cl-sd-shopping-container{
+		max-width: 1420px;
+		margin: 0 auto;
+	}
+	h1{
+		color: $greyDark;
+		font-size: 32px;
+		line-height: 38px;
+		font-weight: 600;
+		margin: 0;
+		text-transform: capitalize;
+	}
+	p{
+		font-size: 16px;
+		line-height: 22px;
+		color: $grey;
+		margin: 0;
+		&.cl-sd-shopping-info-txt{
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+}

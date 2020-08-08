@@ -1,0 +1,6 @@
+{
+  "name": "InputSport",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./InputSport.js"
+}

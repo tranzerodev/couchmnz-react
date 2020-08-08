@@ -1,0 +1,6 @@
+{
+  "name": "VerifyOTP",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./VerifyOTP.js"
+}

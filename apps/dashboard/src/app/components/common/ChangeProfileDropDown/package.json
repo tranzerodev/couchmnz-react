@@ -1,0 +1,6 @@
+{
+  "name": "ChangeProfileDropDown",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ChangeProfileDropDown.js"
+}

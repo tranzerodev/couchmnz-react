@@ -1,0 +1,6 @@
+{
+  "name": "AthleteProfileDetailsCard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AthleteProfileDetailsCard.js"
+}

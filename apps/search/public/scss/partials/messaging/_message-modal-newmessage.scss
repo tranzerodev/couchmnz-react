@@ -1,0 +1,266 @@
+.cl-new-message {
+
+	padding: $cl-gutter-medium 0;
+
+	@media #{$belowlarge} {
+		padding: $cl-gutter-small 0;
+	}
+
+	.cl-nm-subject {
+
+		padding: $cl-gutter-small $cl-gutter-large;
+		border-bottom: 1px solid $semiDarkGray;
+
+		h3 {
+			font-weight: 600;
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+			color: $grey;
+		}
+
+	}
+
+	.cl-nm-header {
+		padding: 10px 0;
+		border-bottom: 1px solid $semiDarkGray;
+	}
+
+	.cl-to-receiver {
+		position: relative;
+		a{
+
+			display: inline-block;
+			svg{
+				width: 12px;
+				height: 12px;
+				margin-left: 5px;
+				margin-top:-3px;
+			}
+		}
+	}
+
+	.cl-receiver-suggestion {
+		position: absolute;
+		background-color: $white;
+	    border: 1px solid $greyLight;
+	    border-radius: 4px;    
+	    padding: $cl-gutter-medium;
+	    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.3);
+	    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.3);
+	    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.3);
+	    width: auto;	   
+	    display: none; 
+
+	    ul {
+	    	margin: 0;
+	    	padding: 0;
+
+	    	&.cl-receiver-items {
+
+	    		margin-bottom: $cl-gutter-medium;
+
+	    		li {
+	    			list-style: none;
+	    			display: inline-block;
+	    			margin-right: $cl-gutter-medium;
+
+	    			&.uk-active {
+
+	    				a {
+	    					font-weight: 600; 
+	    				}
+
+	    			}
+	    			
+	    			a {
+	    				display: block;
+	    				border: 1px solid $greyLight;
+	    				border-radius: 15px;
+	    				padding: $cl-gutter-small/4 $cl-gutter-small;
+	    				font-size: 12px;
+	    				svg{
+	    					width: 12px;
+	    					height: 12px;
+	    				}
+	    			}
+
+	    		}
+
+	    	}
+
+	    	&.cl-receiver-suggestionList {
+
+    			margin: 0;
+				padding: 0;
+
+				li {
+					list-style: none;
+				}
+
+				ul {
+
+    				li {
+    					list-style: none;
+    					margin-top: $cl-gutter-small;
+
+    					a {
+    						text-decoration: none;
+    					}
+
+    					.cl-receiver-avatar {
+    						width: 26px;
+    						height: 26px;
+    						text-align: center;
+    						line-height: 26px;
+    						color: $white;
+    						display: inline-block;
+    						vertical-align: top;
+    						border-radius: 50%;
+    						overflow: hidden;
+    						font-size: 12px;
+
+    						img {
+    							display: block;
+    							max-width: 100%;
+    						}
+
+    					}
+
+    					.cl-receiver-name {
+    						display: inline-block;
+    						vertical-align: top;
+    						width: calc(100% - 46px);
+    						margin-left: $cl-gutter-small;
+
+    						@media #{$large} {
+								white-space: nowrap;
+							}
+
+							strong,
+							mark {
+								font-weight: normal;
+								font-family: ProximaNovaA-Bold;
+							}
+    						
+    					}
+
+    				}
+
+    			}
+
+    		}	    	
+
+	    }
+
+	}
+
+	.cl-nm-body {
+		padding: 0;
+		border-bottom: 1px solid $semiDarkGray;
+		margin: 0 0 20px 0;
+		textarea {
+			border: 0;
+			width: 100%;
+			box-sizing: border-box;
+			padding: $cl-gutter-medium $cl-gutter-large;
+			font-size: 14px;		
+			outline: none;	
+			resize: none
+		}
+
+	}
+	.cl-sd-oldmessage{
+		display: block;
+		border-bottom:1px solid #ccc;
+		padding: 10px;
+		min-height: 100px;
+		max-height: 200px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		
+		.cl-old-message-head {
+			margin-bottom: 15px;
+			border-bottom: 1px solid #cccccc;
+			span {
+				display: block;
+				padding: 4px 0px;
+				border-bottom: 1px solid #cccccc;
+				font-size: 14px;
+				line-height: 18px;
+			}
+		}
+		
+		p{
+			font-size: 16px;
+			line-height: 22px;
+			color: $grey;
+			margin: 0;
+		}
+	}
+	
+	.cl-new-msg-error {
+		display: block;
+		background-color: #FFE4E4;
+		border: 1px solid #B4B4B4;
+		padding: 4px 10px;
+		p {
+			display: block;
+			padding: 4px 0px;
+			margin: 0px;
+			font-size: 14px;
+			line-height: 18px;
+			color: #cc0000;
+		}
+	}
+
+	.cl-modal-actions { 
+		padding: 60px 0 0 0;
+
+		@media #{$belowlarge} {
+			padding: $cl-gutter-medium $cl-gutter-medium $cl-gutter-small;
+		}
+
+	}
+
+}
+
+#cl-new-message {
+
+	.uk-modal-dialog {
+		padding: 40px;
+		border-radius: 5px;
+
+		 > .uk-close:first-child {
+		 	margin: 20px 20px 0 0;
+		 }
+
+	}
+	.uk-modal-close{
+		position: absolute;
+		top: 40px;
+		right: 40px;
+		svg{
+			width: 20px;
+			height: 20px;
+		}
+		
+	}
+	.cl-from-label {
+		a{
+			svg{
+				width: 12px;
+				height: 12px;
+				margin-left: 5px;
+				margin-top: -3px;
+			}
+		}
+	}
+	
+}
+a{
+	outline: none;
+	&:focus{
+		outline: none;
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DashboardContentTop",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardContentTop.js"
+}

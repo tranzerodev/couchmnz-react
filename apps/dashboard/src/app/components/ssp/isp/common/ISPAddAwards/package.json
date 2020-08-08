@@ -1,0 +1,6 @@
+{
+  "name": "ISPAddAwards",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ISPAddAwards.js"
+}

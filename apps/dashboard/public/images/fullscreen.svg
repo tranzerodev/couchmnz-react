@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5460.5 -809 25.5 25.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #42b7db;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_720" data-name="Group 720" transform="translate(-7300 -1333)">
+    <circle id="Oval-2" class="cls-1" cx="12.75" cy="12.75" r="12.75" transform="translate(1839.5 524)"/>
+    <g id="Group-10" transform="translate(1856.724 528.718) rotate(45)">
+      <g id="Group-9">
+        <path id="Line-2" class="cls-2" d="M0,0V4.868" transform="translate(2.434 2.434)"/>
+        <path id="Path-3" class="cls-3" d="M0,4.057,2.434,0,4.868,4.057Z"/>
+      </g>
+      <g id="Group-9-Copy" transform="translate(0 10.548)">
+        <path id="Line-2-2" data-name="Line-2" class="cls-2" d="M0,4.868V0" transform="translate(2.434)"/>
+        <path id="Path-3-2" data-name="Path-3" class="cls-3" d="M0,0,2.434,4.057,4.868,0Z" transform="translate(0 3.245)"/>
+      </g>
+    </g>
+  </g>
+</svg>

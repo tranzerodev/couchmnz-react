@@ -1,0 +1,6 @@
+{
+  "name": "RewardsCard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RewardsCard.js"
+}

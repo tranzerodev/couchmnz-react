@@ -1,0 +1,6 @@
+{
+  "name": "ISPSportsAddTool",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ISPSportsAddTool.js"
+}

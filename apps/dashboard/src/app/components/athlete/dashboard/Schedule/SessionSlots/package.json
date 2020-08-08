@@ -1,0 +1,6 @@
+{
+  "name": "SessionSlots",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SessionSlots.js"
+}

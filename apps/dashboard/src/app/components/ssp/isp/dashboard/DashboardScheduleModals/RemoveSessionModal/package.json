@@ -1,0 +1,6 @@
+{
+  "name": "RemoveSessionModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RemoveSessionModal.js"
+}

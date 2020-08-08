@@ -1,0 +1,6 @@
+{
+  "name": "DegreeDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DegreeDetails.js"
+}

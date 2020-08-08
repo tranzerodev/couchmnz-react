@@ -1,0 +1,6 @@
+{
+  "name": "Parent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Parent.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DragAndDrop",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DragAndDrop.js"
+}

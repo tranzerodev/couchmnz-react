@@ -1,0 +1,6 @@
+{
+  "name": "MessageThreadItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MessageThreadItem.js"
+}

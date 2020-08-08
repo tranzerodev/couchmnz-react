@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16397.928 -1516 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #42b7db;
+        stroke-linecap: square;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="add" transform="translate(-16396.928 -1515)">
+    <g id="Group-5">
+      <path id="Path-5" class="cls-1" d="M5,0V10"/>
+      <path id="Path-5-2" data-name="Path-5" class="cls-1" d="M10,5H0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,237 @@
+CoachList
+
+Sports Service Provider API
+
+1. Get SSP profile
+
+URL : user/ssp/{userID}
+Method : GET
+
+/* ******* Week starts from Monday and ends on Sunday ******* */
+Response
+{  
+   "result":"SUCCESS",
+   "message":"successfully completed the process",
+   "developerMessage":null,
+   "payload":{  
+      "profile":{  
+         "firstName": "",
+         "lastName": "",
+         "displayName": "",
+         "displayPicture": "",
+         "dateOfBirth": "0001-01-13",
+         "experience": 0.0,
+         "phone": "0000000000",
+         "mobile": "0000000000",
+         "url": "",
+         "numberOfReviews": 0,
+         "rating": 0.0,
+         "marketingPreference": {  
+            "sms": true
+         }
+      },
+      "business": {  
+         "name": "",
+         "established": 0,
+         "description": ""
+      },
+      "travelPreference":{  
+         "location": {  
+            "lat":0.0,
+            "lng":0.0
+         },
+         "willingToTravel": true,
+         "distance": 0.0
+      },
+      "sports": [  
+         {  
+            "name": "",
+            "certification": "",
+            "experience": 0.0,
+            "level": "",
+            "agePreference": "",
+            "displayOrder": 0
+         }
+      ],
+      "trainingLocations": [  
+         {  
+            "title": "",
+            "street": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "pincode": "",
+            "description": "",
+            "displayOrder": 0,
+            "location": {
+            	"lat": 0.0,
+            	"lng": 0.0
+            }
+         }
+      ],
+      "coachingPreference": {  
+         "individuals": true,
+         "team": true,
+         "group": true,
+         "virtualTraining": true
+      },
+      "bookingPreference": {  
+         "autoAccept": false
+      },
+      "workHours": [  
+         {  
+            "dayOfWeek": 0,
+            "available": true,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         },
+         {  
+            "dayOfWeek": 1,
+            "available": true,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         },
+         {  
+            "dayOfWeek": 2,
+            "available": true,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         },
+         {  
+            "dayOfWeek": 3,
+            "available": true,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         },
+         {  
+            "dayOfWeek": 4,
+            "available": true,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         },
+         {  
+            "dayOfWeek": 5,
+            "available": false,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         },
+         {  
+            "dayOfWeek": 6,
+            "available": false,
+            "from": "00:00:00",
+            "to": "00:00:00"
+         }
+      ],
+      "cancellationPolicy": ""
+   }
+}
+
+2. Get SSP Sessions
+
+URL : user/ssp/{userID}/sessions
+Method : GET
+
+/* Type could be ["team", "group", "individual"] */
+/* Frequency could be ["Weekly", "Daily", "Monthly", "Quarterly", "Annually"] */
+Response
+{  
+   "result": "SUCCESS",
+   "message": "successfully completed the process",
+   "developerMessage": null,
+   "payload": [  
+      {  
+         "recurring": true,
+         "startDate": "0001-01-13",
+         "endDate": "0001-01-13",
+         "frequency": "",
+         "title": "",
+         "sport": "",
+         "location": {  
+            "lat": 0,
+            "lng": 0
+         },
+         "description": "",
+         "type": "",
+         "participationCriteria": {  
+            "minimumParticipants": 0,
+            "maximunParticipants": 0
+         },
+         "gender": "",
+         "ageGroup": "",
+         "level": "",
+         "pricePerSession": 0,
+         "discounts": [  
+            {  
+               "numberOfSessions": 3,
+               "percentage": 6
+            },
+            {  
+               "numberOfSessions": 6,
+               "percentage": 8
+            },
+            {  
+               "numberOfSessions": 8,
+               "percentage": 10
+            }
+         ],
+         "timings":[  
+            {  
+               "available": true,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            },
+            {  
+               "available": true,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            },
+            {  
+               "available": true,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            },
+            {  
+               "available": true,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            },
+            {  
+               "available": true,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            },
+            {  
+               "available": false,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            },
+            {  
+               "available": false,
+               "numberOfSessions": 0,
+               "from": "00:00:00",
+               "to": "00:00:00"
+            }
+         ]
+      }
+   ]
+}
+
+
+More URLS for specific attributes:
+
+user/ssp/{userID}/profile
+user/ssp/{userID}/business
+user/ssp/{userID}/travel-preference
+user/ssp/{userID}/sports
+user/ssp/{userID}/training-locations
+user/ssp/{userID}/coaching-preference
+user/ssp/{userID}/booking-preference
+user/ssp/{userID}/work-hours
+user/ssp/{userID}/cancellation-policy
+

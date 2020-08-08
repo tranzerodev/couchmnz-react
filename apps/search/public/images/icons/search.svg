@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3318 1556 30.707 30.707">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_89" data-name="Group 89" transform="translate(1920 1537)">
+    <g id="Ellipse_23" data-name="Ellipse 23" class="cls-1" transform="translate(1398 19)">
+      <ellipse class="cls-2" cx="11.33" cy="11.33" rx="11.33" ry="11.33"/>
+      <ellipse class="cls-3" cx="11.33" cy="11.33" rx="10.33" ry="10.33"/>
+    </g>
+    <line id="Line_5" data-name="Line 5" class="cls-1" x2="11.33" y2="11.33" transform="translate(1416.67 37.67)"/>
+  </g>
+</svg>

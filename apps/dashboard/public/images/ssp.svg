@@ -1,0 +1,60 @@
+<svg class="cl-icon-ssp" xmlns="http://www.w3.org/2000/svg" viewBox="497 358 106.564 84.972">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        fill: none;
+        stroke: #333;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linecap: square;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #f15e23;
+        stroke: #f15e23;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(497 358)">
+    <g id="Stop-watch" transform="translate(0)">
+      <g id="Oval-7" transform="translate(6.059 9.296)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cl-icon-ssp-1" cx="30.634" cy="30.792" rx="30.634" ry="30.792"/>
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" class="cl-icon-ssp-2" cx="29.966" cy="30.123" rx="29.966" ry="30.123" transform="translate(0.669 0.669)"/>
+      </g>
+      <path id="Line" class="cl-icon-ssp-3" d="M28.093,3.91V8.558" transform="translate(8.6 1.319)"/>
+      <g id="Rectangle-16" transform="translate(30.336)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" class="cl-icon-ssp-1" width="12.716" height="5.81" rx="1"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" class="cl-icon-ssp-2" width="11.379" height="4.472" rx="1" transform="translate(0.669 0.669)"/>
+      </g>
+      <path id="Line-2" data-name="Line" class="cl-icon-ssp-3" d="M7.347,15.2l2.312,2.324" transform="translate(1.602 5.129)"/>
+      <g id="Rectangle-16-Copy" transform="translate(0 20.709) rotate(-47)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" class="cl-icon-ssp-1" width="13.872" height="5.81" rx="1" transform="translate(0 0)"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" class="cl-icon-ssp-2" width="12.535" height="4.472" rx="1" transform="translate(0.669 0.669)"/>
+      </g>
+      <path id="Path-18" class="cl-icon-ssp-3" d="M27.773,16.355V36.14h16.96" transform="translate(8.492 5.517)"/>
+    </g>
+    <g id="Whistle" transform="translate(41.918 30.935)">
+      <path id="Path-15" class="cl-icon-ssp-4" d="M6.261,27.4H28.314s-3.45,22.7,16.951,22.7c16.805,0,18.88-14.015,18.88-17.719a15.451,15.451,0,0,0-8-13.612c-6.539-3.758-16.693-2.381-16.693-2.381l-.111,4.522H33.678l-6.184-5.768L0,14.665Z" transform="translate(0 3.434)"/>
+      <g id="Path-16" transform="translate(0.033 18.347)">
+        <path id="Path_1" data-name="Path 1" class="cl-icon-ssp-5" d="M16.644,14.851V27.4H6.278L.025,14.851Z" transform="translate(-0.025 -14.851)"/>
+        <path id="Path_2" data-name="Path 2" class="cl-icon-ssp-6" d="M15.7,15.351H.832L6.419,26.568H15.7Z" transform="translate(0.248 -14.682)"/>
+      </g>
+      <path id="Path-17" class="cl-icon-ssp-3" d="M33.725,38.168a12.268,12.268,0,0,0,6.845-2.146c2.852-2.208,4.35-6.562,4.35-6.562" transform="translate(11.377 8.425)"/>
+      <path id="Line-3" data-name="Line" class="cl-icon-ssp-3" d="M28.409,12.916,33.846,2.087" transform="translate(9.584 -0.809)"/>
+      <path id="Line-4" data-name="Line" class="cl-icon-ssp-3" d="M23.864,13.238V1.132" transform="translate(8.05 -1.132)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "ScheduleHistory",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ScheduleHistory.js"
+}

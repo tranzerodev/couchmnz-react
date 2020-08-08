@@ -1,0 +1,6 @@
+{
+  "name": "Athlete",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Athlete.js"
+}

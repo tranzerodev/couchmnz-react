@@ -1,0 +1,6 @@
+{
+  "name": "DashboardChangePassword",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardChangePassword.js"
+}

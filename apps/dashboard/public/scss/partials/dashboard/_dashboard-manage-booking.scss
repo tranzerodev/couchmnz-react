@@ -1,0 +1,993 @@
+.cl-manage-booking-section{
+    .cl-manage-boking-filtter{        
+        --divWidth: calc(100% - 40px);
+        @include border-radius(6px);
+        @include border-all(1px, #cfcfcf);
+        padding: 10px 20px;
+        width: var(--divWidth);      
+        > div.cl-mb-filtter-column{
+            display: inline-block;
+            @include breakpoint (tablet){               
+               width: 48.4% !important;
+               margin-bottom: 10px;
+            }
+            @include breakpoint (phablet){               
+                width: 100% !important;
+                margin-bottom: 10px;
+             }
+             @include breakpoint (mobileonly){               
+                width: 100% !important;
+                margin-bottom: 10px;
+             }
+            vertical-align: top;
+            margin-right: 12px;
+            margin-left: -4px !important;
+            width: calc(var(--divWidth) / 4.02 );
+            @include breakpoint (laptop){
+                width: calc(var(--divWidth) / 4.2 );
+            }
+            &.cl-sh-1-5{
+                width: calc(var(--divWidth) / 5);  
+                @include breakpoint (laptop){
+                    width: calc(var(--divWidth) / 5.5 );
+                }
+               
+            }
+            &.cl-sh-1-8{
+                width: calc(var(--divWidth) / 8 );  
+            }
+            &.cl-mb-1-7{
+                width: calc(var(--divWidth) / 6 );                
+            }
+            &.cl-mb-1-13{
+                width: calc(var(--divWidth) / 13 );
+                @include breakpoint (laptop){
+                    width: calc(var(--divWidth) / 9 );
+                } 
+                @include breakpoint (tablet){               
+                    width: 100% !important;
+                 }               
+                vertical-align: middle;
+                line-height: 20px;
+                @include breakpoint(projector){
+                    line-height: 40px;
+                } 
+                @include breakpoint(desktop){
+                    line-height: 40px;
+                }                
+            }
+            &.cl-session-history-column {
+                line-height: 16px;
+            }
+            .uk-autocomplete-results{
+                li{
+                    a{                            
+                    position: relative;
+                    overflow: hidden;
+                    display: block !important;
+                    .cl-autocomplete-text-left{
+                        float: left;
+                        width: 86%;
+                        padding: 5px 10px;
+                        font-size: 18px;
+                        color: #666666;
+                        display: block;
+                        white-space: normal;
+                        >div{
+                            font-size: 12px;
+                            line-height: 18px;
+                        }
+                    }
+                    .cl-arrow-right{
+                        float: right;
+                        width: 8px;
+                        height: 32px;
+                        padding: 12px 0px;
+                        position: relative;
+                        right: 0px;
+                        .cl-arrow-path{
+                            fill: none;
+                            stroke: #42B7DB;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-width: 3px;
+                            fill-rule: evenodd;
+                        }
+                    }
+                        &:hover{
+                            color: #4B4B4B;
+                            background-color: #e9edf7;
+                        }
+                    }
+                    &.uk-active{
+                        a{
+                            color: #4B4B4B;
+                            background-color: #e9edf7;
+                        }
+                    }
+                }
+            }
+            .theme-dropdown{
+                display: block;
+                margin-right: 0px;
+                .uk-button{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 18px;
+                    .btn-text{
+                        float: left;
+                        width: 83%;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        display: block;
+                        overflow: hidden;
+                    }
+                    .cl-arrow-right {
+                        float: right;
+                        width: 12px;
+                        height: 31px;
+                        padding: 12px 0px;
+                    }
+                }
+            }
+            .uk-dropdown{
+                width: 100%;
+                padding: 0px !important;
+                ul{
+                    display: block;
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    border-radius: 4px;
+                    overflow: hidden;
+                    li{
+                        display: block;
+                        float: unset;
+                        margin: 0px;
+                        padding: 0px;
+                        position: relative;
+                        text-align: left;
+                        border: none;
+                        transition: all 0.5s ease;
+                        -webkit-transition: all 0.5s ease;
+                        a{
+                            font-size: 16px;
+                            line-height: 32px;
+                            font-weight: 400;
+                            color: #666666;
+                            text-decoration: none;
+                            padding: 10px 20px;
+                            margin: 0px;
+                            border-bottom: 1px solid #DFDFDF;
+                            width: 100%;
+                            box-sizing: border-box;
+                            .cl-arrow-right{
+                                float: right;
+                                width: 8px;
+                                height: 32px;
+                                padding: 12px 0px;
+                                .cl-arrow-path{
+                                    fill: none;
+                                    stroke: #42B7DB;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-width: 3px;
+                                    fill-rule: evenodd;
+                                }
+                            }
+                            &:hover {
+                                color: $greyDark;
+                                background-color: $blueLighter;
+                            }
+                        }
+                        label{
+                            font-size: 16px;
+                            line-height: 32px;
+                            font-weight: 400;
+                            color: #666666;
+                            text-decoration: none;
+                            padding: 14px 15px;
+                            margin: 0px;
+                            border-bottom: none;
+                            position: relative;
+                            display: block;
+                            overflow: hidden;
+                            transition: all 0.5s ease;
+                            -webkit-transition: all 0.5s ease;
+                            .event-color{
+                                width: 19px;
+                                height: 19px;
+                                @include border-radius(4px);
+                                display: inline-block;
+                                margin-right: 7px;
+                                position: relative;
+                                top: 4px;    
+                            }                            
+                            .event-text{
+                                display: inline-block;
+                                width: 83%;
+                                line-height: 18px;
+                                vertical-align: top;
+                                padding-top: 6px;
+                            }
+                            .cl-arrow-right{
+                                float: right;
+                                width: 8px;
+                                height: 32px;
+                                padding: 12px 0px;
+                                .cl-arrow-path{
+                                    fill: none;
+                                    stroke: #42B7DB;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-width: 3px;
+                                    fill-rule: evenodd;
+                                }
+                            }
+                            &:hover {
+                                color: $greyDark;
+                                background-color: $blueLighter;
+                            }
+                        }
+                    }
+                }
+                &:before, &:after{
+                    bottom: 100%;
+                    left: 85%;
+                    border: solid transparent;
+                    content: " ";
+                    height: 0;
+                    width: 0;
+                    position: absolute;
+                    pointer-events: none;
+                }
+                &:before {
+                    border-color: rgba(194, 225, 245, 0);
+                    border-bottom-color: $greyLight;
+                    border-width: 16px;
+                    margin-left: -16px;
+                }
+                &:after {
+                    border-color: rgba(136, 183, 213, 0);
+                    border-bottom-color: $white;
+                    border-width: 14px;
+                    margin-left: -14px;
+                }
+            }
+        }
+        .uk-autocomplete{
+            input {
+                &.cl-sd-input-text {
+                    height: 40px;
+                    font-size: 18px;
+                    line-height: 36px;
+                    border: 1px solid #cccccc;
+                    color: #000000;
+                    font-size: 16px;
+                    background: #fff !important;
+                    -webkit-border-radius: 4px !important;
+                    -moz-border-radius: 4px !important;
+                    -ms-border-radius: 4px !important;
+                    border-radius: 4px !important;
+                    padding: 0 12px;
+                    padding-right: 12px;
+                    width: calc(100% - 54px);
+                    margin-bottom: 0px;
+                }
+            }
+            .cl-arrow-right {
+                position: absolute;
+                top: 42%;
+                right: 15px;
+                width: 12px;
+            }
+            .uk-dropdown{
+                &:before{
+                    top: -26px !important;
+                    left: 98% !important;
+                }
+                &:after{
+                    top: -26px !important;
+                    left: 97.2% !important;
+                }
+            }
+        }
+    }
+    .cl-manage-booking-listing-holder{        
+        .cl-manage-booking-listing{
+            @include border-radius(6px);
+            @include border-all(1px, $semiDarkGray);
+            background: $offwhite;
+            margin-top: 35px;            
+            .cl-manage-booking-listing-top{
+                display: table;
+                width: 100%;                
+                @include border-radius(6px);
+                >div{
+                    display: table-cell;
+                    vertical-align: top;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    @include breakpoint(tablet){
+                        display: block;
+                    }
+                    @include breakpoint(phablet){
+                        display: block;
+                    }
+                    @include breakpoint(mobileonly){
+                        display: block;
+                    }
+                }
+                .cl-md-width-30{
+                    width: 30%;
+                    @include breakpoint(laptop){
+                        width: 35%;
+                    }
+                    @include breakpoint(tablet){
+                        width: 100%;                        
+                    }
+                    @include breakpoint(phablet){
+                        width: 100%;                        
+                    }
+                    @include breakpoint(mobileonly){
+                        width: 100%;                        
+                    }
+                }
+                .cl-md-width-40{
+                    width: 40%;
+                    @include breakpoint(laptop){
+                        width: 35%;
+                    }
+                    @include breakpoint(tablet){
+                        padding-left: 100px;
+                        padding-top: 0px;
+                    }
+                    @include breakpoint(phablet){
+                        padding-left: 100px;
+                        padding-top: 0px;
+                        width: 80%;
+                    }
+                    @include breakpoint(mobileonly){
+                        padding-left: 15px;
+                        padding-top: 0px;
+                        padding-right: 15px;
+                        width: 89%;
+                    }
+                }
+                .cl-md-width-70{
+                    width: 70%;
+                }
+                .cl-mb-athlete-pic{
+                    height: 50px;
+                    width: 50px;
+                    float: left;
+                    margin-left: 15px;
+                    @include border-all(1px, $greyLight);                    
+                    @include border-radius(50px);
+                    overflow: hidden;
+                    img{
+                        object-fit: cover;
+                    }
+                    @include breakpoint(tablet){
+                        display: inline-block; 
+                        float: none;                        
+                    }
+                    @include breakpoint(phablet){
+                        display: inline-block; 
+                        float: none;                        
+                    }
+                    @include breakpoint(mobileonly){
+                        display: inline-block; 
+                        float: none;                        
+                    }
+                }
+                .cl-mb-session-details{
+                    float: left;
+                    // width: 70%;
+                    margin-left: 30px;
+                    @include breakpoint(tablet){
+                        display: inline-block;  
+                        float: none;                      
+                    }
+                    @include breakpoint(phablet){
+                        display: inline-block;  
+                        float: none;                      
+                    }
+                    @include breakpoint(mobileonly){
+                        display: block;  
+                        float: none;  
+                        margin-left: 15px;
+                        padding-right: 15px;                    
+                    }
+                    .cl-mb-booked-date{
+                        color: $grey;
+                        font-size: 12px;
+                        display: block;
+                        padding-bottom: 6px;
+                    }
+                    .cl-mb-athlete-name{                        
+                        position: relative;
+                        a{
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: $blue;
+                            display: block;
+                            line-height: 16px;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+                        .cl-mb-athlete-bio-dp{
+                            left: 0px !important;
+                            &:before,&:after{
+                                left: 15%;
+                            }
+                        }
+                    }
+                    .cl-mb-athlete-details {
+                        font-size: 14px;
+                        display: block;
+                        color: $grey;
+                        line-height: 16px;
+                    }
+
+                }            
+                .cl-mb-session-status{
+                    color: $grey;
+                    font-size: 12px;
+                    display: block;
+                    padding-bottom: 6px;
+                    line-height: 16px;
+                }
+                .cl-mb-session-date{
+                    font-size: 14px;
+                    display: block;
+                    color: $grey;
+                    line-height: 16px;
+                }
+                .cl-mb-session-venu{
+                    font-size: 14px;
+                    display: block;
+                    color: $grey;
+                    line-height: 16px;
+                    margin-bottom: 5px;
+                    svg{
+                        width: 15px;
+                        height: 17px;
+                        padding-right: 5px;
+                    }
+                }
+                .take-action-btn{
+                    margin-right: 15px;
+                    svg{
+                        width: 10px;
+                        height: 8px;
+                        .cls-1 {
+                            fill: #efcc00;
+                        }
+                    
+                        .cls-2 {
+                            fill: #353535;
+                        }
+                    }
+                }
+                .cl-md-action-panel {                   
+                    a{
+                        color: $blue;
+                        font-size: 14px;
+                        font-weight: bold;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                        svg{
+                            width: 10px;
+                            height: 6px;
+                            path{
+                                fill: none;
+                                stroke: $blue;
+                            }
+                        }
+                    }
+                }
+                .cl-mb-session-action{
+                    @include border-left(1px,$semiDarkGray);
+                    padding: 20px;
+                    position: relative;
+                    @include breakpoint (tablet){                       
+                        border: none;
+                    }
+                    @include breakpoint (phablet){                      
+                        border: none;
+                    }
+                    @include breakpoint (mobileonly){                            
+                        border: none;
+                    }
+                    .cl-mb-session-action-left{
+                        float: left;
+                        @include breakpoint (laptopLarge){
+                            width: 100%;
+                            margin-top: 30px;
+                        }
+                        @include breakpoint (laptop){
+                            width: 100%;
+                            margin-top: 30px;
+                        }
+                        @include breakpoint (tablet){
+                            width: 100%;
+                            margin-top: 0px;
+                        }
+                        @include breakpoint (phablet){
+                            width: 100%;
+                            margin-top: 0px;
+                            float: none;
+                        }  
+                        @include breakpoint (mobileonly){                            
+                            float: none;
+                        }                      
+                        .cl-mb-session-price-tag{
+                            display: table;
+                            @include border-radius(4px);
+                            @include border-all(2px,$greyLight);
+                            margin-bottom: 15px;
+                            @include breakpoint (laptopLarge){
+                                width: 100%;
+                            }
+                            @include breakpoint (laptop){
+                                width: 100%;
+                            }
+                            @include breakpoint (tablet){
+                                width: 100%;
+                                max-width: 300px;
+                                margin-left: 78px;
+                            }
+                            @include breakpoint (phablet){
+                                width: 100%;
+                                max-width: 300px;
+                                margin-left: 78px;
+                            }
+                            @include breakpoint (mobileonly){
+                                width: 100%;
+                                max-width: 300px;
+                                margin-left: 0px;
+                            }
+                            >div{
+                                display: table-cell;
+                            }
+                            .cl-mb-session-purchas-status{
+                                padding: 7px 13px;
+                                color: $greyLight;
+                                text-transform: uppercase;
+                                @include breakpoint (laptopLarge){
+                                    width: 80%;
+                                }
+                                @include breakpoint (laptop){
+                                    width: 80%;
+                                }
+                                @include breakpoint (tablet){
+                                    width: 80%;
+                                }
+                                @include breakpoint (phablet){
+                                    width: 80%;
+                                }
+                            }
+                            .cl-mb-session-purchas-price{
+                                background: $greyLight;
+                                color: $white;
+                                font-weight: bold;
+                                padding: 0px 15px;
+                            }
+                        }
+                        .cl-mb-view-all{
+                            display: inline-block;
+                            color: $blue;
+                            font-weight: bold;  
+                            @include breakpoint (tablet){
+                                margin-left: 78px;
+                                margin-bottom: 30px;
+                            }
+                            @include breakpoint (phablet){
+                                margin-left: 78px;
+                                margin-bottom: 30px;
+                            }                          
+                            &:hover{
+                                text-decoration: none;
+                            }
+                            .cl-icon-back-arrow {
+                                position: relative;
+                                top: -2px;
+                                .cl-icon-back-arrow-1{
+                                    fill: none;
+                                    stroke: #42B7DB;
+                                    stroke-width: 1.5px;
+                                }
+                            }
+                        }
+                    }
+                    .cl-mb-session-action-right{
+                        float: right;
+                        @include breakpoint (laptopLarge){
+                            float: none;
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                        }
+                        @include breakpoint (laptop){
+                            float: none;
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                        }
+                        @include breakpoint (tablet){
+                            float: none;
+                            position: absolute;
+                            top: -196px;
+                            right: 15px;
+                        }
+                        @include breakpoint (phablet){
+                            float: none;
+                            position: absolute;
+                            top: -196px;
+                            right: 15px;
+                        }
+                        @include breakpoint (mobileonly){
+                            float: none;
+                            position: absolute;
+                            top: -244px;
+                            right: 15px;
+                        }
+                        .cl-md-action-btn{
+                            position: relative;
+                        }
+                        a{
+                            .fa{
+                                font-size: 6px;
+                                margin-left: -3px;
+                                color: $bulletColor;
+                            }
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }                        
+                    }
+                }
+            }
+            .cl-manage-booking-listing-bottom{
+                .cl-md-custom-8-10{
+                    width: calc(100% - 222px);
+                    @include breakpoint (phablet){
+                        width: calc(100% - 60px);
+                    }
+                    @include breakpoint (mobileonly){
+                        width: calc(100% - 60px);
+                    }
+                }
+                .cl-md-missing-alert{
+                    background: $lightOrange;                    
+                    .cl-alert-div{
+                        display: table;                        
+                        svg{
+                            width: 14px;
+                            height: 14px;
+                            display: table-cell;
+                            margin-right: 15px;
+                            .cls-1 {
+                                fill: #c91818;
+                            }
+                        }
+                        p{
+                            display: table-cell;
+                            font-size: 14px;
+                            line-height: 16px;
+                            color: $orangemoreDark;
+                        }
+                    }
+                }
+                .cl-md-session-details {
+                    .cl-md-view-session{
+                        margin-top: 25px;
+                        h4{
+                            color: $grey;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        .cl-md-session-list{
+                            margin-top: 15px;
+                            position: relative;
+                            padding-left: 20px;
+                            padding-bottom: 20px;
+                            .cl-md-session-address{
+                                font-size: 14px;
+                                color: $grey;
+                                svg{
+                                    width: 15px;
+                                    height: 17px;
+                                    padding-right: 5px;
+                                }
+                            }
+                            &:before{
+                                content: "";
+                                width: 9px;
+                                height: 9px;
+                                @include border-radius(9px);
+                                @include border-all(1px,#707070);
+                                position: absolute;
+                                top: 4px;
+                                left: 0px;
+                            }
+                            &:after{
+                                content: "";
+                                height: 108%;
+                                position: absolute;
+                                width: 1px;
+                                background: #707070;
+                                top: 15px;
+                                left: 5px;                            
+                            }
+                            .cl-md-session-info{
+                                font-size: 12px;
+                                color: $greyLight;                                
+                                display: block;
+                            }
+                            .cl-md-session-date{
+                                font-size: 14px;
+                                color: $grey;
+                                line-height: 16px; 
+                                display: block;                               
+                            }
+                            &.cl-md-session-active{
+                                &:before{
+                                    background: #F15E23;
+                                }
+                                &:after{
+                                    display: none;
+                                }                                
+                            }
+                        }
+                    }                    
+                }
+                .cl-mb-session-completed-view{
+                    h4{
+                        color: $greyLight !important;
+                    }
+                    .cl-mb-session-date{
+                        color: $greyLight;
+                        display: block;
+                    }
+                    .cl-mb-session-venu{
+                        color: $greyLight;
+                        display: block;
+                        svg{
+                            width: 15px;
+                            height: 17px;
+                            padding-right: 5px;
+                            path{
+                                fill: $greyLight;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.cl-pagination{
+    li{    
+        @include border-radius(4px);        
+        @include border-all(1px,$semiDarkGray);    
+        a{
+            font-size: 14px;
+            color: $orange;
+            font-weight: bold;
+            padding: 5px 7px;
+            background: $white;
+            @include border-radius(4px);        
+        }
+        &.uk-active{
+            span{
+                font-size: 14px;
+                color: $grey;
+                padding: 5px 7px;
+                background: transparent;
+                @include border-radius(4px);
+            }
+        }
+        span{
+            font-size: 14px;
+            color: $orange;
+            font-weight: bold;
+            padding: 5px 7px;
+            background: transparent;
+            background: $white;
+            @include border-radius(4px);
+        }
+        &:nth-child(n+2){
+            margin-left: 8px;
+        }
+    }
+    
+}
+.cl-ssp-manage-booking-dropdown {
+    margin-left: 18px;
+    z-index: 200;
+    text-align: left;
+    padding: 0px;
+    width: 258px;
+    top: 30px !important;
+    left: -230px !important;       
+    ul {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        border-radius: 4px;
+        overflow: hidden;
+        li {
+            display: block;
+            float: unset;
+            margin: 0px;
+            padding: 0px;
+            a {
+                font-size: 16px;
+                line-height: 32px;
+                font-weight: 400;
+                color: $grey;
+                text-decoration: none;
+                padding: 5px 20px !important;
+                margin: 0px;
+                width: calc(100% - 40px);
+                display: block; //border-bottom: 1px solid $greyLighter;
+                .cl-arrow-right {
+                    float: right;
+                    width: 12px !important;
+                    height: 36px !important;
+                    padding: 12px 0px;
+                    .cl-arrow-path {
+                        fill: none;
+                        stroke: $blue;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 3px;
+                        fill-rule: evenodd;
+                    }
+                }
+                &:hover {
+                    color: $greyDark;
+                    background-color: $blueLighter;
+                }
+            }
+        }
+        li:last-child {
+            a {
+                border-bottom: 0px solid $greyLighter;
+            }
+        }
+        &.cl-schedule-dropdown-ul-2 {
+            padding-top: 10px;
+            margin-top: 5px;
+            @include border-top(1px, $bulletColor);
+            @include border-radius(0px);
+            li {
+                a {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.cl-ssp-manage-booking-dropdown:after,
+.cl-ssp-manage-booking-dropdown:before {
+    bottom: 100%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    
+}
+.cl-ssp-manage-booking-dropdown:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: $white;
+    border-width: 14px;
+    margin-left: -14px;
+}
+.cl-ssp-manage-booking-dropdown:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: $greyLight;
+    border-width: 16px;
+    margin-left: -16px;
+}
+.cl-mb-athlete-bio-dp {
+    .cl-mb-athlete-bio {
+        .cl-mb-athlete-bio-top {
+            position: relative;            
+            background: $white;
+            padding: 40px 0px 30px 0;
+            text-align: center;
+            .cl-close-dp { 
+                width: 18px;
+                height: 18px;               
+                right: 20px;
+                position: absolute;
+                top: 20px;
+                svg{
+                    width: 18px;
+                    height: 18px;
+                    path {
+                        stroke: #42B7DB;
+                    }
+                }
+            }
+            .cl-mb-athlete-bio-image {
+                width: 80px;
+                height: 80px;
+                overflow: hidden;
+                @include border-radius(80px);
+                @include border-all(1px,$greyLight);
+                margin: 0 auto 10px;
+                img{
+                    object-fit: cover;
+                }
+            }
+            .cl-mb-athlete-bio-name{
+                display: block;
+                margin: 0 auto;
+                padding: 0px 20px;
+                color: $blue;
+                font-weight: bold;
+            }
+        }
+        .cl-mb-athlete-bio-bottom{
+            background: $blueLight;
+            padding: 0px 15px;
+            @include border-top(1px, $greyLight);
+            ul{
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+                li{
+                    padding: 0px;
+                    margin: 0px;
+                    list-style: none;
+                    @include border-bottom(1px,$semiDarkGray);
+                    &:last-child{
+                        border: none;
+                    }
+                }
+            }
+            .cl-mb-athlete-bio-table{
+                display: table;
+                width: 100%;                
+                .cl-mb-athlete-bio-table-cell{
+                    display: table-cell;
+                    font-size: 14px;
+                    color: $grey;                    
+                    line-height: 20px;
+                    padding: 12px 5px 12px 0px;                    
+                    &:last-child{
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}
+.cl-md-dark-red-text{
+    color: $orangemoreDark !important;
+}
+.cl-md-border-top{
+    @include border-top(1px, $semiDarkGray);
+}
+#cl-manage-booking-all-session{
+    .cl-md-session-list{
+        &:last-child{
+            padding-bottom: 0px;
+        }
+    }
+    .cl-md-view-session{
+        h4{
+            margin: 0px;
+        }
+    }
+}

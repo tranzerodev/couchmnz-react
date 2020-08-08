@@ -1,0 +1,103 @@
+{
+  "name": "@coreui/react",
+  "version": "1.0.10",
+  "description": "Open Source Bootstrap Admin Template",
+  "author": "Łukasz Holeczek",
+  "homepage": "http://coreui.io",
+  "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "copy-webpack-plugin": "4.3.1",
+    "css-hot-loader": "1.3.6",
+    "css-loader": "0.28.9",
+    "eslint": "^4.18.2",
+    "babel-eslint": "^7.2.3",
+    "eslint-config-xo-react": "^0.13.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.6",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "2.30.1",
+    "node-sass": "4.7.2",
+    "rimraf": "2.6.2",
+    "sass-loader": "6.0.6",
+    "scroll-into-view": "^1.9.3",
+    "source-list-map": "2.0.0",
+    "style-loader": "0.20.1",
+    "uglify-js": "3.3.9",
+    "url-loader": "0.6.2",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.11.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "jasmine": true
+    },
+    "extends": [
+      "xo-react/space",
+      "xo-space/esnext"
+    ],
+    "rules": {
+      "camelcase": "off"
+    },
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "4.0.0",
+    "change-case": "^3.0.2",
+    "chart.js": "2.7.1",
+    "flag-icon-css": "2.9.0",
+    "font-awesome": "4.7.0",
+    "generate-json-webpack-plugin": "^0.3.0",
+    "history": "4.7.2",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0",
+    "query-string": "^5.1.0",
+    "react": "16.2.0",
+    "react-chartjs-2": "2.7.0",
+    "react-clipboard.js": "^1.1.3",
+    "react-debounce-input": "^3.2.0",
+    "react-dnd": "^2.6.0",
+    "react-dnd-html5-backend": "^2.6.0",
+    "react-dom": "16.2.0",
+    "react-filtered-multiselect": "^0.5.1",
+    "react-google-maps": "^9.4.5",
+    "react-html-parser": "^2.0.2",
+    "react-loader": "^2.4.5",
+    "react-paginate": "^5.1.0",
+    "react-responsive-carousel": "^3.1.37",
+    "react-router-dom": "4.2.2",
+    "react-scroll-into-view": "^1.2.0",
+    "react-select": "^1.2.1",
+    "react-table": "^6.7.6",
+    "react-toastify": "^3.4.3",
+    "react-transition-group": "2.2.1",
+    "reactstrap": "5.0.0-beta",
+    "simple-line-icons": "2.4.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --progress --watch --profile --json > compilation-stats.json --env.ev ",
+    "start": "webpack-dev-server --progress --color --inline --env.dev --port $PORT --host $IP ",
+    "build": "webpack -p --progress --env.prod",
+    "clean": "rimraf ./build"
+  },
+  "engines": {
+    "node": ">= 8.9.4",
+    "npm": ">= 5.6.0"
+  }
+}

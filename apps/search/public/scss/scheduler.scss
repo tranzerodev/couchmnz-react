@@ -1,0 +1,17 @@
+// Sub modules
+@import "partials/scheduler/header";
+@import "partials/scheduler/calendar";
+@import "partials/scheduler/modal";
+@import "partials/scheduler/sessions";
+
+.scheduler-wrapper {
+    padding: $cl-gutter-xlarge;
+    max-width: 1420px;
+    margin: 0 auto;
+    transition: all 500ms;
+
+    @media #{$belowsmall} {
+	    padding: $cl-gutter-small * 1.5;           
+	}
+
+}

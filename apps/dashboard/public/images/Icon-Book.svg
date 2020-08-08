@@ -1,0 +1,50 @@
+<svg class="cl-icon-book" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1537 -1944.624 36.5 35.268">
+  <defs>
+    <style>
+      .cl-icon-book-1, .cl-icon-book-4 {
+        fill: #fff;
+      }
+      .cl-icon-book-2, .cl-icon-book-6, .cl-icon-book-7 {
+        fill: none;
+      }
+      .cl-icon-book-2, .cl-icon-book-3, .cl-icon-book-4, .cl-icon-book-5, .cl-icon-book-6, .cl-icon-book-7 {
+        stroke: #979797;
+      }
+      .cl-icon-book-3 {
+        fill: #fcdfd3;
+      }
+      .cl-icon-book-4, .cl-icon-book-5, .cl-icon-book-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .cl-icon-book-4, .cl-icon-book-5, .cl-icon-book-6, .cl-icon-book-7 {
+        fill-rule: evenodd;
+      }
+      .cl-icon-book-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-opacity="0.502"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-1537 -1945)">
+    <g>
+      <rect data-name="Rectangle 494" class="cl-icon-book-1" width="29" height="25.103" rx="2" transform="translate(0 5.02)"/>
+      <rect data-name="Rectangle 495" class="cl-icon-book-2" width="28" height="24.103" rx="2" transform="translate(0.5 5.52)"/>
+    </g>
+    <g data-name="Rectangle-2">
+      <rect data-name="Rectangle 496" class="cl-icon-book-1" width="29" height="25.103" rx="2" transform="translate(2 3.012)"/>
+      <rect data-name="Rectangle 497" class="cl-icon-book-2" width="28" height="24.103" rx="2" transform="translate(2.5 3.512)"/>
+    </g>
+    <ellipse class="cl-icon-book-3" cx="7" cy="7.029" rx="7" ry="7.029" transform="translate(22 21.086)"/>
+    <path class="cl-icon-book-4" d="M16.5,21.337l-3.233,1.707.617-3.615-2.615-2.56,3.614-.527L16.5,13.053l1.616,3.289,3.614.527-2.615,2.56.617,3.615Z"/>
+    <path class="cl-icon-book-5" d="M7.622.876v4.57"/>
+    <path data-name="Path-9" class="cl-icon-book-5" d="M26,.876v4.57"/>
+    <path data-name="Path-9" class="cl-icon-book-5" d="M20,.876v4.57"/>
+    <path data-name="Path-9" class="cl-icon-book-5" d="M14,.876v4.57"/>
+    <path class="cl-icon-book-6" d="M29.211,24.472v4.415l3.029,1.605"/>
+    <path class="cl-icon-book-7" d="M2.191,9.522H30.4"/>
+  </g>
+</svg>

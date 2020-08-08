@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3744 1564.777 29.933 22.223">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <g id="Group_90" data-name="Group 90" transform="translate(3745 1565.777)">
+    <path id="Rectangle-2" class="cls-1" d="M1,4.785V17.438a3.707,3.707,0,0,0,3.619,3.785h20.7a3.7,3.7,0,0,0,3.619-3.785V4.785A3.707,3.707,0,0,0,25.315,1H4.619A3.7,3.7,0,0,0,1,4.785Z" transform="translate(-1 -1)"/>
+    <path id="Path-2" class="cls-2" d="M2.372,1.8,4.22,3.425l9.107,8.01a2.845,2.845,0,0,0,3.684-.015l9.943-8.884" transform="translate(-0.717 -0.789)"/>
+  </g>
+</svg>

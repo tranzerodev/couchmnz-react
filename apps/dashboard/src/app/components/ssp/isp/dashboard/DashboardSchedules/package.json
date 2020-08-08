@@ -1,0 +1,6 @@
+{
+  "name": "DashboardSchedules",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardSchedules.js"
+}

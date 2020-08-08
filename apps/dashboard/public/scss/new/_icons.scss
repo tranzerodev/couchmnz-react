@@ -1,0 +1,171 @@
+.cl-icon {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+
+	&.cl-icon--tiny {
+		width: 16px;
+		height: 16px;
+	}
+
+	&.cl-icon--small {
+		width: 20px;
+		height: 20px;
+	}
+
+	&.cl-icon--medium {
+		width: 24px;
+		height: 24px;
+	}
+
+	&.cl-icon--large {
+		width: 32px;
+		height: 32px;
+	}
+
+	&.cl-icon--xlarge {
+		width: 52px;
+		height: 52px;
+	}
+}
+
+.cl-icon-down {
+	background: url('../images/chevron-down-dark.svg') no-repeat center;
+}
+
+.cl-icon-next {
+	background: url('../images/chevron-next-dark.svg') no-repeat center;
+}
+
+.cl-icon-prev {
+	background: url('../images/chevron-left-dark.svg') no-repeat center;
+}
+
+.cl-icon-search {
+	background: url('../images/search-colored.svg') no-repeat center;
+}
+
+.cl-icon-add {
+	background: url('../images/add.svg') no-repeat center;
+}
+
+.cl-icon-star {
+	background: url('../images/star-small.svg') no-repeat center;
+}
+
+.cl-icon-attachment {
+	background: url('../images/attachment.svg') no-repeat center;
+}
+
+.cl-icon-clock {
+	background: url('../images/expiring.svg') no-repeat center;
+}
+
+.cl-icon-close {
+	background: url('../images/close.svg') no-repeat center;
+}
+
+.cl-icon-msg-archive {
+	background: url('../images/msg-archive.svg') no-repeat center;
+}
+
+.cl-icon-inbox {
+	background: url('../images/msg-inbox.svg') no-repeat center;
+}
+
+.cl-icon-msg-delete {
+	background: url('../images/msg-delete.svg') no-repeat center;
+}
+
+.cl-icon-msg-forward {
+	background: url('../images/msg-fwd.svg') no-repeat center;
+}
+
+.cl-icon-msg-label {
+	background: url('../images/msg-label.svg') no-repeat center;
+}
+
+.cl-icon-msg-reply {
+	background: url('../images/msg-reply.svg') no-repeat center;
+}
+
+.cl-icon-msg-replyall {
+	background: url('../images/msg-reply-all.svg') no-repeat center;
+}
+
+.cl-icon-msg-replyall-disabled {
+	background: url('../images/msg-reply-all-disabled.svg') no-repeat center;
+}
+
+.cl-icon-msg-unstar {
+	background: url('../images/msg-star.svg') no-repeat center;
+}
+
+.cl-icon-msg-star {
+	background: url('../images/msg-star-starred.svg') no-repeat center;
+}
+
+.cl-icon-msg-more {
+	background: url('../images/msg-more.svg') no-repeat center;
+}
+
+.cl-icon-dots {
+	background: url('../images/dots.svg') no-repeat center;
+}
+
+.cl-icon-calendar {
+	background: url('../images/ico-calendar.svg') no-repeat center;
+}
+
+.cl-icon-message-cross {
+	background: url('../images/ico-message-cross.svg') no-repeat center;
+}
+
+.cl-icon-message-tick {
+	background: url('../images/ico-message-tick.svg') no-repeat center;
+}
+
+.cl-icon-mail-open {
+	background: url('../images/ico-mail-open.svg') no-repeat center;
+}
+
+.cl-icon-location-pin {
+	background: url('../images/ico-location.svg') no-repeat center;
+}
+
+.cl-icon-no-service {
+	background: url('../images/ico-no-service.svg') no-repeat center;
+}
+
+.cl-icon-ratings {
+	background: url('../images/ico-ratings.svg') no-repeat center;
+}
+
+.cl-icon-connections {
+	background: url('../images/ico-connection.svg') no-repeat center;
+}
+
+.cl-icon-camps {
+	background: url('../images/ico-camp.svg') no-repeat center;
+}
+
+.cl-icon-groups {
+	background: url('../images/ico-groups.svg') no-repeat center;
+}
+
+.cl-icon-athelete {
+	.cls-1 {
+    	fill: $grey;
+    	stroke-width: 0.5px;
+  	}
+  	.cls-1, .cls-2 {
+    	stroke: $grey;
+    	stroke-linecap: square;
+    	fill-rule: evenodd;
+  	}
+  	.cls-2 {
+    	fill: none;
+  	}            
+}
+

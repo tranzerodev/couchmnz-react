@@ -1,0 +1,16 @@
+<svg class="cl-icon-menu-bar" xmlns="http://www.w3.org/2000/svg" viewBox="-7885.5 8956 21 18">
+  <defs>
+    <style>
+      .cl-icon-menu-bar-1 {
+        fill: none;
+        stroke: #42b7db;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 2328" transform="translate(-8552 8079.5)">
+    <line data-name="Line 150" class="cl-icon-menu-bar-1" x2="21" transform="translate(666.5 877.5)"/>
+    <line data-name="Line 151" class="cl-icon-menu-bar-1" x2="21" transform="translate(666.5 885.5)"/>
+    <line data-name="Line 152" class="cl-icon-menu-bar-1" x2="21" transform="translate(666.5 893.5)"/>
+  </g>
+</svg>

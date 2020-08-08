@@ -1,0 +1,6 @@
+{
+  "name": "BiographyDescription",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BiographyDescription.js"
+}

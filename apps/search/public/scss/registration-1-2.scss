@@ -1,0 +1,663 @@
+#signUpModal{
+	.uk-modal-dialog {
+		.uk-modal-body{
+			.formfld {
+				&.formfld2{
+					display: table;
+					width: 100%;
+					box-sizing: border-box;
+					select{
+						width: 100%;
+					    padding: 10px 9px;
+					    height: 44px;
+						border: 1px solid $semiDarkGray;
+						border-radius: 4px;
+						background: $white url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-759.531 -5139.53 11.063 6.591'><g transform='translate(-962.105 -6007)'><path data-name='Path 148' d='M-17914.895-2197l5,5,5-5' transform='translate(18118 3065)' fill='none' stroke='%2342B7DB' stroke-width='1.5px' /></g></svg>") no-repeat;
+			            background-size: 10px;
+			            background-position: calc(100% - 10px) center;
+			            font-size: 16px;
+			            line-height: 22px;
+			            color: $grey;
+						&.uk-width-small{
+							width: 28%;
+							display: inline-block;
+						    vertical-align: top;
+						    border-right: none;
+						    border-radius: 4px 0 0 4px;
+						}
+						&:focus{
+							outline: none;
+						}
+					}
+					input{
+						&.uk-width-small{
+							width: 71.9%;
+						    display: inline-block;
+						    vertical-align: top;
+						    border-radius: 0px 4px 4px 0px;
+						    height: 44px;
+						    margin-left: -4px
+						}
+					}
+				}
+			}
+			.cl-sd-helpTextOne{
+				border: 1px solid $semiDarkGray;
+				border-radius: 4px;
+				background: rgba(255, 255, 255, 0.5);
+				padding: 15px;
+				margin-bottom: 15px;
+				p{
+					font-weight: 400;
+					text-align: left;
+					padding: 0;
+					font-size: 14px;
+					line-height: 20px;
+					color: #555149;
+				}
+			}
+		}
+	} 
+	select{
+		background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-759.531 -5139.53 11.063 6.591'><g transform='translate(-962.105 -6007)'><path data-name='Path 148' d='M-17914.895-2197l5,5,5-5' transform='translate(18118 3065)' fill='none' stroke='%2342B7DB' stroke-width='1.5px' /></g></svg>") no-repeat;
+        background-size: 10px;
+        background-position: calc(100% - 10px) center;
+	}
+}
+#forgot3{
+	.uk-modal-dialog {
+		.uk-modal-body{
+			.cl-sd-helpTextTwo{
+				border: 1px solid $semiDarkGray;
+				border-radius: 4px;
+				background: rgba(255, 255, 255, 0.5);
+				padding: 15px;
+				margin-bottom: 15px;
+				p{
+					font-weight: 400;
+					text-align: center;
+					padding: 0;
+					font-size: 14px;
+					line-height: 17px;
+					color: $fullBlack;
+				}
+			}
+		}
+	}
+}
+#signInModalwithoutSocial{
+  .uk-modal-dialog{
+    @include border-radius(5px);
+    padding: 40px 40px 25px 40px;
+    background: $body-color;
+    .cl-sd-alert-box {
+    	color: $orangemoreDark;
+	    background: $lightOrange;
+	    border: 1px solid $orangemoreDark;
+	    padding: 15px;
+	    margin-top:12px;
+	    p{
+	    	color: $orangemoreDark;
+	    }
+    }
+    .uk-modal-header{
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    h2{
+      color: $grey;
+      font-size: 28px;
+      line-height: 34px;
+      font-weight: 900;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    p{
+      color: $grey;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0;
+      padding: 8px 0 8px 0;
+      a{
+        text-decoration: none;
+        color: $orange;
+        font-weight: 600;
+        &:hover{
+          color: $orangeDark;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+    .uk-modal-body{
+      	h3{
+          color: $grey;
+          font-size: 36px;
+          line-height: 45px;
+          margin: 0 0 0px 0;
+        }
+      	.formfld{
+	        margin-bottom: 15px;
+	        position: relative;
+	        a{
+	          color: $orange;
+	          text-decoration: none;
+	          font-weight: 600;
+	          display: inline-block;
+	          font-size: 16px;
+	          line-height: 22px;
+	          &:hover{
+	            color: $orangeDark;
+	          }
+	        }
+	        .forgotpsd{
+	          text-align: right;
+	          margin-top: 15px;
+	        }
+	        input{
+	          width: 100%;
+	          border-radius: 4px;
+	          border: 1px solid $semiDarkGray;
+	          padding: 10px 9px;
+	          font-size: 16px;
+	          background: #fff;
+	          box-sizing: border-box;
+	          display: block;
+	          &:focus{
+	            outline: none;
+	          }
+	        }
+	        select{
+	          width: 100%;
+	          height: 50px;
+	          background: #fff url(../../resources/assets/images/downarrow.png) no-repeat center right;
+	          -webkit-appearance: none;
+	          -moz-appearance: none;
+	          padding: 0px 15px;
+	        }
+	        &.psswd{
+	          margin-bottom: 0;
+	          	#error-nwl1{
+		            padding: 0px 10px;
+		            margin-bottom: 15px;
+		            font-size: 13px;
+		        }
+	        }
+      	}
+      .tandc{
+        margin: 0px 0 35px 0;
+        label{
+          color: $grey;
+          font-size: 16px;
+          line-height: 22px;
+          a{
+            color: $orange;
+            text-decoration: none;
+            &:hover{
+              color: $orangeDark;
+            }
+          }
+        }
+        input[type=checkbox] { 
+          /* to hide the checkbox itself */
+          display:none; 
+          &+ label{
+            &:before{
+              font-family: FontAwesome;
+              display: inline-block;
+              font-size: 22px;
+              color: $orange;
+              vertical-align: middle;
+              content: "\f096"; 
+              margin-right: 10px;
+              width: 20px;
+            }
+          }
+          &:checked + label{
+            &:before{
+              content: "\f14a"; 
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+      button{
+        background: $orange;
+        color: $white;
+        border-radius: 4px;
+        padding: 12px 30px 10px 30px;
+        font-size: 18px;
+        line-height: 24px;
+        display: inline-block;
+        font-weight: 600;
+        &:hover{
+          background:$orangeDark;
+        }
+      }
+      p{
+        color: $grey;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 0px 0;
+        text-align: right;
+        font-weight: 600;
+        a{
+          text-decoration: none;
+          color: $orange;
+          &:hover{
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
+#signUpModalwithoutSocial{
+	.uk-modal-dialog{
+	    @include border-radius(5px);
+	    padding: 40px;
+	    background: $body-color;
+	    .cl-sd-alert-box {
+	    	color: $orangemoreDark;
+		    background: $lightOrange;
+		    border: 1px solid $orangemoreDark;
+		    padding: 15px;
+	    	margin-top:12px;
+		    p{
+		    	color: $orangemoreDark;
+		    }
+	    }
+	    .uk-modal-header{
+	      margin-bottom: 20px;
+	      text-align: center;
+	    }
+	    h2{
+	      color: $grey;
+	      font-size: 28px;
+	      line-height: 34px;
+	      font-weight: 900;
+	      margin: 0;
+	      text-transform: uppercase;
+	    }
+	    p{
+	      color: $grey;
+	      font-size: 16px;
+	      line-height: 20px;
+	      margin: 0;
+	      padding: 8px 0 8px 0;
+	      a{
+	        text-decoration: none;
+	        color: $orange;
+	        font-weight: 600;
+	        &:hover{
+	          color: $orangeDark;
+	        }
+	        &:focus{
+	          outline: none;
+	        }
+	      }
+	    }
+	    .uk-modal-body{
+		    h3{
+		        color: $grey;
+		        font-size: 36px;
+		        line-height: 45px;
+		        margin: 0 0 0px 0;
+		    }
+		   	.formfld{
+		        margin-bottom: 15px;
+		        position: relative;
+		        a{
+			        color: $orange;
+			        text-decoration: none;
+			        font-weight: 600;
+			        display: inline-block;
+			        font-size: 16px;
+			        line-height: 22px;
+			        &:hover{
+			            color: $orangeDark;
+			        }
+		        }
+		        .forgotpsd{
+		          text-align: right;
+		          margin-top: 15px;
+		        }
+		        input{
+			        width: 100%;
+			        border-radius: 4px;
+			        border: 1px solid $semiDarkGray;
+			        padding: 10px 9px;
+			        font-size: 16px;
+			        background: #fff;
+			        box-sizing: border-box;
+			        display: block;
+			        &:focus{
+			            outline: none;
+			        }
+		        }
+		        select{
+			        width: 100%;
+			        height: 50px;
+			        background: #fff url(../../resources/assets/images/downarrow.png) no-repeat center right;
+			        -webkit-appearance: none;
+			        -moz-appearance: none;
+			        padding: 0px 15px;
+			    }
+		        &.psswd{
+			        margin-bottom: 0;
+			        #error-nwl1{
+			            padding: 0px 10px;
+			            margin-bottom: 15px;
+			            font-size: 13px;
+			        }
+		        }
+		    }
+		   	.tandc{
+		     	margin: 0px 0 35px 0;
+		        label{
+		          color: $grey;
+		          font-size: 16px;
+		          line-height: 22px;
+		          a{
+		            color: $orange;
+		            text-decoration: none;
+		            &:hover{
+		              color: $orangeDark;
+		            }
+		          }
+		        }
+		        input[type=checkbox] { 
+		          /* to hide the checkbox itself */
+		          display:none; 
+		          &+ label{
+		            &:before{
+		              font-family: FontAwesome;
+		              display: inline-block;
+		              font-size: 22px;
+		              color: $orange;
+		              vertical-align: middle;
+		              content: "\f096"; 
+		              margin-right: 10px;
+		              width: 20px;
+		            }
+		          }
+		          &:checked + label{
+		            &:before{
+		              content: "\f14a"; 
+		              margin-right: 10px;
+		            }
+		          }
+		        }
+		   	}
+		    button{
+		        background: $orange;
+		        color: $white;
+		        border-radius: 4px;
+		        padding: 12px 30px 10px 30px;
+		        font-size: 18px;
+		        line-height: 24px;
+		        display: inline-block;
+		        font-weight: 600;
+		        &:hover{
+		          background:$orangeDark;
+		        }
+		    }
+		    p{
+		        color: $grey;
+		        font-size: 16px;
+		        line-height: 22px;
+		        margin: 0 0 0px 0;
+		        text-align: right;
+		        font-weight: 600;
+		        a{
+		          text-decoration: none;
+		          color: $orange;
+		          &:hover{
+		            color: $secondary-color;
+		          }
+		        }
+		    }
+		   	.formfld {
+				&.formfld2{
+					display: table;
+					width: 100%;
+					box-sizing: border-box;
+					select{
+						width: 100%;
+					    padding: 10px 9px;
+					    height: 44px;
+						border: 1px solid $semiDarkGray;
+						border-radius: 4px;
+						background: $white url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-759.531 -5139.53 11.063 6.591'><g transform='translate(-962.105 -6007)'><path data-name='Path 148' d='M-17914.895-2197l5,5,5-5' transform='translate(18118 3065)' fill='none' stroke='%2342B7DB' stroke-width='1.5px' /></g></svg>") no-repeat;
+			            background-size: 10px;
+			            background-position: calc(100% - 10px) center;
+			            font-size: 16px;
+			            line-height: 22px;
+			            color: $grey;
+						&.uk-width-small{
+							width: 28%;
+							display: inline-block;
+						    vertical-align: top;
+						    border-right: none;
+						    border-radius: 4px 0 0 4px;
+						}
+						&:focus{
+							outline: none;
+						}
+					}
+					input{
+						&.uk-width-small{
+							width: 71.9%;
+						    display: inline-block;
+						    vertical-align: top;
+						    border-radius: 0px 4px 4px 0px;
+						    height: 44px;
+						    margin-left: -4px
+						}
+					}
+				}
+			}
+			.cl-sd-helpTextOne{
+				border: 1px solid $semiDarkGray;
+				border-radius: 4px;
+				background: rgba(255, 255, 255, 0.5);
+				padding: 15px;
+				margin-bottom: 15px;
+				p{
+					font-weight: 400;
+					text-align: left;
+					padding: 0;
+					font-size: 14px;
+					line-height: 20px;
+					color: #555149;
+				}
+			}
+	    }
+	}
+}
+.cl-sm-athleteSection {
+	.buildProfileSec{
+		.field-holder{
+			input[type=number]{
+				border-right: none;
+			}
+			.tableDiv{
+				display: table;
+				width: 100%;
+				.form-inline{
+					display: table-cell;
+					vertical-align: top;
+					&:first-child{
+						select{
+							border-right: none;
+							border-radius: 0;
+						}
+					}
+					&:last-child{
+						select{
+							border-radius: 0 4px 4px 0;
+						}
+						input{
+							border-radius: 0;
+						}
+					}
+					select{
+						width: 39.9%;
+					}
+					input{
+						width: 60%;
+					}
+				}
+			}
+		}
+	}
+	.cl-sd-athlete-profile-info{
+		border: 1px solid $orange;
+		background: $white;
+		padding: 22px;
+		border-radius: 4px;
+		.lCol{
+			width: 90px;
+			svg{
+				width: 72px;
+				height: 72px;
+			}
+		}
+		h4{
+			font-size: 20px;
+			line-height: 26px;
+			color: $orange;
+			margin: 0;
+			font-weight: 600;
+			text-transform: capitalize;
+		}
+		p{
+			font-size: 16px;
+			line-height: 22px;
+			color: $orange;
+			margin: 0;
+		}
+	}
+	.tableDivSec{
+		display: table;
+		width: 100%;
+		.lCol{
+			display: table-cell;
+			vertical-align: top;
+		}
+		.rCol{
+			text-align: right;
+			display: table-cell;
+			vertical-align: top;
+			a{
+				font-weight: 600;
+				padding: 0px 0 5px 0;
+			    display: inline-block;
+			    text-decoration: none;
+			    color: #42B7DB;
+			    font-size: 15px;
+			    line-height: 22px;
+			}
+		}
+	}
+	.cl-sd-preset{
+		position: relative;
+		input{
+			padding-left: 60px;
+		}
+		.cl-sd-country-code{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 55px;
+			height: 44px;
+			border-right: 1px solid $semiDarkGray;
+			font-size: 16px;
+			line-height: 22px;
+			display: block;
+			color: $grey;
+			padding: 10px 5px;
+			box-sizing: border-box;
+		}
+	}
+}  
+.stepSection1-2{
+	.comingSoonOuter{
+		padding: 50px 0;
+	}
+	.comingSoon{
+		padding: 20px;
+		border:1px solid $semiDarkGray;
+		background: $white;
+		border-radius: 8px;
+	}
+	&.signUpTwo{
+		.verifyAcc{
+			input{
+			    border-radius: 4px;
+			    border:1px solid $semiDarkGray;
+			    background: $white;
+			    width: 100%;
+			    padding: 10px;
+			    font-size: 16px;
+			    box-sizing: border-box;
+			    font-family: ProximaNova-Regular;
+			    &:focus{
+			    	outline:none;
+			        border:1px solid $semiDarkGray;
+			    }
+		    }
+		    button{
+		    	&.general_btn{
+			        background: $orange;
+			        border-radius: 4px;
+			        color: #fff;
+			        padding: 8px 15px 8px 15px;
+			        font-size: 16px;
+			        line-height: 22px;
+			        display: inline-block;
+			        text-decoration: none;
+			        text-transform: uppercase;
+			        border: none;
+			        font-weight: 600;
+			        margin:20px 0 20px 0;
+			        &:hover{
+			            background: $orangeDark;
+			        }
+			        &:focus{
+			            outline: none;
+			        }
+		        }
+		    }
+		    #error-nwl2{
+		    	padding: 2px 10px;
+		    }
+		}
+	}
+}
+@media only screen and (max-width: 380px) {
+	.stepSection1-2{
+		&.signUpTwo{
+			.verifyAcc{
+				padding: 20px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 340px) {
+	.cl-sm-athleteSection {
+		.tableDivSec{
+			display: block;
+			.lCol{
+				display: block;
+				padding: 0 0 10px 0;
+			}
+			.rCol{
+				display: block;
+				text-align: left;
+				padding: 0 0 10px 0;
+			}
+		}
+	}
+}

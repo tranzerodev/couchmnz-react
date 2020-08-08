@@ -1,0 +1,41 @@
+<svg class="cl-icon-ssp-camp" xmlns="http://www.w3.org/2000/svg" viewBox="761.314 1352.325 91.35 88.455">
+  <defs>
+    <style>
+      .cl-icon-ssp-camp-1 {
+        fill: #f15e23;
+      }
+
+      .cl-icon-ssp-camp-2, .cl-icon-ssp-camp-3 {
+        fill: none;
+        fill-rule: evenodd;
+      }
+
+      .cl-icon-ssp-camp-2 {
+        stroke: #f15e23;
+      }
+
+      .cl-icon-ssp-camp-3 {
+        stroke: #333;
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 14" transform="translate(-3688.511 380.489)">
+    <g transform="translate(4450 972)">
+      <g>
+        <path data-name="Path 9" class="cl-icon-ssp-camp-1" d="M7,87.76c-.475.271-.655.1-.4-.39L45.671,13.149c.256-.486.457-.44.45.11l-.279,21.06a5.8,5.8,0,0,1-.413,1.9S38.67,51.853,31.14,65.3,7,87.76,7,87.76Z"/>
+        <path data-name="Path 10" class="cl-icon-ssp-camp-2" d="M7.373,86.972q.259-.15.561-.329c.943-.561,1.993-1.219,3.126-1.971a80.363,80.363,0,0,0,9.489-7.349A49.84,49.84,0,0,0,30.7,65.054q1.34-2.391,2.718-5c2.779-5.255,5.54-10.888,8.157-16.52.916-1.972,1.748-3.8,2.481-5.445.257-.575.482-1.085.675-1.525.116-.264.195-.445.236-.541a5.317,5.317,0,0,0,.371-1.71l.264-19.968Z"/>
+      </g>
+      <g>
+        <path data-name="Path 11" class="cl-icon-ssp-camp-1" d="M45.849-87.76c-.475-.271-.655-.1-.4.39L84.525-13.149c.256.486.457.44.45-.11L84.7-34.32a5.8,5.8,0,0,0-.414-1.9S77.524-51.853,69.994-65.3,45.849-87.76,45.849-87.76Z" transform="translate(129.977) rotate(180)"/>
+        <path data-name="Path 12" class="cl-icon-ssp-camp-2" d="M46.227-86.972q.259.15.561.329c.943.561,1.993,1.219,3.126,1.971A80.363,80.363,0,0,1,59.4-77.323a49.841,49.841,0,0,1,10.156,12.27q1.339,2.391,2.718,5c2.779,5.255,5.54,10.888,8.157,16.52.916,1.972,1.748,3.8,2.481,5.445.257.575.482,1.085.675,1.525.116.264.195.445.236.541a5.317,5.317,0,0,1,.371,1.71l.264,19.968Z" transform="translate(129.977) rotate(180)"/>
+      </g>
+      <path class="cl-icon-ssp-camp-3" d="M48.567,19.938,38.343.511"/>
+      <path class="cl-icon-ssp-camp-3" d="M52.657-19.938,42.433-.511" transform="translate(95.09) rotate(180)"/>
+      <path data-name="Line" class="cl-icon-ssp-camp-3" d="M45.5,13.8V87.485"/>
+      <path data-name="Line" class="cl-icon-ssp-camp-3" d="M6.646,87.421H83.74"/>
+      <path data-name="Line" class="cl-icon-ssp-camp-3" d="M84.354,87.421,90.489,77.2"/>
+      <path class="cl-icon-ssp-camp-3" d="M.511-87.421,6.646-77.2" transform="translate(7.157) rotate(180)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "ProfileSkills",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ProfileSkills.js"
+}

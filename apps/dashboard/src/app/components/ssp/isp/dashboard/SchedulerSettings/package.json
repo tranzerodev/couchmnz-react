@@ -1,0 +1,6 @@
+{
+  "name": "SchedulerSettings",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SchedulerSettings.js"
+}

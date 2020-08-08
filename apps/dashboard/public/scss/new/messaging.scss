@@ -1,0 +1,28 @@
+// Sub modules
+@import "partials/messaging/sidebar-navigation";
+@import "partials/messaging/action-bar";
+@import "partials/messaging/message-list";
+@import "partials/messaging/message-toolbar";
+@import "partials/messaging/message-detail";
+@import "partials/messaging/message-modal-decline";
+@import "partials/messaging/message-modal-replymessage";
+@import "partials/messaging/message-modal-newmessage";
+@import "partials/messaging/message-modal-label";
+
+.message--open {
+	overflow: hidden;
+}
+
+.messagingOuter {
+
+  font-family: ProximaNovaA-Regular;
+
+  @media #{$large} {
+    padding: 0 0 $cl-gutter-medium;
+  }
+  
+  @media #{$xlarge} {
+    padding: $cl-gutter-xlarge 0;
+  }  
+
+}

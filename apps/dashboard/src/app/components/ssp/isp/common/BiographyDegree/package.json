@@ -1,0 +1,6 @@
+{
+  "name": "BiographyDegrees",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BiographyDegrees.js"
+}

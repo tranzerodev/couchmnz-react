@@ -1,0 +1,6 @@
+{
+  "name": "MessageThreadListSorter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MessageThreadListSorter.js"
+}

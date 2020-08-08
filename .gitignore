@@ -1,0 +1,7 @@
+apps/search/src/app/config/config.json
+apps/dashboard/src/app/config/config.json
+apps/admin_dashboard/yarn.lock
+apps/dashboard/src/app/data/
+yarn.lock
+apps/admin_dashboard/webpack.config.js
+admin_dashboard/compilation-stats.json

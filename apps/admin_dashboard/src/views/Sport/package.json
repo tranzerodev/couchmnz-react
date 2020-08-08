@@ -1,0 +1,7 @@
+{
+    "name": "sport",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./Sport.js"
+  }
+  

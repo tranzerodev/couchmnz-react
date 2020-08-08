@@ -1,0 +1,279 @@
+.scheduler-header {
+
+	padding: $cl-gutter-medium 0;
+
+	.scheduler-headerTabs {
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+				display: block;						
+				margin-right: $cl-gutter-small;
+				margin-bottom: $cl-gutter-small;
+				font-family: ProximaNovaA-Bold;
+				vertical-align: middle;
+
+				@media #{$small} {					
+					display: inline-block;
+					margin-right: $cl-gutter-medium;					
+				}
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+			}
+
+		}
+
+		a {
+			color: $nobel;
+			text-decoration: none;
+			padding-bottom: $cl-gutter-small/2;
+			border-bottom: 2px solid transparent;
+			display: inline-block;
+
+			&:hover,
+			&.active {
+				color: $grey;
+				border-bottom: 2px solid $grey;
+			}
+
+		}
+
+	}
+
+	.scheduler-headerViewSwitcher {
+
+		@media #{$small} {
+			text-align: right;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+
+			li {
+				list-style: none;
+				display: inline-block;						
+				margin-right: $cl-gutter-small;
+				font-family: ProximaNovaA-Bold;
+				vertical-align: middle;
+
+				@media #{$small} {
+					display: inline-block;
+					margin-left: $cl-gutter-small * 1.5;
+					margin-right: -4px;		
+				}
+				&:nth-child(2){
+					border-right: 1px solid $blue;
+					padding-right: $cl-gutter-small * 1.5;
+				}
+				&:last-child {
+					margin-right: 0;	
+				}
+
+			}
+
+		}
+
+		a {
+			color: $blue;
+			text-decoration: none;	
+
+			&:hover,
+			&.active {				
+				border-radius: 3px;				
+				color: $blueDark;
+			}
+
+			&.active {
+				background: rgba($semiDarkGray, .4);
+				padding: $cl-gutter-small/2;
+			}
+
+		}
+
+		.cl-icon-calendar-view {
+			width: 19px;
+			height: 16px;
+		}
+		.cl-icon-list-view {
+			width: 19px;
+			height: 10px;
+		}
+	}
+
+}
+
+.scheduler-navigationHeader {
+
+	overflow: hidden;
+	margin-bottom: $cl-gutter-medium;
+	color: $grey;
+
+	@media #{$belowsmall} {
+		margin-bottom: 0;
+	}
+
+	.scheduler-navigationLink {
+		float: left;
+		width: 100px;
+
+		@media #{$belowsmall} {
+			float: none;
+			width: 100%;
+			margin-bottom: $cl-gutter-medium;
+		}
+
+		a {
+			color: $blue;
+			text-decoration: none;
+
+			&:hover {
+				color: $blueDark;
+			}
+		}
+
+	}
+
+	.scheduler-navigationContent {
+		float: left;
+		width: calc(100% - 100px);
+		font-family: 'ProximaNovaA-Bold';
+		font-size: 18px;
+
+		@media #{$belowsmall} {
+			float: none;
+			width: 100%;			
+		}
+
+		a {
+			color: $blue;
+			text-decoration: none;
+
+			&:hover {
+				color: $blueDark;
+			}
+
+		}
+
+	}
+
+	.scheduler-packageDetails {
+		margin: $cl-gutter-small 0;
+		font-family: 'ProximaNova-Regular';
+
+		strong {
+			font-family: 'ProximaNovaA-Bold';
+			font-weight: normal;
+			margin-left: $cl-gutter-small;
+		}
+
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: $cl-gutter-large;
+		}
+
+	}
+
+	.scheduler-packageCta {
+		margin: $cl-gutter-small 0 $cl-gutter-medium;		
+	}
+		
+}
+
+.scheduler-instructionContent {
+	margin: $cl-gutter-medium 0;
+
+	strong {
+		font-weight: normal;
+		font-family: 'ProximaNovaA-Bold';
+	}
+
+	@media #{$belowsmall} {
+		margin-bottom: $cl-gutter-large;			
+	}
+
+}
+
+.scheduler-historyFilter {
+	overflow: visible;
+	width: 100%;
+	margin: $cl-gutter-large 0;
+
+	.scheduler-historyFilterColumn {
+		display: inline-block;
+		width: calc(50% - 4px);
+
+		&:last-child {
+			text-align: right;
+
+			@media #{$belowsmall} {			
+				text-align: left;
+			}
+
+		}
+
+		@media #{$belowsmall} {			
+			width: 100%;
+			margin-bottom: $cl-gutter-small;			
+		}
+
+		.uk-button {
+			font-size: 14px;
+			width: 100%;
+			text-align: left;
+	    	background: $white;
+	    	padding: em-calc(3px) $cl-gutter-small;
+	    	margin-left: $cl-gutter-small;
+			i {
+				float: right;
+				margin-left: $cl-gutter-small/2;
+				margin-top: 11px;
+			}
+
+		}
+
+		.uk-dropdown {
+
+			padding: 0;
+			
+			ul {
+				margin: 0;
+				padding: 0;			
+
+				li {
+
+					text-align: left;
+
+					.cl-arrow-right {
+			            float: right;
+			            width: 8px;
+			            height: 32px;
+			            padding: 12px 0px;
+			        }
+
+			        .cl-arrow-path {
+			            fill: none;
+			            stroke: #42B7DB;
+			            stroke-linecap: round;
+			            stroke-linejoin: round;
+			            stroke-width: 3px;
+			            fill-rule: evenodd;
+			        }
+
+				}
+				
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SessionTimeLines",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SessionTimeLines.js"
+}

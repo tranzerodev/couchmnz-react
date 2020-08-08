@@ -1,0 +1,10 @@
+{
+  "name": "ProfilePicture",
+  "version": "1.0.2",
+  "private": false,
+  "dependencies": {
+	"react": "^15.6.1",
+	"react-flip-move": "^2.9.14"
+  },
+  "main": "./ProfilePicture.js"
+}

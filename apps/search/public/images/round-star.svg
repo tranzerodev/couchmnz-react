@@ -1,0 +1,19 @@
+<svg class="cl-icon-round-star" xmlns="http://www.w3.org/2000/svg" viewBox="-19369 -3075 14 14">
+  <defs>
+    <style>
+      .cl-icon-round-star-1 {
+        fill: #4d4d4d;
+      }
+      .cl-icon-round-star-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-19369 -3075)">
+    <g>
+      <circle class="cl-icon-round-star-1" cx="7" cy="7" r="7"/>
+      <path class="cl-icon-round-star-2" d="M7,9.333,4.257,10.775l.524-3.054L2.562,5.558l3.067-.446L7,2.333,8.372,5.112l3.067.446L9.219,7.721l.524,3.054Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,608 @@
+.scheduler-calendarHeader {	
+	margin-bottom: $cl-gutter-large;
+
+	@media #{$belowsmall} {
+		text-align: center;
+	}
+
+	.uk-button {
+		padding: $cl-gutter-small/3 $cl-gutter-medium;
+		font-family: ProximaNovaA-Bold;
+	}
+
+	.scheduler-calendarDate {
+		text-align: center;
+		margin-top: $cl-gutter-small/2;
+
+		@media #{$belowsmall} {
+			margin: $cl-gutter-small 0 0;
+		}
+
+		a,
+		span {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		a {
+			color: $blue;
+			text-decoration: none; 
+
+			&:hover {
+				color: $blueDark;
+			}
+
+		}
+
+		span {
+			font-family: ProximaNovaA-Bold;
+			color: $grey;
+			margin: 0 $cl-gutter-small;
+		}
+
+		i {
+			font-size: 22px;
+		}
+
+
+	}
+
+}
+
+.scheduler-calendarListView {
+
+	.scheduler-listViewDate {
+		margin: $cl-gutter-small * 1.5 0;
+		font-family: ProximaNovaA-Bold;
+		color: $grey;
+		font-size: 18px;
+	}
+
+	.scheduler-listViewItem {
+		background: $white;
+		border: 1px solid $semiDarkGray;
+		border-radius: 6px;
+		position: relative;
+		margin-bottom: $cl-gutter-small;		
+	}
+
+	.scheduler-listViewItemColumns {
+
+		overflow: hidden;
+		padding: $cl-gutter-small * 1.5 $cl-gutter-medium;
+
+		&.scheduler-listViewItemColumns--bordered {
+			border-left: 1px solid $semiDarkGray;
+
+			@media #{$belowsmall} {
+				border-left: 0;
+				border-top: 1px solid $semiDarkGray;	
+			}
+
+		}
+
+	}
+
+	.scheduler-listViewItemTimestamp,
+	.scheduler-listViewItemSessionInfo {
+		float: left;
+		width: 150px;
+
+		@media #{$belowlarge} {
+			float: none;
+			width: 100%;
+			margin-bottom: $cl-gutter-small * 1.5;
+		}		
+
+	}	
+
+	.scheduler-listViewItemTimestamp {
+
+		.scheduler-sessionCta {
+
+			margin-top: $cl-gutter-small;
+			
+			.uk-button {
+				padding: $cl-gutter-small/4 $cl-gutter-small * 1.5;
+				font-family: ProximaNovaA-Bold;			
+				text-transform: uppercase;
+				color: $white;
+				text-shadow: none;
+				border: 0;			
+
+				&:hover {
+					background: $orangeDark;
+					color: $white;
+				}
+
+			}
+
+		}
+
+	}
+
+	.scheduler-listViewItemSessionInfo {
+
+		color: $semiBlack;
+		
+		strong {
+			font-weight: normal;
+			font-family: ProximaNovaA-Bold;
+		}
+
+		.scheduler-sessionName,
+		.scheduler-sessionStatus,
+		.scheduler-sessionCta,
+		.scheduler-sessionTimestamp,
+		.scheduler-sessionRatings {
+			margin-bottom: $cl-gutter-small;
+		}		
+
+		.scheduler-sessionCta {
+			
+			.uk-button {
+				padding: $cl-gutter-small/4 $cl-gutter-small * 1.5;
+				font-family: ProximaNovaA-Bold;			
+				text-transform: uppercase;
+				color: $white;
+				text-shadow: none;
+				border: 0;			
+
+				&:hover {
+					background: $orangeDark;
+					color: $white;
+				}
+
+			}
+
+		}
+
+		.scheduler-sessionTimestamp {
+			font-size: 14px;
+			color: $grey;
+		}
+
+		.scheduler-sessionRatings {
+
+			span {
+				display: inline-block;
+				vertical-align: middle;
+			}			
+
+			svg {
+	            width: 14px;
+	            height: 14px;
+	            display: inline-block;
+	            margin-top: -4px;
+	        }
+
+		}
+
+	}
+
+	.scheduler-listViewItemContent {
+		float: left;
+		width: calc(100% - 150px);
+		position: relative;
+
+		@media #{$belowlarge} {
+			float: none;
+			width: 100%;		
+		}
+
+	}
+
+	.scheduler-listViewItemProfilePic {
+		width: 46px;
+		height: 46px;
+		float: left;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	.scheduler-listViewItemDetail {
+		float: left;
+		width: calc(100% - 60px);
+		margin-left: 14px;
+		color: $grey;
+
+		p {
+			margin: 0 0 $cl-gutter-small/2 0;
+			padding: 0;
+
+			&:last-child {
+				margin: 0;
+			}
+
+		}
+
+		i {
+			margin-right: $cl-gutter-small/2;
+		}
+
+		strong {
+			font-weight: normal;
+			font-family: ProximaNovaA-Bold;
+		}
+
+		.cl-icon-usergroup,
+		.cl-icon-connection,.cl-icon-team {
+			width: 22px;
+			height: 22px;
+		}
+		.cl-icon-clinic{
+			width: 16px;
+			height: 16px;
+		}
+
+		.scheduler-listViewItemLabel {
+			display: inline-block;
+			margin-right: $cl-gutter-small/2;
+			border-radius: 4px;
+			padding: $cl-gutter-small/3 $cl-gutter-small;
+			vertical-align: middle;
+			font-size: 12px;
+			color: $white;
+		}
+
+		a {
+			color: $blue;
+			text-decoration: none;
+
+			&:hover {
+				color: $blueDark;
+			}
+
+		}
+
+	}
+
+	.scheduler-listViewItemInfo {
+
+		width: calc(100% - 25px);
+		box-sizing: border-box;
+
+		span {
+			display: block;
+			margin: 0 0 $cl-gutter-small 0;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			&.scheduler-listViewItemInfoLabel {
+				display: inline-block;
+				background: $lightGray;
+				padding: 0 $cl-gutter-small;
+				border-radius: 3px;				
+				font-size: 12px;
+				letter-spacing: 1px;
+				border: 1px solid $semiDarkGray;
+			}
+		}
+
+		a {
+			font-family: ProximaNovaA-Bold;
+			color: $blue;
+			text-decoration: none;
+
+			&:hover {
+				color: $blueDark;				
+			}
+		}
+
+	}
+
+	.scheduler-listViewItemOptions {
+		position: absolute;
+		right: $cl-gutter-medium;
+		top: $cl-gutter-small;
+
+		.cl-arrow-dropdown {
+            min-width: 280px;
+        }
+
+        .cl-arrow-dropdown--absright {
+            margin-left: 25px;
+        }
+
+        a {
+            font-weight: normal;
+            color: $grey;
+        }
+
+        .cl-arrow-right {
+            float: right;
+            width: 8px;
+            height: 32px;
+            padding: 12px 0px;
+        }
+
+        .cl-arrow-path {
+            fill: none;
+            stroke: #42B7DB;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 3px;
+            fill-rule: evenodd;
+        }
+
+	}
+
+	.scheduler-listViewItemDetails {
+		overflow: hidden;
+		padding: $cl-gutter-small * 1.5 $cl-gutter-medium;
+		background: $lightGray;
+		border-top: 1px solid $semiDarkGray;
+
+		.scheduler-listViewItemDetailsContent {
+			padding-left: 210px;
+
+			@media #{$belowlarge} {
+				padding-left: 0;
+			}
+
+			p {
+				margin: 0 0 $cl-gutter-small 0;
+				padding: 0;
+				color: $grey;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			strong {
+				font-weight: normal;
+				font-family: ProximaNovaA-Bold;
+				color: $semiBlack;
+			}
+
+			a {
+				color: $blue;
+				font-family: ProximaNovaA-Bold;
+
+				&:hover {
+					color: $blueDark;
+				}
+
+			}
+
+		}
+		
+	}
+
+	.scheduler-listViewItem--large {
+		.scheduler-listViewItemTimestamp,
+		.scheduler-listViewItemSessionInfo {			
+			width: 200px;
+
+			@media #{$belowlarge} {
+				float: none;
+				width: 100%;
+				margin-bottom: $cl-gutter-small * 1.5;
+			}
+		}
+
+		.scheduler-listViewItemContent {			
+			width: calc(100% - 200px);
+			position: relative;
+
+			@media #{$belowlarge} {
+				float: none;
+				width: 100%;		
+			}
+
+		}
+
+		.scheduler-listViewItemDetailsContent {
+			padding-left: 260px;
+
+			@media #{$belowlarge} {
+				padding-left: 0;
+			}
+
+		}
+		
+	}
+
+	.scheduler-listViewItem--unscheduled {
+		background: $lightGrayOne;
+
+		&.selected {
+			background: $white;
+		}
+
+		.scheduler-listViewItemContent {
+			width: 100%;
+
+			@media #{$belowlarge} {
+				width: calc(100% - 25px);
+			}
+
+		}
+
+	}	
+
+}
+
+.scheduler-calendarView {
+	background: $white;	
+	border: 1px solid $semiDarkGray;
+	border-radius: 4px;
+	text-align: center;		
+}
+
+
+.scheduler-calendarWeekView {
+	background: $white;	
+	border: 1px solid $semiDarkGray;
+	border-radius: 4px;	
+	position: relative;
+
+	.scheduler-calendarNavigationPrev {
+		position: absolute;
+		left: $cl-gutter-small;
+		top: 20px;
+		font-size: 22px;
+		
+	}
+
+	.scheduler-calendarNavigationNext {
+		position: absolute;
+		right: $cl-gutter-small;
+		top: 20px;
+		font-size: 22px;
+	}
+
+	.scheduler-calendarWeekHeader {
+		border-bottom: 1px solid $semiDarkGray;
+		overflow: hidden;	
+		padding: 0 $cl-gutter-small;	
+	}
+
+	.scheduler-calendarWeekHeaderItem {
+		float: left;
+		width: 10.2857142%;
+		margin: 0 2%;		
+		border-bottom: 2px solid transparent;
+
+		&.scheduler-calendarWeekHeaderItem--active {
+			border-bottom: 2px solid $orange;
+		}
+
+		a {
+			text-decoration: none;
+			padding: $cl-gutter-small 0;
+			display: block;
+		}
+
+		span {
+			display: block;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 12px;
+			color: $grey;
+
+			&.scheduler-calendarWeekDate {
+				font-size: 16px;
+			}
+		}
+
+		&.scheduler-calendarWeekHeaderItem--active {
+			span {
+				font-family: 'ProximaNovaA-Bold';
+				color: $orange;
+			}
+		}
+
+	}
+
+	.scheduler-calendarWeekItem {
+		border-bottom: 1px solid $semiDarkGray;
+		border-left: 9px solid transparent;
+		overflow: hidden;
+		padding: $cl-gutter-large $cl-gutter-medium;
+		color: $grey;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		strong {
+			font-weight: normal;
+			font-family: 'ProximaNovaA-Bold';
+		}
+
+		.uk-icon-circle {
+			font-size: 6px;
+			color: $grey;
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 $cl-gutter-small/2;
+		}
+
+		a {
+			color: $blue;
+			text-decoration: none;
+
+			&:hover {
+				color: $blueDark;
+			}
+		}
+
+		.cl-icon-usergroup {
+			width: 22px;
+			height: 22px;
+		}
+
+		.uk-button {
+			padding: $cl-gutter-small/2 $cl-gutter-large;
+			font-family: ProximaNovaA-Bold;			
+			text-transform: uppercase;
+			color: $white;
+			text-shadow: none;
+			border: 0;			
+
+			&:hover {
+				background: $orangeDark;
+				color: $white;
+			}
+
+		}
+
+		.scheduler-calendarColumn {
+			float: left;
+
+			@media #{$belowsmall} {				
+				margin-bottom: $cl-gutter-small * 1.5;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&.scheduler-calendarColumn--small {
+				width: 20%;
+
+				@media #{$belowsmall} {
+					width: 100%;
+				}
+			}
+
+			&.scheduler-calendarColumn--medium {
+				width: 30%;
+
+				@media #{$belowsmall} {
+					width: 100%;
+				}
+			}
+
+			&.scheduler-calendarColumn--large {
+				width: 50%;
+
+				@media #{$belowsmall} {
+					width: 100%;
+				}
+			}
+
+		}
+	
+		.scheduler-calendarWeekItemTimestamp,
+		.scheduler-calendarWeekItemTitle,
+		.scheduler-calendarWeekItemCategory {
+			margin-bottom: $cl-gutter-small/3;
+		}
+
+		.scheduler-calendarWeekItemAction {
+			text-align: right;
+
+			@media #{$belowsmall} {				
+				text-align: left;
+			}
+
+		}
+
+	}
+
+}

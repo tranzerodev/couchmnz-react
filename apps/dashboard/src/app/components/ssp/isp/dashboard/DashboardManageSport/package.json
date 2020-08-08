@@ -1,0 +1,6 @@
+{
+  "name": "DashboardManageSport",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardManageSport.js"
+}

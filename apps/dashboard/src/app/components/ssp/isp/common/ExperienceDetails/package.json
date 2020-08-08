@@ -1,0 +1,6 @@
+{
+  "name": "ExperienceDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ExperienceDetails.js"
+}

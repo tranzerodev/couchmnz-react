@@ -1,0 +1,51 @@
+.cl-notification-group{
+    position: absolute;
+    width: 600px; 
+    right: 100px;
+    z-index: 1200;
+    top: 100px;
+    
+.cl-notification {
+    background: $blue;
+    color: $white;
+    border-radius: 4px;
+    font-family: 'ProximaNovaA-Bold';
+    padding: $cl-gutter-small $cl-gutter-small * 1.5;  
+    a {
+        color: $white;
+        text-decoration: none;
+        padding-bottom: $cl-gutter-small/4;
+        border-bottom: 1px solid $white;        
+
+        &:hover {
+            border-bottom: 0;
+        }
+    }
+
+    .uk-alert-close {
+        opacity: 1;
+        text-decoration: none;
+        border: 0;
+    }
+
+    &.cl-notification--success {
+        background: $green-color;
+    }
+
+    &.cl-notification--failure {
+        background: $error-color;
+    }
+
+    &.cl-notification--default {
+        background: $grey;
+    }
+
+}
+}
+@media (max-width: 767px){
+    .cl-notification-group{
+        width: 80%;
+        right: 20px;
+        font-size:15px;
+    }
+}

@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+  <script type="text/javascript">
+    const jwtToken = localStorage.getItem('coachlistJwtAuthToken');
+    if (jwtToken) {
+      window.parent.postMessage(jwtToken, "*");
+    } else {
+      window.parent.postMessage('', "*");
+    }
+  </script>
+</body>
+</html>

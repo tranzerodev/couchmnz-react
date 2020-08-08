@@ -1,0 +1,6 @@
+{
+  "name": "DashboardMessages",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardMessages.js"
+}

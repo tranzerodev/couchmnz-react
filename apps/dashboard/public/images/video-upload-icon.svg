@@ -1,0 +1,40 @@
+<svg class="cl-icon-upload-video" xmlns="http://www.w3.org/2000/svg" viewBox="-10220 4405 90 90">
+  <defs>
+    <style>
+      .cl-icon-upload-video-1 {
+        fill: #fcfcfc;
+      }
+      .cl-icon-upload-video-2, .cl-icon-upload-video-3 {
+        fill: none;
+        stroke: #666;
+      }
+      .cl-icon-upload-video-3, .cl-icon-upload-video-6 {
+        fill-rule: evenodd;
+      }
+      .cl-icon-upload-video-4 {
+        fill: #d8d8d8;
+      }
+      .cl-icon-upload-video-5, .cl-icon-upload-video-6 {
+        fill: #666;
+        stroke: #979797;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-10220 4405)">
+    <g>
+      <g>
+        <circle data-name="Ellipse 36" class="cl-icon-upload-video-1" cx="45" cy="45" r="45"/>
+        <circle data-name="Ellipse 37" class="cl-icon-upload-video-2" cx="44.5" cy="44.5" r="44.5" transform="translate(0.5 0.5)"/>
+      </g>
+    </g>
+    <g transform="translate(15 29)">
+      <path class="cl-icon-upload-video-3" d="M40.021,21.418V11.327L55.176,2.715V29.628Z"/>
+      <rect class="cl-icon-upload-video-2" width="39.181" height="31" rx="10" transform="translate(0.5 0.5)"/>
+    </g>
+    <g>
+      <rect data-name="Rectangle 69" class="cl-icon-upload-video-4" width="3" height="10" rx="1.5" transform="translate(19 40)"/>
+      <rect data-name="Rectangle 70" class="cl-icon-upload-video-5" width="2" height="9" rx="1" transform="translate(19.5 40.5)"/>
+    </g>
+    <path class="cl-icon-upload-video-6" d="M70.47,31.819l.067,26.521-3.962-1.7-.047-23Z"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "MessageTemplate",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MessageTemplate.js"
+}

@@ -1,0 +1,38 @@
+<svg class="cl-icon-bank" xmlns="http://www.w3.org/2000/svg" viewBox="9162 -1786 92.5 57.5">
+  <defs>
+    <style>
+      .cl-icon-bank-1 {
+        fill: #fbfbfb;
+      }
+      .cl-icon-bank-2 {
+        fill: none;
+        stroke: #979797;
+      }
+      .cl-icon-bank-3, .cl-icon-bank-4 {
+        fill: #666;
+      }
+      .cl-icon-bank-3 {
+        font-size: 20px;
+        font-family: ProximaNova-Bold, Proxima Nova;
+        font-weight: 700;
+      }
+      .cl-icon-bank-4 {
+        font-size: 6px;
+        font-family: ProximaNova-Regular, Proxima Nova;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 294" transform="translate(8764 -2364)">
+    <g transform="translate(398 577.5)">
+      <rect data-name="Rectangle 183" class="cl-icon-bank-1" width="92.5" height="57.5" rx="5" transform="translate(0 0.5)"/>
+      <rect data-name="Rectangle 184" class="cl-icon-bank-2" width="91.283" height="56.302" rx="5" transform="translate(0.609 1.099)"/>
+    </g>
+    <g data-name="Group 293" transform="translate(0 2)">
+      <text class="cl-icon-bank-3" transform="translate(417 607)"><tspan x="0" y="0">BANK</tspan></text>
+      <g data-name="Group 292">
+        <text data-name="321186345" class="cl-icon-bank-4" transform="translate(407 617)"><tspan x="0" y="0">321186345</tspan></text>
+        <text data-name="74218447" class="cl-icon-bank-4" transform="translate(456 617)"><tspan x="0" y="0">74218447</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "ISPRegFlowStepFooter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ISPRegFlowStepFooter.js"
+}

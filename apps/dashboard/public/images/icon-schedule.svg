@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-17636 -1598.624 49.5 47.642">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #979797;
+      }
+
+      .cls-3 {
+        fill: #fcdfd3;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-opacity="0.502"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon-Book" transform="translate(-17636 -1599)">
+    <g id="Rectangle-2" transform="translate(0 6.517)">
+      <rect id="Rectangle_494" data-name="Rectangle 494" class="cls-1" width="39.472" height="34.167" rx="2"/>
+      <rect id="Rectangle_495" data-name="Rectangle 495" class="cls-2" width="38.111" height="32.806" rx="2" transform="translate(0.681 0.681)"/>
+    </g>
+    <g id="Rectangle-2-2" data-name="Rectangle-2" transform="translate(2.722 3.784)">
+      <rect id="Rectangle_496" data-name="Rectangle 496" class="cls-1" width="39.472" height="34.167" rx="2"/>
+      <rect id="Rectangle_497" data-name="Rectangle 497" class="cls-2" width="38.111" height="32.806" rx="2" transform="translate(0.681 0.681)"/>
+    </g>
+    <ellipse id="Oval" class="cls-3" cx="9.528" cy="9.567" rx="9.528" ry="9.567" transform="translate(29.944 28.384)"/>
+    <path id="Star-2" class="cls-4" d="M18.389,24.328l-4.4,2.323.84-4.92-3.56-3.484,4.92-.718,2.2-4.476,2.2,4.476,4.92.718-3.56,3.484.84,4.92Z" transform="translate(4.069 4.397)"/>
+    <path id="Path-9" class="cls-5" d="M7.622.876V7.1" transform="translate(2.753 0)"/>
+    <path id="Path-9-2" data-name="Path-9" class="cls-5" d="M26,.876V7.1" transform="translate(9.389 0)"/>
+    <path id="Path-9-3" data-name="Path-9" class="cls-5" d="M20,.876V7.1" transform="translate(7.222 0)"/>
+    <path id="Path-9-4" data-name="Path-9" class="cls-5" d="M14,.876V7.1" transform="translate(5.056 0)"/>
+    <path id="Path-12" class="cls-6" d="M29.211,24.472v6.009l4.123,2.185" transform="translate(10.548 8.521)"/>
+    <path id="Path-6" class="cls-7" d="M2.191,9.522h38.4" transform="translate(0.791 3.122)"/>
+  </g>
+</svg>

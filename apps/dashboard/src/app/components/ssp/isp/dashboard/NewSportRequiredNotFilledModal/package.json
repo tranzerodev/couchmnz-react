@@ -1,0 +1,6 @@
+{
+  "name": "NewSportRequiredNotFilledModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./NewSportRequiredNotFilledModal.js"
+}

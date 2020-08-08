@@ -1,0 +1,587 @@
+//pixel to em calculator
+$em-base: 16;
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function convert-to-em($value, $base-value: $em-base)  {
+  $value: strip-unit($value) / strip-unit($base-value) * 1em;
+  @if ($value == 0em) { $value: 0; } // Turn 0em into 0
+  @return $value;
+}
+
+@function em-calc($values, $base-value: $em-base) {
+  $max: length($values);
+
+  @if $max == 1 { @return convert-to-em(nth($values, 1), $base-value); }
+
+  $emValues: ();
+  @for $i from 1 through $max {
+    $emValues: append($emValues, convert-to-em(nth($values, $i), $base-value));
+  }
+  @return $emValues;
+}
+
+$cl-gutter-small: em-calc(10px);
+$cl-gutter-medium: em-calc(20px);
+$cl-gutter-large: em-calc(30px);
+$cl-gutter-xlarge: em-calc(40px);
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius !important;
+      -moz-border-radius: $radius !important;
+      -ms-border-radius: $radius !important;
+          border-radius: $radius !important;
+}
+@mixin border-bottom($bHeight, $bColor) {
+  border-bottom: $bHeight solid $bColor;
+}
+@mixin border-right($bHeight, $bColor) {
+  border-right: $bHeight solid $bColor;
+}
+@mixin border-left($bHeight, $bColor) {
+  border-left: $bHeight solid $bColor;
+}
+@mixin border-top($bHeight, $bColor) {
+  border-top: $bHeight solid $bColor;
+}
+@mixin border-bottom-top($bHeight, $bColor) {
+  border-bottom: $bHeight solid $bColor;
+  border-top: $bHeight solid $bColor;
+}
+@mixin border-all($bHeight, $bColor) {
+  border: $bHeight solid $bColor;
+}
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+      @content;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+      @content;
+  }
+
+  &:-ms-input-placeholder {
+      @content;
+  }  
+}
+
+@mixin button-bg($bg, $txt-color, $hover-color) {
+  background: $bg;
+  color: $txt-color;
+  &:hover {
+    background: $hover-color;
+    color: $txt-color;
+  }
+  &:active {
+    background: $hover-color;
+    color: $txt-color;
+  } 
+}   
+@mixin button-general ($fSize, $font-family, $line-height){
+  font-size: $fSize;
+  font-family: $font-family;
+  line-height: $line-height;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin linearGradient($top, $bottom, $tParcent, $bParcent){
+  background: $top; /* Old browsers */
+  background: -moz-linear-gradient(top,  $top $tParcent, $bottom $bParcent); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop($tParcent,$top), color-stop($bParcent,$bottom)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  $top $tParcent,$bottom $bParcent); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  $top $tParcent,$bottom $bParcent); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  $top $tParcent,$bottom $bParcent); /* IE10+ */
+  background: linear-gradient(to bottom,  $top $tParcent,$bottom $bParcent); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+@mixin breakpoint($point) {
+  @if $point == projector {
+    @media screen and (min-width: 1601px) { @content ; }
+ }
+  @if $point == desktop {
+    @media screen and (max-width: 1600px) and (min-width: 1440px) { @content ; }
+ }
+ @if $point == laptopLarge {
+  @media screen and (max-width: 1439px) and (min-width: 1221px)  { @content ; }
+}
+  @if $point == laptop {
+    @media screen and (max-width: 1220px) and (min-width: 960px) { @content ; }
+ }
+ @if $point == smLaptop {
+  @media screen and (max-width: 1024px) { @content ; }
+}
+   @if $point == tablet {
+    @media screen and (max-width: 959px) and (min-width: 768px) { @content ; }
+ }
+  @if $point == phablet {
+    @media screen and (max-width: 767px) and (min-width: 480px)  { @content ; }
+ }
+ @if $point == mobileonly {
+    @media screen and (max-width: 479px) and (min-width: 320px) { @content ; }
+
+ }
+ @if $point == mobileportrait {
+  @media screen and (max-width: 767px) and (orientation: portrait) { @content ; }
+
+  }
+  @if $point == mobilelandscape {
+    @media screen and (max-width: 767px) and (orientation: landscape) { @content ; }
+  
+    }
+}
+
+// ========================================================================== //
+// @ Medai Queries
+// ========================================================================== //
+
+// MEDIA QUERIES
+$tiny-screen: 568px !default;
+$small-screen: 768px !default;
+$medium-screen: 960px !default;
+$large-screen: 1024px !default;
+$xlarge-screen: 1220px !default;
+$xxlarge-screen: 1640px !default;
+
+$screen: "only screen" !default;
+$tiny: "only screen and (min-width: #{$tiny-screen})" !default;
+$small: "only screen and (min-width: #{$small-screen})" !default;
+$medium: "only screen and (min-width:#{$medium-screen})" !default;
+$large: "only screen and (min-width:#{$large-screen})" !default;
+$xlarge: "only screen and (min-width:#{$xlarge-screen})" !default;
+$xxlarge: "only screen and (min-width:#{$xxlarge-screen})" !default;
+$landscape: "only screen and (orientation: landscape)" !default;
+$portrait: "only screen and (orientation: portrait)" !default;
+
+$abovesmall-screen: 768px;
+$abovesmall: "only screen and (min-width: #{$abovesmall-screen})";
+$belowsmall-screen: 767px !default;
+$belowsmall: "only screen and (max-width: #{$belowsmall-screen})";
+$belowlarge-screen: 1023px;
+$belowlarge: "only screen and (max-width: #{$belowlarge-screen})";
+$belowxlarge-screen: 1219px;
+$belowxlarge: "only screen and (max-width: #{$belowxlarge-screen})";
+
+// ========================================================================== //
+// @ Mixins
+// ========================================================================== //
+
+
+@mixin g_browserPrefix($g_browserPrefixProperty, $g_browserPrefixValue) {
+    @each $g_browserPrefixVendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+        #{$g_browserPrefixVendor}#{$g_browserPrefixProperty}: #{$g_browserPrefixValue};
+    }
+}
+
+/*
+    cross browser transitions
+    Example : @include g_transition();
+*/
+@mixin g_transition($property, $duration, $function:ease, $delay:0s){
+    -webkit-transition: $property $duration $function $delay;
+    -moz-transition: $property $duration $function $delay;
+    -o-transition: $property $duration $function $delay;
+    transition: $property $duration $function $delay;
+}
+
+// ========================================================================== //
+
+.uk-width-x-large-7-10 {
+  @include breakpoint("laptopLarge"){
+    width: 70%;
+  }
+  @include breakpoint("desktop"){
+    width: 70%;
+  }
+  @include breakpoint("projector"){
+    width: 70%;
+  }
+}
+.uk-width-x-large-5-10 {
+  @include breakpoint("desktop"){
+    width: 50%;
+  }
+  @include breakpoint("projector"){
+    width: 50%;
+  }
+}
+.uk-width-x-large-3-10 {
+  @include breakpoint("laptopLarge"){
+    width: 30%;
+  }
+  @include breakpoint("desktop"){
+    width: 30%;
+  }
+  @include breakpoint("projector"){
+    width: 30%;
+  }  
+}
+.uk-width-x-large-full {
+  @include breakpoint("smLaptop"){
+    width: 100%;
+  }
+}
+.sm-padding-left{
+  @include breakpoint(smLaptop) {
+    padding-left: 95px;
+  }
+}
+
+
+.hidden-m-s{
+  @media screen and (max-width: 1220px) {
+    display: none;
+  }
+}
+.hidden-m{
+  @media screen and (max-width: 958px) {
+    display: none !important; 
+  }
+}
+.hidden-l{
+  @media screen and (min-width: 1221px) {
+    display: none !important;
+  }
+}
+
+
+//------------------------------
+
+.body-content{
+  position: relative;
+  overflow: hidden;
+  @include breakpoint("phablet"){
+    overflow: visible;
+  }  
+  @include breakpoint("mobileonly"){
+    overflow: visible;
+  }
+}
+
+
+
+.sub-heading{
+  h2{
+      font-family: $bold-font;
+      font-size: 32px;
+      @include breakpoint("mobileonly"){
+        font-size: 22px;
+    }
+      margin: 0 0 12px 0;
+      margin-top: 70px;
+      span{
+        font-family: $normal-font;
+      }
+  }
+}
+.small-sub-heading{
+  h3{
+      font-family: $bold-font;
+      font-size: 22px;
+      @include breakpoint("mobileonly"){
+          font-size: 18px;
+      }
+  }
+}
+.header-wrapper{
+  padding: 0 40px 0 40px;
+  max-width: 1920px;
+  margin: 0 auto;
+  @include breakpoint("phablet") {
+    padding: 0 10px 0 10px;
+  } 
+  
+  @include breakpoint("mobileonly") {
+    padding: 0 10px 0 10px;
+  } 
+}
+.booking-wrapper{
+  padding: 0 40px 0 40px;
+  max-width: 1420px;
+  margin: 0 auto;
+  transition: all 500ms;
+  @include breakpoint("phablet") {
+      padding: 0 15px 0 15px;           
+  }
+  @include breakpoint("mobileonly") {
+    padding: 0 15px 0 15px;           
+}
+}
+.boldFont{
+  font-weight: bold !important;
+}
+.bold-font-family{
+  font-weight: 600;
+}
+.normal-font {
+  font-family: $normal-font;
+}
+.top-padding-25{
+  padding-top: 25px;
+}
+.top-padding-15{
+  padding-top: 15px;
+}
+.bottom-dark-border{
+  @include border-bottom(1px, $semiDarkGray );
+}
+.margin0{
+  margin: 0px !important;
+}
+.dpBlock{
+  display: block;
+}
+.border-top {
+  @include border-top(1px,$semiDarkGray);
+}
+.border-right {
+  @include border-right(1px,$semiDarkGray);
+}
+.pad-t-30{
+  padding-top: 30px;
+}
+.mar-r-10{
+  margin-right: 10px;
+}
+.width-300 {
+  width: 300px;
+}
+.themeBlue {
+  background: $blue;
+}
+.themeOrangeText{
+  color: $orange;
+}
+.themeBlueText {
+  color: $blue !important;
+}
+.themedGray {
+  background: $grey;
+}
+.themeWhite{
+  background: $white;
+  @include border-all(1px, $semiDarkGray);
+  span{
+    color: $grey !important;
+  }
+}
+.themeborderBlue{
+  background: $white;
+  @include border-all(1px, $blue);
+  span{
+    color: $blue !important;
+  }
+}
+.pad-top-bottom{
+  padding: 6px 0;
+}
+.uk-grid-nofchild-padding{
+  :first-child{
+    padding-left: 0px;
+  }
+  :last-child{
+    padding-left: 0px;
+  }
+}
+.clear-both {
+  clear: both;
+}
+.sm-text-left {
+  @include breakpoint("phablet"){
+    text-align: left !important;
+  }
+  @include breakpoint("mobileonly"){
+    text-align: left !important;
+  }
+}
+.sm-text-center {
+  @include breakpoint("phablet"){
+    text-align: center !important;
+  }
+  @include breakpoint("mobileonly"){
+    text-align: center !important;
+  }
+}
+
+.md-padding-left-0 {
+  @include breakpoint("phablet"){
+    padding-left: 0px !important;
+  }
+  @include breakpoint("mobileonly"){
+    padding-left: 0px !important;
+  }
+}
+.sm-padding-left-0 {
+  @include breakpoint("phablet"){
+    padding-left: 0px !important;
+  }
+  @include breakpoint("mobileonly"){
+    padding-left: 0px !important;
+  }
+}
+
+.sm-padding-bottom-20 {
+  @include breakpoint("tablet"){
+    padding-bottom: 20px !important;
+  }
+  @include breakpoint("phablet"){
+    padding-bottom: 20px !important;
+  }
+  @include breakpoint("mobileonly"){
+    padding-bottom: 20px !important;
+  }
+}
+.display-none {
+  display: none !important;
+}
+.display-block{
+  display: block !important;
+}
+.pad-L15 {
+  padding-left: 15px;
+}
+.pad-sm-L15{
+  @include breakpoint(projector){
+    padding-left: 15px;
+  }
+  @include breakpoint(desktop){
+    padding-left: 15px;
+  }
+  @include breakpoint(laptopLarge){
+    padding-left: 15px;
+  }
+  @include breakpoint(laptop){
+    padding-left: 15px;
+  }  
+}
+.pad-R30{
+  padding-right: 30px;
+}
+.pad-T30 {
+  padding-top: 30px;
+}
+.pad-B30{
+  padding-bottom: 30px;
+}
+.pad-T10{
+  padding-top: 10px;
+}
+.pad-T5{
+  padding-top: 5px;
+}
+.pad-R-Remove {
+  padding-right: 0px !important;
+}
+.pad-B-sx10 {
+  @include breakpoint(phablet){
+    padding-bottom: 10px;
+  }
+  @include breakpoint(mobileonly){
+    padding-bottom: 10px;
+  }
+}
+.pad-T-sx15{
+  @include breakpoint(phablet){
+    padding-top: 15px;
+  }
+  @include breakpoint(mobileonly){
+    padding-top: 15px;
+  }
+}
+.black-circle{
+  width:15px;
+  height: 15px;
+  @include border-radius(9px);
+  background: #4d4d4d;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.circle-dot-list{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  li{
+      display: inline-block;
+      padding: 0px 0px 0px 20px;
+      margin: 0px 10px 0px 0px;
+      position: relative;
+      &:first-child{
+          padding: 0px 0px 0px 0px;
+          &:before{
+              display: none;                            
+          }
+      }
+      &:before{
+          content: "";
+          width: 6px;
+          height: 6px;
+          background: #cccccc;
+          position: absolute;
+          left: 0;
+          top: 7px;
+          @include border-radius(6px);
+      }
+  }
+}
+.sm-text-center {
+  @include breakpoint(laptop){
+    text-align: center !important;
+  }
+  @include breakpoint(tablet){
+    text-align: center !important;
+  }
+  @include breakpoint(phablet){
+    text-align: center !important;
+  }
+  @include breakpoint(mobileonly){
+    text-align: center !important;
+  }
+}
+.marginBottom-xs{
+  @include breakpoint(phablet){
+    margin-bottom: 15px;
+  }
+  @include breakpoint(mobileonly){
+    margin-bottom: 15px;
+  }
+}
+
+.uk-width-m-large-full {
+  @media screen and (max-width: 1220px) {
+    width: 100%;
+  }
+}
+.uk-width-100 {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.borderClass{
+  border-bottom: 1px solid $semiDarkGray;
+  padding-bottom: 35px;
+}
+
+
+.font-size-18 {
+  font-size: 18px;
+}

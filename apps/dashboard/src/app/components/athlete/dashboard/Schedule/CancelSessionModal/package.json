@@ -1,0 +1,6 @@
+{
+  "name": "CancelSessionModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CancelSessionModal.js"
+}

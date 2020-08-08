@@ -1,0 +1,10 @@
+import media from './media';
+import sessionName from './sessionName';
+import sessions from './sessions';
+import events from './events';
+import discount from './discount';
+import pricing from './pricing';
+import newDegree from './newDegree';
+import newCertification from './newCertification';
+import newAward from './newAward';
+export default [media, sessionName, sessions, events, discount, pricing, newDegree, newCertification, newAward];

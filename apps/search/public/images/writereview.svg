@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5548.5 -1207.5 23.893 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-linecap: square;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #42b7db;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fcfcfc;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Group-51" transform="translate(-5548.5 -1208.5)">
+    <g id="Group-50" transform="translate(0.5 1.5)">
+      <path id="Line-7" class="cls-1" d="M.5,1.5H12.44" transform="translate(-0.5 -1.5)"/>
+      <path id="Line-7-Copy" class="cls-1" d="M.5,4.5H8.46" transform="translate(-0.5 -0.52)"/>
+      <path id="Line-7-Copy-2" data-name="Line-7-Copy" class="cls-1" d="M.5,7.5H8.46" transform="translate(-0.5 0.46)"/>
+      <path id="Line-7-Copy-2-2" data-name="Line-7-Copy-2" class="cls-1" d="M.5,10.5H8.46" transform="translate(-0.5 1.44)"/>
+    </g>
+    <path id="Star" class="cls-2" d="M14.553,11.45l-3.9,2.05L11.4,9.158,8.245,6.084,12.6,5.45l1.95-3.95L16.5,5.45l4.359.633L17.708,9.158l.745,4.342Z" transform="translate(2.53 0)"/>
+  </g>
+</svg>

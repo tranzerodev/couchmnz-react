@@ -1,0 +1,6 @@
+{
+  "name": "OveridePriceModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./OveridePriceModal.js"
+}

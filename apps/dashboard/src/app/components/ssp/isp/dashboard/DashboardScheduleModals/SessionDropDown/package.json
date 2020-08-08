@@ -1,0 +1,6 @@
+{
+  "name": "SessionDropDown",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SessionDropDown.js"
+}

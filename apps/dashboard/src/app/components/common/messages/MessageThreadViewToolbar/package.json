@@ -1,0 +1,6 @@
+{
+  "name": "MessageThreadViewToolbar",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MessageThreadViewToolbar.js"
+}

@@ -1,0 +1,430 @@
+.scheduler-unscheduledSessionsContainer {
+
+	.scheduler-emptySessionContainer {
+		padding: $cl-gutter-xlarge * 1.5 0;
+
+		p {
+			text-align: center;
+		}
+
+		svg {
+			width: 90px;
+		}
+
+	}	
+
+}
+
+.scheduler-sessionChangesItem {
+	background: $white;
+	border: 1px solid $semiDarkGray;
+	border-radius: 6px;
+	position: relative;
+	margin-bottom: $cl-gutter-small * 1.5;
+	overflow: hidden;
+	cursor: pointer;
+
+	&:before {
+		content: '';
+		width: 3px;
+		height: 100%;
+		background: $orange;
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+
+	&.scheduler-sessionItemType--active,
+	&:hover {
+		border-color: $orange;
+
+		&:before {
+			display: block;
+		}
+
+		.scheduler-sessionChangesItemIndicator {
+
+			.uk-icon-angle-right {
+				/*display: none;*/
+			}
+
+			.uk-icon-angle-down {
+				/*display: block;*/
+				color: $orange;
+			}
+
+		}
+
+		/*.scheduler-sessionChangeCta,
+		.scheduler-sessionRescheduleInfo,
+		.scheduler-sessionChangeInstruction,
+		.scheduler-sessionChangeActions .scheduler-sessionBookingSchedule {
+			display: block;
+		}*/
+
+	}
+
+	.scheduler-sessionChangesItemIndicator {
+		position: absolute;
+		right: $cl-gutter-small * 1.5;
+		top: $cl-gutter-small;
+
+		.uk-icon-angle-down {
+			color: $orange;
+		}
+	}
+
+	strong {
+		font-weight: normal;
+		font-family: ProximaNovaA-Bold;		
+	}
+
+	a {
+		color: $blue;
+		text-decoration: none;
+
+		&:hover {
+			color: $blueDark;
+		}
+	}
+
+	.scheduler-sessionChangeType {
+		float: left;
+		width: 75px;
+		box-sizing: border-box;
+		padding: $cl-gutter-small;
+
+		@media #{$belowlarge} {
+			width: 100%;
+		}
+
+		svg {
+			width: 40px;
+			margin-top: $cl-gutter-small/2;
+		}
+	}
+
+	.scheduler-sessionChangeDetails {
+		float: left;
+		width: calc(100% - 75px);
+		box-sizing: border-box;
+		padding: $cl-gutter-small;
+		padding-bottom: 0;
+
+		@media #{$belowlarge} {
+			width: 100%;
+		}
+
+		svg {
+			width: 40px;
+		}
+	}
+
+	.scheduler-sessionBookingInfo,
+	.scheduler-sessionBookingSchedule {
+		overflow: hidden;
+		margin-bottom: $cl-gutter-small;
+	}
+
+	.sessionChangeColumn {
+		float: left;
+		box-sizing: border-box;
+		padding-right: $cl-gutter-small;
+		font-size: 14px;
+		color: $grey;
+
+		@media #{$belowlarge} {
+			float: none;
+			width: 100%;
+		}
+
+		&.sessionChangeColumn--tiny {
+			width: 15%;
+			text-align: right; 
+			color: $nobel;
+
+			@media #{$belowlarge} {
+				width: 100%;
+				text-align: left;
+			}
+
+		}
+
+		&.sessionChangeColumn--medium {
+			width: 25%;
+
+			@media #{$belowlarge} {
+				width: 100%;
+			}
+
+		}
+
+		&.sessionChangeColumn--large {
+			width: 35%;
+
+			@media #{$belowlarge} {
+				width: 100%;
+			}
+
+		}
+
+		&.sessionChangeColumn--xlarge {
+			width: 75%;
+
+			@media #{$belowlarge} {
+				width: 100%;
+			}
+
+		}
+
+	}
+
+	.scheduler-sessionChangeActions {
+		clear: both;
+		background: $lightGray;
+		border-top: 1px solid $semiDarkGray;
+		padding: $cl-gutter-small * 1.5 $cl-gutter-small;
+		overflow: hidden;
+		font-size: 14px;
+		color: $grey;
+		position: relative;
+		z-index: 5;
+
+		.scheduler-sessionChangeActionsContent {
+			float: left;
+			width: calc(85% - 75px);
+			margin-left: 75px;
+			box-sizing: border-box;
+			padding-right: $cl-gutter-small;
+
+			@media #{$belowlarge} {
+				float: none;
+				width: 100%;
+				margin-left: 0;
+			}
+
+		}
+
+		.scheduler-sessionChangeActionsTimestamp {
+			float: left;
+			width: 15%;
+			box-sizing: border-box;
+			padding-right: $cl-gutter-small;
+			text-align: right;
+			color: $nobel;
+
+			@media #{$belowlarge} {
+				float: none;
+				width: 100%;
+				text-align: left;
+			}
+			
+		}
+
+		.scheduler-sessionBookingSchedule {
+			float: left;
+			width: calc(100% - 75px);
+			margin-left: 75px;
+			box-sizing: border-box;	
+			margin-top: $cl-gutter-small;
+			/*display: none;		*/
+			margin-bottom: 0;
+
+			@media #{$belowlarge} {
+				float: none;
+				width: 100%;
+				margin-left: 0;
+			}
+		}
+
+
+	}
+
+	.scheduler-sessionChangeCta {
+		clear: both;
+		float: left;
+		width: calc(85% - 75px);
+		margin: $cl-gutter-small 0;
+		margin-left: 75px;
+		box-sizing: border-box;
+		padding-right: $cl-gutter-small;		
+		/*display: none;*/
+
+		@media #{$belowlarge} {
+			float: none;
+			width: 100%;
+			margin-left: 0;
+		}
+
+		.theme-orange-btn {
+			padding: $cl-gutter-small/4 $cl-gutter-small * 1.5;
+			font-family: ProximaNovaA-Bold;			
+			text-transform: uppercase;
+			color: $white;
+			text-shadow: none;
+			border: 0;			
+
+			&:hover,
+			&:focus {
+				background: $orangeDark;
+				color: $white;
+			}
+
+		}
+
+		.uk-button {
+			svg {
+				display: inline-block;
+				vertical-align: middle;
+				width: 18px;
+				margin-right: $cl-gutter-small/2; 
+			}
+		}
+
+		.theme-gray-btn {
+			padding: $cl-gutter-small/4 $cl-gutter-small * 1.5;
+			font-family: ProximaNovaA-Bold;			
+			text-transform: uppercase;
+			color: $white;
+			text-shadow: none;
+			border: 0;		
+			background: $grey;	
+
+			&:hover {
+				background: $greyDark;
+				color: $white;
+			}
+
+		}
+
+	}
+
+	.scheduler-sessionChangeInstruction {
+		clear: both;
+		float: left;
+		width: calc(100% - 75px);
+		margin: $cl-gutter-small 0;
+		margin-left: 75px;
+		box-sizing: border-box;		
+		/*display: none;*/
+
+		@media #{$belowlarge} {
+			float: none;
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+
+	.scheduler-sessionRescheduleInfo {
+		clear: both;
+		background: $lightGray;
+		border-top: 1px solid $semiDarkGray;
+		padding: $cl-gutter-small * 1.5 $cl-gutter-small;
+		overflow: hidden;
+		font-size: 14px;
+		color: $grey;
+		position: relative;
+		z-index: 5;
+		/*display: none;*/
+
+		.scheduler-sessionBookingSchedule {
+			margin: $cl-gutter-small 0;
+		}
+
+		.scheduler-sessionRescheduleInfoContent,
+		.scheduler-sessionBookingSchedule {
+			float: left;
+			width: calc(100% - 75px);
+			margin-left: 75px;
+			box-sizing: border-box;
+			padding-right: $cl-gutter-small;
+
+			@media #{$belowlarge} {
+				float: none;
+				width: 100%;
+				margin-left: 0;
+			}
+
+		}
+
+		.sessionChangeColumn--tiny {
+			padding-right: 0;
+		}
+
+	}
+
+}
+
+.scheduler-changeTypeContainer {
+	margin-top: $cl-gutter-large;
+	display: none;
+
+	&.scheduler-sessionItemType--active {
+		display: block;
+	}
+
+	.scheduler-instructionContent {
+		margin-bottom: $cl-gutter-large;
+	}
+
+}
+
+.scheduler-paging {
+	margin: $cl-gutter-large 0;
+	text-align: center;
+
+	.scheduler-pagingContainer {
+		display: inline-block;
+		background: $white;
+		border: 1px solid $semiDarkGray;
+		border-radius: 4px;
+		padding: $cl-gutter-small;
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+				display: inline-block;
+				margin: 0 $cl-gutter-small/4;
+
+				a {
+					display: block;
+					padding: $cl-gutter-small/2;
+					background: $lightGray;
+					min-width: 20px;
+					border: 1px solid $semiDarkGray;
+					border-radius: 4px;
+					text-decoration: none;
+					color: $grey;
+
+					&:hover,
+					&.active {
+						border-color: $orange;
+						color: $orange;
+					}
+
+					&.disabled {
+						opacity: .5;
+
+						&:hover {
+							color: $grey;
+						}
+					}
+
+					&.scheduler-pagingPrev,
+					&.scheduler-pagingNext {
+						border: 0;
+						background: transparent;
+					}
+
+				}
+
+			}
+
+		}
+
+	} 
+}

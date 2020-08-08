@@ -1,0 +1,159 @@
+<svg class="cl-img-cheque" xmlns="http://www.w3.org/2000/svg" viewBox="9537 633 468 247">
+  <defs>
+    <style>
+      .cl-img-cheque-1 {
+        fill: rgba(66,183,219,0.25);
+      }
+
+      .cl-img-cheque-10, .cl-img-cheque-12, .cl-img-cheque-14, .cl-img-cheque-16, .cl-img-cheque-2 {
+        fill: none;
+      }
+
+      .cl-img-cheque-2 {
+        stroke: #979797;
+      }
+
+      .cl-img-cheque-11, .cl-img-cheque-13, .cl-img-cheque-3, .cl-img-cheque-4, .cl-img-cheque-9 {
+        fill: #8d8d8d;
+      }
+
+      .cl-img-cheque-3 {
+        font-size: 11px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cl-img-cheque-4 {
+        font-size: 14px;
+      }
+
+      .cl-img-cheque-11, .cl-img-cheque-4 {
+        font-family: ProximaNova-Regular, Proxima Nova;
+      }
+
+      .cl-img-cheque-5, .cl-img-cheque-7 {
+        font-size: 16px;
+        font-family: ProximaNova-Bold, Proxima Nova;
+      }
+
+      .cl-img-cheque-13, .cl-img-cheque-5, .cl-img-cheque-7 {
+        font-weight: 700;
+      }
+
+      .cl-img-cheque-5 {
+        letter-spacing: -0.019em;
+      }
+
+      .cl-img-cheque-6, .cl-img-cheque-8 {
+        fill: #42b7db;
+      }
+
+      .cl-img-cheque-13, .cl-img-cheque-6, .cl-img-cheque-8, .cl-img-cheque-9 {
+        font-size: 20px;
+      }
+
+      .cl-img-cheque-6, .cl-img-cheque-8, .cl-img-cheque-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cl-img-cheque-6 {
+        letter-spacing: 0.022em;
+      }
+
+      .cl-img-cheque-7 {
+        letter-spacing: -0.014em;
+      }
+
+      .cl-img-cheque-8, .cl-img-cheque-9 {
+        letter-spacing: 0.02em;
+      }
+
+      .cl-img-cheque-10 {
+        stroke: #42b7db;
+      }
+
+      .cl-img-cheque-10, .cl-img-cheque-14 {
+        stroke-linecap: square;
+        fill-rule: evenodd;
+      }
+
+      .cl-img-cheque-11 {
+        font-size: 24px;
+      }
+
+      .cl-img-cheque-12, .cl-img-cheque-14 {
+        stroke: #b3b3b3;
+      }
+
+      .cl-img-cheque-13 {
+        font-family: SegoeUI-BoldItalic, Segoe UI;
+        font-style: italic;
+      }
+
+      .cl-img-cheque-15 {
+        fill: #ccc;
+      }
+
+      .cl-img-cheque-16 {
+        stroke: #ccc;
+      }
+    </style>
+  </defs>
+  <g data-name="Group 300" transform="translate(8764 -72)">
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 192" class="cl-img-cheque-1" width="468" height="207" transform="translate(523 755)"/>
+      <rect data-name="Rectangle 193" class="cl-img-cheque-2" width="467" height="206" transform="translate(523.5 755.5)"/>
+    </g>
+    <text data-name="John Roberts, 579 Main St" class="cl-img-cheque-3" transform="translate(1095 723)"><tspan x="0" y="0">John Roberts, 579 Main St</tspan></text>
+    <text data-name="Pay to the 
+Order of" class="cl-img-cheque-4" transform="translate(790 764)"><tspan x="0" y="0">Pay to the </tspan><tspan x="0" y="17">Order of</tspan></text>
+    <text class="cl-img-cheque-4" transform="translate(790 851)"><tspan x="0" y="0">Memo</tspan></text>
+    <text data-name="Routing Numbe r" class="cl-img-cheque-5" transform="translate(796 947)"><tspan x="0" y="0">Routing Number</tspan></text>
+    <text data-name="12345678 9" class="cl-img-cheque-6" transform="translate(803 896)"><tspan x="0" y="0">123456789</tspan></text>
+    <text data-name="Account number" class="cl-img-cheque-7" transform="translate(959 947)"><tspan x="0" y="0">Account number</tspan></text>
+    <text data-name="0008765432 1" class="cl-img-cheque-8" transform="translate(940 896)"><tspan x="0" y="0">00087654321</tspan></text>
+    <text data-name="1234" class="cl-img-cheque-9" transform="translate(1118 896)"><tspan x="0" y="0">1234</tspan></text>
+    <path class="cl-img-cheque-10" d="M604.5,949.5v27.018" transform="translate(250 -50)"/>
+    <path class="cl-img-cheque-10" d="M765.5,949.5v27.018" transform="translate(250 -50)"/>
+    <text data-name="$" class="cl-img-cheque-11" transform="translate(1116 783)"><tspan x="0" y="0">$</tspan></text>
+    <text class="cl-img-cheque-4" transform="translate(1042 851)"><tspan x="0" y="0">Date</tspan></text>
+    <rect class="cl-img-cheque-12" width="90" height="33" transform="translate(1133.5 748.5)"/>
+    <text data-name="Bank of NCP" class="cl-img-cheque-13" transform="translate(790 737)"><tspan x="0" y="0">Bank of NCP</tspan></text>
+    <text data-name="San Francisco, CA 94103" class="cl-img-cheque-3" transform="translate(1095 736)"><tspan x="0" y="0">San Francisco, CA 94103</tspan></text>
+    <path data-name="Line" class="cl-img-cheque-14" d="M541.5,836.5H866.506" transform="translate(250 -50)"/>
+    <path class="cl-img-cheque-14" d="M541.5,870.5h433" transform="translate(250 -50)"/>
+    <path class="cl-img-cheque-14" d="M541.5,903.5h239" transform="translate(250 -50)"/>
+    <path class="cl-img-cheque-14" d="M793.5,903.5H974.511" transform="translate(250 -50)"/>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 200" class="cl-img-cheque-15" width="4" height="12" transform="translate(539 931)"/>
+      <rect data-name="Rectangle 201" class="cl-img-cheque-16" width="3" height="11" transform="translate(539.5 931.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 202" class="cl-img-cheque-15" width="4" height="12" transform="translate(675 931)"/>
+      <rect data-name="Rectangle 203" class="cl-img-cheque-16" width="3" height="11" transform="translate(675.5 931.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 204" class="cl-img-cheque-15" width="4" height="12" transform="translate(852 931)"/>
+      <rect data-name="Rectangle 205" class="cl-img-cheque-16" width="3" height="11" transform="translate(852.5 931.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 206" class="cl-img-cheque-15" width="4" height="8" transform="translate(547 928)"/>
+      <rect data-name="Rectangle 207" class="cl-img-cheque-16" width="3" height="7" transform="translate(547.5 928.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 208" class="cl-img-cheque-15" width="4" height="8" transform="translate(683 928)"/>
+      <rect data-name="Rectangle 209" class="cl-img-cheque-16" width="3" height="7" transform="translate(683.5 928.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 210" class="cl-img-cheque-15" width="4" height="8" transform="translate(859 927)"/>
+      <rect data-name="Rectangle 211" class="cl-img-cheque-16" width="3" height="7" transform="translate(859.5 927.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 212" class="cl-img-cheque-15" width="4" height="8" transform="translate(547 938)"/>
+      <rect data-name="Rectangle 213" class="cl-img-cheque-16" width="3" height="7" transform="translate(547.5 938.5)"/>
+    </g>
+    <g transform="translate(250 -50)">
+      <rect data-name="Rectangle 214" class="cl-img-cheque-15" width="4" height="8" transform="translate(683 938)"/>
+      <rect data-name="Rectangle 215" class="cl-img-cheque-16" width="3" height="7" transform="translate(683.5 938.5)"/>
+    </g>
+  </g>
+</svg>

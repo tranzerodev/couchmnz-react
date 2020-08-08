@@ -1,0 +1,6 @@
+{
+  "name": "DistanceFilter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DistanceFilter.js"
+}

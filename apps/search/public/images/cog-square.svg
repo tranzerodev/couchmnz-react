@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-19052.5 -18725.5 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #42b7db;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_112_22" data-name="Symbol 112 – 22" transform="translate(-20626 -19700)">
+    <g id="Rectangle-7" class="cls-1" transform="translate(1573.5 974.5)">
+      <rect class="cls-3" width="45" height="45" rx="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="44" height="44" rx="3.5"/>
+    </g>
+    <g id="Group_2838" data-name="Group 2838" transform="translate(25 1)">
+      <ellipse id="Ellipse_235" data-name="Ellipse 235" class="cls-2" cx="2.786" cy="2.8" rx="2.786" ry="2.8" transform="translate(1568.164 993.2)"/>
+      <path id="Path_201" data-name="Path 201" class="cls-2" d="M26,17.9V15.4l-3.085-.9a6.134,6.134,0,0,0-.5-1.2l1.592-2.9L22.219,8.6l-2.886,1.6c-.4-.2-.8-.3-1.194-.5l-.9-3.1H14.756l-.9,3.1a6.07,6.07,0,0,0-1.194.5L9.781,8.6,7.99,10.4l1.592,2.9a6.134,6.134,0,0,0-.5,1.2L6,15.4v2.5l3.085.9a6.134,6.134,0,0,0,.5,1.2L7.99,22.8l1.791,1.8L12.567,23a6.07,6.07,0,0,0,1.194.5l.9,3.1h2.488l.9-3.1a6.07,6.07,0,0,0,1.194-.5l2.786,1.6,1.791-1.8L22.318,20a6.134,6.134,0,0,0,.5-1.2Z" transform="translate(1555 979.4)"/>
+    </g>
+  </g>
+</svg>

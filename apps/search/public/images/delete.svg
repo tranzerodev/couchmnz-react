@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-17363.5 -1476.5 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #42b7db;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: square;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="delete" transform="translate(-17363 -1476)">
+    <g id="Oval-5">
+      <circle id="Ellipse_168" data-name="Ellipse 168" class="cls-1" cx="7" cy="7" r="7"/>
+    </g>
+    <g id="Group-37" transform="translate(7 2.6) rotate(45)">
+      <path id="Line" class="cls-2" d="M3.111,0V6.222"/>
+      <path id="Line-Copy-14" class="cls-2" d="M6.222,3.111H0"/>
+    </g>
+  </g>
+</svg>

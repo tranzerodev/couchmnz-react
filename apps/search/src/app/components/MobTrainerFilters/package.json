@@ -1,0 +1,6 @@
+{
+  "name": "MobTrainerFilter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MobTrainerFilter.js"
+}

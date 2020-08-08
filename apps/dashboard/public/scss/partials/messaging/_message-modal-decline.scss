@@ -1,0 +1,206 @@
+.cl-session-decline {
+
+	padding: $cl-gutter-medium $cl-gutter-xlarge;
+
+	@media #{$belowlarge} {
+		padding: $cl-gutter-small $cl-gutter-medium;
+	}
+
+
+	.cl-sd-header {
+
+		h3 {
+			font-weight: 600; 
+			font-size: 18px;
+			margin: 0 0 $cl-gutter-small/2 0;
+			padding: 0;
+			color: $grey;
+			text-align: center;
+		}
+
+	}
+
+	.cl-sd-sessionInfo {
+		background: $lightGray;
+		border-radius: 6px;
+		padding: $cl-gutter-small;
+		text-align: center;
+		font-size: 14px;
+
+		span {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.uk-icon-circle {
+			font-size: 6px;
+			margin: 0 5px;
+			vertical-align: middle;
+		}
+
+	}
+
+	.cl-sd-sessionOptions {
+
+		padding-top: $cl-gutter-large;
+
+		.cl-sd-sessionInputList {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+				margin-bottom: $cl-gutter-small;
+
+				label{
+	                font-size: 18px;
+	                font-weight: 900;
+	                line-height: 24px;
+	                color: $grey;
+					border-radius: 6px;
+					background: $lightGray;
+					padding: $cl-gutter-medium;
+					border: 1px solid transparent;
+					display: block;
+	            }
+	            input[type=radio] { 
+	                display:none; 
+	                &+ label{              
+	                  &:before{
+	                    content: '';
+	                    float: left;
+	                    margin: 3px 6px 0px 0px;
+	                    width: 18px;
+	                    height: 18px;
+	                    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-602 -5145 18 18'><g transform='translate(-735 -6082)'><g data-name='Ellipse 231' transform='translate(133 937)' fill='%23fff' stroke='%2342b7db' stroke-width='1.5px'><circle cx='9' cy='9' r='9' stroke='none'/><circle cx='9' cy='9' r='8.25' fill='none'/></g></g></svg>") no-repeat center center;
+	                  }
+	                }
+	                &:checked + label{
+	                	border: 1px solid $orange;
+	                  &:before{
+	                    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-660 -5145 18 18'><g id='radio-check' transform='translate(-828 -6082)'><g data-name='Ellipse 232' class='cl-icon-radio-check-1' transform='translate(168 937)' fill='%23fff' stroke='%2342b7db' stroke-width='1.5px'><circle cx='9' cy='9' r='9'  stroke='none'/><circle cx='9' cy='9' r='8.25' fill='none'/></g><path id='Path_147' data-name='Path 147' d='M-10315.667-6567.667l2.5,2.667,5.5-5' transform='translate(10489.167 7513.5)' stroke='%2342b7db' stroke-width='1.5px' fill='none' /></g></svg>") no-repeat center center;
+	                  }
+	                }
+	            }
+
+			}
+
+		}
+
+	}
+
+	.cl-sd-sessionReason {
+
+		display: none;
+		padding-top: $cl-gutter-small;
+
+		textarea {
+			width: 100%;
+			box-sizing: border-box;
+			border: 1px solid $semiDarkGray;
+			padding: $cl-gutter-medium;
+			border-radius: 6px;
+			font-size: 16px;
+			line-height: 22px;
+			resize: none;
+			&:focus{
+				outline: none;
+			}
+		}
+
+	}
+
+}
+
+.cl-modal-actions {
+	padding-top: $cl-gutter-xlarge;
+	font-weight: 600;
+
+	@media #{$belowlarge} {
+		text-align: center;
+	}
+
+	.cl-modal-actionsCancel {
+		margin-right: $cl-gutter-medium;
+		text-transform: uppercase;
+		color: $orange;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 16px;
+		line-height: 22px;
+		padding: 10px 15px;
+		border-radius: 5px;
+		outline: 0;
+		border:1px solid $orange;
+		&:hover{
+			border: 1px solid $orangeDark;
+			color: $orangeDark;
+		}
+		@media #{$belowlarge} {
+			display: block;
+			margin-right: 0;
+			margin-bottom: $cl-gutter-medium;
+		}
+
+	}
+
+	.cl-modal-actionsSubmit {
+		padding: 12px 30px 10px 30px;
+		border-radius: 4px;
+		background: $orange;
+		color: $white;
+		font-size: 18px;
+		line-height: 24px;
+		text-decoration: none;
+		text-transform: uppercase;
+		outline: 0;
+		display: inline-block;
+
+		@media #{$belowlarge} {
+			display: block;
+		}
+
+		&.cl-modal-actionsSubmit--disabled {
+			background: $lightGray;
+			color: $semiDarkGray;
+
+			&:hover {
+				background: $lightGray;
+			}
+
+		}
+
+		&:hover {
+			background: $orangeDark;
+		}
+	}
+
+}
+#cl-session-decline{
+	.uk-modal-dialog{
+		padding: 40px;
+		border-radius: 5px;
+		position: relative;
+	}
+	.uk-modal-close{
+		position: absolute;
+		top: 40px;
+		right: 40px;
+		svg{
+			width: 20px;
+			height: 20px;
+		}
+	}
+}
+.tableDiv{
+	display: table;
+	width: 100%;
+	.lCol{
+		display: table-cell;
+		vertical-align: top;
+	}
+	.rCol{
+		display: table-cell;
+		vertical-align: top;
+	}
+}

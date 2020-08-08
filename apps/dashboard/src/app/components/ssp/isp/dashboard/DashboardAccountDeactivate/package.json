@@ -1,0 +1,6 @@
+{
+  "name": "DashboardAccountDeactivate",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardAccountDeactivate.js"
+}
